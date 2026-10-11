@@ -1,0 +1,18 @@
+{
+  "command": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check.ps1",
+  "workspace_passed": 157,
+  "doc_tests_passed": 3,
+  "failed": 0,
+  "ignored": 2,
+  "exit_code": 0,
+  "format": "PASS",
+  "check": "PASS",
+  "clippy": "PASS",
+  "build": "PASS",
+  "toolchain": "Rust/Cargo stable 1.96.0 Windows MSVC",
+  "cli": "PASS: canonical help, creation, state, Human JSON, migration/conflict tests",
+  "hashes": {
+    ".runtime/anix-final-check.stdout.log": "515fc362eea23e4f6ab8b9878a31ed6f0dac3e16a5f88b3d13f6eef5afed8bd7",
+    ".runtime/anix-final-check.stderr.log": "0d8002080beff4d361a2f7227636e434aa118f49cd6065d03ffb9f3f175a0505"
+  }
+}

@@ -1,0 +1,1 @@
+{"schema_version":1,"data":{"available_source_ids":["8e149285-e2c1-4a5f-aa23-40bec4ba94ed","d826bcd8-6337-44cb-8a39-f35327790915"],"instruction":"Read or explicitly reject a retrieved source before searching again.","observation":"search_stall_detected","searches_without_consumption":2},"metadata":{"semantic_fingerprint":"and for outcome p pathway q y","stall_detected":true}}

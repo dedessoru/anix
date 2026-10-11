@@ -1,0 +1,23 @@
+{
+  "scenario": "revision",
+  "seed": 418,
+  "project_id": "33b47347-8606-4050-bc15-4d66b66e22e6",
+  "status": "blocked",
+  "meaningful_steps": 4,
+  "lead_calls": 4,
+  "tool_calls": 0,
+  "work_nodes": 0,
+  "branches": 0,
+  "gates": 0,
+  "checkpoints": 0,
+  "max_context_tokens": 3584,
+  "elapsed_ms": 208587,
+  "audit": {
+    "passed": false,
+    "checked": 0,
+    "violations": []
+  },
+  "error": "conflicting command: active child runs must finish first",
+  "model": "local-test-lead-4b",
+  "provider_locality": "local"
+}

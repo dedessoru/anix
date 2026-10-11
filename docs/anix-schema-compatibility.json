@@ -1,0 +1,22 @@
+[
+  {
+    "path": "migrations/0001_initial.sql",
+    "sha256": "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426",
+    "unchanged": true
+  },
+  {
+    "path": "migrations/0002_runtime.sql",
+    "sha256": "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb",
+    "unchanged": true
+  },
+  {
+    "path": "migrations/0003_context_retrieval_telemetry.sql",
+    "sha256": "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96",
+    "unchanged": true
+  },
+  {
+    "path": "migrations/0004_human_control.sql",
+    "sha256": "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f",
+    "unchanged": true
+  }
+]

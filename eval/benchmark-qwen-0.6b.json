@@ -1,0 +1,144 @@
+{
+  "backend": "CPU",
+  "cold_load_ms": 1269,
+  "gpu_used": false,
+  "isolation_note": "No exclusive CPU reservation; these are local engineering measurements, not rigorous hardware comparisons.",
+  "machine": {
+    "cores": 6,
+    "cpu": "AMD Ryzen 5 3600 6-Core Processor              ",
+    "logicalProcessors": 12,
+    "peakWorkingSetBytes": 1270132736,
+    "physicalRamBytes": 34281353216,
+    "privateBytes": 654385152,
+    "workingSetBytes": 1227251712
+  },
+  "measurements": [
+    {
+      "latency_ms": 885,
+      "output_tokens_per_wall_second": 15.805644760231191,
+      "repetition": 0,
+      "task": "classification",
+      "usage": {
+        "estimated": false,
+        "input": 70,
+        "output": 14
+      },
+      "valid": true
+    },
+    {
+      "latency_ms": 433,
+      "output_tokens_per_wall_second": 32.31368276734379,
+      "repetition": 1,
+      "task": "classification",
+      "usage": {
+        "estimated": false,
+        "input": 70,
+        "output": 14
+      },
+      "valid": true
+    },
+    {
+      "latency_ms": 423,
+      "output_tokens_per_wall_second": 33.03185474100312,
+      "repetition": 2,
+      "task": "classification",
+      "usage": {
+        "estimated": false,
+        "input": 70,
+        "output": 14
+      },
+      "valid": true
+    },
+    {
+      "latency_ms": 2936,
+      "output_tokens_per_wall_second": 25.19680921228033,
+      "repetition": 0,
+      "task": "candidate_extraction",
+      "usage": {
+        "estimated": false,
+        "input": 120,
+        "output": 74
+      },
+      "valid": true
+    },
+    {
+      "latency_ms": 2407,
+      "output_tokens_per_wall_second": 30.732970974993123,
+      "repetition": 1,
+      "task": "candidate_extraction",
+      "usage": {
+        "estimated": false,
+        "input": 120,
+        "output": 74
+      },
+      "valid": true
+    },
+    {
+      "latency_ms": 2400,
+      "output_tokens_per_wall_second": 30.82850353444627,
+      "repetition": 2,
+      "task": "candidate_extraction",
+      "usage": {
+        "estimated": false,
+        "input": 120,
+        "output": 74
+      },
+      "valid": true
+    },
+    {
+      "latency_ms": 1272,
+      "output_tokens_per_wall_second": 18.069940253706676,
+      "repetition": 0,
+      "task": "short_summary",
+      "usage": {
+        "estimated": false,
+        "input": 114,
+        "output": 23
+      },
+      "valid": false
+    },
+    {
+      "latency_ms": 728,
+      "output_tokens_per_wall_second": 31.59091577120156,
+      "repetition": 1,
+      "task": "short_summary",
+      "usage": {
+        "estimated": false,
+        "input": 114,
+        "output": 23
+      },
+      "valid": false
+    },
+    {
+      "latency_ms": 716,
+      "output_tokens_per_wall_second": 32.092954591818085,
+      "repetition": 2,
+      "task": "short_summary",
+      "usage": {
+        "estimated": false,
+        "input": 114,
+        "output": 23
+      },
+      "valid": false
+    }
+  ],
+  "model": {
+    "directory": "qwen3-0.6b",
+    "family": "Qwen3",
+    "filename": "Qwen3-0.6B-Q8_0.gguf",
+    "license": "Apache-2.0",
+    "logical_name": "qwen-local-micro",
+    "parameters": "0.6B",
+    "quantization": "Q8_0",
+    "repository": "Qwen/Qwen3-0.6B-GGUF",
+    "revision": "23749fefcc72300e3a2ad315e1317431b06b590a",
+    "runtime": "llama.cpp",
+    "schema_version": 1,
+    "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+    "size": 639446688,
+    "url": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/23749fefcc72300e3a2ad315e1317431b06b590a/Qwen3-0.6B-Q8_0.gguf"
+  },
+  "os": "windows",
+  "runtime": "llama.cpp/b11307",
+  "throughput_note": "output tokens divided by complete request wall time, includes prompt processing; not isolated decode throughput"
+}

@@ -1,0 +1,175 @@
+{
+  "scope": "active sources, manifests, scripts, profiles, tests and current platform docs",
+  "occurrences": [
+    {
+      "file": ".gitignore",
+      "line": 12,
+      "text": ".rn/",
+      "reason": "documented legacy migration/ignore rule"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 45,
+      "text": "let legacy = workspace.resolve(Path::new(\".rn\"))?;",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 49,
+      "text": "return Err(Error::Conflict(\"Both legacy .rn and canonical .anix stores exist; reconcile them explicitly before opening the workspace\".into()));",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 88,
+      "text": "let path = if path.starts_with(\".rn\")",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 90,
+      "text": "&& !self.root.join(\".rn\").exists()",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 93,
+      "text": "mapped = Path::new(\".anix\").join(path.strip_prefix(\".rn\").map_err(tool)?);",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 238,
+      "text": ".eq_ignore_ascii_case(\".rn\")",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 257,
+      "text": ".eq_ignore_ascii_case(\".rn\")",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 280,
+      "text": "fs::create_dir(temp.path().join(\".rn\")).unwrap();",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 282,
+      "text": "temp.path().join(\".rn/state.sqlite\"),",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 293,
+      "text": "assert!(!temp.path().join(\".rn\").exists());",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 295,
+      "text": "workspace.read(\".rn/state.sqlite\", 100).unwrap(),",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 307,
+      "text": "for (directory, data) in [(\".rn\", b\"old\"), (\".anix\", b\"new\")] {",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 316,
+      "text": "fs::read(temp.path().join(\".rn/state.sqlite\")).unwrap(),",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 335,
+      "text": "\".RN/state.sqlite\",",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-integrations/src/lib.rs",
+      "line": 338,
+      "text": "\".Rn. /state.sqlite\",",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-cli/tests/cli.rs",
+      "line": 32,
+      "text": "assert!(!help.contains(\"Researcher's Notes\"));",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-cli/tests/cli.rs",
+      "line": 37,
+      "text": "std::fs::rename(w.join(\".anix\"), w.join(\".rn\")).unwrap();",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "crates/anix-cli/tests/cli.rs",
+      "line": 39,
+      "text": "assert!(w.join(\".anix/state.sqlite\").exists() && !w.join(\".rn\").exists());",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "scripts/start-test-model.sh",
+      "line": 4,
+      "text": "profile=\"${RN_TEST_LEAD_MODEL_PROFILE:-test-lead}\"",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "scripts/start-test-model.sh",
+      "line": 15,
+      "text": "port=\"${RN_TEST_LEAD_PORT:-$default_port}\"",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "scripts/start-test-model.sh",
+      "line": 16,
+      "text": "context_size=\"${RN_TEST_LEAD_CONTEXT:-8192}\"",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "scripts/start-test-model.sh",
+      "line": 18,
+      "text": "server=\"${RN_LLAMA_SERVER:-$(command -v llama-server || true)}\"",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "scripts/start-test-model.sh",
+      "line": 21,
+      "text": "echo \"llama-server executable missing; install a CPU llama.cpp server at $server or set RN_LLAMA_SERVER\" >&2",
+      "reason": "migration/compatibility, protected-store boundary or its negative regression"
+    },
+    {
+      "file": "docs/anix-migration.md",
+      "line": 11,
+      "text": "Canonical storage is `.anix/state.sqlite`. `Workspace::open` checks legacy `.rn` before creating the canonical store. If only legacy exists, a single directory rename moves database, WAL, shared-memory file and operational artifacts together. No competing database copy is created. A locked/failed rename returns an error instead of opening an empty replacement database.",
+      "reason": "documented legacy migration/ignore rule"
+    },
+    {
+      "file": "docs/anix-migration.md",
+      "line": 15,
+      "text": "Recorded artifact paths beginning `.rn/` keep their spelling/hash. A temporary resolver maps those references to `.anix/` after migration; other source/artifact paths stay in place. Historical provenance is not rewritten.",
+      "reason": "documented legacy migration/ignore rule"
+    },
+    {
+      "file": "docs/anix-migration.md",
+      "line": 38,
+      "text": "- `.rn` in migration resolution, conflict checks, protected-file policy and regressions.",
+      "reason": "documented legacy migration/ignore rule"
+    }
+  ],
+  "historical_exclusions": [
+    "docs/history/2026-10-09-engine-audit",
+    "dated audit reports and immutable traces",
+    "baseline/backup manifests recording original identifiers",
+    "user-selected outer workspace directory",
+    "old build artifacts archived separately"
+  ],
+  "current_product_name": "ANIX"
+}

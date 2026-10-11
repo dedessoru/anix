@@ -1,0 +1,12 @@
+/target/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.anix/
+*.gguf
+*.bin
+*.safetensors
+*.partial
+.runtime/
+# Temporary legacy migration store
+.rn/

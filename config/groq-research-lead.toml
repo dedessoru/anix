@@ -1,0 +1,11 @@
+schema_version = 1
+profile = "local-test-lead"
+endpoint = "https://api.groq.com/openai/v1"
+model_name = "openai/gpt-oss-120b"
+api_key_env = "GROQ_API_KEY"
+reasoning_effort = "medium"
+context_size = 8192
+temperature = 0.2
+timeout_seconds = 120
+capabilities = ["structured_agent_decisions", "groq", "groq_json_schema"]
+diagnostic_traces = true

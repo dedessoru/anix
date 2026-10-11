@@ -1,0 +1,23 @@
+{
+  "scenario": "failed-experiment",
+  "seed": 417,
+  "project_id": "25f105ee-e65d-4e31-965d-11d09a1d84b1",
+  "status": "blocked",
+  "meaningful_steps": 4,
+  "lead_calls": 4,
+  "tool_calls": 0,
+  "work_nodes": 0,
+  "branches": 0,
+  "gates": 0,
+  "checkpoints": 0,
+  "max_context_tokens": 3674,
+  "elapsed_ms": 611457,
+  "audit": {
+    "passed": false,
+    "checked": 0,
+    "violations": []
+  },
+  "error": "model: Test Lead structured output recovery exhausted (failure_type=truncated)",
+  "model": "local-test-lead-4b",
+  "provider_locality": "local"
+}

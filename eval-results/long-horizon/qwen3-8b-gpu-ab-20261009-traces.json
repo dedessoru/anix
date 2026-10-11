@@ -1,0 +1,1420 @@
+{
+  "experiment": "Qwen3-4B CPU vs Qwen3-8B GPU Test Lead A/B",
+  "date": "2026-10-09",
+  "gpu_runtime": "llama.cpp b11307 / commit 4453b535f / CUDA 13.4 / RTX 2060 / full offload 37/37 / context 8192 / flash attention on",
+  "trace_limitations": "The archived seed runner did not persist raw model completion text or the rendered per-call action schema. The database retains context snapshots, schema version marker, provider metadata, validation outcomes, and tool input/output artifacts. Reports label the configured model as local-test-lead-4b because the archived runner uses its 4B profile metadata; the only server on its loopback endpoint during these runs loaded the verified Qwen3-8B file with CUDA full offload.",
+  "seeds": [
+    {
+      "report": {
+        "scenario": "long-context",
+        "seed": 654,
+        "project_id": "16e60083-3380-43bb-aa0a-9d9d46b85a22",
+        "status": "capability_failed",
+        "meaningful_steps": 10,
+        "lead_calls": 12,
+        "tool_calls": 4,
+        "retrieval_calls": 1,
+        "offloaded_source_reads": 0,
+        "tool_failures": 0,
+        "recovery_passed": true,
+        "work_nodes": 5,
+        "branches": 1,
+        "gates": 0,
+        "checkpoints": 44,
+        "max_context_tokens": 4096,
+        "context_tokens_p50": 3939,
+        "context_tokens_p95": 4096,
+        "lead_latency_p50_ms": 4932,
+        "lead_latency_p95_ms": 17402,
+        "context_compile_p50_ms": 111,
+        "context_compile_p95_ms": 154,
+        "tool_latency_p50_ms": 131,
+        "tool_latency_p95_ms": 253,
+        "core_overhead_estimate_ms": 8313,
+        "micro_model_invocations": 0,
+        "repair_attempts": 5,
+        "repair_successes": 5,
+        "full_retries": 0,
+        "structured_failures": 0,
+        "invalid_reference_count": 2,
+        "search_stall_count": 0,
+        "refine_search_calls": 1,
+        "successful_refinements": 0,
+        "refinement_validation_failures": 1,
+        "read_source_calls": 3,
+        "inspect_calls": 0,
+        "extract_calls": 0,
+        "reject_calls": 0,
+        "pending_batches_created": 1,
+        "consumed_batches": 1,
+        "superseded_batches": 0,
+        "rejected_plain_search_attempts": 0,
+        "strong_model_calls": 12,
+        "budget_failures": 0,
+        "elapsed_ms": 94565,
+        "audit": {
+          "passed": true,
+          "checked": 90,
+          "violations": []
+        },
+        "error": "long-context capability assertion failed: retrieval and source offload are required",
+        "model": "local-test-lead-4b",
+        "provider_locality": "local",
+        "report_path": "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\crates\\rn-evals\\../..\\.runtime/post-retrieval-seeds\\eval-results\\long-horizon\\runs\\20261009T104315484\\long-context-000654\\report.json"
+      },
+      "report_path": ".runtime\\post-retrieval-seeds\\eval-results\\long-horizon\\runs\\20261009T104315484\\long-context-000654\\report.json",
+      "model_invocations": [
+        {
+          "id": "98d353f6-35c8-46be-bea4-2e6f1c35bd62",
+          "run_id": "5d203ff0-64dd-4d39-bcfd-d0192b2eeae0",
+          "work_node_id": "292d14a7-ca97-413c-9d5f-3eabc126ffce",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:41:41.256282400Z",
+          "latency_ms": 4932,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2746,
+            "output": 112
+          },
+          "metadata": {
+            "]]}}.{": "}}.{",
+            "context_compile_ms": 44,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 561,
+            "input_tokens": 2746,
+            "model": "local-test-lead-4b",
+            "output_tokens": 112,
+            "preflight_input_tokens": 2746,
+            "provider": "local-test-lead",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 3 Irrelevant record 1: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 15 Irrelevant record 13: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 11 Irrelevant record 9: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 4 Irrelevant record 2: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 5 Irrelevant record 3: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 12 Irrelevant record 10: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 6 Irrelevant record 4: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 9 Irrelevant record 7: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 13 Irrelevant record 11: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 10 Irrelevant record 8: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Irrelevant record 0: administrative note with no outcome data; variation 654.\"}]",
+            "retrieval_query": "Use local search and source reads to assess long-context. Make at least 20 meaningful persisted steps before finishing; create bounded atomic work nodes and use their required tools.",
+            "retrieval_candidate_count": 19,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 3939,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "192a443b-7e3e-4e17-ab70-7af3acc75d31",
+          "run_id": "bb8fee9b-d00b-4408-8e32-05da22f57fc3",
+          "work_node_id": "3713d606-3ec1-4aae-9d26-04df59ca6b26",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:41:46.503581200Z",
+          "latency_ms": 3604,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 1925,
+            "output": 65
+          },
+          "metadata": {
+            "context_compile_ms": 59,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 235,
+            "input_tokens": 1925,
+            "model": "local-test-lead-4b",
+            "output_tokens": 65,
+            "preflight_input_tokens": 1925,
+            "provider": "local-test-lead",
+            "search_query": "synthetic intervention report",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":255,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"c5256e36-cbeb-4b6e-ad53-12917ec6f79b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study H: X improved Y by 7% in a synthetic pilot.\"}]",
+            "retrieval_query": "Use search_sources to find the detailed synthetic intervention report.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"c5256e36-cbeb-4b6e-ad53-12917ec6f79b\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 961,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "79031064-f7e8-4d7e-b430-62f9b4a02070",
+          "run_id": "e9828adb-e414-419c-956f-1cc6e4a38eb0",
+          "work_node_id": "3713d606-3ec1-4aae-9d26-04df59ca6b26",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:41:51.163649300Z",
+          "latency_ms": 4574,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2231,
+            "output": 91
+          },
+          "metadata": {
+            "context_compile_ms": 66,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 369,
+            "input_tokens": 2231,
+            "model": "local-test-lead-4b",
+            "output_tokens": 91,
+            "preflight_input_tokens": 2231,
+            "provider": "local-test-lead",
+            "reason": "The current search results do not provide sufficient details about the synthetic intervention report. A more specific query is needed to retrieve the detailed report.",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":255,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"c5256e36-cbeb-4b6e-ad53-12917ec6f79b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study H: X improved Y by 7% in a synthetic pilot.\"}]",
+            "retrieval_query": "Use search_sources to find the detailed synthetic intervention report.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"c5256e36-cbeb-4b6e-ad53-12917ec6f79b\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 1323,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "522abc58-94cf-45c6-ac35-785aa7f12484",
+          "run_id": "adf7ffe2-8565-4a2c-96b8-91ff2536d00b",
+          "work_node_id": "3713d606-3ec1-4aae-9d26-04df59ca6b26",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:41:56.924238900Z",
+          "latency_ms": 2959,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2229,
+            "output": 75
+          },
+          "metadata": {
+            "context_compile_ms": 154,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 218,
+            "input": {
+              "handle": "S1"
+            },
+            "input_tokens": 2229,
+            "model": "local-test-lead-4b",
+            "output_tokens": 75,
+            "preflight_input_tokens": 2229,
+            "provider": "local-test-lead",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false,
+            "tool_used": "read_source"
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":255,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"c5256e36-cbeb-4b6e-ad53-12917ec6f79b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study H: X improved Y by 7% in a synthetic pilot.\"}]",
+            "retrieval_query": "Use search_sources to find the detailed synthetic intervention report.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"c5256e36-cbeb-4b6e-ad53-12917ec6f79b\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 1323,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "8d6ab483-f18b-4164-887d-1621efd19446",
+          "run_id": "6daba6b1-6a96-46c8-bf8f-c32f0123f10f",
+          "work_node_id": "3713d606-3ec1-4aae-9d26-04df59ca6b26",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:42:00.379082500Z",
+          "latency_ms": 9959,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 466,
+            "output": 164
+          },
+          "metadata": {
+            "context_compile_ms": 81,
+            "failure_type": "truncated",
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "length",
+            "initial_output_length_bytes": 1068,
+            "input_tokens": 466,
+            "model": "local-test-lead-4b",
+            "output_tokens": 164,
+            "preflight_input_tokens": 2229,
+            "provider": "local-test-lead",
+            "schema_version": 1,
+            "structured_repair_attempted": true,
+            "structured_repair_succeeded": true
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":255,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"c5256e36-cbeb-4b6e-ad53-12917ec6f79b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study H: X improved Y by 7% in a synthetic pilot.\"}]",
+            "retrieval_query": "Use search_sources to find the detailed synthetic intervention report.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"c5256e36-cbeb-4b6e-ad53-12917ec6f79b\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 1641,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "4f60fbd5-81bc-45cc-9c6c-9921a7b31a28",
+          "run_id": "1b534396-a0fc-41e3-abc5-3aced2a4b1fb",
+          "work_node_id": "292d14a7-ca97-413c-9d5f-3eabc126ffce",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:42:10.796263100Z",
+          "latency_ms": 9651,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 565,
+            "output": 154
+          },
+          "metadata": {
+            "context_compile_ms": 89,
+            "failure_type": "truncated",
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "length",
+            "initial_output_length_bytes": 1102,
+            "input_tokens": 565,
+            "model": "local-test-lead-4b",
+            "output_tokens": 154,
+            "preflight_input_tokens": 2788,
+            "provider": "local-test-lead",
+            "structured_repair_attempted": true,
+            "structured_repair_succeeded": true
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 3 Irrelevant record 1: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 15 Irrelevant record 13: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 11 Irrelevant record 9: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 4 Irrelevant record 2: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 5 Irrelevant record 3: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 12 Irrelevant record 10: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 6 Irrelevant record 4: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 9 Irrelevant record 7: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 13 Irrelevant record 11: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 10 Irrelevant record 8: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Irrelevant record 0: administrative note with no outcome data; variation 654.\"}]",
+            "retrieval_query": "Use local search and source reads to assess long-context. Make at least 20 meaningful persisted steps before finishing; create bounded atomic work nodes and use their required tools.",
+            "retrieval_candidate_count": 19,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 3939,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "a078707e-41a5-47fb-998e-f9556676ea75",
+          "run_id": "36698a03-f411-46a0-b1e8-12b99ffa4f44",
+          "work_node_id": "1f96f2b5-6dc3-4116-b22c-9c36aa43e599",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:42:21.027803600Z",
+          "latency_ms": 4607,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2888,
+            "output": 153
+          },
+          "metadata": {
+            "context_compile_ms": 104,
+            "current_work_id": "1f96f2b5-6dc3-4116-b22c-9c36aa43e599",
+            "expected_result": "Read and extract relevant information from the source with handle S1 to assess its relevance to the research question about intervention X.",
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 461,
+            "input_tokens": 2888,
+            "minimum_steps": 20,
+            "model": "local-test-lead-4b",
+            "output_tokens": 153,
+            "preflight_input_tokens": 2888,
+            "provider": "local-test-lead",
+            "required_tool": "read_source",
+            "step": 5,
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false,
+            "total_steps": 100
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 3 Irrelevant record 1: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 15 Irrelevant record 13: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 11 Irrelevant record 9: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 4 Irrelevant record 2: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 5 Irrelevant record 3: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 12 Irrelevant record 10: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 6 Irrelevant record 4: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 9 Irrelevant record 7: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 13 Irrelevant record 11: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 10 Irrelevant record 8: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Irrelevant record 0: administrative note with no outcome data; variation 654.\"}]",
+            "retrieval_query": "Read and extract relevant information from the provided paper to assess its relevance to the research question.",
+            "retrieval_candidate_count": 19,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 4029,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "c3af1fb1-77a1-45fc-b83b-9171f43e07b8",
+          "run_id": "3218d3f7-0b66-4aef-b363-daafa69fd2aa",
+          "work_node_id": "1f96f2b5-6dc3-4116-b22c-9c36aa43e599",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:42:26.306808600Z",
+          "latency_ms": 3701,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2909,
+            "output": 107
+          },
+          "metadata": {
+            "]]}}.{": [
+              "}{"
+            ],
+            "context_compile_ms": 111,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 366,
+            "input_tokens": 2909,
+            "model": "local-test-lead-4b",
+            "output_tokens": 107,
+            "preflight_input_tokens": 2909,
+            "provider": "local-test-lead",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 3 Irrelevant record 1: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 15 Irrelevant record 13: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 11 Irrelevant record 9: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 4 Irrelevant record 2: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 5 Irrelevant record 3: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 12 Irrelevant record 10: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 6 Irrelevant record 4: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 9 Irrelevant record 7: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 13 Irrelevant record 11: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 10 Irrelevant record 8: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Irrelevant record 0: administrative note with no outcome data; variation 654.\"}]",
+            "retrieval_query": "Read and extract relevant information from the provided paper to assess its relevance to the research question.",
+            "retrieval_candidate_count": 19,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 4096,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "478a6ddb-45d7-4658-a54e-a0a13ac7faff",
+          "run_id": "df4da941-2d73-4f7f-8423-b74d0b8abdfa",
+          "work_node_id": "292d14a7-ca97-413c-9d5f-3eabc126ffce",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:42:30.635744300Z",
+          "latency_ms": 17402,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 558,
+            "output": 132
+          },
+          "metadata": {
+            "context_compile_ms": 120,
+            "failure_type": "truncated",
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "length",
+            "initial_output_length_bytes": 1553,
+            "input_tokens": 558,
+            "model": "local-test-lead-4b",
+            "output_tokens": 132,
+            "preflight_input_tokens": 2788,
+            "provider": "local-test-lead",
+            "structured_repair_attempted": true,
+            "structured_repair_succeeded": true
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 3 Irrelevant record 1: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 15 Irrelevant record 13: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 11 Irrelevant record 9: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 4 Irrelevant record 2: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 5 Irrelevant record 3: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 12 Irrelevant record 10: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 6 Irrelevant record 4: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 9 Irrelevant record 7: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 13 Irrelevant record 11: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 10 Irrelevant record 8: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Irrelevant record 0: administrative note with no outcome data; variation 654.\"}]",
+            "retrieval_query": "Use local search and source reads to assess long-context. Make at least 20 meaningful persisted steps before finishing; create bounded atomic work nodes and use their required tools.",
+            "retrieval_candidate_count": 19,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 3939,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "5c5274b3-3723-4233-aed9-2416257741c6",
+          "run_id": "67cda33b-b364-4e58-990c-6b1d749dc4ca",
+          "work_node_id": "4f7b1849-5343-4d39-b2c8-5cc841fdc285",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:42:48.820118Z",
+          "latency_ms": 4280,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 1985,
+            "output": 142
+          },
+          "metadata": {
+            "context_compile_ms": 135,
+            "current_work_id": "4f7b1849-5343-4d39-b2c8-5cc841fdc285",
+            "expected_result": "Extracted information about intervention X from the source with handle S1.",
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 396,
+            "input_tokens": 1985,
+            "minimum_steps": 20,
+            "model": "local-test-lead-4b",
+            "output_tokens": 142,
+            "preflight_input_tokens": 1985,
+            "provider": "local-test-lead",
+            "required_tool": "read_source",
+            "step": 8,
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false,
+            "total_steps": 100
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"}]",
+            "retrieval_query": "Read the source to extract relevant information about intervention X.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[]",
+            "estimated_tokens": 1027,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "82d0bf16-a944-45d4-8a2d-46477eef4418",
+          "run_id": "16f67efe-f85b-4179-85be-cf6dad386e08",
+          "work_node_id": "4f7b1849-5343-4d39-b2c8-5cc841fdc285",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:42:54.058507800Z",
+          "latency_ms": 9722,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 466,
+            "output": 147
+          },
+          "metadata": {
+            "context_compile_ms": 154,
+            "failure_type": "truncated",
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "length",
+            "initial_output_length_bytes": 898,
+            "input_tokens": 466,
+            "model": "local-test-lead-4b",
+            "output_tokens": 147,
+            "preflight_input_tokens": 2055,
+            "provider": "local-test-lead",
+            "structured_repair_attempted": true,
+            "structured_repair_succeeded": true
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"}]",
+            "retrieval_query": "Read the source to extract relevant information about intervention X.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[]",
+            "estimated_tokens": 1255,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "464fa9fe-b883-4741-89f6-c0dd9305928e",
+          "run_id": "1c36255a-c174-49a0-90d4-ff3141deafdc",
+          "work_node_id": "292d14a7-ca97-413c-9d5f-3eabc126ffce",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:43:04.600040400Z",
+          "latency_ms": 10076,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 559,
+            "output": 170
+          },
+          "metadata": {
+            "context_compile_ms": 154,
+            "failure_type": "truncated",
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "length",
+            "initial_output_length_bytes": 1176,
+            "input_tokens": 559,
+            "model": "local-test-lead-4b",
+            "output_tokens": 170,
+            "preflight_input_tokens": 2785,
+            "provider": "local-test-lead",
+            "structured_repair_attempted": true,
+            "structured_repair_succeeded": true
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":368,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"3459eb19-b8a1-48dd-b73d-800afe94b6c7\",\"type\":\"question\"},\"version\":1},\"text\":\"What does the evidence say about intervention X? (wording variation 654; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 3 Irrelevant record 1: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 15 Irrelevant record 13: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 11 Irrelevant record 9: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 4 Irrelevant record 2: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 5 Irrelevant record 3: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 12 Irrelevant record 10: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 6 Irrelevant record 4: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 9 Irrelevant record 7: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":285,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 13 Irrelevant record 11: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":284,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 10 Irrelevant record 8: administrative note with no outcome data; variation 654.\"},{\"estimated_tokens\":283,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Irrelevant record 0: administrative note with no outcome data; variation 654.\"}]",
+            "retrieval_query": "Use local search and source reads to assess long-context. Make at least 20 meaningful persisted steps before finishing; create bounded atomic work nodes and use their required tools.",
+            "retrieval_candidate_count": 19,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"27935ccf-ef2b-40aa-bb43-6c84f7c58509\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"30e9337d-55e4-408f-bdc4-9763afa1dbad\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"3efaec06-36e4-4d4a-9ba8-fd05a363dba7\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6207055c-9f07-4233-87f8-794a3af1ace9\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6364b73d-5809-4c14-968b-032930fa7fb8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"6df24a15-f27f-4c0f-a779-522f9778ad13\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"707c74b4-2554-4822-9897-70629e526f21\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"8208562c-b942-4527-bc47-e60341ebd451\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"95bb9be3-788f-4699-9729-e7664a755bf8\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a200dcae-cb3e-449f-a900-5171bef7910a\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"a635c58a-6272-4c2b-9d68-e6e86c973cad\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 3939,
+            "budget_tokens": 4096
+          }
+        }
+      ],
+      "tool_invocations": [
+        {
+          "id": "7b367f4f-b1d2-4eb8-85fa-bb159e52298c",
+          "run_id": "bb8fee9b-d00b-4408-8e32-05da22f57fc3",
+          "work_node_id": "3713d606-3ec1-4aae-9d26-04df59ca6b26",
+          "tool": "search_sources",
+          "status": "succeeded",
+          "error_code": null,
+          "started_at": "2026-10-09T10:41:50.330340400Z",
+          "artifacts": [
+            {
+              "id": "788ea778-78fc-4d02-8021-81eeb5907c4f",
+              "name": "tool input",
+              "path": "data/tool-input-7b367f4f-b1d2-4eb8-85fa-bb159e52298c.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "query": "synthetic intervention report"
+                }
+              }
+            },
+            {
+              "id": "3eded93e-c250-44d2-852c-b0b9b58397c1",
+              "name": "tool output",
+              "path": "data/tool-output-7b367f4f-b1d2-4eb8-85fa-bb159e52298c.json",
+              "artifact_kind": "output",
+              "metadata": "{\"schema_version\":1,\"tool_output_metadata\":{\"count\":3,\"retrieval\":\"sqlite-fts-bm25\",\"retrieval_batch\":{\"query\":\"synthetic intervention report\",\"returned\":[{\"handle\":\"S1\",\"source_id\":\"5ad5aef2-d202-4444-b1f0-6c8a5dbb6865\"},{\"handle\":\"S2\",\"source_id\":\"8b4b3f79-a16e-45bf-989e-72f06cbeda62\"}],\"search_invocation_id\":\"7b367f4f-b1d2-4eb8-85fa-bb159e52298c\"},\"semantic_fingerprint\":\"intervention report synthetic\"}}",
+              "content": {
+                "schema_version": 1,
+                "data": {
+                  "observation": {
+                    "pending_results": true,
+                    "query": "synthetic intervention report",
+                    "searches_without_consumption": 1,
+                    "sources": [
+                      {
+                        "handle": "S1",
+                        "source_id": "5ad5aef2-d202-4444-b1f0-6c8a5dbb6865",
+                        "title": "Local source 1"
+                      },
+                      {
+                        "handle": "S2",
+                        "source_id": "8b4b3f79-a16e-45bf-989e-72f06cbeda62",
+                        "title": "Local source 18"
+                      }
+                    ]
+                  }
+                },
+                "metadata": {
+                  "count": 3,
+                  "retrieval": "sqlite-fts-bm25",
+                  "retrieval_batch": {
+                    "query": "synthetic intervention report",
+                    "returned": [
+                      {
+                        "handle": "S1",
+                        "source_id": "5ad5aef2-d202-4444-b1f0-6c8a5dbb6865"
+                      },
+                      {
+                        "handle": "S2",
+                        "source_id": "8b4b3f79-a16e-45bf-989e-72f06cbeda62"
+                      }
+                    ],
+                    "search_invocation_id": "7b367f4f-b1d2-4eb8-85fa-bb159e52298c"
+                  },
+                  "semantic_fingerprint": "intervention report synthetic"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "2aad9dbb-59e3-4a0f-a847-5793594c84d9",
+          "run_id": "e9828adb-e414-419c-956f-1cc6e4a38eb0",
+          "work_node_id": "3713d606-3ec1-4aae-9d26-04df59ca6b26",
+          "tool": "refine_search",
+          "status": "failed",
+          "error_code": "validation_error",
+          "started_at": "2026-10-09T10:41:55.882693200Z",
+          "artifacts": [
+            {
+              "id": "0c6276bd-cffc-463d-8f47-88c34ce80c6e",
+              "name": "tool input",
+              "path": "data/tool-input-2aad9dbb-59e3-4a0f-a847-5793594c84d9.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "previous_search_id": "7b367f4f-b1d2-4eb8-85fa-bb159e52298c",
+                  "query": "synthetic intervention report"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "c79ff298-a0d7-4576-b96b-23f38c077f10",
+          "run_id": "adf7ffe2-8565-4a2c-96b8-91ff2536d00b",
+          "work_node_id": "3713d606-3ec1-4aae-9d26-04df59ca6b26",
+          "tool": "read_source",
+          "status": "succeeded",
+          "error_code": null,
+          "started_at": "2026-10-09T10:41:59.944068200Z",
+          "artifacts": [
+            {
+              "id": "501ec177-4feb-4dfd-8149-33f8c67e9266",
+              "name": "tool input",
+              "path": "data/tool-input-c79ff298-a0d7-4576-b96b-23f38c077f10.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "handle": "S1"
+                }
+              }
+            },
+            {
+              "id": "3d565800-0a72-4660-bb6f-9d428cfbdef7",
+              "name": "tool output",
+              "path": "data/tool-output-c79ff298-a0d7-4576-b96b-23f38c077f10.json",
+              "artifact_kind": "output",
+              "metadata": "{\"schema_version\":1,\"tool_output_metadata\":{\"read_only\":true,\"retrieval_consumption\":{\"handle\":\"S1\",\"search_invocation_id\":\"7b367f4f-b1d2-4eb8-85fa-bb159e52298c\"}}}",
+              "content": {
+                "schema_version": 1,
+                "data": {
+                  "locator": "pack://long-context/0",
+                  "papers": [
+                    {
+                      "abstract_text": "Study H: X improved Y by 7% in a synthetic pilot.",
+                      "paper_id": "c5256e36-cbeb-4b6e-ad53-12917ec6f79b",
+                      "title": "Local paper 1"
+                    }
+                  ],
+                  "source_id": "5ad5aef2-d202-4444-b1f0-6c8a5dbb6865",
+                  "title": "Local source 1"
+                },
+                "metadata": {
+                  "read_only": true,
+                  "retrieval_consumption": {
+                    "handle": "S1",
+                    "search_invocation_id": "7b367f4f-b1d2-4eb8-85fa-bb159e52298c"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "c42a62ef-ab46-4d92-82aa-395ef6a09cb6",
+          "run_id": "36698a03-f411-46a0-b1e8-12b99ffa4f44",
+          "work_node_id": "1f96f2b5-6dc3-4116-b22c-9c36aa43e599",
+          "tool": "read_source",
+          "status": "succeeded",
+          "error_code": null,
+          "started_at": "2026-10-09T10:42:25.724985400Z",
+          "artifacts": [
+            {
+              "id": "722d5e70-1c04-46e5-b5d1-92be5b1269ad",
+              "name": "tool input",
+              "path": "data/tool-input-c42a62ef-ab46-4d92-82aa-395ef6a09cb6.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "handle": "S1"
+                }
+              }
+            },
+            {
+              "id": "40f9515f-3adb-4ef8-9b71-d2d3e09687d6",
+              "name": "tool output",
+              "path": "data/tool-output-c42a62ef-ab46-4d92-82aa-395ef6a09cb6.json",
+              "artifact_kind": "output",
+              "metadata": "{\"schema_version\":1,\"tool_output_metadata\":{\"invalid_source_handle\":{\"available\":[\"8b4b3f79-a16e-45bf-989e-72f06cbeda62\"],\"requested\":\"S1\"},\"reference_valid\":false}}",
+              "content": {
+                "schema_version": 1,
+                "data": {
+                  "available": [
+                    "8b4b3f79-a16e-45bf-989e-72f06cbeda62"
+                  ],
+                  "instruction": "Use an exact handle from the latest retrieval batch.",
+                  "observation": "InvalidSourceHandle",
+                  "requested": "S1"
+                },
+                "metadata": {
+                  "invalid_source_handle": {
+                    "available": [
+                      "8b4b3f79-a16e-45bf-989e-72f06cbeda62"
+                    ],
+                    "requested": "S1"
+                  },
+                  "reference_valid": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "5e87ebf7-1bb1-4c5a-83fb-1a6546007ee5",
+          "run_id": "67cda33b-b364-4e58-990c-6b1d749dc4ca",
+          "work_node_id": "4f7b1849-5343-4d39-b2c8-5cc841fdc285",
+          "tool": "read_source",
+          "status": "succeeded",
+          "error_code": null,
+          "started_at": "2026-10-09T10:42:53.214720700Z",
+          "artifacts": [
+            {
+              "id": "dca9d82f-1ba4-4929-9fea-aab4c8682d69",
+              "name": "tool input",
+              "path": "data/tool-input-5e87ebf7-1bb1-4c5a-83fb-1a6546007ee5.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "handle": "S1"
+                }
+              }
+            },
+            {
+              "id": "8a521523-476a-4ca1-b999-1a0515b13005",
+              "name": "tool output",
+              "path": "data/tool-output-5e87ebf7-1bb1-4c5a-83fb-1a6546007ee5.json",
+              "artifact_kind": "output",
+              "metadata": "{\"schema_version\":1,\"tool_output_metadata\":{\"invalid_source_handle\":{\"available\":[\"8b4b3f79-a16e-45bf-989e-72f06cbeda62\"],\"requested\":\"S1\"},\"reference_valid\":false}}",
+              "content": {
+                "schema_version": 1,
+                "data": {
+                  "available": [
+                    "8b4b3f79-a16e-45bf-989e-72f06cbeda62"
+                  ],
+                  "instruction": "Use an exact handle from the latest retrieval batch.",
+                  "observation": "InvalidSourceHandle",
+                  "requested": "S1"
+                },
+                "metadata": {
+                  "invalid_source_handle": {
+                    "available": [
+                      "8b4b3f79-a16e-45bf-989e-72f06cbeda62"
+                    ],
+                    "requested": "S1"
+                  },
+                  "reference_valid": false
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "id": "f5c21d59-90b8-4798-b0c9-459d7ef510b0",
+          "name": "main",
+          "parent_branch_id": null,
+          "base_checkpoint_id": null,
+          "head_revision_id": "5f64c77a-5c00-4c4c-9184-42b3883a1f75"
+        }
+      ]
+    },
+    {
+      "report": {
+        "scenario": "branching",
+        "seed": 664,
+        "project_id": "73496227-0355-49cc-b273-3df3300be719",
+        "status": "blocked",
+        "meaningful_steps": 2,
+        "lead_calls": 7,
+        "tool_calls": 1,
+        "retrieval_calls": 1,
+        "offloaded_source_reads": 0,
+        "tool_failures": 0,
+        "recovery_passed": true,
+        "work_nodes": 3,
+        "branches": 2,
+        "gates": 0,
+        "checkpoints": 23,
+        "max_context_tokens": 1313,
+        "context_tokens_p50": 1604,
+        "context_tokens_p95": 1604,
+        "lead_latency_p50_ms": 4425,
+        "lead_latency_p95_ms": 9555,
+        "context_compile_p50_ms": 59,
+        "context_compile_p95_ms": 152,
+        "tool_latency_p50_ms": 31,
+        "tool_latency_p95_ms": 228,
+        "core_overhead_estimate_ms": 2586,
+        "micro_model_invocations": 0,
+        "repair_attempts": 2,
+        "repair_successes": 2,
+        "full_retries": 0,
+        "structured_failures": 0,
+        "invalid_reference_count": 0,
+        "search_stall_count": 0,
+        "refine_search_calls": 3,
+        "successful_refinements": 0,
+        "refinement_validation_failures": 3,
+        "read_source_calls": 1,
+        "inspect_calls": 0,
+        "extract_calls": 0,
+        "reject_calls": 0,
+        "pending_batches_created": 1,
+        "consumed_batches": 0,
+        "superseded_batches": 0,
+        "rejected_plain_search_attempts": 0,
+        "strong_model_calls": 7,
+        "budget_failures": 0,
+        "elapsed_ms": 42016,
+        "audit": {
+          "passed": true,
+          "checked": 51,
+          "violations": []
+        },
+        "error": "validation: refinement reason is required",
+        "model": "local-test-lead-4b",
+        "provider_locality": "local",
+        "report_path": "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\crates\\rn-evals\\../..\\.runtime/post-retrieval-seeds\\eval-results\\long-horizon\\runs\\20261009T104357517\\branching-000664\\report.json"
+      },
+      "report_path": ".runtime\\post-retrieval-seeds\\eval-results\\long-horizon\\runs\\20261009T104357517\\branching-000664\\report.json",
+      "model_invocations": [
+        {
+          "id": "5fdf9d82-ff96-4096-9792-9a0c2c645011",
+          "run_id": "f2c2d755-3280-45b5-b748-527be62f8b50",
+          "work_node_id": "923d2986-c890-4bd3-949d-e07d73137200",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:43:15.613227900Z",
+          "latency_ms": 9000,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 428,
+            "output": 105
+          },
+          "metadata": {
+            "context_compile_ms": 24,
+            "failure_type": "truncated",
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "length",
+            "initial_output_length_bytes": 1141,
+            "input_tokens": 428,
+            "model": "local-test-lead-4b",
+            "output_tokens": 105,
+            "preflight_input_tokens": 1961,
+            "provider": "local-test-lead",
+            "structured_repair_attempted": true,
+            "structured_repair_succeeded": true
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":360,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"03338f84-e343-4103-8ae3-13d6a0788bdb\",\"type\":\"question\"},\"version\":1},\"text\":\"Which mechanism could explain outcome Y? (wording variation 664; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Study G: X correlates with Y through pathway Q.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study F: X correlates with Y through pathway P.\"}]",
+            "retrieval_query": "Use local search and source reads to assess branching. Make at least 20 meaningful persisted steps before finishing; create bounded atomic work nodes and use their required tools.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 1313,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "75d63b0b-f2b2-4ee5-b11a-8a6cbbc27380",
+          "run_id": "79409c61-6dbf-42c3-9c8f-1dd4e3b33e68",
+          "work_node_id": "923d2986-c890-4bd3-949d-e07d73137200",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:43:24.762257300Z",
+          "latency_ms": 9555,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 565,
+            "output": 155
+          },
+          "metadata": {
+            "context_compile_ms": 33,
+            "failure_type": "truncated",
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "length",
+            "initial_output_length_bytes": 1061,
+            "input_tokens": 565,
+            "model": "local-test-lead-4b",
+            "output_tokens": 155,
+            "preflight_input_tokens": 1988,
+            "provider": "local-test-lead",
+            "structured_repair_attempted": true,
+            "structured_repair_succeeded": true
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":360,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"03338f84-e343-4103-8ae3-13d6a0788bdb\",\"type\":\"question\"},\"version\":1},\"text\":\"Which mechanism could explain outcome Y? (wording variation 664; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Study G: X correlates with Y through pathway Q.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study F: X correlates with Y through pathway P.\"}]",
+            "retrieval_query": "Use local search and source reads to assess branching. Make at least 20 meaningful persisted steps before finishing; create bounded atomic work nodes and use their required tools.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"lexical_score\":1},{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"lexical_score\":1}]",
+            "estimated_tokens": 1313,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "bbe987fb-5460-462b-bb3c-d6ef4523ddda",
+          "run_id": "c47e0499-1542-461e-8c56-29b49502aeda",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:43:34.565151700Z",
+          "latency_ms": 3796,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2049,
+            "output": 77
+          },
+          "metadata": {
+            "context_compile_ms": 43,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 269,
+            "input_tokens": 2049,
+            "model": "local-test-lead-4b",
+            "output_tokens": 77,
+            "preflight_input_tokens": 2049,
+            "provider": "local-test-lead",
+            "search_query": "Study F: X correlates with Y through pathway P",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":360,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"03338f84-e343-4103-8ae3-13d6a0788bdb\",\"type\":\"question\"},\"version\":1},\"text\":\"Which mechanism could explain outcome Y? (wording variation 664; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study F: X correlates with Y through pathway P.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Study G: X correlates with Y through pathway Q.\"}]",
+            "retrieval_query": "Assess the correlation between X and Y through pathway P as described in Local paper 1 Study F.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"lexical_score\":8},{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"lexical_score\":7}]",
+            "estimated_tokens": 1229,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "724a1b8e-3f7e-4940-a334-ab542ae11303",
+          "run_id": "0e4f0b68-68d2-45d9-a144-51e2f4ccf6f5",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:43:39.523960800Z",
+          "latency_ms": 4425,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2311,
+            "output": 93
+          },
+          "metadata": {
+            "context_compile_ms": 152,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 358,
+            "input_tokens": 2311,
+            "model": "local-test-lead-4b",
+            "output_tokens": 93,
+            "preflight_input_tokens": 2311,
+            "provider": "local-test-lead",
+            "reason": "The current search results are insufficient to assess the correlation between X and Y through pathway P as described in Local paper 1 Study F.",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":360,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"03338f84-e343-4103-8ae3-13d6a0788bdb\",\"type\":\"question\"},\"version\":1},\"text\":\"Which mechanism could explain outcome Y? (wording variation 664; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study F: X correlates with Y through pathway P.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Study G: X correlates with Y through pathway Q.\"}]",
+            "retrieval_query": "Assess the correlation between X and Y through pathway P as described in Local paper 1 Study F.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"lexical_score\":8},{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"lexical_score\":7}]",
+            "estimated_tokens": 1604,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "668cfcef-8917-4dfe-ae42-8145bebe4abe",
+          "run_id": "572a4d61-dd37-402c-be00-db63b5704340",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:43:44.234182300Z",
+          "latency_ms": 5662,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2314,
+            "output": 199
+          },
+          "metadata": {
+            "context_compile_ms": 59,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 575,
+            "input_tokens": 2314,
+            "model": "local-test-lead-4b",
+            "output_tokens": 199,
+            "preflight_input_tokens": 2314,
+            "provider": "local-test-lead",
+            "reason": "The current task requires assessing the correlation between X and Y through pathway P as described in Local paper 1 Study F. The next step is to read the retrieved sources to extract relevant information.",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":360,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"03338f84-e343-4103-8ae3-13d6a0788bdb\",\"type\":\"question\"},\"version\":1},\"text\":\"Which mechanism could explain outcome Y? (wording variation 664; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study F: X correlates with Y through pathway P.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Study G: X correlates with Y through pathway Q.\"}]",
+            "retrieval_query": "Assess the correlation between X and Y through pathway P as described in Local paper 1 Study F.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"lexical_score\":8},{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"lexical_score\":7}]",
+            "estimated_tokens": 1604,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "f3f72992-1456-49c8-a876-1d734e1a1d05",
+          "run_id": "78f834d7-76d4-49f6-8db8-0ae3a3c9e975",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:43:50.207608500Z",
+          "latency_ms": 3557,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2317,
+            "output": 95
+          },
+          "metadata": {
+            "context_compile_ms": 65,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 358,
+            "input_tokens": 2317,
+            "model": "local-test-lead-4b",
+            "output_tokens": 95,
+            "preflight_input_tokens": 2317,
+            "provider": "local-test-lead",
+            "reason": "The current search results are insufficient to assess the correlation between X and Y through pathway P as described in Local paper 1 Study F.",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":360,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"03338f84-e343-4103-8ae3-13d6a0788bdb\",\"type\":\"question\"},\"version\":1},\"text\":\"Which mechanism could explain outcome Y? (wording variation 664; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study F: X correlates with Y through pathway P.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Study G: X correlates with Y through pathway Q.\"}]",
+            "retrieval_query": "Assess the correlation between X and Y through pathway P as described in Local paper 1 Study F.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"lexical_score\":8},{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"lexical_score\":7}]",
+            "estimated_tokens": 1604,
+            "budget_tokens": 4096
+          }
+        },
+        {
+          "id": "d2311c32-f97d-4d79-b41f-4b8eb98c9252",
+          "run_id": "f4953d3e-8ff4-4b6a-a683-79c93cdc360f",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "provider": "local-test-lead",
+          "model_label": "configured-local-test-lead",
+          "runtime": "openai-compatible-loopback",
+          "started_at": "2026-10-09T10:43:54.119144900Z",
+          "latency_ms": 3085,
+          "status": "succeeded",
+          "usage": {
+            "estimated": false,
+            "input": 2313,
+            "output": 78
+          },
+          "metadata": {
+            "context_compile_ms": 74,
+            "failure_type": null,
+            "finish_reason": "stop",
+            "full_retry_attempted": false,
+            "initial_finish_reason": "stop",
+            "initial_output_length_bytes": 268,
+            "input_tokens": 2313,
+            "model": "local-test-lead-4b",
+            "output_tokens": 78,
+            "preflight_input_tokens": 2313,
+            "provider": "local-test-lead",
+            "search_query": "Study F: X correlates with Y through pathway P",
+            "structured_repair_attempted": false,
+            "structured_repair_succeeded": false
+          },
+          "output_schema_marker": {
+            "schema_version": 1
+          },
+          "context_snapshot": {
+            "entries": "[{\"estimated_tokens\":360,\"pinned\":true,\"reference\":{\"entity\":{\"id\":\"03338f84-e343-4103-8ae3-13d6a0788bdb\",\"type\":\"question\"},\"version\":1},\"text\":\"Which mechanism could explain outcome Y? (wording variation 664; use only supplied evidence) At least twenty persisted, bounded decisions and observations are required.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 1 Study F: X correlates with Y through pathway P.\"},{\"estimated_tokens\":253,\"pinned\":false,\"reference\":{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"version\":1},\"text\":\"Local paper 2 Study G: X correlates with Y through pathway Q.\"}]",
+            "retrieval_query": "Assess the correlation between X and Y through pathway P as described in Local paper 1 Study F.",
+            "retrieval_candidate_count": 3,
+            "retrieval_selected": "[{\"entity\":{\"id\":\"d260dfe7-92bf-4c6e-9833-2404e124305a\",\"type\":\"paper\"},\"lexical_score\":8},{\"entity\":{\"id\":\"763165bf-523e-4f1f-b5b9-3cdbfc8dcb4b\",\"type\":\"paper\"},\"lexical_score\":7}]",
+            "estimated_tokens": 1604,
+            "budget_tokens": 4096
+          }
+        }
+      ],
+      "tool_invocations": [
+        {
+          "id": "1ba912ce-721e-4696-a56a-5fdf55830b4d",
+          "run_id": "c47e0499-1542-461e-8c56-29b49502aeda",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "tool": "search_sources",
+          "status": "succeeded",
+          "error_code": null,
+          "started_at": "2026-10-09T10:43:38.585765300Z",
+          "artifacts": [
+            {
+              "id": "024744a7-96e3-466f-b046-bacdf92f60f1",
+              "name": "tool input",
+              "path": "data/tool-input-1ba912ce-721e-4696-a56a-5fdf55830b4d.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "query": "Study F: X correlates with Y through pathway P"
+                }
+              }
+            },
+            {
+              "id": "48fda3fc-56a8-4d53-bcf3-8e6a97fc450e",
+              "name": "tool output",
+              "path": "data/tool-output-1ba912ce-721e-4696-a56a-5fdf55830b4d.json",
+              "artifact_kind": "output",
+              "metadata": "{\"schema_version\":1,\"tool_output_metadata\":{\"count\":3,\"retrieval\":\"sqlite-fts-bm25\",\"retrieval_batch\":{\"query\":\"Study F: X correlates with Y through pathway P\",\"returned\":[{\"handle\":\"S1\",\"source_id\":\"c62f5918-724f-4125-af61-a2bd04ca50d9\"},{\"handle\":\"S2\",\"source_id\":\"fa46e710-6168-483a-9edf-8448e79d6cf1\"}],\"search_invocation_id\":\"1ba912ce-721e-4696-a56a-5fdf55830b4d\"},\"semantic_fingerprint\":\"correlates f p pathway study through with x y\"}}",
+              "content": {
+                "schema_version": 1,
+                "data": {
+                  "observation": {
+                    "pending_results": true,
+                    "query": "Study F: X correlates with Y through pathway P",
+                    "searches_without_consumption": 1,
+                    "sources": [
+                      {
+                        "handle": "S1",
+                        "source_id": "c62f5918-724f-4125-af61-a2bd04ca50d9",
+                        "title": "Local source 1"
+                      },
+                      {
+                        "handle": "S2",
+                        "source_id": "fa46e710-6168-483a-9edf-8448e79d6cf1",
+                        "title": "Local source 2"
+                      }
+                    ]
+                  }
+                },
+                "metadata": {
+                  "count": 3,
+                  "retrieval": "sqlite-fts-bm25",
+                  "retrieval_batch": {
+                    "query": "Study F: X correlates with Y through pathway P",
+                    "returned": [
+                      {
+                        "handle": "S1",
+                        "source_id": "c62f5918-724f-4125-af61-a2bd04ca50d9"
+                      },
+                      {
+                        "handle": "S2",
+                        "source_id": "fa46e710-6168-483a-9edf-8448e79d6cf1"
+                      }
+                    ],
+                    "search_invocation_id": "1ba912ce-721e-4696-a56a-5fdf55830b4d"
+                  },
+                  "semantic_fingerprint": "correlates f p pathway study through with x y"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b1b8746b-8e66-4c77-b778-b3529eecc83e",
+          "run_id": "0e4f0b68-68d2-45d9-a144-51e2f4ccf6f5",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "tool": "refine_search",
+          "status": "failed",
+          "error_code": "validation_error",
+          "started_at": "2026-10-09T10:43:43.996955300Z",
+          "artifacts": [
+            {
+              "id": "775ee1db-2206-4595-83c6-be2242242e5b",
+              "name": "tool input",
+              "path": "data/tool-input-b1b8746b-8e66-4c77-b778-b3529eecc83e.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "previous_search_id": "1ba912ce-721e-4696-a56a-5fdf55830b4d",
+                  "query": "Study F: X correlates with Y through pathway P"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "d308a58c-5a90-4585-959a-fcd6ff65a727",
+          "run_id": "572a4d61-dd37-402c-be00-db63b5704340",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "tool": "read_source",
+          "status": "failed",
+          "error_code": "validation_error",
+          "started_at": "2026-10-09T10:43:49.947519700Z",
+          "artifacts": [
+            {
+              "id": "c9bd1dfc-7c42-4902-9ec2-14fa7f7960cc",
+              "name": "tool input",
+              "path": "data/tool-input-d308a58c-5a90-4585-959a-fcd6ff65a727.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "query": "Study F: X correlates with Y through pathway P",
+                  "sources": [
+                    {
+                      "handle": "S1",
+                      "source_id": "c62f5918-724f-4125-af61-a2bd04ca50d9"
+                    },
+                    {
+                      "handle": "S2",
+                      "source_id": "fa46e710-6168-483a-9edf-8448e79d6cf1"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "0efa5104-c5e5-45d1-ad25-1043d0c55a6f",
+          "run_id": "78f834d7-76d4-49f6-8db8-0ae3a3c9e975",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "tool": "refine_search",
+          "status": "failed",
+          "error_code": "validation_error",
+          "started_at": "2026-10-09T10:43:53.822010900Z",
+          "artifacts": [
+            {
+              "id": "2ec663e9-fa33-436e-8313-2caa4605a17b",
+              "name": "tool input",
+              "path": "data/tool-input-0efa5104-c5e5-45d1-ad25-1043d0c55a6f.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "previous_search_id": "1ba912ce-721e-4696-a56a-5fdf55830b4d",
+                  "query": "Study F: X correlates with Y through pathway P"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "2280adb6-c0c0-47ad-ac5f-98460f105073",
+          "run_id": "f4953d3e-8ff4-4b6a-a683-79c93cdc360f",
+          "work_node_id": "834fdf6d-2bff-414c-95e6-cb59ade35075",
+          "tool": "refine_search",
+          "status": "failed",
+          "error_code": "validation_error",
+          "started_at": "2026-10-09T10:43:57.268160500Z",
+          "artifacts": [
+            {
+              "id": "106f0653-73d5-4af1-aacd-4d61e39c0030",
+              "name": "tool input",
+              "path": "data/tool-input-2280adb6-c0c0-47ad-ac5f-98460f105073.json",
+              "artifact_kind": "document",
+              "metadata": "{\"schema_version\":1}",
+              "content": {
+                "schema_version": 1,
+                "parameters": {
+                  "previous_search_id": "1ba912ce-721e-4696-a56a-5fdf55830b4d",
+                  "query": "Study F: X correlates with Y through pathway P"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "id": "8194c9e5-5ec7-49f7-9aa7-e93b55f3d577",
+          "name": "main",
+          "parent_branch_id": null,
+          "base_checkpoint_id": null,
+          "head_revision_id": "5e86c517-4bf2-4e25-abfe-b44f79a8d61b"
+        },
+        {
+          "id": "83ac4b71-b0a1-4d96-979c-e8cf24ee5772",
+          "name": "Branch Analysis of Pathway Q",
+          "parent_branch_id": "8194c9e5-5ec7-49f7-9aa7-e93b55f3d577",
+          "base_checkpoint_id": "4167ff3c-bdb1-4d18-9586-8936a098b4ac",
+          "head_revision_id": "fea6ffe0-6141-461c-ac91-2904420184f1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "source": ".rn/state.sqlite",
+    "copy": ".runtime\\anix-storage-compatibility\\application\\.rn\\state.sqlite",
+    "status": "PASS",
+    "logical_sha256_before": "dbb00ef718cfc093300192f5f34e93676b22976bddf44218ce01fd94b9fae0df",
+    "logical_sha256_after": "dbb00ef718cfc093300192f5f34e93676b22976bddf44218ce01fd94b9fae0df",
+    "migration_checksums": [
+      [
+        1,
+        "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426"
+      ],
+      [
+        2,
+        "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb"
+      ],
+      [
+        3,
+        "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96"
+      ],
+      [
+        4,
+        "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f"
+      ]
+    ],
+    "table_counts": {
+      "schema_migrations": 4,
+      "projects": 207,
+      "entity_registry": 3112,
+      "research_questions": 207,
+      "sources": 807,
+      "papers": 807,
+      "paper_authors": 807,
+      "paper_sources": 807,
+      "claims": 285,
+      "hypotheses": 92,
+      "experiments": 12,
+      "tasks": 1741,
+      "runs": 1741,
+      "artifacts": 896,
+      "experiment_runs": 6,
+      "experiment_run_artifacts": 0,
+      "findings": 0,
+      "relations": 285,
+      "gates": 89,
+      "action_receipts": 395,
+      "domain_events": 32172,
+      "provenance_records": 32172,
+      "work_nodes": 680,
+      "work_edges": 448,
+      "plan_revisions": 3177,
+      "branches": 232,
+      "checkpoints": 5749,
+      "context_snapshots": 1528,
+      "process_memories": 865,
+      "execution_bindings": 1647,
+      "model_invocations": 1434,
+      "tool_invocations": 459,
+      "candidate_claims": 0,
+      "research_fts": 1299,
+      "research_fts_data": 57,
+      "research_fts_idx": 54,
+      "research_fts_content": 1299,
+      "research_fts_docsize": 1299,
+      "research_fts_config": 1,
+      "human_control": 6
+    },
+    "projects": 207,
+    "inspected": [
+      {
+        "project": "af439477-26c3-4c57-8d17-98e0d7a8dcb8",
+        "records": {
+          "bindings": 1,
+          "branches": 1,
+          "checkpoints": 6,
+          "edges": 0,
+          "model_invocations": 0,
+          "nodes": 1,
+          "revisions": 4,
+          "snapshots": 1,
+          "tool_invocations": 0
+        }
+      }
+    ],
+    "final_binary_reopen": "PASS",
+    "final_binary_sha256": "40a63a1f42d3c1ccbf9731ec5163f20b6559a5d0ccad1f6a2df5b5c54558dcf4"
+  },
+  {
+    "source": ".runtime/post-retrieval-runtimebound-seeds/.rn/state.sqlite",
+    "copy": ".runtime\\anix-storage-compatibility\\historical-runtime\\.rn\\state.sqlite",
+    "status": "PASS",
+    "logical_sha256_before": "badf514a796bd94b977e5283497eae215ce0eb779da90191e621c968d3f715bf",
+    "logical_sha256_after": "badf514a796bd94b977e5283497eae215ce0eb779da90191e621c968d3f715bf",
+    "migration_checksums": [
+      [
+        1,
+        "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426"
+      ],
+      [
+        2,
+        "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb"
+      ],
+      [
+        3,
+        "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96"
+      ],
+      [
+        4,
+        "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f"
+      ]
+    ],
+    "table_counts": {
+      "schema_migrations": 4,
+      "projects": 2,
+      "entity_registry": 54,
+      "research_questions": 2,
+      "sources": 20,
+      "papers": 20,
+      "paper_authors": 20,
+      "paper_sources": 20,
+      "claims": 0,
+      "hypotheses": 0,
+      "experiments": 0,
+      "tasks": 13,
+      "runs": 13,
+      "artifacts": 12,
+      "experiment_runs": 0,
+      "experiment_run_artifacts": 0,
+      "findings": 0,
+      "relations": 0,
+      "gates": 0,
+      "action_receipts": 0,
+      "domain_events": 266,
+      "provenance_records": 266,
+      "work_nodes": 5,
+      "work_edges": 2,
+      "plan_revisions": 19,
+      "branches": 3,
+      "checkpoints": 42,
+      "context_snapshots": 11,
+      "process_memories": 3,
+      "execution_bindings": 13,
+      "model_invocations": 11,
+      "tool_invocations": 8,
+      "candidate_claims": 0,
+      "research_fts": 22,
+      "research_fts_data": 10,
+      "research_fts_idx": 8,
+      "research_fts_content": 22,
+      "research_fts_docsize": 22,
+      "research_fts_config": 1,
+      "human_control": 2
+    },
+    "projects": 2,
+    "inspected": [
+      {
+        "project": "710e0c89-8661-42c7-af1e-98f79f5f1d3e",
+        "records": {
+          "bindings": 5,
+          "branches": 1,
+          "checkpoints": 19,
+          "edges": 1,
+          "model_invocations": 4,
+          "nodes": 2,
+          "revisions": 9,
+          "snapshots": 4,
+          "tool_invocations": 3
+        }
+      },
+      {
+        "project": "a5f25796-cf3b-417d-a509-fcf4e7feeae0",
+        "records": {
+          "bindings": 8,
+          "branches": 2,
+          "checkpoints": 23,
+          "edges": 1,
+          "model_invocations": 7,
+          "nodes": 3,
+          "revisions": 10,
+          "snapshots": 7,
+          "tool_invocations": 5
+        }
+      }
+    ],
+    "final_binary_reopen": "PASS",
+    "final_binary_sha256": "40a63a1f42d3c1ccbf9731ec5163f20b6559a5d0ccad1f6a2df5b5c54558dcf4"
+  }
+]

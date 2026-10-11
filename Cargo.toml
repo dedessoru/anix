@@ -1,0 +1,27 @@
+[workspace]
+members = ["crates/anix-domain", "crates/anix-core", "crates/anix-storage", "crates/anix-agent", "crates/anix-integrations", "crates/anix-evals", "crates/anix-cli"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+anix-domain = { path = "crates/anix-domain" }
+anix-core = { path = "crates/anix-core" }
+anix-storage = { path = "crates/anix-storage" }
+anix-agent = { path = "crates/anix-agent" }
+anix-integrations = { path = "crates/anix-integrations" }
+anix-evals = { path = "crates/anix-evals" }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "2"
+rusqlite = { version = "0.32", features = ["bundled"] }
+sha2 = "0.10"
+clap = { version = "4", features = ["derive"] }
+tempfile = "3"
+futures = "0.3"
+toml = "0.8"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }

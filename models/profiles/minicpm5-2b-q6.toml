@@ -1,0 +1,14 @@
+schema_version = 1
+logical_name = "minicpm5-2b-micro-q6-k"
+repository = "bartowski/MiniCPM5-2B-GGUF"
+revision = "31fee0334c4ed9f1e079afe586ba30cb83e0f883"
+filename = "MiniCPM5-2B-Q6_K.gguf"
+directory = "minicpm5-2b"
+size = 2107305184
+sha256 = "c9f424852aa737b3f5f2f83096a6214d86a8ea2516f3a0fbaa04a3b4feba477d"
+license = "Apache-2.0"
+runtime = "llama.cpp"
+family = "MiniCPM5"
+parameters = "2.5B"
+quantization = "Q6_K"
+url = "https://huggingface.co/bartowski/MiniCPM5-2B-GGUF/resolve/31fee0334c4ed9f1e079afe586ba30cb83e0f883/MiniCPM5-2B-Q6_K.gguf"

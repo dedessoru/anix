@@ -1,0 +1,11 @@
+[package]
+name = "anix-core"
+version.workspace = true
+edition.workspace = true
+description = "ANIX transactional application API and research runtime"
+
+[dependencies]
+anix-domain.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true

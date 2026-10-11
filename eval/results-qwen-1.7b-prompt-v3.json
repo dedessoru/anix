@@ -1,0 +1,1762 @@
+{
+  "cold_load_ms": 1536,
+  "counts": {
+    "CandidateExtraction": [
+      20,
+      20,
+      20
+    ],
+    "Classification": [
+      25,
+      24,
+      25
+    ],
+    "ContextCompression": [
+      10,
+      10,
+      10
+    ],
+    "QueryRewrite": [
+      15,
+      15,
+      15
+    ],
+    "ShortSummary": [
+      15,
+      15,
+      15
+    ],
+    "Tagging": [
+      15,
+      15,
+      15
+    ]
+  },
+  "fixture_version": "micro-v1",
+  "latency_p50_ms": 2184,
+  "latency_p95_ms": 10389,
+  "manifest": {
+    "directory": "qwen3-1.7b",
+    "family": "Qwen3",
+    "filename": "Qwen3-1.7B-Q8_0.gguf",
+    "license": "Apache-2.0",
+    "logical_name": "qwen-comparison-1.7b",
+    "parameters": "1.7B",
+    "quantization": "Q8_0",
+    "repository": "Qwen/Qwen3-1.7B-GGUF",
+    "revision": "90862c4b9d2787eaed51d12237eafdfe7c5f6077",
+    "runtime": "llama.cpp",
+    "schema_version": 1,
+    "sha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+    "size": 1834426016,
+    "url": "https://huggingface.co/Qwen/Qwen3-1.7B-GGUF/resolve/90862c4b9d2787eaed51d12237eafdfe7c5f6077/Qwen3-1.7B-Q8_0.gguf"
+  },
+  "measurements": [
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-001",
+      "input_tokens": 80,
+      "latency_ms": 1573,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-002",
+      "input_tokens": 81,
+      "latency_ms": 793,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-003",
+      "input_tokens": 80,
+      "latency_ms": 970,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 7,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-004",
+      "input_tokens": 80,
+      "latency_ms": 864,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-005",
+      "input_tokens": 82,
+      "latency_ms": 887,
+      "output": {
+        "label": "mathematics"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-006",
+      "input_tokens": 80,
+      "latency_ms": 814,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-007",
+      "input_tokens": 81,
+      "latency_ms": 802,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-008",
+      "input_tokens": 80,
+      "latency_ms": 863,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-009",
+      "input_tokens": 80,
+      "latency_ms": 838,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-010",
+      "input_tokens": 83,
+      "latency_ms": 870,
+      "output": {
+        "label": "mathematics"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-011",
+      "input_tokens": 81,
+      "latency_ms": 766,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-012",
+      "input_tokens": 82,
+      "latency_ms": 774,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-013",
+      "input_tokens": 81,
+      "latency_ms": 850,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-014",
+      "input_tokens": 81,
+      "latency_ms": 809,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-015",
+      "input_tokens": 83,
+      "latency_ms": 865,
+      "output": {
+        "label": "mathematics"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-016",
+      "input_tokens": 81,
+      "latency_ms": 741,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-017",
+      "input_tokens": 82,
+      "latency_ms": 775,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-018",
+      "input_tokens": 81,
+      "latency_ms": 839,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-019",
+      "input_tokens": 81,
+      "latency_ms": 811,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-020",
+      "input_tokens": 83,
+      "latency_ms": 828,
+      "output": {
+        "label": "mathematics"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-021",
+      "input_tokens": 81,
+      "latency_ms": 745,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-022",
+      "input_tokens": 82,
+      "latency_ms": 764,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-023",
+      "input_tokens": 81,
+      "latency_ms": 839,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-024",
+      "input_tokens": 81,
+      "latency_ms": 796,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-025",
+      "input_tokens": 83,
+      "latency_ms": 842,
+      "output": {
+        "label": "mathematics"
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-026",
+      "input_tokens": 92,
+      "latency_ms": 2734,
+      "output": {
+        "query": "Find papers about BRCA1 measurement in 2024."
+      },
+      "output_tokens": 19,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-027",
+      "input_tokens": 89,
+      "latency_ms": 1916,
+      "output": {
+        "query": "Find papers about graphene measurement in 2024."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-028",
+      "input_tokens": 88,
+      "latency_ms": 1968,
+      "output": {
+        "query": "Find papers about SQLite measurement in 2024."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-029",
+      "input_tokens": 92,
+      "latency_ms": 2353,
+      "output": {
+        "query": "Find papers about CRISPR measurement in 2024."
+      },
+      "output_tokens": 19,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-030",
+      "input_tokens": 90,
+      "latency_ms": 2037,
+      "output": {
+        "query": "Find papers about photosynthesis measurement in 2024."
+      },
+      "output_tokens": 18,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-031",
+      "input_tokens": 92,
+      "latency_ms": 2537,
+      "output": {
+        "query": "Find papers about BRCA1 comparison in 2024."
+      },
+      "output_tokens": 19,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-032",
+      "input_tokens": 89,
+      "latency_ms": 2141,
+      "output": {
+        "query": "Find papers about graphene comparison in 2024."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-033",
+      "input_tokens": 88,
+      "latency_ms": 2062,
+      "output": {
+        "query": "Find papers about SQLite comparison in 2024."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-034",
+      "input_tokens": 92,
+      "latency_ms": 2300,
+      "output": {
+        "query": "Find papers about CRISPR comparison in 2024."
+      },
+      "output_tokens": 19,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-035",
+      "input_tokens": 90,
+      "latency_ms": 2007,
+      "output": {
+        "query": "Find papers about photosynthesis comparison in 2024."
+      },
+      "output_tokens": 18,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-036",
+      "input_tokens": 92,
+      "latency_ms": 2081,
+      "output": {
+        "query": "Find papers about BRCA1 limitations in 2024."
+      },
+      "output_tokens": 19,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-037",
+      "input_tokens": 89,
+      "latency_ms": 1783,
+      "output": {
+        "query": "Find papers about graphene limitations in 2024."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-038",
+      "input_tokens": 88,
+      "latency_ms": 1760,
+      "output": {
+        "query": "Find papers about SQLite limitations in 2024."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-039",
+      "input_tokens": 92,
+      "latency_ms": 2071,
+      "output": {
+        "query": "Find papers about CRISPR limitations in 2024."
+      },
+      "output_tokens": 19,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-040",
+      "input_tokens": 90,
+      "latency_ms": 1862,
+      "output": {
+        "query": "Find papers about photosynthesis limitations in 2024."
+      },
+      "output_tokens": 18,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-041",
+      "input_tokens": 130,
+      "latency_ms": 10083,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 1 included 30 participants.",
+            "text": "Trial 1 included 30 participants."
+          },
+          {
+            "source_quote": "The observation period was 7 days.",
+            "text": "The observation period was 7 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 105,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-042",
+      "input_tokens": 130,
+      "latency_ms": 9160,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 2 included 31 participants.",
+            "text": "Trial 2 included 31 participants."
+          },
+          {
+            "source_quote": "The observation period was 8 days.",
+            "text": "The observation period was 8 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 105,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-043",
+      "input_tokens": 130,
+      "latency_ms": 8692,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 3 included 32 participants.",
+            "text": "Trial 3 included 32 participants."
+          },
+          {
+            "source_quote": "The observation period was 9 days.",
+            "text": "The observation period was 9 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 105,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-044",
+      "input_tokens": 131,
+      "latency_ms": 9005,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 4 included 33 participants.",
+            "text": "Trial 4 included 33 participants."
+          },
+          {
+            "source_quote": "The observation period was 10 days.",
+            "text": "The observation period was 10 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 107,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-045",
+      "input_tokens": 131,
+      "latency_ms": 9571,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 5 included 34 participants.",
+            "text": "Trial 5 included 34 participants."
+          },
+          {
+            "source_quote": "The observation period was 11 days.",
+            "text": "The observation period was 11 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 107,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-046",
+      "input_tokens": 131,
+      "latency_ms": 8895,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 6 included 35 participants.",
+            "text": "Trial 6 included 35 participants."
+          },
+          {
+            "source_quote": "The observation period was 12 days.",
+            "text": "The observation period was 12 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 107,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-047",
+      "input_tokens": 131,
+      "latency_ms": 9106,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 7 included 36 participants.",
+            "text": "Trial 7 included 36 participants."
+          },
+          {
+            "source_quote": "The observation period was 13 days.",
+            "text": "The observation period was 13 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 107,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-048",
+      "input_tokens": 131,
+      "latency_ms": 10181,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 8 included 37 participants.",
+            "text": "Trial 8 included 37 participants."
+          },
+          {
+            "source_quote": "The observation period was 14 days.",
+            "text": "The observation period was 14 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 107,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-049",
+      "input_tokens": 131,
+      "latency_ms": 9638,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 9 included 38 participants.",
+            "text": "Trial 9 included 38 participants."
+          },
+          {
+            "source_quote": "The observation period was 15 days.",
+            "text": "The observation period was 15 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 107,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-050",
+      "input_tokens": 132,
+      "latency_ms": 9595,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 10 included 39 participants.",
+            "text": "Trial 10 included 39 participants."
+          },
+          {
+            "source_quote": "The observation period was 16 days.",
+            "text": "The observation period was 16 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-051",
+      "input_tokens": 132,
+      "latency_ms": 11100,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 11 included 40 participants.",
+            "text": "Trial 11 included 40 participants."
+          },
+          {
+            "source_quote": "The observation period was 17 days.",
+            "text": "The observation period was 17 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-052",
+      "input_tokens": 132,
+      "latency_ms": 10124,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 12 included 41 participants.",
+            "text": "Trial 12 included 41 participants."
+          },
+          {
+            "source_quote": "The observation period was 18 days.",
+            "text": "The observation period was 18 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-053",
+      "input_tokens": 132,
+      "latency_ms": 12740,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 13 included 42 participants.",
+            "text": "Trial 13 included 42 participants."
+          },
+          {
+            "source_quote": "The observation period was 19 days.",
+            "text": "The observation period was 19 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-054",
+      "input_tokens": 132,
+      "latency_ms": 10915,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 14 included 43 participants.",
+            "text": "Trial 14 included 43 participants."
+          },
+          {
+            "source_quote": "The observation period was 20 days.",
+            "text": "The observation period was 20 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-055",
+      "input_tokens": 132,
+      "latency_ms": 10389,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 15 included 44 participants.",
+            "text": "Trial 15 included 44 participants."
+          },
+          {
+            "source_quote": "The observation period was 21 days.",
+            "text": "The observation period was 21 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 110,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-056",
+      "input_tokens": 132,
+      "latency_ms": 14841,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 16 included 45 participants.",
+            "text": "Trial 16 included 45 participants."
+          },
+          {
+            "source_quote": "The observation period was 22 days.",
+            "text": "The observation period was 22 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-057",
+      "input_tokens": 132,
+      "latency_ms": 9121,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 17 included 46 participants.",
+            "text": "Trial 17 included 46 participants."
+          },
+          {
+            "source_quote": "The observation period was 23 days.",
+            "text": "The observation period was 23 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-058",
+      "input_tokens": 132,
+      "latency_ms": 9253,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 18 included 47 participants.",
+            "text": "Trial 18 included 47 participants."
+          },
+          {
+            "source_quote": "The observation period was 24 days.",
+            "text": "The observation period was 24 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-059",
+      "input_tokens": 132,
+      "latency_ms": 9243,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 19 included 48 participants.",
+            "text": "Trial 19 included 48 participants."
+          },
+          {
+            "source_quote": "The observation period was 25 days.",
+            "text": "The observation period was 25 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-060",
+      "input_tokens": 132,
+      "latency_ms": 9360,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 20 included 49 participants.",
+            "text": "Trial 20 included 49 participants."
+          },
+          {
+            "source_quote": "The observation period was 26 days.",
+            "text": "The observation period was 26 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 109,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-061",
+      "input_tokens": 138,
+      "latency_ms": 2325,
+      "output": {
+        "tags": [
+          "biology"
+        ]
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-062",
+      "input_tokens": 139,
+      "latency_ms": 692,
+      "output": {
+        "tags": [
+          "physics"
+        ]
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-063",
+      "input_tokens": 138,
+      "latency_ms": 746,
+      "output": {
+        "tags": [
+          "chemistry"
+        ]
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-064",
+      "input_tokens": 138,
+      "latency_ms": 738,
+      "output": {
+        "tags": [
+          "computing"
+        ]
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-065",
+      "input_tokens": 140,
+      "latency_ms": 861,
+      "output": {
+        "tags": [
+          "mathematics"
+        ]
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-066",
+      "input_tokens": 138,
+      "latency_ms": 751,
+      "output": {
+        "tags": [
+          "biology"
+        ]
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-067",
+      "input_tokens": 139,
+      "latency_ms": 685,
+      "output": {
+        "tags": [
+          "physics"
+        ]
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-068",
+      "input_tokens": 138,
+      "latency_ms": 737,
+      "output": {
+        "tags": [
+          "chemistry"
+        ]
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-069",
+      "input_tokens": 138,
+      "latency_ms": 747,
+      "output": {
+        "tags": [
+          "computing"
+        ]
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-070",
+      "input_tokens": 140,
+      "latency_ms": 909,
+      "output": {
+        "tags": [
+          "mathematics"
+        ]
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-071",
+      "input_tokens": 138,
+      "latency_ms": 788,
+      "output": {
+        "tags": [
+          "biology"
+        ]
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-072",
+      "input_tokens": 139,
+      "latency_ms": 733,
+      "output": {
+        "tags": [
+          "physics"
+        ]
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-073",
+      "input_tokens": 138,
+      "latency_ms": 751,
+      "output": {
+        "tags": [
+          "chemistry"
+        ]
+      },
+      "output_tokens": 6,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-074",
+      "input_tokens": 138,
+      "latency_ms": 758,
+      "output": {
+        "tags": [
+          "computing"
+        ]
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-075",
+      "input_tokens": 140,
+      "latency_ms": 854,
+      "output": {
+        "tags": [
+          "mathematics"
+        ]
+      },
+      "output_tokens": 7,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-076",
+      "input_tokens": 126,
+      "latency_ms": 4509,
+      "output": {
+        "summary": "Project Alpha0 analysed 40 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-077",
+      "input_tokens": 126,
+      "latency_ms": 3794,
+      "output": {
+        "summary": "Project Alpha1 analysed 41 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-078",
+      "input_tokens": 126,
+      "latency_ms": 3725,
+      "output": {
+        "summary": "Project Alpha2 analysed 42 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-079",
+      "input_tokens": 126,
+      "latency_ms": 3685,
+      "output": {
+        "summary": "Project Alpha3 analysed 43 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-080",
+      "input_tokens": 126,
+      "latency_ms": 3655,
+      "output": {
+        "summary": "Project Alpha4 analysed 44 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-081",
+      "input_tokens": 126,
+      "latency_ms": 3813,
+      "output": {
+        "summary": "Project Alpha5 analysed 45 samples. Researchers described the data twice but provided no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-082",
+      "input_tokens": 126,
+      "latency_ms": 4263,
+      "output": {
+        "summary": "Project Alpha6 analysed 46 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-083",
+      "input_tokens": 126,
+      "latency_ms": 3814,
+      "output": {
+        "summary": "Project Alpha7 analysed 47 samples. Researchers described the data twice but provided no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-084",
+      "input_tokens": 126,
+      "latency_ms": 3656,
+      "output": {
+        "summary": "Project Alpha8 analysed 48 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-085",
+      "input_tokens": 126,
+      "latency_ms": 3956,
+      "output": {
+        "summary": "Project Alpha9 analysed 49 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 37,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-086",
+      "input_tokens": 128,
+      "latency_ms": 3775,
+      "output": {
+        "summary": "Project Alpha10 analysed 50 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 38,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-087",
+      "input_tokens": 128,
+      "latency_ms": 3727,
+      "output": {
+        "summary": "Project Alpha11 analysed 51 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 38,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-088",
+      "input_tokens": 128,
+      "latency_ms": 3745,
+      "output": {
+        "summary": "Project Alpha12 analysed 52 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 38,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-089",
+      "input_tokens": 128,
+      "latency_ms": 3767,
+      "output": {
+        "summary": "Project Alpha13 analysed 53 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 38,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-090",
+      "input_tokens": 128,
+      "latency_ms": 3992,
+      "output": {
+        "summary": "Project Alpha14 analysed 54 samples. Researchers described the data twice but made no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 38,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-091",
+      "input_tokens": 183,
+      "latency_ms": 3664,
+      "output": {
+        "context": "Dataset D0: 100 rows; preliminary."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-092",
+      "input_tokens": 183,
+      "latency_ms": 2419,
+      "output": {
+        "context": "Dataset D1: 101 rows; preliminary."
+      },
+      "output_tokens": 20,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-093",
+      "input_tokens": 183,
+      "latency_ms": 2245,
+      "output": {
+        "context": "Dataset D2: 102 rows; preliminary."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-094",
+      "input_tokens": 183,
+      "latency_ms": 2427,
+      "output": {
+        "context": "Dataset D3: 103 rows; preliminary."
+      },
+      "output_tokens": 20,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-095",
+      "input_tokens": 183,
+      "latency_ms": 2272,
+      "output": {
+        "context": "Dataset D4: 104 rows; preliminary."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-096",
+      "input_tokens": 183,
+      "latency_ms": 2421,
+      "output": {
+        "context": "Dataset D5: 105 rows; preliminary."
+      },
+      "output_tokens": 20,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-097",
+      "input_tokens": 183,
+      "latency_ms": 2189,
+      "output": {
+        "context": "Dataset D6: 106 rows; preliminary."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-098",
+      "input_tokens": 183,
+      "latency_ms": 2184,
+      "output": {
+        "context": "Dataset D7: 107 rows; preliminary."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-099",
+      "input_tokens": 183,
+      "latency_ms": 2314,
+      "output": {
+        "context": "Dataset D8: 108 rows; preliminary."
+      },
+      "output_tokens": 17,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "error": null,
+      "id": "micro-v1-100",
+      "input_tokens": 183,
+      "latency_ms": 2787,
+      "output": {
+        "context": "Dataset D9: 109 rows; preliminary."
+      },
+      "output_tokens": 20,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    }
+  ],
+  "memory_after_eval": {
+    "PeakWorkingSet64": 3229949952,
+    "PrivateMemorySize64": 1484713984,
+    "WorkingSet64": 3229949952
+  },
+  "memory_after_load": {
+    "PeakWorkingSet64": 2373607424,
+    "PrivateMemorySize64": 647565312,
+    "WorkingSet64": 2373607424
+  },
+  "model_path": ".\\models\\qwen3-1.7b\\Qwen3-1.7B-Q8_0.gguf",
+  "os": "windows",
+  "pid": 20388,
+  "prompt_version": "micro-v3",
+  "runtime": "llama.cpp/b11307 CPU",
+  "sample_count": 100
+}

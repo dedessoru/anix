@@ -1,0 +1,3140 @@
+{
+  "cold_load_ms": 1428,
+  "context_tokens": 4096,
+  "counts": {
+    "CandidateExtraction": [
+      30,
+      24,
+      24
+    ],
+    "Classification": [
+      25,
+      21,
+      25
+    ],
+    "ContextCompression": [
+      20,
+      20,
+      20
+    ],
+    "QueryRewrite": [
+      25,
+      25,
+      25
+    ],
+    "ShortSummary": [
+      20,
+      19,
+      20
+    ],
+    "Tagging": [
+      20,
+      1,
+      20
+    ]
+  },
+  "decode_timing_samples": 134,
+  "decode_tokens_per_second_mean": 11.73820649812529,
+  "fixture_path": "eval\\real-micro-eval.jsonl",
+  "fixture_version": "real-micro-eval",
+  "latency_p50_ms": 2298,
+  "latency_p95_ms": 36665,
+  "manifest": {
+    "directory": "minicpm5-2b",
+    "family": "MiniCPM5",
+    "filename": "MiniCPM5-2B-Q8_0.gguf",
+    "license": "Apache-2.0",
+    "logical_name": "minicpm5-2b-micro-q8-0",
+    "parameters": "2.5B",
+    "quantization": "Q8_0",
+    "repository": "bartowski/MiniCPM5-2B-GGUF",
+    "revision": "31fee0334c4ed9f1e079afe586ba30cb83e0f883",
+    "runtime": "llama.cpp",
+    "schema_version": 1,
+    "sha256": "a62c4b475bb5998391d520d29f2617dbdc197a46b9dcca9ca693a96bfdde5b51",
+    "size": 2679712992,
+    "url": "https://huggingface.co/bartowski/MiniCPM5-2B-GGUF/resolve/31fee0334c4ed9f1e079afe586ba30cb83e0f883/MiniCPM5-2B-Q8_0.gguf"
+  },
+  "measurements": [
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.26608891235944,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-001",
+      "input_tokens": 87,
+      "latency_ms": 3154,
+      "output": {
+        "query": "Find randomized trials of aerobic exercise and systolic pressure in adults with hypertension."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 54.34881066685991,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.219655379992693,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-002",
+      "input_tokens": 87,
+      "latency_ms": 2053,
+      "output": {
+        "query": "Compare lithium iron phosphate with nickel manganese cobalt cells after 500 cycles."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 48.6623924865266,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.156584097121382,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-003",
+      "input_tokens": 88,
+      "latency_ms": 2141,
+      "output": {
+        "query": "Measure CRISPR-Cas9 off-target edits in primary human T cells."
+      },
+      "output_tokens": 20,
+      "prefill_tokens_per_second": 50.82788458410592,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.069342395174408,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-004",
+      "input_tokens": 86,
+      "latency_ms": 1981,
+      "output": {
+        "query": "Find meta-analyses of sleep duration and insulin resistance in adolescents."
+      },
+      "output_tokens": 18,
+      "prefill_tokens_per_second": 47.392974300644546,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.305664502464893,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-005",
+      "input_tokens": 86,
+      "latency_ms": 1923,
+      "output": {
+        "query": "Field studies of drought stress and maize yield under rain-fed conditions."
+      },
+      "output_tokens": 18,
+      "prefill_tokens_per_second": 50.46360696310013,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.323868360787772,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-006",
+      "input_tokens": 85,
+      "latency_ms": 1835,
+      "output": {
+        "query": "Replication studies of the Stroop effect in bilingual adults."
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 48.66255394354701,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.081500380211924,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-007",
+      "input_tokens": 85,
+      "latency_ms": 1861,
+      "output": {
+        "query": "Find confidence intervals for PM2.5 and asthma admissions."
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 48.94653703250495,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.516174787382623,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-008",
+      "input_tokens": 86,
+      "latency_ms": 2052,
+      "output": {
+        "query": "Studies reporting that intervention B did not significantly improve six-month retention."
+      },
+      "output_tokens": 18,
+      "prefill_tokens_per_second": 47.485439519034436,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.149756468851956,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-009",
+      "input_tokens": 85,
+      "latency_ms": 1852,
+      "output": {
+        "query": "Whether metformin changes all-cause mortality in older adults."
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 49.09969022559076,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.271927835897197,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-010",
+      "input_tokens": 87,
+      "latency_ms": 2052,
+      "output": {
+        "query": "Dose-response curves for caffeine and reaction time, including null results."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 48.04929858034343,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.519124030465488,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-011",
+      "input_tokens": 88,
+      "latency_ms": 2392,
+      "output": {
+        "query": "Pre-registered 2×2 factorial experiments on soil nitrogen and irrigation."
+      },
+      "output_tokens": 20,
+      "prefill_tokens_per_second": 51.50900789530073,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.818514885419498,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-012",
+      "input_tokens": 86,
+      "latency_ms": 1982,
+      "output": {
+        "query": "Search bilingual sources for фотосинтез under low-light conditions."
+      },
+      "output_tokens": 18,
+      "prefill_tokens_per_second": 50.529016837147175,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.243307162130634,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-013",
+      "input_tokens": 86,
+      "latency_ms": 1912,
+      "output": {
+        "query": "ΔG° and pH-dependent binding affinity for enzyme E7."
+      },
+      "output_tokens": 18,
+      "prefill_tokens_per_second": 52.679557125253666,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.112460155052947,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-014",
+      "input_tokens": 86,
+      "latency_ms": 1976,
+      "output": {
+        "query": "Compare urban and rural vaccine adverse-event rates, preserving cohort setting."
+      },
+      "output_tokens": 18,
+      "prefill_tokens_per_second": 47.3201371872499,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.466579178984338,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-015",
+      "input_tokens": 83,
+      "latency_ms": 1627,
+      "output": {
+        "query": "Evidence distinguishing correlation from causation in microplastic exposure."
+      },
+      "output_tokens": 15,
+      "prefill_tokens_per_second": 47.6953601953602,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.467066166875835,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-016",
+      "input_tokens": 83,
+      "latency_ms": 1629,
+      "output": {
+        "query": "Preliminary estimates for dataset Kappa, n=84."
+      },
+      "output_tokens": 15,
+      "prefill_tokens_per_second": 47.515418753385475,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.227878748354332,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-017",
+      "input_tokens": 83,
+      "latency_ms": 1647,
+      "output": {
+        "query": "Separate null and significant findings for compound R."
+      },
+      "output_tokens": 15,
+      "prefill_tokens_per_second": 47.99915521486822,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.988516263368775,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-018",
+      "input_tokens": 87,
+      "latency_ms": 2133,
+      "output": {
+        "query": "Model A versus model B on held-out data, not training accuracy."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 44.04987179651896,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.197221903340603,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-019",
+      "input_tokens": 85,
+      "latency_ms": 1851,
+      "output": {
+        "query": "Median and interquartile range of post-surgery recovery time."
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 48.54486759387363,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.115895496541203,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-020",
+      "input_tokens": 87,
+      "latency_ms": 2270,
+      "output": {
+        "query": "Systematic review of evidence quality, not efficacy, for supplement Z."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 43.11126838740505,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.397972756565517,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-021",
+      "input_tokens": 88,
+      "latency_ms": 2298,
+      "output": {
+        "query": "Experiments with n≤30 and reported effect size d=0.4."
+      },
+      "output_tokens": 20,
+      "prefill_tokens_per_second": 46.440778718977555,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.014158686011465,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-022",
+      "input_tokens": 84,
+      "latency_ms": 1798,
+      "output": {
+        "query": "Follow-up longer than 12 months after intervention B."
+      },
+      "output_tokens": 16,
+      "prefill_tokens_per_second": 45.41669820604042,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.4001903831794,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-023",
+      "input_tokens": 86,
+      "latency_ms": 2068,
+      "output": {
+        "query": "Conflicting conductivity measurements at 25 °C in polymer P."
+      },
+      "output_tokens": 18,
+      "prefill_tokens_per_second": 47.40899534155089,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.794483484184777,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-024",
+      "input_tokens": 83,
+      "latency_ms": 1715,
+      "output": {
+        "query": "Explicitly excluded participants and reported exclusion reasons."
+      },
+      "output_tokens": 15,
+      "prefill_tokens_per_second": 45.55113456488417,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.547118461000053,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-025",
+      "input_tokens": 88,
+      "latency_ms": 1676,
+      "output": {
+        "query": "Gene expression in cell line X under hypoxia"
+      },
+      "output_tokens": 13,
+      "prefill_tokens_per_second": 45.82380198252097,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.834360089588118,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-026",
+      "input_tokens": 129,
+      "latency_ms": 5915,
+      "output": {
+        "summary": "Trial K randomized 84 adults. At 12 weeks, mean systolic pressure fell 3 mmHg in the intervention group; the confidence interval included zero."
+      },
+      "output_tokens": 36,
+      "prefill_tokens_per_second": 48.33475179718275,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.6383995803969,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-027",
+      "input_tokens": 123,
+      "latency_ms": 3701,
+      "output": {
+        "summary": "Battery B completed 500 cycles. Capacity retention was 91% at 25 °C; testing used three cells."
+      },
+      "output_tokens": 30,
+      "prefill_tokens_per_second": 50.10728327257825,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.528108410331491,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-028",
+      "input_tokens": 122,
+      "latency_ms": 3545,
+      "output": {
+        "summary": "The assay detected E7 in 18 of 24 samples. Two failed quality control; authors marked results preliminary."
+      },
+      "output_tokens": 28,
+      "prefill_tokens_per_second": 49.554326408041135,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 11.662736972236855,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-029",
+      "input_tokens": 125,
+      "latency_ms": 2746,
+      "output": {
+        "summary": "312 students, under six hours, correlated, causality not tested."
+      },
+      "output_tokens": 18,
+      "prefill_tokens_per_second": 48.62826375299525,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.264852439538414,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-030",
+      "input_tokens": 127,
+      "latency_ms": 4381,
+      "output": {
+        "summary": "The field study measured maize yield on 16 rain-fed plots during one drought season. Median yield was 4.2 t/ha."
+      },
+      "output_tokens": 32,
+      "prefill_tokens_per_second": 47.677395669938925,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.087268204819225,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-031",
+      "input_tokens": 131,
+      "latency_ms": 4452,
+      "output": {
+        "summary": "Model A achieved 0.81 and Model B 0.79 accuracy on held-out data (n=900). Differences were not statistically tested."
+      },
+      "output_tokens": 35,
+      "prefill_tokens_per_second": 49.688399389143235,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.671312619192243,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-032",
+      "input_tokens": 140,
+      "latency_ms": 5045,
+      "output": {
+        "summary": "At 25 °C, polymer P conductivity was 1.8 mS/cm (n=5); another protocol measured 1.2 mS/cm."
+      },
+      "output_tokens": 38,
+      "prefill_tokens_per_second": 49.43746262561687,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.296620791078723,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-033",
+      "input_tokens": 121,
+      "latency_ms": 3915,
+      "output": {
+        "summary": "Compound R reduced symptom score by 2 points in 7 of 20 uncontrolled cases. No comparison group was used."
+      },
+      "output_tokens": 29,
+      "prefill_tokens_per_second": 49.434433463083465,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.254505472136291,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-034",
+      "input_tokens": 125,
+      "latency_ms": 3228,
+      "output": {
+        "summary": "40 people; 36 completed at 6 months. Attrition reasons not reported."
+      },
+      "output_tokens": 23,
+      "prefill_tokens_per_second": 49.27497816608726,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.751860533192595,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-035",
+      "input_tokens": 112,
+      "latency_ms": 2813,
+      "output": {
+        "summary": "Dataset Kappa contains 84 rows. Missing values used median substitution; results are preliminary."
+      },
+      "output_tokens": 22,
+      "prefill_tokens_per_second": 48.09331385375999,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.749247558604267,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-036",
+      "input_tokens": 125,
+      "latency_ms": 3716,
+      "output": {
+        "summary": "CRISPR-Cas9 edits appeared at two candidate off-target sites in vitro. No in-vivo assay was performed."
+      },
+      "output_tokens": 30,
+      "prefill_tokens_per_second": 50.07303756859143,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.642636239047155,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-037",
+      "input_tokens": 116,
+      "latency_ms": 3070,
+      "output": {
+        "summary": "The review included 11 studies but rated certainty low because of imprecision and inconsistency."
+      },
+      "output_tokens": 22,
+      "prefill_tokens_per_second": 49.13990129899825,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.242181244270114,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-038",
+      "input_tokens": 129,
+      "latency_ms": 4031,
+      "output": {
+        "summary": "Median recovery was 9 days (IQR 6–14) among 52 participants; one was lost to follow-up."
+      },
+      "output_tokens": 31,
+      "prefill_tokens_per_second": 48.88468025082572,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.291222236094296,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-039",
+      "input_tokens": 144,
+      "latency_ms": 4638,
+      "output": {
+        "summary": "d=0.4, 95% CI −0.1 to 0.9, n=28. The interval includes no effect."
+      },
+      "output_tokens": 35,
+      "prefill_tokens_per_second": 50.298656437966734,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.576915630233314,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-040",
+      "input_tokens": 121,
+      "latency_ms": 3615,
+      "output": {
+        "summary": "Study A reported 12% uptake; Study B reported 9% with a different instrument. Results are not comparable."
+      },
+      "output_tokens": 29,
+      "prefill_tokens_per_second": 48.91370806668569,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.382694909841728,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-041",
+      "input_tokens": 131,
+      "latency_ms": 4802,
+      "output": {
+        "summary": "The paper reports no significant mortality difference (RR 0.98, 95% CI 0.81–1.19) after 2 years."
+      },
+      "output_tokens": 37,
+      "prefill_tokens_per_second": 51.881641762127536,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.800398226111737,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-042",
+      "input_tokens": 121,
+      "latency_ms": 3767,
+      "output": {
+        "summary": "Cultures received 5 μM for 24 h. Viability fell 8%; biological replicates n=3."
+      },
+      "output_tokens": 28,
+      "prefill_tokens_per_second": 46.23632068484553,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.395805137094888,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-043",
+      "input_tokens": 121,
+      "latency_ms": 4160,
+      "output": {
+        "summary": "The urban cohort (n=120) and rural cohort (n=98) had different adverse-event rates, and ascertainment differed by site."
+      },
+      "output_tokens": 34,
+      "prefill_tokens_per_second": 46.15179496295892,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.085659435413772,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-044",
+      "input_tokens": 111,
+      "latency_ms": 1973,
+      "output": {
+        "summary": "possible yield increase, underpowered, uncertain"
+      },
+      "output_tokens": 13,
+      "prefill_tokens_per_second": 49.34024246243693,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.802055103543978,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-045",
+      "input_tokens": 145,
+      "latency_ms": 5539,
+      "output": {
+        "summary": "At pH 7.0, ΔG° was −12.4 kJ/mol; at pH 6.0 it was −10.1 kJ/mol. Both are model-derived."
+      },
+      "output_tokens": 43,
+      "prefill_tokens_per_second": 50.20700735339554,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.776068507059522,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-046",
+      "input_tokens": 202,
+      "latency_ms": 6220,
+      "output": {
+        "context": "SRC-01: 84 adults, 12 weeks, 3 mmHg, included zero.}{"
+      },
+      "output_tokens": 27,
+      "prefill_tokens_per_second": 53.40520199034175,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.686688105587898,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-047",
+      "input_tokens": 196,
+      "latency_ms": 3921,
+      "output": {
+        "context": "SRC-02: 500 cycles, 91%, 25 °C, three cells."
+      },
+      "output_tokens": 25,
+      "prefill_tokens_per_second": 47.54445565084873,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 9.519784015140264,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-048",
+      "input_tokens": 196,
+      "latency_ms": 4122,
+      "output": {
+        "context": "SRC-03: 18 of 24; Two failed quality control; preliminary.}{"
+      },
+      "output_tokens": 25,
+      "prefill_tokens_per_second": 50.30974030112056,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.072453212733814,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-049",
+      "input_tokens": 199,
+      "latency_ms": 3991,
+      "output": {
+        "context": "SRC-04: 312 students, under six hours, correlated, causality was not tested.}{"
+      },
+      "output_tokens": 27,
+      "prefill_tokens_per_second": 50.4160943685869,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.294219832329219,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-050",
+      "input_tokens": 201,
+      "latency_ms": 4310,
+      "output": {
+        "context": "SRC-05: 16 rain-fed plots, one drought season, 4.2 t/ha. }"
+      },
+      "output_tokens": 28,
+      "prefill_tokens_per_second": 50.45007775618234,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 9.658267193630607,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-051",
+      "input_tokens": 205,
+      "latency_ms": 4717,
+      "output": {
+        "context": "SRC-06: 0.81, 0.79, held-out data, not statistically tested. }"
+      },
+      "output_tokens": 29,
+      "prefill_tokens_per_second": 49.15333382486667,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.944231378358495,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-052",
+      "input_tokens": 214,
+      "latency_ms": 9816,
+      "output": {
+        "context": "Process note W-07 cites SRC-07. At 25 °C, polymer P conductivity was 1.8 mS/cm (n=5); another protocol measured 1.2 mS/cm. Repeated editorial commentary can be removed. mandatory_facts=[SRC-07,25 °C,1.8 mS/cm,n=5,1.2 mS/cm]"
+      },
+      "output_tokens": 86,
+      "prefill_tokens_per_second": 47.614878574379816,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.096031888288566,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-053",
+      "input_tokens": 195,
+      "latency_ms": 3833,
+      "output": {
+        "context": "SRC-08: 2 points, 7 of 20, No comparison group.}{"
+      },
+      "output_tokens": 26,
+      "prefill_tokens_per_second": 49.932523616734144,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 9.496596383330845,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-054",
+      "input_tokens": 199,
+      "latency_ms": 4279,
+      "output": {
+        "context": "SRC-09: 40 people; 36 completed; 6 months; not reported. }"
+      },
+      "output_tokens": 26,
+      "prefill_tokens_per_second": 50.74778157374076,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.90309785702481,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-055",
+      "input_tokens": 186,
+      "latency_ms": 3143,
+      "output": {
+        "context": "SRC-10, 84 rows, median substitution, preliminary."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 46.545633697320184,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.110362704734472,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-056",
+      "input_tokens": 198,
+      "latency_ms": 5873,
+      "output": {
+        "context": "Process note W-11 cites SRC-11. CRISPR-Cas9 edits appeared at two candidate off-target sites in vitro. No in-vivo assay was performed. Repeated editorial commentary can be removed. }"
+      },
+      "output_tokens": 48,
+      "prefill_tokens_per_second": 49.72987635344379,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.584470823786202,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-057",
+      "input_tokens": 190,
+      "latency_ms": 3439,
+      "output": {
+        "context": "SRC-12: 11 studies, certainty low, imprecision, inconsistency.}{"
+      },
+      "output_tokens": 24,
+      "prefill_tokens_per_second": 50.693062323814054,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.155989681011059,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-058",
+      "input_tokens": 203,
+      "latency_ms": 4932,
+      "output": {
+        "context": "SRC-13: 9 days, IQR 6–14, 52 participants, lost to follow-up. Repeated editorial commentary can be removed."
+      },
+      "output_tokens": 37,
+      "prefill_tokens_per_second": 50.8983875763243,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.046058950267527,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-059",
+      "input_tokens": 218,
+      "latency_ms": 5464,
+      "output": {
+        "context": "SRC-14: d=0.4, 95% CI −0.1 to 0.9, n=28, includes no effect. }"
+      },
+      "output_tokens": 39,
+      "prefill_tokens_per_second": 50.292239388985585,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.312992572687643,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-060",
+      "input_tokens": 195,
+      "latency_ms": 4492,
+      "output": {
+        "context": "SRC-15: 12%, 9%, different instrument, not comparable. Results are not comparable. Repeated editorial commentary can be removed."
+      },
+      "output_tokens": 34,
+      "prefill_tokens_per_second": 50.029679769484865,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.49525607811665,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-061",
+      "input_tokens": 205,
+      "latency_ms": 4204,
+      "output": {
+        "context": "SRC-16: no significant mortality difference; RR 0.98; 2 years.}{"
+      },
+      "output_tokens": 27,
+      "prefill_tokens_per_second": 45.40785988431807,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.95648134306009,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-062",
+      "input_tokens": 194,
+      "latency_ms": 5589,
+      "output": {
+        "context": "Process note W-17 cites SRC-17. Cultures received 5 μM for 24 h. Viability fell 8%; biological replicates n=3. Repeated editorial commentary can be removed."
+      },
+      "output_tokens": 45,
+      "prefill_tokens_per_second": 49.44104527851563,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.491217026789094,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-063",
+      "input_tokens": 195,
+      "latency_ms": 3690,
+      "output": {
+        "context": "SRC-18: n=120, n=98, ascertainment differed. }"
+      },
+      "output_tokens": 23,
+      "prefill_tokens_per_second": 49.59403263153309,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.228385358185493,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-064",
+      "input_tokens": 185,
+      "latency_ms": 3167,
+      "output": {
+        "context": "SRC-19: possible yield increase, underpowered, uncertain.}{"
+      },
+      "output_tokens": 21,
+      "prefill_tokens_per_second": 49.5281668232479,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.655784793917121,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-065",
+      "input_tokens": 219,
+      "latency_ms": 10641,
+      "output": {
+        "context": "Process note W-20 cites SRC-20. At pH 7.0, ΔG° was −12.4 kJ/mol; at pH 6.0 it was −10.1 kJ/mol. Both are model-derived. Repeated editorial commentary can be removed. mandatory_facts=[SRC-20,pH 7.0,−12.4 kJ/mol,pH 6.0,model-derived]"
+      },
+      "output_tokens": 92,
+      "prefill_tokens_per_second": 48.92485142820628,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.854158855979863,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-066",
+      "input_tokens": 138,
+      "latency_ms": 3027,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 52.4897576422541,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.393912232694072,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-067",
+      "input_tokens": 137,
+      "latency_ms": 1085,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 28.904240252044975,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.863099827985053,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-068",
+      "input_tokens": 138,
+      "latency_ms": 906,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 42.983891154673735,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.075997698624406,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-069",
+      "input_tokens": 138,
+      "latency_ms": 865,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 42.33795149066946,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.600383051644771,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-070",
+      "input_tokens": 138,
+      "latency_ms": 878,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 42.78667069364744,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.473063976844292,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-071",
+      "input_tokens": 139,
+      "latency_ms": 919,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 38.39500353020727,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.928359649727643,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-072",
+      "input_tokens": 139,
+      "latency_ms": 861,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.990990875898426,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.336769123534237,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-073",
+      "input_tokens": 137,
+      "latency_ms": 848,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.86027426450178,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.753421105211473,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-074",
+      "input_tokens": 138,
+      "latency_ms": 858,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.38364175613017,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.134621109963048,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-075",
+      "input_tokens": 138,
+      "latency_ms": 856,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 43.03252752816099,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.019759655236763,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-076",
+      "input_tokens": 140,
+      "latency_ms": 895,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.19550229351396,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.75273049003271,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-077",
+      "input_tokens": 141,
+      "latency_ms": 879,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.563275999544366,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.71359611630958,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-078",
+      "input_tokens": 137,
+      "latency_ms": 803,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.304516014698024,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.495094533137205,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-079",
+      "input_tokens": 138,
+      "latency_ms": 836,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.012375244333406,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.633733331368086,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-080",
+      "input_tokens": 138,
+      "latency_ms": 867,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 43.90563903366271,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.716201924809099,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-081",
+      "input_tokens": 150,
+      "latency_ms": 1111,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.69555728883532,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.395338868585029,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-082",
+      "input_tokens": 139,
+      "latency_ms": 850,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.29179237235892,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.030702506889984,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-083",
+      "input_tokens": 141,
+      "latency_ms": 891,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 46.98199415074173,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.085893624770724,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-084",
+      "input_tokens": 143,
+      "latency_ms": 987,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 42.0050940723175,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.733716759693541,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-085",
+      "input_tokens": 137,
+      "latency_ms": 837,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.32366246422942,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.13695051967587,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-086",
+      "input_tokens": 76,
+      "latency_ms": 1865,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 50.59740570710231,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.023490034859542,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-087",
+      "input_tokens": 78,
+      "latency_ms": 842,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 47.66519963774448,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.895765675340503,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-088",
+      "input_tokens": 76,
+      "latency_ms": 816,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 46.19324366069908,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.221875935737376,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-089",
+      "input_tokens": 77,
+      "latency_ms": 879,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.3258944052899,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.7981372426742,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-090",
+      "input_tokens": 78,
+      "latency_ms": 1067,
+      "output": {
+        "label": "mathematics"
+      },
+      "output_tokens": 7,
+      "prefill_tokens_per_second": 38.36480668400188,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.222622852637949,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-091",
+      "input_tokens": 77,
+      "latency_ms": 881,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.10383599599433,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.776586479390302,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-092",
+      "input_tokens": 81,
+      "latency_ms": 941,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.9665320525723,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.647741429574214,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-093",
+      "input_tokens": 77,
+      "latency_ms": 841,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 46.97066819919984,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.6823349869689,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-094",
+      "input_tokens": 81,
+      "latency_ms": 939,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.56540153967662,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.964723352197879,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-095",
+      "input_tokens": 77,
+      "latency_ms": 1028,
+      "output": {
+        "label": "mathematics"
+      },
+      "output_tokens": 7,
+      "prefill_tokens_per_second": 44.02468489979205,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.560578623988611,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-096",
+      "input_tokens": 79,
+      "latency_ms": 908,
+      "output": {
+        "label": "unknown"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.60240477386581,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.256003398998276,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-097",
+      "input_tokens": 78,
+      "latency_ms": 888,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.68759835524646,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.889338583590584,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-098",
+      "input_tokens": 82,
+      "latency_ms": 1014,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 40.40322417728935,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.06486069107522,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-099",
+      "input_tokens": 80,
+      "latency_ms": 1133,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 31.6977806798857,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.734365382901144,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-100",
+      "input_tokens": 77,
+      "latency_ms": 861,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.182123912664935,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.96002695685607,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-101",
+      "input_tokens": 91,
+      "latency_ms": 1129,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 46.912264984685415,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.150598461818333,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-102",
+      "input_tokens": 78,
+      "latency_ms": 856,
+      "output": {
+        "label": "unknown"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.5208725845487,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.242372944949249,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-103",
+      "input_tokens": 76,
+      "latency_ms": 811,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.28959867754372,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.062987548795702,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-104",
+      "input_tokens": 79,
+      "latency_ms": 876,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 46.119639198780504,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.930087019485642,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-105",
+      "input_tokens": 78,
+      "latency_ms": 861,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.832898345177746,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.940265577383867,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-106",
+      "input_tokens": 77,
+      "latency_ms": 852,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.241684515150176,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.888812510740678,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-107",
+      "input_tokens": 78,
+      "latency_ms": 863,
+      "output": {
+        "label": "unknown"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.69931374863854,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.809892653099567,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-108",
+      "input_tokens": 80,
+      "latency_ms": 906,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 46.24790728219548,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.814160501631669,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-109",
+      "input_tokens": 76,
+      "latency_ms": 830,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.65245044275696,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.934323815108153,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "real-micro-110",
+      "input_tokens": 76,
+      "latency_ms": 828,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 44.35511816480698,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.977907892452958,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 1.0,
+      "id": "real-micro-111",
+      "input_tokens": 127,
+      "latency_ms": 7309,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial A included 42 participants.",
+            "text": "Trial A included 42 participants."
+          },
+          {
+            "source_quote": "Median follow-up was 8 weeks.",
+            "text": "Median follow-up was 8 weeks."
+          }
+        ]
+      },
+      "output_tokens": 53,
+      "prefill_tokens_per_second": 49.692130988457286,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": null,
+      "error": "model: invalid model JSON: EOF while parsing a string at line 1 column 1039",
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "real-micro-112",
+      "input_tokens": 0,
+      "latency_ms": 36665,
+      "output": null,
+      "output_tokens": 0,
+      "prefill_tokens_per_second": null,
+      "quality_valid": false,
+      "schema_valid": false,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.478781321145634,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 7.0,
+      "id": "real-micro-113",
+      "input_tokens": 127,
+      "latency_ms": 29898,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain.",
+            "text": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain."
+          },
+          {
+            "source_quote": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain.",
+            "text": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain."
+          },
+          {
+            "source_quote": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain.",
+            "text": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain."
+          },
+          {
+            "source_quote": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain.",
+            "text": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain."
+          },
+          {
+            "source_quote": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain.",
+            "text": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain."
+          },
+          {
+            "source_quote": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain.",
+            "text": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain."
+          },
+          {
+            "source_quote": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain.",
+            "text": "Preliminary data suggest a possible increase in yield; the authors call the result uncertain."
+          }
+        ]
+      },
+      "output_tokens": 307,
+      "prefill_tokens_per_second": 44.135795658056225,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.15859244251693,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 1.0,
+      "id": "real-micro-114",
+      "input_tokens": 127,
+      "latency_ms": 5351,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Group A improved by 4 points.",
+            "text": "Group A improved by 4 points."
+          },
+          {
+            "source_quote": "Group B declined by 2 points.",
+            "text": "Group B declined by 2 points."
+          }
+        ]
+      },
+      "output_tokens": 53,
+      "prefill_tokens_per_second": 43.91558074132879,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.63741205530757,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 8.0,
+      "id": "real-micro-115",
+      "input_tokens": 120,
+      "latency_ms": 23060,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "No statistically significant difference was observed between arms.",
+            "text": "No statistically significant difference was observed between arms."
+          },
+          {
+            "source_quote": "No statistically significant difference was observed between arms.",
+            "text": "No statistically significant difference was observed between arms."
+          },
+          {
+            "source_quote": "No statistically significant difference was observed between arms.",
+            "text": "No statistically significant difference was observed between arms."
+          },
+          {
+            "source_quote": "No statistically significant difference was observed between arms.",
+            "text": "No statistically significant difference was observed between arms."
+          },
+          {
+            "source_quote": "No statistically significant difference was observed between arms.",
+            "text": "No statistically significant difference was observed between arms."
+          },
+          {
+            "source_quote": "No statistically significant difference was observed between arms.",
+            "text": "No statistically significant difference was observed between arms."
+          },
+          {
+            "source_quote": "No statistically significant difference was observed between arms.",
+            "text": "No statistically significant difference was observed between arms."
+          },
+          {
+            "source_quote": "No statistically significant difference was observed between arms.",
+            "text": "No statistically significant difference was observed between arms."
+          }
+        ]
+      },
+      "output_tokens": 238,
+      "prefill_tokens_per_second": 27.860381364630808,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": null,
+      "error": "model: invalid model JSON: EOF while parsing a string at line 1 column 1556",
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "real-micro-116",
+      "input_tokens": 0,
+      "latency_ms": 36672,
+      "output": null,
+      "output_tokens": 0,
+      "prefill_tokens_per_second": null,
+      "quality_valid": false,
+      "schema_valid": false,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.690714729673811,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 8.0,
+      "id": "real-micro-117",
+      "input_tokens": 124,
+      "latency_ms": 28893,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "According to the authors, the association may be confounded by age.",
+            "text": "According to the authors, the association may be confounded by age."
+          },
+          {
+            "source_quote": "According to the authors, the association may be confounded by age.",
+            "text": "According to the authors, the association may be confounded by age."
+          },
+          {
+            "source_quote": "According to the authors, the association may be confounded by age.",
+            "text": "According to the authors, the association may be confounded by age."
+          },
+          {
+            "source_quote": "According to the authors, the association may be confounded by age.",
+            "text": "According to the authors, the association may be confounded by age."
+          },
+          {
+            "source_quote": "According to the authors, the association may be confounded by age.",
+            "text": "According to the authors, the association may be confounded by age."
+          },
+          {
+            "source_quote": "According to the authors, the association may be confounded by age.",
+            "text": "According to the authors, the association may be confounded by age."
+          },
+          {
+            "source_quote": "According to the authors, the association may be confounded by age.",
+            "text": "According to the authors, the association may be confounded by age."
+          },
+          {
+            "source_quote": "According to the authors, the association may be confounded by age.",
+            "text": "According to the authors, the association may be confounded by age."
+          }
+        ]
+      },
+      "output_tokens": 303,
+      "prefill_tokens_per_second": 42.5465792550279,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.317629434391865,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 8.0,
+      "id": "real-micro-118",
+      "input_tokens": 131,
+      "latency_ms": 37787,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0.",
+            "text": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0."
+          },
+          {
+            "source_quote": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0.",
+            "text": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0."
+          },
+          {
+            "source_quote": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0.",
+            "text": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0."
+          },
+          {
+            "source_quote": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0.",
+            "text": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0."
+          },
+          {
+            "source_quote": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0.",
+            "text": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0."
+          },
+          {
+            "source_quote": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0.",
+            "text": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0."
+          },
+          {
+            "source_quote": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0.",
+            "text": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0."
+          },
+          {
+            "source_quote": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0.",
+            "text": "Dataset Ω showed ΔG° = −12.4 kJ/mol at pH 7.0."
+          }
+        ]
+      },
+      "output_tokens": 383,
+      "prefill_tokens_per_second": 45.68323851523384,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": null,
+      "error": "model: invalid model JSON: EOF while parsing a string at line 1 column 1297",
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "real-micro-119",
+      "input_tokens": 0,
+      "latency_ms": 36825,
+      "output": null,
+      "output_tokens": 0,
+      "prefill_tokens_per_second": null,
+      "quality_valid": false,
+      "schema_valid": false,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.094456673851283,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 1.0,
+      "id": "real-micro-120",
+      "input_tokens": 126,
+      "latency_ms": 5771,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "No adverse events were recorded.",
+            "text": "No adverse events were recorded."
+          },
+          {
+            "source_quote": "It does not state whether monitoring was complete.",
+            "text": "It does not state whether monitoring was complete."
+          }
+        ]
+      },
+      "output_tokens": 58,
+      "prefill_tokens_per_second": 45.39547974510438,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.021985341129984,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 7.0,
+      "id": "real-micro-121",
+      "input_tokens": 124,
+      "latency_ms": 22121,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "The paper reports a 3% increase in one bench test.",
+            "text": "The paper reports a 3% increase in one bench test."
+          },
+          {
+            "source_quote": "The paper reports a 3% increase in one bench test.",
+            "text": "The paper reports a 3% increase in one bench test."
+          },
+          {
+            "source_quote": "The paper reports a 3% increase in one bench test.",
+            "text": "The paper reports a 3% increase in one bench test."
+          },
+          {
+            "source_quote": "The paper reports a 3% increase in one bench test.",
+            "text": "The paper reports a 3% increase in one bench test."
+          },
+          {
+            "source_quote": "The paper reports a 3% increase in one bench test.",
+            "text": "The paper reports a 3% increase in one bench test."
+          },
+          {
+            "source_quote": "The paper reports a 3% increase in one bench test.",
+            "text": "The paper reports a 3% increase in one bench test."
+          },
+          {
+            "source_quote": "The paper reports a 3% increase in one bench test.",
+            "text": "The paper reports a 3% increase in one bench test."
+          }
+        ]
+      },
+      "output_tokens": 238,
+      "prefill_tokens_per_second": 44.020992271444925,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.75924509203551,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 8.0,
+      "id": "real-micro-122",
+      "input_tokens": 131,
+      "latency_ms": 36257,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection.",
+            "text": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection."
+          },
+          {
+            "source_quote": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection.",
+            "text": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection."
+          },
+          {
+            "source_quote": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection.",
+            "text": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection."
+          },
+          {
+            "source_quote": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection.",
+            "text": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection."
+          },
+          {
+            "source_quote": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection.",
+            "text": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection."
+          },
+          {
+            "source_quote": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection.",
+            "text": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection."
+          },
+          {
+            "source_quote": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection.",
+            "text": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection."
+          },
+          {
+            "source_quote": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection.",
+            "text": "The sample contained 5 μg/mL of compound C; concentration after 24 h was below detection."
+          }
+        ]
+      },
+      "output_tokens": 383,
+      "prefill_tokens_per_second": 44.54411403293193,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.907626180387567,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 7.0,
+      "id": "real-micro-123",
+      "input_tokens": 126,
+      "latency_ms": 27448,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Results were consistent with benefit, although the 95% CI crossed zero.",
+            "text": "Results were consistent with benefit, although the 95% CI crossed zero."
+          },
+          {
+            "source_quote": "Results were consistent with benefit, although the 95% CI crossed zero.",
+            "text": "Results were consistent with benefit, although the 95% CI crossed zero."
+          },
+          {
+            "source_quote": "Results were consistent with benefit, although the 95% CI crossed zero.",
+            "text": "Results were consistent with benefit, although the 95% CI crossed zero."
+          },
+          {
+            "source_quote": "Results were consistent with benefit, although the 95% CI crossed zero.",
+            "text": "Results were consistent with benefit, although the 95% CI crossed zero."
+          },
+          {
+            "source_quote": "Results were consistent with benefit, although the 95% CI crossed zero.",
+            "text": "Results were consistent with benefit, although the 95% CI crossed zero."
+          },
+          {
+            "source_quote": "Results were consistent with benefit, although the 95% CI crossed zero.",
+            "text": "Results were consistent with benefit, although the 95% CI crossed zero."
+          },
+          {
+            "source_quote": "Results were consistent with benefit, although the 95% CI crossed zero.",
+            "text": "Results were consistent with benefit, although the 95% CI crossed zero."
+          }
+        ]
+      },
+      "output_tokens": 293,
+      "prefill_tokens_per_second": 43.51594946579821,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.78164483959964,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 1.0,
+      "id": "real-micro-124",
+      "input_tokens": 127,
+      "latency_ms": 5595,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Study 1 found higher uptake.",
+            "text": "Study 1 found higher uptake."
+          },
+          {
+            "source_quote": "Study 2 found no change in uptake.",
+            "text": "Study 2 found no change in uptake."
+          }
+        ]
+      },
+      "output_tokens": 53,
+      "prefill_tokens_per_second": 39.063497715536606,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.797361002736656,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 8.0,
+      "id": "real-micro-125",
+      "input_tokens": 125,
+      "latency_ms": 29994,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Participants: n=18; two withdrew before the endpoint was measured.",
+            "text": "Participants: n=18; two withdrew before the endpoint was measured."
+          },
+          {
+            "source_quote": "Participants: n=18; two withdrew before the endpoint was measured.",
+            "text": "Participants: n=18; two withdrew before the endpoint was measured."
+          },
+          {
+            "source_quote": "Participants: n=18; two withdrew before the endpoint was measured.",
+            "text": "Participants: n=18; two withdrew before the endpoint was measured."
+          },
+          {
+            "source_quote": "Participants: n=18; two withdrew before the endpoint was measured.",
+            "text": "Participants: n=18; two withdrew before the endpoint was measured."
+          },
+          {
+            "source_quote": "Participants: n=18; two withdrew before the endpoint was measured.",
+            "text": "Participants: n=18; two withdrew before the endpoint was measured."
+          },
+          {
+            "source_quote": "Participants: n=18; two withdrew before the endpoint was measured.",
+            "text": "Participants: n=18; two withdrew before the endpoint was measured."
+          },
+          {
+            "source_quote": "Participants: n=18; two withdrew before the endpoint was measured.",
+            "text": "Participants: n=18; two withdrew before the endpoint was measured."
+          },
+          {
+            "source_quote": "Participants: n=18; two withdrew before the endpoint was measured.",
+            "text": "Participants: n=18; two withdrew before the endpoint was measured."
+          }
+        ]
+      },
+      "output_tokens": 318,
+      "prefill_tokens_per_second": 44.58969123496724,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.743810128475308,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 8.0,
+      "id": "real-micro-126",
+      "input_tokens": 123,
+      "latency_ms": 27129,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "The authors did not measure toxicity and make no safety claim.",
+            "text": "The authors did not measure toxicity and make no safety claim."
+          },
+          {
+            "source_quote": "The authors did not measure toxicity and make no safety claim.",
+            "text": "The authors did not measure toxicity and make no safety claim."
+          },
+          {
+            "source_quote": "The authors did not measure toxicity and make no safety claim.",
+            "text": "The authors did not measure toxicity and make no safety claim."
+          },
+          {
+            "source_quote": "The authors did not measure toxicity and make no safety claim.",
+            "text": "The authors did not measure toxicity and make no safety claim."
+          },
+          {
+            "source_quote": "The authors did not measure toxicity and make no safety claim.",
+            "text": "The authors did not measure toxicity and make no safety claim."
+          },
+          {
+            "source_quote": "The authors did not measure toxicity and make no safety claim.",
+            "text": "The authors did not measure toxicity and make no safety claim."
+          },
+          {
+            "source_quote": "The authors did not measure toxicity and make no safety claim.",
+            "text": "The authors did not measure toxicity and make no safety claim."
+          },
+          {
+            "source_quote": "The authors did not measure toxicity and make no safety claim.",
+            "text": "The authors did not measure toxicity and make no safety claim."
+          }
+        ]
+      },
+      "output_tokens": 286,
+      "prefill_tokens_per_second": 42.43941773118873,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.603233927276879,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 8.0,
+      "id": "real-micro-127",
+      "input_tokens": 129,
+      "latency_ms": 34515,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution.",
+            "text": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution."
+          },
+          {
+            "source_quote": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution.",
+            "text": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution."
+          },
+          {
+            "source_quote": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution.",
+            "text": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution."
+          },
+          {
+            "source_quote": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution.",
+            "text": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution."
+          },
+          {
+            "source_quote": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution.",
+            "text": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution."
+          },
+          {
+            "source_quote": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution.",
+            "text": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution."
+          },
+          {
+            "source_quote": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution.",
+            "text": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution."
+          },
+          {
+            "source_quote": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution.",
+            "text": "Treatment reduced symptoms in 7/20 cases (35%); the uncontrolled design limits attribution."
+          }
+        ]
+      },
+      "output_tokens": 359,
+      "prefill_tokens_per_second": 43.52360922638339,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.809074116385636,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 7.0,
+      "id": "real-micro-128",
+      "input_tokens": 132,
+      "latency_ms": 36188,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "The measured effect was 0.1 SD (CI −0.2 to 0.4).",
+            "text": "The measured effect was 0.1 SD (CI −0.2 to 0.4)."
+          },
+          {
+            "source_quote": "The measured effect was 0.1 SD (CI −0.2 to 0.4).",
+            "text": "The measured effect was 0.1 SD (CI −0.2 to 0.4)."
+          },
+          {
+            "source_quote": "The measured effect was 0.1 SD (CI −0.2 to 0.4).",
+            "text": "The measured effect was 0.1 SD (CI −0.2 to 0.4)."
+          },
+          {
+            "source_quote": "The measured effect was 0.1 SD (CI −0.2 to 0.4).",
+            "text": "The measured effect was 0.1 SD (CI −0.2 to 0.4)."
+          },
+          {
+            "source_quote": "The measured effect was 0.1 SD (CI −0.2 to 0.4).",
+            "text": "The measured effect was 0.1 SD (CI −0.2 to 0.4)."
+          },
+          {
+            "source_quote": "The measured effect was 0.1 SD (CI −0.2 to 0.4).",
+            "text": "The measured effect was 0.1 SD (CI −0.2 to 0.4)."
+          },
+          {
+            "source_quote": "The measured effect was 0.1 SD (CI −0.2 to 0.4).",
+            "text": "The measured effect was 0.1 SD (CI −0.2 to 0.4)."
+          }
+        ]
+      },
+      "output_tokens": 384,
+      "prefill_tokens_per_second": 46.420729641028494,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": null,
+      "error": "model: invalid model JSON: EOF while parsing a string at line 1 column 1317",
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "real-micro-129",
+      "input_tokens": 0,
+      "latency_ms": 37885,
+      "output": null,
+      "output_tokens": 0,
+      "prefill_tokens_per_second": null,
+      "quality_valid": false,
+      "schema_valid": false,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.61765687407213,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 8.0,
+      "id": "real-micro-130",
+      "input_tokens": 130,
+      "latency_ms": 35236,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM.",
+            "text": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM."
+          },
+          {
+            "source_quote": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM.",
+            "text": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM."
+          },
+          {
+            "source_quote": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM.",
+            "text": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM."
+          },
+          {
+            "source_quote": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM.",
+            "text": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM."
+          },
+          {
+            "source_quote": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM.",
+            "text": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM."
+          },
+          {
+            "source_quote": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM.",
+            "text": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM."
+          },
+          {
+            "source_quote": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM.",
+            "text": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM."
+          },
+          {
+            "source_quote": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM.",
+            "text": "In vitro only: the compound inhibited enzyme E3 by 22% at 10 μM."
+          }
+        ]
+      },
+      "output_tokens": 367,
+      "prefill_tokens_per_second": 44.035003272256276,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.081943190703118,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 1.0,
+      "id": "real-micro-131",
+      "input_tokens": 111,
+      "latency_ms": 824,
+      "output": {
+        "candidates": []
+      },
+      "output_tokens": 7,
+      "prefill_tokens_per_second": 42.83682596254348,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.925584353633328,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 1.0,
+      "id": "real-micro-132",
+      "input_tokens": 113,
+      "latency_ms": 780,
+      "output": {
+        "candidates": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 43.97408460613879,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.78014403129126,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "real-micro-133",
+      "input_tokens": 124,
+      "latency_ms": 28548,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Appendix label: Figure 4. No result is stated here.",
+            "text": "Appendix label: Figure 4. No result is stated here."
+          },
+          {
+            "source_quote": "Appendix label: Figure 4. No result is stated here.",
+            "text": "Appendix label: Figure 4. No result is stated here."
+          },
+          {
+            "source_quote": "Appendix label: Figure 4. No result is stated here.",
+            "text": "Appendix label: Figure 4. No result is stated here."
+          },
+          {
+            "source_quote": "Appendix label: Figure 4. No result is stated here.",
+            "text": "Appendix label: Figure 4. No result is stated here."
+          },
+          {
+            "source_quote": "Appendix label: Figure 4. No result is stated here.",
+            "text": "Appendix label: Figure 4. No result is stated here."
+          },
+          {
+            "source_quote": "Appendix label: Figure 4. No result is stated here.",
+            "text": "Appendix label: Figure 4. No result is stated here."
+          },
+          {
+            "source_quote": "Appendix label: Figure 4. No result is stated here.",
+            "text": "Appendix label: Figure 4. No result is stated here."
+          },
+          {
+            "source_quote": "Appendix label: Figure 4. No result is stated here.",
+            "text": "Appendix label: Figure 4. No result is stated here."
+          }
+        ]
+      },
+      "output_tokens": 302,
+      "prefill_tokens_per_second": 43.480480100118534,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.067550700952303,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 1.0,
+      "id": "real-micro-134",
+      "input_tokens": 114,
+      "latency_ms": 908,
+      "output": {
+        "candidates": []
+      },
+      "output_tokens": 7,
+      "prefill_tokens_per_second": 40.91060717634989,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.881653463821925,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "real-micro-135",
+      "input_tokens": 125,
+      "latency_ms": 29779,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "The abstract repeats the same sentence. Yield was 11 kg/ha.",
+            "text": "The abstract repeats the same sentence. Yield was 11 kg/ha."
+          },
+          {
+            "source_quote": "The abstract repeats the same sentence. Yield was 11 kg/ha.",
+            "text": "The abstract repeats the same sentence. Yield was 11 kg/ha."
+          },
+          {
+            "source_quote": "The abstract repeats the same sentence. Yield was 11 kg/ha.",
+            "text": "The abstract repeats the same sentence. Yield was 11 kg/ha."
+          },
+          {
+            "source_quote": "The abstract repeats the same sentence. Yield was 11 kg/ha.",
+            "text": "The abstract repeats the same sentence. Yield was 11 kg/ha."
+          },
+          {
+            "source_quote": "The abstract repeats the same sentence. Yield was 11 kg/ha.",
+            "text": "The abstract repeats the same sentence. Yield was 11 kg/ha."
+          },
+          {
+            "source_quote": "The abstract repeats the same sentence. Yield was 11 kg/ha.",
+            "text": "The abstract repeats the same sentence. Yield was 11 kg/ha."
+          },
+          {
+            "source_quote": "The abstract repeats the same sentence. Yield was 11 kg/ha.",
+            "text": "The abstract repeats the same sentence. Yield was 11 kg/ha."
+          },
+          {
+            "source_quote": "The abstract repeats the same sentence. Yield was 11 kg/ha.",
+            "text": "The abstract repeats the same sentence. Yield was 11 kg/ha."
+          }
+        ]
+      },
+      "output_tokens": 318,
+      "prefill_tokens_per_second": 43.4888967410508,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": null,
+      "error": "model: invalid model JSON: EOF while parsing a string at line 1 column 1116",
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "real-micro-136",
+      "input_tokens": 0,
+      "latency_ms": 36565,
+      "output": null,
+      "output_tokens": 0,
+      "prefill_tokens_per_second": null,
+      "quality_valid": false,
+      "schema_valid": false,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.904987073139303,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 7.0,
+      "id": "real-micro-137",
+      "input_tokens": 126,
+      "latency_ms": 27531,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Not all participants completed follow-up; denominator at month 6 is unavailable.",
+            "text": "Not all participants completed follow-up; denominator at month 6 is unavailable."
+          },
+          {
+            "source_quote": "Not all participants completed follow-up; denominator at month 6 is unavailable.",
+            "text": "Not all participants completed follow-up; denominator at month 6 is unavailable."
+          },
+          {
+            "source_quote": "Not all participants completed follow-up; denominator at month 6 is unavailable.",
+            "text": "Not all participants completed follow-up; denominator at month 6 is unavailable."
+          },
+          {
+            "source_quote": "Not all participants completed follow-up; denominator at month 6 is unavailable.",
+            "text": "Not all participants completed follow-up; denominator at month 6 is unavailable."
+          },
+          {
+            "source_quote": "Not all participants completed follow-up; denominator at month 6 is unavailable.",
+            "text": "Not all participants completed follow-up; denominator at month 6 is unavailable."
+          },
+          {
+            "source_quote": "Not all participants completed follow-up; denominator at month 6 is unavailable.",
+            "text": "Not all participants completed follow-up; denominator at month 6 is unavailable."
+          },
+          {
+            "source_quote": "Not all participants completed follow-up; denominator at month 6 is unavailable.",
+            "text": "Not all participants completed follow-up; denominator at month 6 is unavailable."
+          }
+        ]
+      },
+      "output_tokens": 294,
+      "prefill_tokens_per_second": 44.64772055527477,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 10.596054194551261,
+      "error": null,
+      "extraction_precision": 1.0,
+      "extraction_recall": 1.0,
+      "id": "real-micro-138",
+      "input_tokens": 139,
+      "latency_ms": 8113,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "At 25 °C, resistance was 8.2 Ω.",
+            "text": "At 25 °C, resistance was 8.2 Ω."
+          },
+          {
+            "source_quote": "At 40 °C, resistance was 9.1 Ω.",
+            "text": "At 40 °C, resistance was 9.1 Ω."
+          }
+        ]
+      },
+      "output_tokens": 77,
+      "prefill_tokens_per_second": 45.61890447401403,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": null,
+      "error": "model: invalid model JSON: EOF while parsing a string at line 1 column 1403",
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "real-micro-139",
+      "input_tokens": 0,
+      "latency_ms": 38548,
+      "output": null,
+      "output_tokens": 0,
+      "prefill_tokens_per_second": null,
+      "quality_valid": false,
+      "schema_valid": false,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 9.570834646211193,
+      "error": null,
+      "extraction_precision": 0.125,
+      "extraction_recall": 1.0,
+      "id": "real-micro-140",
+      "input_tokens": 1927,
+      "latency_ms": 76380,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Calibration, recruitment, and retention procedures were documented; no outcome was stated.",
+            "text": "Calibration, recruitment, and retention procedures were documented; no outcome was stated."
+          },
+          {
+            "source_quote": "Calibration, recruitment, and retention procedures were documented; no outcome was stated.",
+            "text": "Calibration, recruitment, and retention procedures were documented; no outcome was stated."
+          },
+          {
+            "source_quote": "Calibration, recruitment, and retention procedures were documented; no outcome was stated.",
+            "text": "Calibration, recruitment, and retention procedures were documented; no outcome was stated."
+          },
+          {
+            "source_quote": "Calibration, recruitment, and retention procedures were documented; no outcome was stated.",
+            "text": "Calibration, recruitment, and retention procedures were documented; no outcome was stated."
+          },
+          {
+            "source_quote": "Calibration, recruitment, and retention procedures were documented; no outcome was stated.",
+            "text": "Calibration, recruitment, and retention procedures were documented; no outcome was stated."
+          },
+          {
+            "source_quote": "Calibration, recruitment, and retention procedures were documented; no outcome was stated.",
+            "text": "Calibration, recruitment, and retention procedures were documented; no outcome was stated."
+          },
+          {
+            "source_quote": "Calibration, recruitment, and retention procedures were documented; no outcome was stated.",
+            "text": "Calibration, recruitment, and retention procedures were documented; no outcome was stated."
+          },
+          {
+            "source_quote": "The authors state that causality cannot be inferred from this cross-sectional association.",
+            "text": "The authors state that causality cannot be inferred from this cross-sectional association."
+          }
+        ]
+      },
+      "output_tokens": 346,
+      "prefill_tokens_per_second": 45.40878851540616,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    }
+  ],
+  "memory_after_eval": {
+    "PeakWorkingSet64": 3294195712,
+    "PrivateMemorySize64": 939479040,
+    "WorkingSet64": 3273916416
+  },
+  "memory_after_load": {
+    "PeakWorkingSet64": 2631041024,
+    "PrivateMemorySize64": 356564992,
+    "WorkingSet64": 2631041024
+  },
+  "model_file_bytes": 2679712992,
+  "model_path": "models\\minicpm5-2b\\MiniCPM5-2B-Q8_0.gguf",
+  "os": "windows",
+  "pid": 17880,
+  "prefill_timing_samples": 134,
+  "prefill_tokens_per_second_mean": 46.31318052164069,
+  "prompt_version": "micro-v3",
+  "runtime": "llama.cpp/b11307 CPU",
+  "sample_count": 140
+}

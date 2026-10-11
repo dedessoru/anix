@@ -1,0 +1,27 @@
+﻿[
+    {
+        "original":  "target/debug/rn.exe",
+        "sha256":  "83CFA945E936B450347A3351C8F05B16F93FC3D9813A74E72C23145DBF8DE296",
+        "archive":  "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\.runtime\\anix-platform-backup-20261009T144225Z\\legacy-build\\target__debug__rn.exe"
+    },
+    {
+        "original":  "target/debug/deps/rn.exe",
+        "sha256":  "0036937016F1182A33E24483E76F3E42B3D3235E17662B96C8EFD93F5D628B6E",
+        "archive":  "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\.runtime\\anix-platform-backup-20261009T144225Z\\legacy-build\\target__debug__deps__rn.exe"
+    },
+    {
+        "original":  "target/long-horizon-tests/debug/rn.exe",
+        "sha256":  "C8D8AE8202F3EA7AB91068BF04AB4B1D933A7732CC86992DFEA5797F3140A54D",
+        "archive":  "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\.runtime\\anix-platform-backup-20261009T144225Z\\legacy-build\\target__long-horizon-tests__debug__rn.exe"
+    },
+    {
+        "original":  "target/verified/debug/rn.exe",
+        "sha256":  "40A63A1F42D3C1CCBF9731EC5163F20B6559A5D0CCAD1F6A2DF5B5C54558DCF4",
+        "archive":  "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\.runtime\\anix-platform-backup-20261009T144225Z\\legacy-build\\target__verified__debug__rn.exe"
+    },
+    {
+        "original":  "target/verified/debug/deps/rn.exe",
+        "sha256":  "40A63A1F42D3C1CCBF9731EC5163F20B6559A5D0CCAD1F6A2DF5B5C54558DCF4",
+        "archive":  "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\.runtime\\anix-platform-backup-20261009T144225Z\\legacy-build\\target__verified__debug__deps__rn.exe"
+    }
+]

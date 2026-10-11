@@ -1,0 +1,23 @@
+{
+  "scenario": "interrupted-research",
+  "seed": 419,
+  "project_id": "0925106e-1e5d-4475-889d-ab9f36bf9aaa",
+  "status": "blocked",
+  "meaningful_steps": 4,
+  "lead_calls": 4,
+  "tool_calls": 0,
+  "work_nodes": 0,
+  "branches": 0,
+  "gates": 0,
+  "checkpoints": 0,
+  "max_context_tokens": 3704,
+  "elapsed_ms": 506197,
+  "audit": {
+    "passed": false,
+    "checked": 0,
+    "violations": []
+  },
+  "error": "model: Test Lead structured output recovery exhausted (failure_type=truncated)",
+  "model": "local-test-lead-4b",
+  "provider_locality": "local"
+}

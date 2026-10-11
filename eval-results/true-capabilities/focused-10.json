@@ -1,0 +1,173 @@
+﻿{
+    "generated_at":  "2026-10-06",
+    "branching_passed":  5,
+    "branching_runs":  5,
+    "long_context_passed":  5,
+    "long_context_runs":  5,
+    "integrity_passed":  10,
+    "recovery_passed":  10,
+    "branching":  [
+                      {
+                          "seed":  810,
+                          "workflow":  "completed",
+                          "capability":  "passed",
+                          "child_branches":  2,
+                          "work_per_child":  [
+                                                 3,
+                                                 3
+                                             ],
+                          "reconciled":  true,
+                          "restart":  1,
+                          "recovery":  true,
+                          "integrity":  true,
+                          "violations":  0
+                      },
+                      {
+                          "seed":  811,
+                          "workflow":  "completed",
+                          "capability":  "passed",
+                          "child_branches":  2,
+                          "work_per_child":  [
+                                                 3,
+                                                 3
+                                             ],
+                          "reconciled":  true,
+                          "restart":  1,
+                          "recovery":  true,
+                          "integrity":  true,
+                          "violations":  0
+                      },
+                      {
+                          "seed":  812,
+                          "workflow":  "completed",
+                          "capability":  "passed",
+                          "child_branches":  2,
+                          "work_per_child":  [
+                                                 3,
+                                                 3
+                                             ],
+                          "reconciled":  true,
+                          "restart":  1,
+                          "recovery":  true,
+                          "integrity":  true,
+                          "violations":  0
+                      },
+                      {
+                          "seed":  813,
+                          "workflow":  "completed",
+                          "capability":  "passed",
+                          "child_branches":  2,
+                          "work_per_child":  [
+                                                 3,
+                                                 3
+                                             ],
+                          "reconciled":  true,
+                          "restart":  1,
+                          "recovery":  true,
+                          "integrity":  true,
+                          "violations":  0
+                      },
+                      {
+                          "seed":  814,
+                          "workflow":  "completed",
+                          "capability":  "passed",
+                          "child_branches":  2,
+                          "work_per_child":  [
+                                                 3,
+                                                 3
+                                             ],
+                          "reconciled":  true,
+                          "restart":  1,
+                          "recovery":  true,
+                          "integrity":  true,
+                          "violations":  0
+                      }
+                  ],
+    "long_context":  [
+                         {
+                             "seed":  820,
+                             "workflow":  "completed",
+                             "capability":  "passed",
+                             "corpus_tokens":  46954,
+                             "context_limit":  8192,
+                             "retrievals":  3,
+                             "source_reads":  1,
+                             "offloaded_sources":  1,
+                             "successful_range_reads":  1,
+                             "snapshots":  17,
+                             "max_prompt_tokens":  3143,
+                             "restart":  1,
+                             "recovery":  true,
+                             "integrity":  true,
+                             "violations":  0
+                         },
+                         {
+                             "seed":  821,
+                             "workflow":  "completed",
+                             "capability":  "passed",
+                             "corpus_tokens":  46954,
+                             "context_limit":  8192,
+                             "retrievals":  3,
+                             "source_reads":  1,
+                             "offloaded_sources":  1,
+                             "successful_range_reads":  1,
+                             "snapshots":  16,
+                             "max_prompt_tokens":  3126,
+                             "restart":  1,
+                             "recovery":  true,
+                             "integrity":  true,
+                             "violations":  0
+                         },
+                         {
+                             "seed":  822,
+                             "workflow":  "completed",
+                             "capability":  "passed",
+                             "corpus_tokens":  46954,
+                             "context_limit":  8192,
+                             "retrievals":  3,
+                             "source_reads":  1,
+                             "offloaded_sources":  1,
+                             "successful_range_reads":  1,
+                             "snapshots":  16,
+                             "max_prompt_tokens":  3119,
+                             "restart":  1,
+                             "recovery":  true,
+                             "integrity":  true,
+                             "violations":  0
+                         },
+                         {
+                             "seed":  823,
+                             "workflow":  "completed",
+                             "capability":  "passed",
+                             "corpus_tokens":  46954,
+                             "context_limit":  8192,
+                             "retrievals":  3,
+                             "source_reads":  1,
+                             "offloaded_sources":  1,
+                             "successful_range_reads":  1,
+                             "snapshots":  16,
+                             "max_prompt_tokens":  3125,
+                             "restart":  1,
+                             "recovery":  true,
+                             "integrity":  true,
+                             "violations":  0
+                         },
+                         {
+                             "seed":  824,
+                             "workflow":  "completed",
+                             "capability":  "passed",
+                             "corpus_tokens":  46954,
+                             "context_limit":  8192,
+                             "retrievals":  3,
+                             "source_reads":  1,
+                             "offloaded_sources":  1,
+                             "successful_range_reads":  1,
+                             "snapshots":  16,
+                             "max_prompt_tokens":  3130,
+                             "restart":  1,
+                             "recovery":  true,
+                             "integrity":  true,
+                             "violations":  0
+                         }
+                     ]
+}

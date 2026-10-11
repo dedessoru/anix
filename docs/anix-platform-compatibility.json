@@ -1,0 +1,66 @@
+[
+  {
+    "workspace": "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core",
+    "source_backup": "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\.runtime\\anix-platform-backup-20261009T144225Z\\.rn\\state.sqlite",
+    "project_count": 207,
+    "old_tables_checked": 39,
+    "old_columns_and_rows": "IDENTICAL",
+    "versions": [
+      [
+        1,
+        "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426"
+      ],
+      [
+        2,
+        "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb"
+      ],
+      [
+        3,
+        "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96"
+      ],
+      [
+        4,
+        "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f"
+      ],
+      [
+        5,
+        "d556d2f48c105c245c8798e507b6d84a3693d5e59de57a967e8256c18039f49a"
+      ]
+    ],
+    "legacy_directory_removed": true,
+    "status": "PASS",
+    "binary_sha256": "019e6561e638b223782ec7736ebc20f07e330d402d07c8d8012d6e67efe28d28"
+  },
+  {
+    "workspace": "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\.runtime\\anix-platform-compatibility\\historical-runtime",
+    "source_backup": "C:\\Users\\leks\\Documents\\RN\\researcher-s-notes-core\\.runtime\\anix-storage-compatibility\\historical-runtime\\.rn\\state.sqlite",
+    "project_count": 2,
+    "old_tables_checked": 39,
+    "old_columns_and_rows": "IDENTICAL",
+    "versions": [
+      [
+        1,
+        "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426"
+      ],
+      [
+        2,
+        "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb"
+      ],
+      [
+        3,
+        "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96"
+      ],
+      [
+        4,
+        "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f"
+      ],
+      [
+        5,
+        "d556d2f48c105c245c8798e507b6d84a3693d5e59de57a967e8256c18039f49a"
+      ]
+    ],
+    "legacy_directory_removed": true,
+    "status": "PASS",
+    "binary_sha256": "019e6561e638b223782ec7736ebc20f07e330d402d07c8d8012d6e67efe28d28"
+  }
+]

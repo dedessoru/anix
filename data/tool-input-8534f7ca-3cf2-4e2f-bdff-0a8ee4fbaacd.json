@@ -1,0 +1,1 @@
+{"schema_version":1,"parameters":{"focus":"65ff91e1-d204-4cb1-8efc-9e3717a5802e","goal":"Research long-context. Use read_source on the detailed report returned by retrieval so its large result is offloaded as an Artifact. Set read_source.source_id to an exact bounded handle such as S1 from observation.sources[].handle. Do not use paper IDs, question IDs, or other entity IDs."}}

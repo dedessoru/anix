@@ -1,0 +1,12 @@
+[package]
+name = "anix-agent"
+version.workspace = true
+edition.workspace = true
+description = "ANIX bounded orchestration and model routing"
+
+[dependencies]
+anix-domain.workspace = true
+anix-core.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true

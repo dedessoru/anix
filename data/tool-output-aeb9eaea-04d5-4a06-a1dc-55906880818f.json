@@ -1,0 +1,1 @@
+{"schema_version":1,"data":{"entities":[{"id":"153a0b8d-34f1-419e-b6db-3d5ecb96eac6","type":"question"},{"id":"c71a2700-c40a-44da-8971-4f3e52d7e938","type":"paper"}],"source_ids":["41a39dbb-f9ac-4cc0-9df2-c3d4311ecf82"]},"metadata":{"count":2,"retrieval":"sqlite-fts-bm25"}}

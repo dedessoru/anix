@@ -1,0 +1,1 @@
+{"schema_version":1,"data":{"entities":[{"id":"09713620-1d9b-433a-8bc0-874841e3aba3","type":"paper"},{"id":"3295e500-84d2-45a7-a0a7-b1ea0d091a8d","type":"paper"},{"id":"f4f6b2eb-119c-412c-9548-2ccf706b3bc7","type":"paper"}]},"metadata":{"count":3,"retrieval":"sqlite-fts-bm25"}}

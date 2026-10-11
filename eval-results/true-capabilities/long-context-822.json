@@ -1,0 +1,701 @@
+{
+  "capability": "long-context",
+  "seed": 822,
+  "workflow_status": "completed",
+  "capability_status": "passed",
+  "error": null,
+  "project_id": "7f0bca04-2b01-4818-aaf6-29b3fa3a744c",
+  "model": "local-test-lead-4b",
+  "context_capacity": 8192,
+  "corpus_bytes": 187817,
+  "corpus_estimated_tokens": 46954,
+  "branch_results": [],
+  "persisted_branches": [
+    {
+      "id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "name": "main",
+      "parent_branch_id": null,
+      "base_checkpoint_id": null,
+      "work_node_ids": [
+        "7950022a-9a86-4173-9014-3080ef5e1205",
+        "9281f500-ba2c-464e-a895-d18892fbc8c9",
+        "b88f8e47-b706-4300-8e3e-2e5bcf758045",
+        "bbfdd0f6-a93b-4db3-80e7-5621b9ad4dab",
+        "c9a8db34-11e3-4948-bc6a-ed640a62e5ff",
+        "fe2244b4-67f5-4b4b-8a88-20e76653cb68"
+      ],
+      "completed_work_nodes": 6
+    }
+  ],
+  "branch_results_reconciled": false,
+  "restart_count": 1,
+  "restart_preserved_completed_work": true,
+  "completed_work_ids_before_restart": [
+    "9281f500-ba2c-464e-a895-d18892fbc8c9",
+    "fe2244b4-67f5-4b4b-8a88-20e76653cb68"
+  ],
+  "work_bindings_before_restart": 4,
+  "retrievals": [
+    {
+      "query": "repeated stimulation membrane response adaptation",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "candidate_count": 9,
+      "selected": [
+        {
+          "paper_id": "48961067-df89-4006-b4a5-a021a240fcd9",
+          "source_id": "88dc2151-1065-4e37-86cf-708567d46ba8",
+          "title": "Research report A-needle",
+          "role": "initial_observation",
+          "facet": "A",
+          "preview": "Repeated moderate stimulation produced a reversible membrane response change in the primary assay; the observation is descriptive and does not establish mechanism. Study design, an"
+        },
+        {
+          "paper_id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc",
+          "source_id": "2cf28826-6a09-46e7-b0bf-b1a73a1bb41a",
+          "title": "Research report D-10",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "5fb904ef-3d22-4f03-9f5f-c7aa9ea3bc3c",
+          "source_id": "6fc86452-0ab4-43f5-a6ee-bca2e11f4eae",
+          "title": "Research report D-05",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "736950a8-08be-4a09-b0a8-622ddda42143",
+          "source_id": "3a2060d4-66d6-4832-8749-bccce044dd42",
+          "title": "Research report D-20",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "78cd1653-7b11-4f82-83fe-0497475d6bcc",
+          "source_id": "daf05de4-4887-411e-92de-85c53717a1ee",
+          "title": "Research report D-15",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "95925118-eb76-4612-b194-af28b6563f04",
+          "source_id": "e97dfdde-6de3-41c9-a119-0f1305ae08af",
+          "title": "Research report D-25",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "c674e00f-fd6f-4337-a481-60345de04ba1",
+          "source_id": "bb01b897-16a4-4026-86f0-3e50d9f18ac4",
+          "title": "Research report D-00",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "56d8eb72-728e-4f74-8147-702960b387bc",
+          "source_id": "9dff04af-fdf1-4446-b43f-060c6fb1c822",
+          "title": "Research report G-qualification",
+          "role": "qualification",
+          "facet": "G",
+          "preview": "A washout interval and baseline calibration qualify the reported response; estimates depend on recovery timing and batch adjustment. Study design, analytical limitations, batch met"
+        }
+      ],
+      "source": "tool.sqlite-fts5-bm25"
+    },
+    {
+      "query": "washout calibration recovery timing baseline qualification",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "candidate_count": 33,
+      "selected": [
+        {
+          "paper_id": "56d8eb72-728e-4f74-8147-702960b387bc",
+          "source_id": "9dff04af-fdf1-4446-b43f-060c6fb1c822",
+          "title": "Research report G-qualification",
+          "role": "qualification",
+          "facet": "G",
+          "preview": "A washout interval and baseline calibration qualify the reported response; estimates depend on recovery timing and batch adjustment. Study design, analytical limitations, batch met"
+        },
+        {
+          "paper_id": "48961067-df89-4006-b4a5-a021a240fcd9",
+          "source_id": "88dc2151-1065-4e37-86cf-708567d46ba8",
+          "title": "Research report A-needle",
+          "role": "initial_observation",
+          "facet": "A",
+          "preview": "Repeated moderate stimulation produced a reversible membrane response change in the primary assay; the observation is descriptive and does not establish mechanism. Study design, an"
+        },
+        {
+          "paper_id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc",
+          "source_id": "2cf28826-6a09-46e7-b0bf-b1a73a1bb41a",
+          "title": "Research report D-10",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "5fb904ef-3d22-4f03-9f5f-c7aa9ea3bc3c",
+          "source_id": "6fc86452-0ab4-43f5-a6ee-bca2e11f4eae",
+          "title": "Research report D-05",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "736950a8-08be-4a09-b0a8-622ddda42143",
+          "source_id": "3a2060d4-66d6-4832-8749-bccce044dd42",
+          "title": "Research report D-20",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "78cd1653-7b11-4f82-83fe-0497475d6bcc",
+          "source_id": "daf05de4-4887-411e-92de-85c53717a1ee",
+          "title": "Research report D-15",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "95925118-eb76-4612-b194-af28b6563f04",
+          "source_id": "e97dfdde-6de3-41c9-a119-0f1305ae08af",
+          "title": "Research report D-25",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "c674e00f-fd6f-4337-a481-60345de04ba1",
+          "source_id": "bb01b897-16a4-4026-86f0-3e50d9f18ac4",
+          "title": "Research report D-00",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        }
+      ],
+      "source": "tool.sqlite-fts5-bm25"
+    },
+    {
+      "query": "blinded negative control cohort drift correction reproducible effect",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "candidate_count": 33,
+      "selected": [
+        {
+          "paper_id": "5db33063-0738-4704-800c-56e8b6c228dc",
+          "source_id": "f2b38d15-8184-41c9-a43a-9c218b14eeb7",
+          "title": "Research report K-contradiction",
+          "role": "contradiction",
+          "facet": "K",
+          "preview": "A preregistered blinded negative-control cohort showed no reproducible treatment effect after drift correction, contradicting the initial observation. Study design, analytical limi"
+        },
+        {
+          "paper_id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc",
+          "source_id": "2cf28826-6a09-46e7-b0bf-b1a73a1bb41a",
+          "title": "Research report D-10",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "5fb904ef-3d22-4f03-9f5f-c7aa9ea3bc3c",
+          "source_id": "6fc86452-0ab4-43f5-a6ee-bca2e11f4eae",
+          "title": "Research report D-05",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "736950a8-08be-4a09-b0a8-622ddda42143",
+          "source_id": "3a2060d4-66d6-4832-8749-bccce044dd42",
+          "title": "Research report D-20",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "78cd1653-7b11-4f82-83fe-0497475d6bcc",
+          "source_id": "daf05de4-4887-411e-92de-85c53717a1ee",
+          "title": "Research report D-15",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "95925118-eb76-4612-b194-af28b6563f04",
+          "source_id": "e97dfdde-6de3-41c9-a119-0f1305ae08af",
+          "title": "Research report D-25",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "c674e00f-fd6f-4337-a481-60345de04ba1",
+          "source_id": "bb01b897-16a4-4026-86f0-3e50d9f18ac4",
+          "title": "Research report D-00",
+          "role": "near_duplicate",
+          "facet": "D",
+          "preview": "A preliminary response note repeated the initial protocol summary but contained no independent cohort or calibrated endpoint. Study design, analytical limitations, batch metadata a"
+        },
+        {
+          "paper_id": "48961067-df89-4006-b4a5-a021a240fcd9",
+          "source_id": "88dc2151-1065-4e37-86cf-708567d46ba8",
+          "title": "Research report A-needle",
+          "role": "initial_observation",
+          "facet": "A",
+          "preview": "Repeated moderate stimulation produced a reversible membrane response change in the primary assay; the observation is descriptive and does not establish mechanism. Study design, an"
+        }
+      ],
+      "source": "tool.sqlite-fts5-bm25"
+    }
+  ],
+  "source_reads": [
+    {
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "source_id": "88dc2151-1065-4e37-86cf-708567d46ba8",
+      "documents": [
+        "48961067-df89-4006-b4a5-a021a240fcd9"
+      ],
+      "bytes": 24370,
+      "offloaded": true,
+      "artifact_id": "3116c0ad-be28-4d2b-af75-65fb42c5938b"
+    }
+  ],
+  "range_reads": [
+    {
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "artifact_id": "3116c0ad-be28-4d2b-af75-65fb42c5938b",
+      "start": 0,
+      "length": 1024,
+      "succeeded": true,
+      "injected_failure": false
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3f681727-2219-4563-b132-31fb79030448",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "7950022a-9a86-4173-9014-3080ef5e1205",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 6387,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "83148238-0276-4cda-aae9-bb30eb381261",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "9281f500-ba2c-464e-a895-d18892fbc8c9",
+      "query": "Find the primary repeated-stimulation membrane response evidence",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 6390,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "a343ce33-7217-4a1f-8cbb-55bfc007cff2",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "9281f500-ba2c-464e-a895-d18892fbc8c9",
+      "query": "Find the primary repeated-stimulation membrane response evidence",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7158,
+      "process_memory_ids": [
+        "759feab9-9e79-4cd1-8cee-c6be895bd391"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "3bb5b25a-9c25-466e-b03f-1daa72ab35e3",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "7950022a-9a86-4173-9014-3080ef5e1205",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7155,
+      "process_memory_ids": [
+        "759feab9-9e79-4cd1-8cee-c6be895bd391"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "ec8066f1-9b4f-41f7-a0fa-2c5ef8661749",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "fe2244b4-67f5-4b4b-8a88-20e76653cb68",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7155,
+      "process_memory_ids": [
+        "759feab9-9e79-4cd1-8cee-c6be895bd391"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "cf47d0c4-60d8-4fa6-9564-3eb73e09bcd5",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "fe2244b4-67f5-4b4b-8a88-20e76653cb68",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7515,
+      "process_memory_ids": [
+        "6e93549f-aaf1-4a35-921c-81227d6c0ff8",
+        "759feab9-9e79-4cd1-8cee-c6be895bd391"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "5c9cc5e8-7dae-4bb0-abeb-6291156be2f0",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "7950022a-9a86-4173-9014-3080ef5e1205",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7515,
+      "process_memory_ids": [
+        "6e93549f-aaf1-4a35-921c-81227d6c0ff8",
+        "759feab9-9e79-4cd1-8cee-c6be895bd391"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "f7bbb198-58c3-4eed-9e44-7574237ac95a",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "c9a8db34-11e3-4948-bc6a-ed640a62e5ff",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7515,
+      "process_memory_ids": [
+        "6e93549f-aaf1-4a35-921c-81227d6c0ff8",
+        "759feab9-9e79-4cd1-8cee-c6be895bd391"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "113f939f-a69f-473a-8f1e-aefe6d58128f",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "c9a8db34-11e3-4948-bc6a-ed640a62e5ff",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7514,
+      "process_memory_ids": [
+        "1a4fa60d-770d-4a81-b2e5-2efadda06f2f",
+        "6e93549f-aaf1-4a35-921c-81227d6c0ff8"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "5f78ad4e-bacd-494d-ad42-615b961416c9",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "7950022a-9a86-4173-9014-3080ef5e1205",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7514,
+      "process_memory_ids": [
+        "1a4fa60d-770d-4a81-b2e5-2efadda06f2f",
+        "6e93549f-aaf1-4a35-921c-81227d6c0ff8"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "77a2d3c9-5163-46ab-8f0e-5bea76cb322c",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "bbfdd0f6-a93b-4db3-80e7-5621b9ad4dab",
+      "query": "Find the source qualification about washout timing and baseline calibration",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "56d8eb72-728e-4f74-8147-702960b387bc"
+          },
+          68
+        ]
+      ],
+      "estimated_prompt_tokens": 7546,
+      "process_memory_ids": [
+        "1a4fa60d-770d-4a81-b2e5-2efadda06f2f",
+        "6e93549f-aaf1-4a35-921c-81227d6c0ff8"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "20a79203-6ee3-4624-8c20-cd33099b8308",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "bbfdd0f6-a93b-4db3-80e7-5621b9ad4dab",
+      "query": "Find the source qualification about washout timing and baseline calibration",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "56d8eb72-728e-4f74-8147-702960b387bc"
+          },
+          68
+        ]
+      ],
+      "estimated_prompt_tokens": 7946,
+      "process_memory_ids": [
+        "922fdded-fd8c-4876-992a-67dc9ac4c9f6",
+        "1a4fa60d-770d-4a81-b2e5-2efadda06f2f"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "fbb16bd0-9d15-4af8-928b-dc28a519f648",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "7950022a-9a86-4173-9014-3080ef5e1205",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7914,
+      "process_memory_ids": [
+        "922fdded-fd8c-4876-992a-67dc9ac4c9f6",
+        "1a4fa60d-770d-4a81-b2e5-2efadda06f2f"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "2b6f0584-cfed-4a6e-9d23-6869a9c457a1",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "b88f8e47-b706-4300-8e3e-2e5bcf758045",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7914,
+      "process_memory_ids": [
+        "922fdded-fd8c-4876-992a-67dc9ac4c9f6",
+        "1a4fa60d-770d-4a81-b2e5-2efadda06f2f"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "8340e58b-76a6-457f-920f-597aea92cfbf",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "b88f8e47-b706-4300-8e3e-2e5bcf758045",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7921,
+      "process_memory_ids": [
+        "97b2040a-f09c-462b-a778-fd2392cc1394",
+        "922fdded-fd8c-4876-992a-67dc9ac4c9f6"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    },
+    {
+      "id": "8f9942ee-ca29-4798-adb6-f384f9e75c6d",
+      "branch_id": "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+      "work_node_id": "7950022a-9a86-4173-9014-3080ef5e1205",
+      "query": "Research the supplied evidence corpus using bounded retrieval",
+      "candidate_count": 33,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "31c058d6-c8f7-4361-a2b2-4747b0e8d2fc"
+          },
+          3
+        ]
+      ],
+      "estimated_prompt_tokens": 7921,
+      "process_memory_ids": [
+        "97b2040a-f09c-462b-a778-fd2392cc1394",
+        "922fdded-fd8c-4876-992a-67dc9ac4c9f6"
+      ],
+      "process_memory_branch_ids": [
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc",
+        "b92815f4-64f2-456a-b057-09b8cf1d1abc"
+      ]
+    }
+  ],
+  "prompt_tokens": [
+    2646,
+    2674,
+    2864,
+    2881,
+    2914,
+    2981,
+    2993,
+    3028,
+    3028,
+    3040,
+    3047,
+    3047,
+    3068,
+    3099,
+    3112,
+    3119
+  ],
+  "process_memory_count": 5,
+  "integrity_audit": {
+    "passed": true,
+    "checked": 117,
+    "violations": []
+  },
+  "recovery_audit_passed": true,
+  "duplicate_consequential_operations": 0,
+  "unfinished_runs": 0,
+  "lead_calls": 16,
+  "tool_calls": 5,
+  "retrieval_recall_at_selected": null,
+  "required_evidence_recovered": [
+    "initial_observation",
+    "qualification",
+    "contradiction"
+  ],
+  "total_execution_history_in_prompts": false,
+  "preflight_failures": [],
+  "elapsed_ms": 1914187,
+  "report_path": ".\\eval-results/true-capabilities\\long-context-822.json"
+}

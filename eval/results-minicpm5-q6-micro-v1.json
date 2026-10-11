@@ -1,0 +1,2139 @@
+{
+  "cold_load_ms": 1328,
+  "context_tokens": 4096,
+  "counts": {
+    "CandidateExtraction": [
+      20,
+      20,
+      20
+    ],
+    "Classification": [
+      25,
+      20,
+      25
+    ],
+    "ContextCompression": [
+      10,
+      10,
+      10
+    ],
+    "QueryRewrite": [
+      15,
+      15,
+      15
+    ],
+    "ShortSummary": [
+      15,
+      6,
+      15
+    ],
+    "Tagging": [
+      15,
+      0,
+      15
+    ]
+  },
+  "decode_timing_samples": 100,
+  "decode_tokens_per_second_mean": 15.089874005264702,
+  "fixture_path": "eval\\micro-v1.jsonl",
+  "fixture_version": "micro-v1",
+  "latency_p50_ms": 1639,
+  "latency_p95_ms": 6764,
+  "manifest": {
+    "directory": "minicpm5-2b",
+    "family": "MiniCPM5",
+    "filename": "MiniCPM5-2B-Q6_K.gguf",
+    "license": "Apache-2.0",
+    "logical_name": "minicpm5-2b-micro-q6-k",
+    "parameters": "2.5B",
+    "quantization": "Q6_K",
+    "repository": "bartowski/MiniCPM5-2B-GGUF",
+    "revision": "31fee0334c4ed9f1e079afe586ba30cb83e0f883",
+    "runtime": "llama.cpp",
+    "schema_version": 1,
+    "sha256": "c9f424852aa737b3f5f2f83096a6214d86a8ea2516f3a0fbaa04a3b4feba477d",
+    "size": 2107305184,
+    "url": "https://huggingface.co/bartowski/MiniCPM5-2B-GGUF/resolve/31fee0334c4ed9f1e079afe586ba30cb83e0f883/MiniCPM5-2B-Q6_K.gguf"
+  },
+  "measurements": [
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.41981859868203,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-001",
+      "input_tokens": 78,
+      "latency_ms": 1527,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 70.43194648616824,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.284988612683485,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-002",
+      "input_tokens": 80,
+      "latency_ms": 853,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 48.27705764500124,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.607157684962218,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-003",
+      "input_tokens": 78,
+      "latency_ms": 808,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 45.23720126483215,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.315196774308994,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-004",
+      "input_tokens": 79,
+      "latency_ms": 833,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 51.295203898435496,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.881721035187134,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-005",
+      "input_tokens": 80,
+      "latency_ms": 822,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 47.67363496297709,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.798770330011845,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-006",
+      "input_tokens": 78,
+      "latency_ms": 761,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 50.066463229937746,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.986003533088734,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-007",
+      "input_tokens": 80,
+      "latency_ms": 770,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 53.22855373180551,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.889039013680122,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-008",
+      "input_tokens": 78,
+      "latency_ms": 773,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 48.24671439874945,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.068827200883028,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-009",
+      "input_tokens": 79,
+      "latency_ms": 766,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 51.23863295327281,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.896458502297918,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-010",
+      "input_tokens": 80,
+      "latency_ms": 767,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 53.87113046118585,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.08481757686032,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-011",
+      "input_tokens": 78,
+      "latency_ms": 767,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 48.57847244993381,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.640781007321944,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-012",
+      "input_tokens": 80,
+      "latency_ms": 777,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 53.39702141705987,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.67379934749865,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-013",
+      "input_tokens": 78,
+      "latency_ms": 771,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 49.01167948322085,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.483607052786006,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-014",
+      "input_tokens": 79,
+      "latency_ms": 777,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 51.32654682325337,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.72865562947143,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-015",
+      "input_tokens": 80,
+      "latency_ms": 828,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 47.3156946159041,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.849294295390592,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-016",
+      "input_tokens": 78,
+      "latency_ms": 769,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 48.989229717846534,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.20968853083488,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-017",
+      "input_tokens": 80,
+      "latency_ms": 791,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 52.82277718152067,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.241412353218237,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-018",
+      "input_tokens": 78,
+      "latency_ms": 782,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 48.92595301640732,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.70662334082347,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-019",
+      "input_tokens": 79,
+      "latency_ms": 757,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 53.20712266015344,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.079322064776175,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-020",
+      "input_tokens": 80,
+      "latency_ms": 767,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 53.40596544634035,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.943074094886864,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-021",
+      "input_tokens": 78,
+      "latency_ms": 766,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 49.12797838368951,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.833599865331202,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-022",
+      "input_tokens": 80,
+      "latency_ms": 770,
+      "output": {
+        "label": "physics"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 53.602450119265455,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.016207938061,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-023",
+      "input_tokens": 78,
+      "latency_ms": 769,
+      "output": {
+        "label": "chemistry"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 48.39416076056263,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.731501233948215,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-024",
+      "input_tokens": 79,
+      "latency_ms": 793,
+      "output": {
+        "label": "computing"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 48.85481976061138,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.854784792489507,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-025",
+      "input_tokens": 80,
+      "latency_ms": 778,
+      "output": {
+        "label": "biology"
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 52.640520279760445,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "classification"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.477832557165554,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-026",
+      "input_tokens": 92,
+      "latency_ms": 2204,
+      "output": {
+        "query": "Find papers about BRCA1 measurement in 2024."
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 79.99709101487218,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.520627734192082,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-027",
+      "input_tokens": 89,
+      "latency_ms": 1639,
+      "output": {
+        "query": "Find papers about graphene measurement in 2024."
+      },
+      "output_tokens": 15,
+      "prefill_tokens_per_second": 68.80071185803203,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.495107419832188,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-028",
+      "input_tokens": 90,
+      "latency_ms": 1473,
+      "output": {
+        "query": "Find papers about SQLite measurement in 2024."
+      },
+      "output_tokens": 16,
+      "prefill_tokens_per_second": 71.06652514494132,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.505603822131341,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-029",
+      "input_tokens": 91,
+      "latency_ms": 1476,
+      "output": {
+        "query": "Find papers about CRISPR measurement in 2024."
+      },
+      "output_tokens": 16,
+      "prefill_tokens_per_second": 72.67722454764106,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.500970219817848,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-030",
+      "input_tokens": 89,
+      "latency_ms": 1144,
+      "output": {
+        "query": "photosynthesis measurement 2024"
+      },
+      "output_tokens": 11,
+      "prefill_tokens_per_second": 69.63044800230244,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.48245610040646,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-031",
+      "input_tokens": 92,
+      "latency_ms": 1685,
+      "output": {
+        "query": "Find papers about BRCA1 comparison in 2024."
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 56.65858566434767,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.319566149886635,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-032",
+      "input_tokens": 89,
+      "latency_ms": 1495,
+      "output": {
+        "query": "Find papers about graphene comparison in 2024."
+      },
+      "output_tokens": 15,
+      "prefill_tokens_per_second": 58.6010751343918,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.379483960640057,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-033",
+      "input_tokens": 90,
+      "latency_ms": 1471,
+      "output": {
+        "query": "Find papers about SQLite comparison in 2024."
+      },
+      "output_tokens": 16,
+      "prefill_tokens_per_second": 72.60038173749108,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.367209065116626,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-034",
+      "input_tokens": 91,
+      "latency_ms": 1490,
+      "output": {
+        "query": "Find papers about CRISPR comparison in 2024."
+      },
+      "output_tokens": 16,
+      "prefill_tokens_per_second": 71.890887605337,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.610657708230564,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-035",
+      "input_tokens": 89,
+      "latency_ms": 1397,
+      "output": {
+        "query": "Find papers about photosynthesis comparison in 2024."
+      },
+      "output_tokens": 15,
+      "prefill_tokens_per_second": 69.33963245372156,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.57625262849263,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-036",
+      "input_tokens": 93,
+      "latency_ms": 1665,
+      "output": {
+        "query": "Find papers about BRCA1 limitations in 2024."
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 59.60896518836433,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.504693270653027,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-037",
+      "input_tokens": 90,
+      "latency_ms": 1414,
+      "output": {
+        "query": "Find papers about graphene limitations in 2024."
+      },
+      "output_tokens": 15,
+      "prefill_tokens_per_second": 70.06330558675758,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.384423079326893,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-038",
+      "input_tokens": 91,
+      "latency_ms": 1493,
+      "output": {
+        "query": "Find papers about SQLite limitations in 2024."
+      },
+      "output_tokens": 16,
+      "prefill_tokens_per_second": 71.18435189984362,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.257057581088878,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-039",
+      "input_tokens": 92,
+      "latency_ms": 1623,
+      "output": {
+        "query": "Find papers about CRISPR limitations in 2024."
+      },
+      "output_tokens": 16,
+      "prefill_tokens_per_second": 57.789499122650334,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.435084152078797,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-040",
+      "input_tokens": 90,
+      "latency_ms": 1490,
+      "output": {
+        "query": "Find papers about photosynthesis limitations in 2024."
+      },
+      "output_tokens": 15,
+      "prefill_tokens_per_second": 60.32302004280989,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "query_rewrite"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.121763793432786,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-041",
+      "input_tokens": 135,
+      "latency_ms": 7058,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 1 included 30 participants.",
+            "text": "Trial 1 included 30 participants."
+          },
+          {
+            "source_quote": "The observation period was 7 days.",
+            "text": "The observation period was 7 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 76,
+      "prefill_tokens_per_second": 78.39781204274178,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.932032818104341,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-042",
+      "input_tokens": 135,
+      "latency_ms": 6725,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 2 included 31 participants.",
+            "text": "Trial 2 included 31 participants."
+          },
+          {
+            "source_quote": "The observation period was 8 days.",
+            "text": "The observation period was 8 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 65.4080194451712,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.613107890591158,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-043",
+      "input_tokens": 135,
+      "latency_ms": 6427,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 3 included 32 participants.",
+            "text": "Trial 3 included 32 participants."
+          },
+          {
+            "source_quote": "The observation period was 9 days.",
+            "text": "The observation period was 9 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 66.20621313274987,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.570555486517547,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-044",
+      "input_tokens": 135,
+      "latency_ms": 6444,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 4 included 33 participants.",
+            "text": "Trial 4 included 33 participants."
+          },
+          {
+            "source_quote": "The observation period was 10 days.",
+            "text": "The observation period was 10 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 66.51247216131206,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.461082815961777,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-045",
+      "input_tokens": 135,
+      "latency_ms": 6499,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 5 included 34 participants.",
+            "text": "Trial 5 included 34 participants."
+          },
+          {
+            "source_quote": "The observation period was 11 days.",
+            "text": "The observation period was 11 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 64.98815538458314,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.509474686970592,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-046",
+      "input_tokens": 135,
+      "latency_ms": 6457,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 6 included 35 participants.",
+            "text": "Trial 6 included 35 participants."
+          },
+          {
+            "source_quote": "The observation period was 12 days.",
+            "text": "The observation period was 12 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 68.1562845590838,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.979537171267971,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-047",
+      "input_tokens": 135,
+      "latency_ms": 6876,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 7 included 36 participants.",
+            "text": "Trial 7 included 36 participants."
+          },
+          {
+            "source_quote": "The observation period was 13 days.",
+            "text": "The observation period was 13 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 47.97491685637393,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.502860976871462,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-048",
+      "input_tokens": 135,
+      "latency_ms": 6948,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 8 included 37 participants.",
+            "text": "Trial 8 included 37 participants."
+          },
+          {
+            "source_quote": "The observation period was 14 days.",
+            "text": "The observation period was 14 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 62.181944369224354,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.106064634960989,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-049",
+      "input_tokens": 135,
+      "latency_ms": 6687,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 9 included 38 participants.",
+            "text": "Trial 9 included 38 participants."
+          },
+          {
+            "source_quote": "The observation period was 15 days.",
+            "text": "The observation period was 15 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 60.52134255860808,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.47841750563826,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-050",
+      "input_tokens": 135,
+      "latency_ms": 6485,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 10 included 39 participants.",
+            "text": "Trial 10 included 39 participants."
+          },
+          {
+            "source_quote": "The observation period was 16 days.",
+            "text": "The observation period was 16 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 65.9265875547616,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.83479391036315,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-051",
+      "input_tokens": 135,
+      "latency_ms": 6369,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 11 included 40 participants.",
+            "text": "Trial 11 included 40 participants."
+          },
+          {
+            "source_quote": "The observation period was 17 days.",
+            "text": "The observation period was 17 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 76,
+      "prefill_tokens_per_second": 70.35109736364936,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.903989278266291,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-052",
+      "input_tokens": 135,
+      "latency_ms": 6764,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 12 included 41 participants.",
+            "text": "Trial 12 included 41 participants."
+          },
+          {
+            "source_quote": "The observation period was 18 days.",
+            "text": "The observation period was 18 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 62.04678327458904,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.281059457631626,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-053",
+      "input_tokens": 135,
+      "latency_ms": 6566,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 13 included 42 participants.",
+            "text": "Trial 13 included 42 participants."
+          },
+          {
+            "source_quote": "The observation period was 19 days.",
+            "text": "The observation period was 19 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 66.25177383781566,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.285050464814196,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-054",
+      "input_tokens": 135,
+      "latency_ms": 6575,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 14 included 43 participants.",
+            "text": "Trial 14 included 43 participants."
+          },
+          {
+            "source_quote": "The observation period was 20 days.",
+            "text": "The observation period was 20 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 64.73167675923993,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.553637430751033,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-055",
+      "input_tokens": 135,
+      "latency_ms": 6477,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 15 included 44 participants.",
+            "text": "Trial 15 included 44 participants."
+          },
+          {
+            "source_quote": "The observation period was 21 days.",
+            "text": "The observation period was 21 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 63.151247237132935,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.673939106648552,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-056",
+      "input_tokens": 135,
+      "latency_ms": 7004,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 16 included 45 participants.",
+            "text": "Trial 16 included 45 participants."
+          },
+          {
+            "source_quote": "The observation period was 22 days.",
+            "text": "The observation period was 22 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 48.79300276860942,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.108073028575173,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-057",
+      "input_tokens": 135,
+      "latency_ms": 6652,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 17 included 46 participants.",
+            "text": "Trial 17 included 46 participants."
+          },
+          {
+            "source_quote": "The observation period was 23 days.",
+            "text": "The observation period was 23 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 64.65431838706246,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.210633604783657,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-058",
+      "input_tokens": 135,
+      "latency_ms": 6607,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 18 included 47 participants.",
+            "text": "Trial 18 included 47 participants."
+          },
+          {
+            "source_quote": "The observation period was 24 days.",
+            "text": "The observation period was 24 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 64.77211706619919,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.467083102922826,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-059",
+      "input_tokens": 135,
+      "latency_ms": 5727,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 19 included 48 participants.",
+            "text": "Trial 19 included 48 participants."
+          },
+          {
+            "source_quote": "The observation period was 25 days.",
+            "text": "The observation period was 25 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 76,
+      "prefill_tokens_per_second": 66.32051635870414,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.01243950290307,
+      "error": null,
+      "extraction_precision": 0.0,
+      "extraction_recall": 0.0,
+      "id": "micro-v1-060",
+      "input_tokens": 135,
+      "latency_ms": 6672,
+      "output": {
+        "candidates": [
+          {
+            "source_quote": "Trial 20 included 49 participants.",
+            "text": "Trial 20 included 49 participants."
+          },
+          {
+            "source_quote": "The observation period was 26 days.",
+            "text": "The observation period was 26 days."
+          },
+          {
+            "source_quote": "The authors did not establish causation.",
+            "text": "The authors did not establish causation."
+          }
+        ]
+      },
+      "output_tokens": 87,
+      "prefill_tokens_per_second": 68.02825586524261,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "candidate_extraction"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.72342593823386,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-061",
+      "input_tokens": 135,
+      "latency_ms": 1969,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 80.66338553465354,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 16.439301987237624,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-062",
+      "input_tokens": 137,
+      "latency_ms": 767,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 42.732034949777294,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.66534765404183,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-063",
+      "input_tokens": 135,
+      "latency_ms": 619,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 54.48245301796469,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.521858083592127,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-064",
+      "input_tokens": 136,
+      "latency_ms": 815,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 43.580699197842755,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.695147990421024,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-065",
+      "input_tokens": 137,
+      "latency_ms": 784,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 38.59084398175788,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.61224873191809,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-066",
+      "input_tokens": 135,
+      "latency_ms": 622,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 53.98071808749914,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.64674741033982,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-067",
+      "input_tokens": 137,
+      "latency_ms": 747,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 42.108809162876874,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.6303618337927,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-068",
+      "input_tokens": 135,
+      "latency_ms": 622,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 54.12016842196413,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.65079663928832,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-069",
+      "input_tokens": 136,
+      "latency_ms": 630,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 55.806101699644586,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.66909322213584,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-070",
+      "input_tokens": 137,
+      "latency_ms": 748,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 42.00040518037939,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.760517186260465,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-071",
+      "input_tokens": 135,
+      "latency_ms": 665,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 46.40873721826029,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.666075834574865,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-072",
+      "input_tokens": 137,
+      "latency_ms": 741,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 42.72247730054258,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.649758198312686,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-073",
+      "input_tokens": 135,
+      "latency_ms": 627,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 53.085130854847556,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.703762934811795,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-074",
+      "input_tokens": 136,
+      "latency_ms": 615,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 58.75634843983534,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 17.48878531641585,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-075",
+      "input_tokens": 137,
+      "latency_ms": 757,
+      "output": {
+        "tags": []
+      },
+      "output_tokens": 6,
+      "prefill_tokens_per_second": 41.44016771079638,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "tagging"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 15.121909594743626,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-076",
+      "input_tokens": 126,
+      "latency_ms": 3311,
+      "output": {
+        "summary": "Project Alpha0 analysed 40 samples. No causal conclusion is possible. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 28,
+      "prefill_tokens_per_second": 83.90871557077529,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.959155510974886,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-077",
+      "input_tokens": 126,
+      "latency_ms": 2789,
+      "output": {
+        "summary": "Project Alpha1 analysed 41 samples. There is no causal conclusion. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 28,
+      "prefill_tokens_per_second": 73.30680570095454,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.384142026399187,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-078",
+      "input_tokens": 126,
+      "latency_ms": 2009,
+      "output": {
+        "summary": "Project Alpha2 analysed 42 samples. There is no causal conclusion."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 74.24446487976304,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.32792069495179,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-079",
+      "input_tokens": 126,
+      "latency_ms": 2027,
+      "output": {
+        "summary": "Project Alpha3 analysed 43 samples. There is no causal conclusion."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 72.86347047431563,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 15.277548837901186,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-080",
+      "input_tokens": 126,
+      "latency_ms": 2009,
+      "output": {
+        "summary": "Project Alpha4 analysed 44 samples. There is no causal conclusion."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 75.0028619513113,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 15.042609827402403,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-081",
+      "input_tokens": 126,
+      "latency_ms": 2308,
+      "output": {
+        "summary": "Project Alpha5 analysed 45 samples. No causal conclusion. Descriptive report reviewed by colleague."
+      },
+      "output_tokens": 23,
+      "prefill_tokens_per_second": 73.68596592605807,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.820365758287522,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-082",
+      "input_tokens": 126,
+      "latency_ms": 2270,
+      "output": {
+        "summary": "Project Alpha6 analysed 46 samples. There is no causal conclusion."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 72.90867229470453,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 14.97441653488095,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-083",
+      "input_tokens": 126,
+      "latency_ms": 2310,
+      "output": {
+        "summary": "Project Alpha7 analysed 47 samples. No causal conclusion. Descriptive report reviewed by colleague."
+      },
+      "output_tokens": 23,
+      "prefill_tokens_per_second": 74.18079029871433,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.578314716749208,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-084",
+      "input_tokens": 126,
+      "latency_ms": 2170,
+      "output": {
+        "summary": "Project Alpha8 analysed 48 samples. There is no causal conclusion."
+      },
+      "output_tokens": 19,
+      "prefill_tokens_per_second": 74.48088781218271,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 10.822322404513002,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-085",
+      "input_tokens": 126,
+      "latency_ms": 3077,
+      "output": {
+        "summary": "Project Alpha9 analysed 49 samples. No causal conclusion. Descriptive report reviewed by colleague."
+      },
+      "output_tokens": 23,
+      "prefill_tokens_per_second": 60.30488882211856,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 11.474882471483928,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-086",
+      "input_tokens": 126,
+      "latency_ms": 3391,
+      "output": {
+        "summary": "Project Alpha10 analysed 50 samples. No causal conclusion can be drawn. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 29,
+      "prefill_tokens_per_second": 66.46276977179949,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 10.916092741225478,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-087",
+      "input_tokens": 126,
+      "latency_ms": 2972,
+      "output": {
+        "summary": "Project Alpha11 analysed 51 samples. No causal conclusion. Descriptive report reviewed by colleague."
+      },
+      "output_tokens": 23,
+      "prefill_tokens_per_second": 66.4372832046548,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 11.658117380587568,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-088",
+      "input_tokens": 126,
+      "latency_ms": 3292,
+      "output": {
+        "summary": "Project Alpha12 analysed 52 samples. No causal conclusion is possible. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 28,
+      "prefill_tokens_per_second": 64.49612683785674,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 11.680897893934109,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-089",
+      "input_tokens": 126,
+      "latency_ms": 3269,
+      "output": {
+        "summary": "Project Alpha13 analysed 53 samples. No causal conclusion is possible. The descriptive report was reviewed by a colleague."
+      },
+      "output_tokens": 28,
+      "prefill_tokens_per_second": 65.87767555822661,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": false,
+      "decode_tokens_per_second": 14.250168523732105,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-090",
+      "input_tokens": 126,
+      "latency_ms": 2517,
+      "output": {
+        "summary": "Project Alpha14 analysed 54 samples. No causal conclusion. Descriptive report reviewed by colleague."
+      },
+      "output_tokens": 23,
+      "prefill_tokens_per_second": 63.55910941421918,
+      "quality_valid": false,
+      "schema_valid": true,
+      "task": "short_summary"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.253900537958977,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-091",
+      "input_tokens": 178,
+      "latency_ms": 3254,
+      "output": {
+        "context": "Dataset D0: 100 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 84.62281810519784,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 14.307331581667091,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-092",
+      "input_tokens": 178,
+      "latency_ms": 2033,
+      "output": {
+        "context": "Dataset D1: 101 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 68.9944768731703,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.174476968745644,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-093",
+      "input_tokens": 178,
+      "latency_ms": 2559,
+      "output": {
+        "context": "Dataset D2: 102 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 56.23489899048661,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 13.218678147736613,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-094",
+      "input_tokens": 178,
+      "latency_ms": 2167,
+      "output": {
+        "context": "Dataset D3: 103 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 66.10605691047644,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.348297532955426,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-095",
+      "input_tokens": 178,
+      "latency_ms": 2399,
+      "output": {
+        "context": "Dataset D4: 104 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 56.99080679330417,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.553135588958465,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-096",
+      "input_tokens": 178,
+      "latency_ms": 2326,
+      "output": {
+        "context": "Dataset D5: 105 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 68.17017155376276,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.92953630879992,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-097",
+      "input_tokens": 178,
+      "latency_ms": 2286,
+      "output": {
+        "context": "Dataset D6: 106 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 60.026059589318265,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 12.018873873937567,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-098",
+      "input_tokens": 178,
+      "latency_ms": 2250,
+      "output": {
+        "context": "Dataset D7: 107 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 69.92399984568496,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 11.588670370496608,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-099",
+      "input_tokens": 178,
+      "latency_ms": 2517,
+      "output": {
+        "context": "Dataset D8: 108 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 55.71753132910329,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    },
+    {
+      "constraints_valid": true,
+      "decode_tokens_per_second": 9.134633209550097,
+      "error": null,
+      "extraction_precision": null,
+      "extraction_recall": null,
+      "id": "micro-v1-100",
+      "input_tokens": 178,
+      "latency_ms": 2853,
+      "output": {
+        "context": "Dataset D9: 109 rows; preliminary. },"
+      },
+      "output_tokens": 17,
+      "prefill_tokens_per_second": 58.78257238617718,
+      "quality_valid": true,
+      "schema_valid": true,
+      "task": "context_compression"
+    }
+  ],
+  "memory_after_eval": {
+    "PeakWorkingSet64": 2509316096,
+    "PrivateMemorySize64": 664068096,
+    "WorkingSet64": 2452209664
+  },
+  "memory_after_load": {
+    "PeakWorkingSet64": 2122977280,
+    "PrivateMemorySize64": 356618240,
+    "WorkingSet64": 2122977280
+  },
+  "model_file_bytes": 2107305184,
+  "model_path": "models\\minicpm5-2b\\MiniCPM5-2B-Q6_K.gguf",
+  "os": "windows",
+  "pid": 23152,
+  "prefill_timing_samples": 100,
+  "prefill_tokens_per_second_mean": 60.32541534787232,
+  "prompt_version": "micro-v3",
+  "runtime": "llama.cpp/b11307 CPU",
+  "sample_count": 100
+}

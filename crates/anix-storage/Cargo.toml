@@ -1,0 +1,28 @@
+[package]
+name = "anix-storage"
+version.workspace = true
+edition.workspace = true
+description = "ANIX SQLite persistence and migrations"
+
+[dependencies]
+anix-domain.workspace = true
+anix-core.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+rusqlite.workspace = true
+sha2.workspace = true
+
+[dev-dependencies]
+anix-agent.workspace = true
+anix-integrations.workspace = true
+tempfile.workspace = true
+futures.workspace = true
+chrono.workspace = true
+
+[[test]]
+name = "acceptance"
+path = "../../tests/acceptance.rs"
+
+[[test]]
+name = "runtime_v2"
+path = "../../tests/runtime_v2.rs"

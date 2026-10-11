@@ -1,0 +1,175 @@
+{
+  "scope": "Working-copy filesystem metadata, including historical data, generated targets and runtime dependencies; no recursive links followed. Counts may change as model evaluation appends artifacts.",
+  "entries": [
+    {
+      "path": ".gitignore",
+      "kind": "file",
+      "bytes": 96
+    },
+    {
+      "path": ".rn",
+      "kind": "directory",
+      "files": 3,
+      "bytes": 66347008,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": ".runtime",
+      "kind": "directory",
+      "files": 6157,
+      "bytes": 1124245561,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "Cargo.lock",
+      "kind": "file",
+      "bytes": 48612
+    },
+    {
+      "path": "Cargo.toml",
+      "kind": "file",
+      "bytes": 1006
+    },
+    {
+      "path": "config",
+      "kind": "directory",
+      "files": 2,
+      "bytes": 542,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "crates",
+      "kind": "directory",
+      "files": 38,
+      "bytes": 823383,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "data",
+      "kind": "directory",
+      "files": 896,
+      "bytes": 226181,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "docs",
+      "kind": "directory",
+      "files": 30,
+      "bytes": 238940,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "eval",
+      "kind": "directory",
+      "files": 15,
+      "bytes": 804042,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "eval-results",
+      "kind": "directory",
+      "files": 228,
+      "bytes": 808383,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "experiments",
+      "kind": "directory",
+      "files": 0,
+      "bytes": 0,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "figures",
+      "kind": "directory",
+      "files": 0,
+      "bytes": 0,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "migrations",
+      "kind": "directory",
+      "files": 4,
+      "bytes": 26530,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "models",
+      "kind": "directory",
+      "files": 15,
+      "bytes": 23787711796,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "notes",
+      "kind": "directory",
+      "files": 0,
+      "bytes": 0,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "papers",
+      "kind": "directory",
+      "files": 0,
+      "bytes": 0,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "README.md",
+      "kind": "file",
+      "bytes": 6713
+    },
+    {
+      "path": "reports",
+      "kind": "directory",
+      "files": 0,
+      "bytes": 0,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "kind": "file",
+      "bytes": 66
+    },
+    {
+      "path": "scripts",
+      "kind": "directory",
+      "files": 7,
+      "bytes": 23675,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "sources",
+      "kind": "directory",
+      "files": 0,
+      "bytes": 0,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "src",
+      "kind": "directory",
+      "files": 0,
+      "bytes": 0,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "target",
+      "kind": "directory",
+      "files": 54062,
+      "bytes": 30993447820,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "tests",
+      "kind": "directory",
+      "files": 3,
+      "bytes": 154500,
+      "unfollowed_or_unavailable": 0
+    },
+    {
+      "path": "todo.md",
+      "kind": "file",
+      "bytes": 59623
+    }
+  ]
+}

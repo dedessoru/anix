@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "license": "Synthetic evaluation data created for Researcher's Notes; no external research content.",
+  "scenarios": [
+    {"id":"basic-evidence","question":"Does intervention X improve outcome Y?","documents":["Study A: In a synthetic pilot, intervention X improved outcome Y by 12% among 40 participants over 6 weeks."],"ground_truth":["source_claim_provenance"]},
+    {"id":"contradictory-evidence","question":"How does intervention X affect outcome Y?","documents":["Study A: X improved Y by 12% in adults after 6 weeks.","Study B: X had no measurable effect on Y in adolescents after 2 weeks.","Study C: X worsened Y among participants with condition Z."],"ground_truth":["support","contradiction","qualification"]},
+    {"id":"duplicate-sources","question":"Does intervention X improve outcome Y?","documents":["Study D: X improved Y by 12% in a synthetic sample.","Study D: X improved Y by 12% in a synthetic sample.","Study D: X improved Y by 12% in a synthetic sample."],"ground_truth":["duplicate content","preserve source provenance"]},
+    {"id":"branching","question":"Which mechanism could explain outcome Y?","documents":["Study F: X correlates with Y through pathway P.","Study G: X correlates with Y through pathway Q."],"ground_truth":["two plausible branches","shared base checkpoint"]},
+    {"id":"long-context","question":"What does the evidence say about intervention X?","documents":["Study H: X improved Y by 7% in a synthetic pilot."],"ground_truth":["bounded snapshot","context budget respected"]},
+    {"id":"sparse-evidence","question":"Is intervention X effective?","documents":["Study I: The authors proposed testing X but reported no outcome measurements."],"ground_truth":["insufficient evidence","no invented outcome"]},
+    {"id":"experiment-proposal","question":"What follow-up experiment should test intervention X?","documents":["Study J: X may improve Y, but the pilot had no control group."],"ground_truth":["experiment proposal","gate required"]},
+    {"id":"failed-experiment","question":"What can be concluded after an experiment failed?","documents":["Study K: The experiment was stopped because the measurement instrument failed; no outcome was recorded."],"ground_truth":["retain failure","no unsupported finding"]},
+    {"id":"revision","question":"Does the new evidence change the hypothesis?","documents":["Old study: X improved Y in one population.","New study: X reduced Y in a replicated sample."],"ground_truth":["revision trace","preserve provenance"]},
+    {"id":"interrupted-research","question":"Can interrupted research resume without repeating completed work?","documents":["Study L: X was associated with Y in a small observational sample."],"ground_truth":["checkpoint resolves","completed work not repeated"]},
+    {"id":"tool-failure","question":"Can a research workflow recover from a temporary source search failure?","documents":["Study M: A temporary retrieval service error interrupted one search; a later query returned source evidence."],"ground_truth":["failure recorded","research resumes safely"]}
+  ]
+}

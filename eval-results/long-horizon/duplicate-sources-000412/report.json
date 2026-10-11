@@ -1,0 +1,23 @@
+{
+  "scenario": "duplicate-sources",
+  "seed": 412,
+  "project_id": "b4041407-abf3-4e55-921b-ee5a70b8954d",
+  "status": "blocked",
+  "meaningful_steps": 4,
+  "lead_calls": 4,
+  "tool_calls": 0,
+  "work_nodes": 0,
+  "branches": 0,
+  "gates": 0,
+  "checkpoints": 0,
+  "max_context_tokens": 3674,
+  "elapsed_ms": 387603,
+  "audit": {
+    "passed": false,
+    "checked": 0,
+    "violations": []
+  },
+  "error": "conflicting command: active child runs must finish first",
+  "model": "local-test-lead-4b",
+  "provider_locality": "local"
+}

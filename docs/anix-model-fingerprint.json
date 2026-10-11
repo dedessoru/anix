@@ -1,0 +1,25 @@
+{
+  "scenario": "branching",
+  "seed": 664,
+  "model_profile": "models/profiles/qwen3-8b.toml",
+  "model_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+  "gpu": "NVIDIA GeForce RTX 2060 12288 MiB",
+  "gpu_layers": 37,
+  "context_size": 8192,
+  "temperature": 0.2,
+  "provider": "LocalOnlyTestProvider/OpenAiCompatibleModelProvider",
+  "endpoint": "http://127.0.0.1:8082/v1",
+  "rust": "1.96.0",
+  "llama_build": "b11307 CUDA",
+  "hashes": {
+    ".runtime/anix-audit-test-lead.toml": "09e94acf11f583c92c78855299c12960c364c1d64d85300c45e4b420f1b0adea",
+    ".runtime/anix-platform-lead-runner.exe": "554642622411b0fc1e13d44eecadc906dc82f07a9023b7f0eadf04138f971f7b",
+    ".runtime/llama-b11307-cuda-build/bin/Release/llama-server.exe": "42f202c9567b6d5ae16260266635609fac14027ad53fa02ba377351993aceb93",
+    ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261009T162401325/branching-000664/report.json": "708adc566f9d547acc369cb2f3846353f3c8d9db123aafb48689cc1318336af8",
+    ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261009T162401325/branching-000664/lead-decision-trace.jsonl": "1586eab56cae9a4150c3bcc90a5740268d0cb8ff2085219c3a79a3ad3c1e450f",
+    "docs/anix-inventory.json": "5448332b9ac84f0c22a4b55827a69accb4f7e8b3ff864d82b96732431c43ff99"
+  },
+  "source_inventory": "docs/anix-inventory.json",
+  "final_report": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261009T162401325/branching-000664/report.json",
+  "deterministic_generation_seed": false
+}

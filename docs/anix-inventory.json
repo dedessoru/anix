@@ -1,0 +1,404 @@
+[
+  {
+    "path": ".runtime/anix-audit-test-lead.toml",
+    "bytes": 300,
+    "lines": 11,
+    "sha256": "09e94acf11f583c92c78855299c12960c364c1d64d85300c45e4b420f1b0adea"
+  },
+  {
+    "path": "Cargo.lock",
+    "bytes": 48614,
+    "lines": 1967,
+    "sha256": "55cd69a28b8b998dd33daa5d02526dc91a160048fd5e9d2deb871ec6109e4278"
+  },
+  {
+    "path": "Cargo.toml",
+    "bytes": 1035,
+    "lines": 27,
+    "sha256": "a4de8f12b993efec18e5dcd896616bbcfc7aa1443902903b7e6675f8b8ab8291"
+  },
+  {
+    "path": "config/local-test-lead-4b.toml",
+    "bytes": 273,
+    "lines": 8,
+    "sha256": "b6c2b0c2b7a3e542ad00a09c612e7f3377cd3d81d92271ee60dbca290088afa8"
+  },
+  {
+    "path": "config/local-test-lead.toml",
+    "bytes": 269,
+    "lines": 8,
+    "sha256": "90063ba7697076a7a3e918f2fc846d0b535b5c063cbbb87e82d4fbb6d7a3887f"
+  },
+  {
+    "path": "crates/anix-agent/Cargo.toml",
+    "bytes": 300,
+    "lines": 12,
+    "sha256": "df5f36452b731bf3895a439846472817557410752cbdc33beab51ba6b9b9a850"
+  },
+  {
+    "path": "crates/anix-agent/src/durable.rs",
+    "bytes": 5942,
+    "lines": 166,
+    "sha256": "e716a6ad01efb19e76adff5313a7dd20be2bf58782dd161bc463ece86aab776d"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "bytes": 31831,
+    "lines": 880,
+    "sha256": "d569b5e73ae5ccb8fd5a7382e329fb74bfe7696b0451cadf72ac2d2cc859b3a7"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "bytes": 62709,
+    "lines": 1619,
+    "sha256": "a9ab06617b44e5eb1db0c3ef672ba14dd438e8eb3e03bddccb4cdbe48527c8bc"
+  },
+  {
+    "path": "crates/anix-cli/Cargo.toml",
+    "bytes": 482,
+    "lines": 23,
+    "sha256": "67305d9767fafa41d2f464dc1df02b30113531a49dea2816341a0a1bdce9c9be"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "bytes": 33691,
+    "lines": 1049,
+    "sha256": "7910763ba3f0be41c5f8bfdfdef813c3f95d8e5b34914df325d068c96d19755d"
+  },
+  {
+    "path": "crates/anix-cli/tests/cli.rs",
+    "bytes": 4699,
+    "lines": 157,
+    "sha256": "44b35f20fa5769ebaee741d6cd42849a1fa3b92279f08068db274859c05fb996"
+  },
+  {
+    "path": "crates/anix-core/Cargo.toml",
+    "bytes": 282,
+    "lines": 11,
+    "sha256": "a0629c3f600918cc8d52760ded5e856aa89e166f11a11c6f99159edaccdb56fc"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "bytes": 15232,
+    "lines": 402,
+    "sha256": "51ccd68bd2b52618c04e5f039bdbee14e6f62dfc263016341d740172be0dbb6b"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "bytes": 19287,
+    "lines": 532,
+    "sha256": "fc22a5f70744b0d09243364743df710b18729bad1eba97679ab091757e133108"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "bytes": 84681,
+    "lines": 2370,
+    "sha256": "03e09be58e38c2729acd6d34e7aae7363430a625d57ce0ad2991538ea8425d88"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "bytes": 20174,
+    "lines": 572,
+    "sha256": "0aa460fe66cae58bbd734d0b088b3332aa7456e001eef7f0713661adc2e4c0c4"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "bytes": 84559,
+    "lines": 2062,
+    "sha256": "12936806bddc44f42eafea72389370329db214a2663897989e3b71dc76601be4"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "bytes": 12271,
+    "lines": 418,
+    "sha256": "e784caf0ba8000eb6b5d0afe6f80e33135d24e264565dea7a5e1a9abf02a52e8"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "bytes": 1335,
+    "lines": 39,
+    "sha256": "6f30bd65977c8e352353401a7bc21e70625cf60e3466c847cd9b9003d6813a45"
+  },
+  {
+    "path": "crates/anix-domain/Cargo.toml",
+    "bytes": 310,
+    "lines": 12,
+    "sha256": "d567d6f67a1fd7496ace22479db5a9b8b43d1e8aa9ae5034f7b9415c32b4f618"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "bytes": 15435,
+    "lines": 390,
+    "sha256": "4341f8ea382dcfe16b5daefd64d28987edecbb3b9dfc2ec18a2081b2ab18fad8"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "bytes": 4814,
+    "lines": 154,
+    "sha256": "5fd66269cc9fc6cd65a33db0d05953314aac5996346e4953b352d270a01ed9a2"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "bytes": 6596,
+    "lines": 191,
+    "sha256": "f26519b0051b28e96d3c4b8494e0379fe4d76d25cb1a7290aa0f7ad1b2e5cf97"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "bytes": 24842,
+    "lines": 688,
+    "sha256": "acdeb174a8c124a09899198725800824ddd500a676f24edffe01720225da4539"
+  },
+  {
+    "path": "crates/anix-evals/Cargo.toml",
+    "bytes": 495,
+    "lines": 20,
+    "sha256": "cecd3604eaa022fe4c1bb38e930ae225dff416ab9cfc85edb6203994f3920cfa"
+  },
+  {
+    "path": "crates/anix-evals/examples/lead_runtime_seed.rs",
+    "bytes": 1900,
+    "lines": 38,
+    "sha256": "09dc082a5ec1141ef5294ce300d3f1fa59c6139df3caf1a2dbcc15f15dec126d"
+  },
+  {
+    "path": "crates/anix-evals/examples/long_horizon_campaign.rs",
+    "bytes": 1007,
+    "lines": 29,
+    "sha256": "f3c7af872a328bd00c879c2c5e065efd0d5abcd9cf2fbbc665d439ab145c95b8"
+  },
+  {
+    "path": "crates/anix-evals/examples/true_capability_campaign.rs",
+    "bytes": 2296,
+    "lines": 54,
+    "sha256": "1131209c8f8a9a315bafc0c79737c4bc07b82469b75906b7cf499042f465cf0b"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "bytes": 64785,
+    "lines": 1712,
+    "sha256": "3d821ccfee2afda866fc51e8330a2b83cda3878708dc521b29dcba23e4d773b5"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "bytes": 126959,
+    "lines": 2819,
+    "sha256": "81afae6831951dc5d0c507e3166c6410629d62f14548dec6efb1a9bf7f492fea"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "bytes": 89822,
+    "lines": 2428,
+    "sha256": "01e94add0c4fbb17636ed0415de525ec1b3ec69fa8f05533364dcaf495d2c604"
+  },
+  {
+    "path": "crates/anix-integrations/Cargo.toml",
+    "bytes": 473,
+    "lines": 20,
+    "sha256": "121f4afa90ad9021d0dd1f9fca84ef03d199e20682142a5a49a1a555bd5124b7"
+  },
+  {
+    "path": "crates/anix-integrations/examples/bench.rs",
+    "bytes": 4214,
+    "lines": 82,
+    "sha256": "54fcd1739d191145661da197ac0fe5752ca52875a0f6dcc4431cbb07411a4c29"
+  },
+  {
+    "path": "crates/anix-integrations/examples/eval.rs",
+    "bytes": 12037,
+    "lines": 292,
+    "sha256": "677a84103237f8c6e3702ab9e027f9efeeb16675416a07533bd78ea4695533a6"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "bytes": 4795,
+    "lines": 147,
+    "sha256": "7f167e698c503f91a1f0e59aa46d2a31722be88ea2161f779a9dad5697978db2"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "bytes": 13737,
+    "lines": 377,
+    "sha256": "25cf41841df05093c96d1ddc042ae6e0ef63fd42a3b305b47956d3a48f0fe347"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "bytes": 14200,
+    "lines": 318,
+    "sha256": "ca548d0ccad022ec84dfa66b50040da7c1dfaecb0a8af2be856a6e20d0cb5dde"
+  },
+  {
+    "path": "crates/anix-integrations/src/offload.rs",
+    "bytes": 3164,
+    "lines": 91,
+    "sha256": "39333677a5886c45ec74136519adcd76a6063d12a19a974ab395b8cb08f1773f"
+  },
+  {
+    "path": "crates/anix-integrations/src/recorded_tool.rs",
+    "bytes": 8599,
+    "lines": 208,
+    "sha256": "a4650cd3ac8537360e59b3e22d9e5f9928ec642129d302cacce7a9295ee6e6e7"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "bytes": 75692,
+    "lines": 1625,
+    "sha256": "32e95dd302ae0361f733ac390b73ddb16d7f86425f1fcd8ef8700d78f8ae2314"
+  },
+  {
+    "path": "crates/anix-storage/Cargo.toml",
+    "bytes": 624,
+    "lines": 28,
+    "sha256": "bad14506a23e406b382f7340d8e9f2624e1ba40321a10f7f8f9736a7cfe102f6"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "bytes": 30210,
+    "lines": 792,
+    "sha256": "6806785fa76593bd80181fbb9e1693a809de2de02c83c11ffe7e3558872dbe0c"
+  },
+  {
+    "path": "migrations/0001_initial.sql",
+    "bytes": 12540,
+    "lines": 50,
+    "sha256": "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426"
+  },
+  {
+    "path": "migrations/0002_runtime.sql",
+    "bytes": 13455,
+    "lines": 46,
+    "sha256": "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb"
+  },
+  {
+    "path": "migrations/0003_context_retrieval_telemetry.sql",
+    "bytes": 370,
+    "lines": 8,
+    "sha256": "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96"
+  },
+  {
+    "path": "migrations/0004_human_control.sql",
+    "bytes": 165,
+    "lines": 4,
+    "sha256": "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f"
+  },
+  {
+    "path": "migrations/0005_work_outcome.sql",
+    "bytes": 215,
+    "lines": 2,
+    "sha256": "d556d2f48c105c245c8798e507b6d84a3693d5e59de57a967e8256c18039f49a"
+  },
+  {
+    "path": "models/comparison-qwen-1.7b.toml",
+    "bytes": 526,
+    "lines": 14,
+    "sha256": "e5e4aa75c26f653e1b42efd0daffbfe80be179b78d5a36e769040a51bed08a20"
+  },
+  {
+    "path": "models/manifest.toml",
+    "bytes": 522,
+    "lines": 14,
+    "sha256": "f9f0a06c4d8eac2fdbbdcba76b99d8e1eebc0f73604224b97acccd674589e7ce"
+  },
+  {
+    "path": "models/profiles/economy-0.6b.toml",
+    "bytes": 517,
+    "lines": 14,
+    "sha256": "e3bbf1589b07257acda11c5595d767be38529135b4b912338d50c060cf5dfa0a"
+  },
+  {
+    "path": "models/profiles/minicpm5-2b-q6.toml",
+    "bytes": 546,
+    "lines": 14,
+    "sha256": "5946b525b76fdfc0248d27df86a0cb6790bf1d4d392e007dea795d62117afb66"
+  },
+  {
+    "path": "models/profiles/minicpm5-2b-q8.toml",
+    "bytes": 546,
+    "lines": 14,
+    "sha256": "e75eddf80ea3626c384175b7d9351f627fe80666902128dc821ade115e232644"
+  },
+  {
+    "path": "models/profiles/qwen3-1.7b-micro.toml",
+    "bytes": 522,
+    "lines": 14,
+    "sha256": "f9f0a06c4d8eac2fdbbdcba76b99d8e1eebc0f73604224b97acccd674589e7ce"
+  },
+  {
+    "path": "models/profiles/qwen3-8b.toml",
+    "bytes": 515,
+    "lines": 14,
+    "sha256": "7a84b0cada69eb7c7293af36bf9d5df80454089f72d6e2761d13299ff06905e4"
+  },
+  {
+    "path": "models/profiles/test-lead-4b.toml",
+    "bytes": 518,
+    "lines": 14,
+    "sha256": "96c9e86f28f17731d7633ba68ece187e7055222ea390c4ec606a84b998759def"
+  },
+  {
+    "path": "rust-toolchain.toml",
+    "bytes": 66,
+    "lines": 3,
+    "sha256": "a6a0bbd29ffaa8182dc22d1d9149709f1091e47df40ed96eb8a78a711c66a4ce"
+  },
+  {
+    "path": "scripts/bootstrap-model.ps1",
+    "bytes": 583,
+    "lines": 11,
+    "sha256": "cfe93aec529dc4495b6f4529d4f666724ac224b49ff50139f871289fab7d0ff7"
+  },
+  {
+    "path": "scripts/bootstrap-model.sh",
+    "bytes": 194,
+    "lines": 4,
+    "sha256": "6c4f5227ce1ae352968e4961b00d5c9acf0f82892cdbe169dcb428dbd4af55e7"
+  },
+  {
+    "path": "scripts/bootstrap-runtime.ps1",
+    "bytes": 1148,
+    "lines": 14,
+    "sha256": "dc9572ae32a77739e77774400a4406bc4ca6f4af90b7d9f58cd47fd33e7885a4"
+  },
+  {
+    "path": "scripts/check.ps1",
+    "bytes": 1526,
+    "lines": 33,
+    "sha256": "96458f4d980cf00ac2f8d616035eb972db4c1455317ae5aab483e7ce14c1d1b7"
+  },
+  {
+    "path": "scripts/generate-real-micro-eval.py",
+    "bytes": 14415,
+    "lines": 174,
+    "sha256": "9777766a4a52f42e5e09a9c81815a297cc2590faf3560310fb298c40adf93e73"
+  },
+  {
+    "path": "scripts/start-test-model.ps1",
+    "bytes": 3560,
+    "lines": 51,
+    "sha256": "5526abebff9c988467e68cb4b528b2717d73b93b4cc18accbe33e23bf5e25008"
+  },
+  {
+    "path": "scripts/start-test-model.sh",
+    "bytes": 2466,
+    "lines": 46,
+    "sha256": "8489f5c6447cfc27ff2d285ff0e8e500996d06723542f730fa0e99b44d7bf1ec"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "bytes": 46880,
+    "lines": 1291,
+    "sha256": "c93dc8c2972978f969edbe30dc3c948d2b8a846f1c2b8f4ff1d9d19d6f81c562"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "bytes": 121210,
+    "lines": 3403,
+    "sha256": "46fc7e68d843e6561d9ec9949bb22e1ff643ab1226637542919da8fc08bdec2e"
+  },
+  {
+    "path": "todo.md",
+    "bytes": 20938,
+    "lines": 656,
+    "sha256": "922ebad0f447c4719caa2de5efc2463f3d9d07d6090df682bd0f1c870c3d7443"
+  }
+]

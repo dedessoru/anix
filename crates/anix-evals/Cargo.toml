@@ -1,0 +1,20 @@
+[package]
+name = "anix-evals"
+version.workspace = true
+edition.workspace = true
+description = "ANIX reproducible research evaluation harness"
+
+[dependencies]
+anix-domain.workspace = true
+anix-core.workspace = true
+anix-storage.workspace = true
+anix-agent.workspace = true
+anix-integrations.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+uuid.workspace = true
+futures.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

@@ -1,0 +1,23 @@
+[package]
+name = "anix-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "anix"
+path = "src/main.rs"
+
+[dependencies]
+anix-domain.workspace = true
+anix-core.workspace = true
+anix-storage.workspace = true
+anix-agent.workspace = true
+anix-integrations.workspace = true
+anix-evals.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+clap.workspace = true
+futures.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

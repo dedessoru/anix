@@ -1,0 +1,23 @@
+{
+  "scenario": "contradictory-evidence",
+  "seed": 411,
+  "project_id": "6253d2bf-af6e-4d99-abfb-183e2347d4eb",
+  "status": "blocked",
+  "meaningful_steps": 4,
+  "lead_calls": 4,
+  "tool_calls": 0,
+  "work_nodes": 0,
+  "branches": 0,
+  "gates": 0,
+  "checkpoints": 0,
+  "max_context_tokens": 3724,
+  "elapsed_ms": 218756,
+  "audit": {
+    "passed": false,
+    "checked": 0,
+    "violations": []
+  },
+  "error": "conflicting command: active child runs must finish first",
+  "model": "local-test-lead-4b",
+  "provider_locality": "local"
+}

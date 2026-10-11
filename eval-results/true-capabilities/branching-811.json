@@ -1,0 +1,1086 @@
+{
+  "capability": "branching",
+  "seed": 811,
+  "workflow_status": "completed",
+  "capability_status": "passed",
+  "error": null,
+  "project_id": "f19fcf39-4daa-4264-bdd4-6c37bacaab9e",
+  "model": "local-test-lead-4b",
+  "context_capacity": 8192,
+  "corpus_bytes": 4127,
+  "corpus_estimated_tokens": 1031,
+  "branch_results": [
+    {
+      "id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "name": "process",
+      "parent_branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "base_checkpoint_id": "ed160929-004e-4e50-9363-1729231b09ac",
+      "work_node_ids": [
+        "bb714787-e92c-487d-973c-bebfdba97892",
+        "d149bf28-ba65-454e-a905-3668cacd954b",
+        "efc553b8-c747-43b1-890a-e0613564475a"
+      ],
+      "completed_work_nodes": 3,
+      "result_summary": "aquaporin branch retrieved evidence roles: discriminator, distractor, qualification, support",
+      "process_memory_ids": [
+        "878e6bf3-8d09-4c47-b130-84597ad8211c",
+        "8e9fc0dc-bf0e-4534-9262-45334777dcd2"
+      ],
+      "artifact_ids": [
+        "4fc11a57-c622-42ee-a3d1-5d0ff9131e46",
+        "30076281-cf73-4e7c-9fd8-09cf6db84b5a",
+        "7b076bc7-2894-44e9-8eaa-12208bdd934e",
+        "e72d617d-1a55-4092-a129-d849b9be9467"
+      ]
+    },
+    {
+      "id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "name": "process",
+      "parent_branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "base_checkpoint_id": "ed160929-004e-4e50-9363-1729231b09ac",
+      "work_node_ids": [
+        "5671744a-c284-42fe-9c07-8700cad70fdf",
+        "a5df9500-bdd8-4484-88ea-b2cae39f204f",
+        "b0869e1f-e939-41fe-9186-bbacaf36ee61"
+      ],
+      "completed_work_nodes": 3,
+      "result_summary": "lipid oxidation branch retrieved evidence roles: contradiction, support",
+      "process_memory_ids": [
+        "39ec4a92-913b-42aa-a9c0-be3e6706f959",
+        "41622c32-5cfa-4041-8289-8b7784d8f574"
+      ],
+      "artifact_ids": [
+        "702cff4d-5c6a-4fd9-82a2-6aa1660212fb",
+        "e4eba107-f84c-41b5-ad2a-ce885aa9c67f",
+        "b478e574-031b-4fd6-b542-1805c05df691",
+        "229484fc-df98-41d6-935c-d1cae6d52d74"
+      ]
+    }
+  ],
+  "persisted_branches": [
+    {
+      "id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "name": "process",
+      "parent_branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "base_checkpoint_id": "ed160929-004e-4e50-9363-1729231b09ac",
+      "work_node_ids": [
+        "bb714787-e92c-487d-973c-bebfdba97892",
+        "d149bf28-ba65-454e-a905-3668cacd954b",
+        "efc553b8-c747-43b1-890a-e0613564475a"
+      ],
+      "completed_work_nodes": 3
+    },
+    {
+      "id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "name": "main",
+      "parent_branch_id": null,
+      "base_checkpoint_id": null,
+      "work_node_ids": [
+        "1d8c5a1c-a93d-4930-859b-234ff8d63d4d",
+        "654c50db-5cf2-4efb-bfcd-79474decfb81"
+      ],
+      "completed_work_nodes": 2
+    },
+    {
+      "id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "name": "process",
+      "parent_branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "base_checkpoint_id": "ed160929-004e-4e50-9363-1729231b09ac",
+      "work_node_ids": [
+        "5671744a-c284-42fe-9c07-8700cad70fdf",
+        "a5df9500-bdd8-4484-88ea-b2cae39f204f",
+        "b0869e1f-e939-41fe-9186-bbacaf36ee61"
+      ],
+      "completed_work_nodes": 3
+    }
+  ],
+  "branch_results_reconciled": true,
+  "restart_count": 1,
+  "restart_preserved_completed_work": true,
+  "completed_work_ids_before_restart": [
+    "bb714787-e92c-487d-973c-bebfdba97892",
+    "d149bf28-ba65-454e-a905-3668cacd954b"
+  ],
+  "work_bindings_before_restart": 4,
+  "retrievals": [
+    {
+      "query": "osmotic adaptation aquaporin conductance pore occupancy",
+      "branch_id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "candidate_count": 5,
+      "selected": [
+        {
+          "paper_id": "9e55d2c8-1593-4712-b404-72f5327aa4ca",
+          "source_id": "361af957-6657-411f-8922-070673b316c6",
+          "title": "Research report a-1",
+          "role": "support",
+          "facet": "A",
+          "preview": "The transport response under osmotic adaptation was consistent with gated aquaporin conductance across randomized cell preparations. Study design, analytical limitations, batch met"
+        },
+        {
+          "paper_id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167",
+          "source_id": "d27f9f4a-3f25-42fb-9824-0a29e498573b",
+          "title": "Research report a-2",
+          "role": "support",
+          "facet": "A",
+          "preview": "Independent microscopy showed reversible pore occupancy associated with the measured water flux; the assay did not assess lipid damage. Study design, analytical limitations, batch "
+        },
+        {
+          "paper_id": "9dfce624-3c7f-4a44-af08-b188927e8134",
+          "source_id": "9a309a7a-9e8b-4411-bf41-91610015b58b",
+          "title": "Research report c-1",
+          "role": "discriminator",
+          "facet": "C",
+          "preview": "The paired recovery assay separated reversible channel occupancy from persistent membrane damage, but measured neither outcome in the same cells. Study design, analytical limitatio"
+        },
+        {
+          "paper_id": "7139da63-273d-4847-90bf-441c5c3e0bf0",
+          "source_id": "355e8589-2fe6-4da3-8faa-99fb388dc1c8",
+          "title": "Research report a-3",
+          "role": "qualification",
+          "facet": "A",
+          "preview": "The conductance estimate changed after washout calibration, limiting direct comparison with the oxidation panel. Study design, analytical limitations, batch metadata and the report"
+        }
+      ],
+      "source": "tool.sqlite-fts5-bm25"
+    },
+    {
+      "query": "washout calibration reversible water flux conductance",
+      "branch_id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "candidate_count": 14,
+      "selected": [
+        {
+          "paper_id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167",
+          "source_id": "d27f9f4a-3f25-42fb-9824-0a29e498573b",
+          "title": "Research report a-2",
+          "role": "support",
+          "facet": "A",
+          "preview": "Independent microscopy showed reversible pore occupancy associated with the measured water flux; the assay did not assess lipid damage. Study design, analytical limitations, batch "
+        },
+        {
+          "paper_id": "7139da63-273d-4847-90bf-441c5c3e0bf0",
+          "source_id": "355e8589-2fe6-4da3-8faa-99fb388dc1c8",
+          "title": "Research report a-3",
+          "role": "qualification",
+          "facet": "A",
+          "preview": "The conductance estimate changed after washout calibration, limiting direct comparison with the oxidation panel. Study design, analytical limitations, batch metadata and the report"
+        },
+        {
+          "paper_id": "9e55d2c8-1593-4712-b404-72f5327aa4ca",
+          "source_id": "361af957-6657-411f-8922-070673b316c6",
+          "title": "Research report a-1",
+          "role": "support",
+          "facet": "A",
+          "preview": "The transport response under osmotic adaptation was consistent with gated aquaporin conductance across randomized cell preparations. Study design, analytical limitations, batch met"
+        },
+        {
+          "paper_id": "9dfce624-3c7f-4a44-af08-b188927e8134",
+          "source_id": "9a309a7a-9e8b-4411-bf41-91610015b58b",
+          "title": "Research report c-1",
+          "role": "discriminator",
+          "facet": "C",
+          "preview": "The paired recovery assay separated reversible channel occupancy from persistent membrane damage, but measured neither outcome in the same cells. Study design, analytical limitatio"
+        },
+        {
+          "paper_id": "4a0b5830-a531-4402-9406-fe47d51f191e",
+          "source_id": "5dd57fbd-bb13-4fc4-a7a5-43e2be914934",
+          "title": "Research report d-7",
+          "role": "distractor",
+          "facet": "D",
+          "preview": "Administrative calibration record 7 documents instrument maintenance, sample coding and routine image quality review without a biological outcome. Study design, analytical limitati"
+        },
+        {
+          "paper_id": "61a24d45-99be-4a9b-88de-7a5ade480e57",
+          "source_id": "5bdc4e80-06be-4361-9843-5acf4b765c04",
+          "title": "Research report d-0",
+          "role": "distractor",
+          "facet": "D",
+          "preview": "Administrative calibration record 0 documents instrument maintenance, sample coding and routine image quality review without a biological outcome. Study design, analytical limitati"
+        },
+        {
+          "paper_id": "725dab9a-460c-4fed-a37e-06b2ef7870ac",
+          "source_id": "33a1902c-c38a-4843-91d0-9b97a8f30c4e",
+          "title": "Research report d-4",
+          "role": "distractor",
+          "facet": "D",
+          "preview": "Administrative calibration record 4 documents instrument maintenance, sample coding and routine image quality review without a biological outcome. Study design, analytical limitati"
+        },
+        {
+          "paper_id": "9672e63d-8a76-4804-b3fd-a86d35cb1f08",
+          "source_id": "d1e9672d-2a2b-4d56-9253-891f2f4a0f27",
+          "title": "Research report d-3",
+          "role": "distractor",
+          "facet": "D",
+          "preview": "Administrative calibration record 3 documents instrument maintenance, sample coding and routine image quality review without a biological outcome. Study design, analytical limitati"
+        }
+      ],
+      "source": "tool.sqlite-fts5-bm25"
+    },
+    {
+      "query": "early treatment association lipid markers permeability",
+      "branch_id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "candidate_count": 4,
+      "selected": [
+        {
+          "paper_id": "2747a529-1e87-4671-b508-a58a6f9dedf1",
+          "source_id": "118e279e-89ce-4449-82f8-0b4adbe6d273",
+          "title": "Research report b-1",
+          "role": "support",
+          "facet": "B",
+          "preview": "An early oxidation panel associated lipid peroxidation markers with permeability changes in the treatment arm. Study design, analytical limitations, batch metadata and the reported"
+        },
+        {
+          "paper_id": "1bdefd84-337b-42e4-b43e-339d5ba46adf",
+          "source_id": "389b7aad-fee9-4cd0-b85d-bfa580d06002",
+          "title": "Research report b-2",
+          "role": "contradiction",
+          "facet": "B",
+          "preview": "A blinded negative-control cohort found no treatment-linked lipid oxidation after baseline drift correction; the earlier association was not reproduced. Study design, analytical li"
+        },
+        {
+          "paper_id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167",
+          "source_id": "d27f9f4a-3f25-42fb-9824-0a29e498573b",
+          "title": "Research report a-2",
+          "role": "support",
+          "facet": "A",
+          "preview": "Independent microscopy showed reversible pore occupancy associated with the measured water flux; the assay did not assess lipid damage. Study design, analytical limitations, batch "
+        }
+      ],
+      "source": "tool.sqlite-fts5-bm25"
+    },
+    {
+      "query": "blinded negative-control baseline drift correction reproducible treatment effect",
+      "branch_id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "candidate_count": 2,
+      "selected": [
+        {
+          "paper_id": "1bdefd84-337b-42e4-b43e-339d5ba46adf",
+          "source_id": "389b7aad-fee9-4cd0-b85d-bfa580d06002",
+          "title": "Research report b-2",
+          "role": "contradiction",
+          "facet": "B",
+          "preview": "A blinded negative-control cohort found no treatment-linked lipid oxidation after baseline drift correction; the earlier association was not reproduced. Study design, analytical li"
+        },
+        {
+          "paper_id": "2747a529-1e87-4671-b508-a58a6f9dedf1",
+          "source_id": "118e279e-89ce-4449-82f8-0b4adbe6d273",
+          "title": "Research report b-1",
+          "role": "support",
+          "facet": "B",
+          "preview": "An early oxidation panel associated lipid peroxidation markers with permeability changes in the treatment arm. Study design, analytical limitations, batch metadata and the reported"
+        }
+      ],
+      "source": "tool.sqlite-fts5-bm25"
+    },
+    {
+      "query": "Which mechanism best explains the membrane response: reversible aquaporin conductance or persistent lipid oxidation? Investigate these independent evidence families and compare their qualifications and controls.",
+      "branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "candidate_count": 17,
+      "selected": [
+        {
+          "paper_id": "9e55d2c8-1593-4712-b404-72f5327aa4ca",
+          "source_id": "361af957-6657-411f-8922-070673b316c6",
+          "title": "Research report a-1",
+          "role": "support",
+          "facet": "A",
+          "preview": "The transport response under osmotic adaptation was consistent with gated aquaporin conductance across randomized cell preparations. Study design, analytical limitations, batch met"
+        },
+        {
+          "paper_id": "9dfce624-3c7f-4a44-af08-b188927e8134",
+          "source_id": "9a309a7a-9e8b-4411-bf41-91610015b58b",
+          "title": "Research report c-1",
+          "role": "discriminator",
+          "facet": "C",
+          "preview": "The paired recovery assay separated reversible channel occupancy from persistent membrane damage, but measured neither outcome in the same cells. Study design, analytical limitatio"
+        },
+        {
+          "paper_id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167",
+          "source_id": "d27f9f4a-3f25-42fb-9824-0a29e498573b",
+          "title": "Research report a-2",
+          "role": "support",
+          "facet": "A",
+          "preview": "Independent microscopy showed reversible pore occupancy associated with the measured water flux; the assay did not assess lipid damage. Study design, analytical limitations, batch "
+        },
+        {
+          "paper_id": "7139da63-273d-4847-90bf-441c5c3e0bf0",
+          "source_id": "355e8589-2fe6-4da3-8faa-99fb388dc1c8",
+          "title": "Research report a-3",
+          "role": "qualification",
+          "facet": "A",
+          "preview": "The conductance estimate changed after washout calibration, limiting direct comparison with the oxidation panel. Study design, analytical limitations, batch metadata and the report"
+        },
+        {
+          "paper_id": "2747a529-1e87-4671-b508-a58a6f9dedf1",
+          "source_id": "118e279e-89ce-4449-82f8-0b4adbe6d273",
+          "title": "Research report b-1",
+          "role": "support",
+          "facet": "B",
+          "preview": "An early oxidation panel associated lipid peroxidation markers with permeability changes in the treatment arm. Study design, analytical limitations, batch metadata and the reported"
+        },
+        {
+          "paper_id": "1bdefd84-337b-42e4-b43e-339d5ba46adf",
+          "source_id": "389b7aad-fee9-4cd0-b85d-bfa580d06002",
+          "title": "Research report b-2",
+          "role": "contradiction",
+          "facet": "B",
+          "preview": "A blinded negative-control cohort found no treatment-linked lipid oxidation after baseline drift correction; the earlier association was not reproduced. Study design, analytical li"
+        },
+        {
+          "paper_id": "e1c33d81-8572-4c21-b827-ba5feaf647be",
+          "source_id": "f5a90430-3bfb-48d6-98e5-0684a0b3b627",
+          "title": "Research report b-3",
+          "role": "qualification",
+          "facet": "B",
+          "preview": "The second laboratory used a lower-intensity exposure protocol and reported no durable oxidative signature. Study design, analytical limitations, batch metadata and the reported me"
+        },
+        {
+          "paper_id": "4a0b5830-a531-4402-9406-fe47d51f191e",
+          "source_id": "5dd57fbd-bb13-4fc4-a7a5-43e2be914934",
+          "title": "Research report d-7",
+          "role": "distractor",
+          "facet": "D",
+          "preview": "Administrative calibration record 7 documents instrument maintenance, sample coding and routine image quality review without a biological outcome. Study design, analytical limitati"
+        }
+      ],
+      "source": "tool.sqlite-fts5-bm25"
+    }
+  ],
+  "source_reads": [],
+  "range_reads": [],
+  "snapshots": [
+    {
+      "id": "bece0031-aa68-4893-8e59-77e3055d785f",
+      "branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "work_node_id": "654c50db-5cf2-4efb-bfcd-79474decfb81",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 1784,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "17333e74-4772-4ebf-b3d5-cc2eb2415213",
+      "branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "work_node_id": "654c50db-5cf2-4efb-bfcd-79474decfb81",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 1784,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "189e3503-9099-4c4e-bce0-43ed342cb96d",
+      "branch_id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "work_node_id": "efc553b8-c747-43b1-890a-e0613564475a",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 1784,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "6b79fc1d-f718-418f-8cb9-55db43de1a02",
+      "branch_id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "work_node_id": "d149bf28-ba65-454e-a905-3668cacd954b",
+      "query": "Branch process evidence search 1: osmotic adaptation aquaporin conductance pore occupancy",
+      "candidate_count": 7,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "9e55d2c8-1593-4712-b404-72f5327aa4ca"
+          },
+          4
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          2
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "7139da63-273d-4847-90bf-441c5c3e0bf0"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 2725,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "d55484e0-0b2a-4f02-b092-30adef0af9e9",
+      "branch_id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "work_node_id": "d149bf28-ba65-454e-a905-3668cacd954b",
+      "query": "Branch process evidence search 1: osmotic adaptation aquaporin conductance pore occupancy",
+      "candidate_count": 7,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "9e55d2c8-1593-4712-b404-72f5327aa4ca"
+          },
+          4
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          2
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "7139da63-273d-4847-90bf-441c5c3e0bf0"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 3486,
+      "process_memory_ids": [
+        "8e9fc0dc-bf0e-4534-9262-45334777dcd2"
+      ],
+      "process_memory_branch_ids": [
+        "0279090e-3719-481e-9d09-dfbecaa2fefd"
+      ]
+    },
+    {
+      "id": "9183252e-d15e-494d-9db8-5c1f24a45241",
+      "branch_id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "work_node_id": "efc553b8-c747-43b1-890a-e0613564475a",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 2545,
+      "process_memory_ids": [
+        "8e9fc0dc-bf0e-4534-9262-45334777dcd2"
+      ],
+      "process_memory_branch_ids": [
+        "0279090e-3719-481e-9d09-dfbecaa2fefd"
+      ]
+    },
+    {
+      "id": "ce79c1a4-0425-495f-bde1-b0fe5bc33e32",
+      "branch_id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "work_node_id": "bb714787-e92c-487d-973c-bebfdba97892",
+      "query": "Branch process evidence search 2: washout calibration reversible water flux conductance",
+      "candidate_count": 15,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          2
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "7139da63-273d-4847-90bf-441c5c3e0bf0"
+          },
+          2
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "4a0b5830-a531-4402-9406-fe47d51f191e"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "61a24d45-99be-4a9b-88de-7a5ade480e57"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "725dab9a-460c-4fed-a37e-06b2ef7870ac"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9672e63d-8a76-4804-b3fd-a86d35cb1f08"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "98bd6397-598f-4e87-93c6-f5c40fbea38f"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9e55d2c8-1593-4712-b404-72f5327aa4ca"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "c4e963ac-486b-476e-bfdd-99d57e483557"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "e8892be0-7075-4ae4-86ec-fe9b233e980d"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "fa003305-7857-4d34-a79a-6c9125d05f5e"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "fcc3e3c7-26ed-4310-ab70-e9a116b99310"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 7786,
+      "process_memory_ids": [
+        "8e9fc0dc-bf0e-4534-9262-45334777dcd2"
+      ],
+      "process_memory_branch_ids": [
+        "0279090e-3719-481e-9d09-dfbecaa2fefd"
+      ]
+    },
+    {
+      "id": "741e8f58-61c8-44e2-8761-637c1f13c029",
+      "branch_id": "0279090e-3719-481e-9d09-dfbecaa2fefd",
+      "work_node_id": "bb714787-e92c-487d-973c-bebfdba97892",
+      "query": "Branch process evidence search 2: washout calibration reversible water flux conductance",
+      "candidate_count": 15,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          2
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "7139da63-273d-4847-90bf-441c5c3e0bf0"
+          },
+          2
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "4a0b5830-a531-4402-9406-fe47d51f191e"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "61a24d45-99be-4a9b-88de-7a5ade480e57"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "725dab9a-460c-4fed-a37e-06b2ef7870ac"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9672e63d-8a76-4804-b3fd-a86d35cb1f08"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "98bd6397-598f-4e87-93c6-f5c40fbea38f"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9e55d2c8-1593-4712-b404-72f5327aa4ca"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "c4e963ac-486b-476e-bfdd-99d57e483557"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "e8892be0-7075-4ae4-86ec-fe9b233e980d"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "fa003305-7857-4d34-a79a-6c9125d05f5e"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "fcc3e3c7-26ed-4310-ab70-e9a116b99310"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 7789,
+      "process_memory_ids": [
+        "878e6bf3-8d09-4c47-b130-84597ad8211c"
+      ],
+      "process_memory_branch_ids": [
+        "0279090e-3719-481e-9d09-dfbecaa2fefd"
+      ]
+    },
+    {
+      "id": "38f3a5ff-881a-499a-9d88-b57c824da3bc",
+      "branch_id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "work_node_id": "b0869e1f-e939-41fe-9186-bbacaf36ee61",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 1784,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "e61b4e81-38bc-48e8-b6d3-dbb06957c6cf",
+      "branch_id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "work_node_id": "5671744a-c284-42fe-9c07-8700cad70fdf",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 1784,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "2cd8fa9e-4463-492a-830e-ee062dedfeb4",
+      "branch_id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "work_node_id": "5671744a-c284-42fe-9c07-8700cad70fdf",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 2556,
+      "process_memory_ids": [
+        "41622c32-5cfa-4041-8289-8b7784d8f574"
+      ],
+      "process_memory_branch_ids": [
+        "2f5bb25a-3102-40c6-82c0-bd9e89e19fda"
+      ]
+    },
+    {
+      "id": "f755dbe3-a895-4a00-bb9f-3219ad4ca763",
+      "branch_id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "work_node_id": "b0869e1f-e939-41fe-9186-bbacaf36ee61",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 2556,
+      "process_memory_ids": [
+        "41622c32-5cfa-4041-8289-8b7784d8f574"
+      ],
+      "process_memory_branch_ids": [
+        "2f5bb25a-3102-40c6-82c0-bd9e89e19fda"
+      ]
+    },
+    {
+      "id": "8025e6b4-da68-4473-8fe8-96ae4d0fd453",
+      "branch_id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "work_node_id": "a5df9500-bdd8-4484-88ea-b2cae39f204f",
+      "query": "Branch process evidence search 2: blinded negative-control baseline drift correction reproducible treatment effect",
+      "candidate_count": 5,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "1bdefd84-337b-42e4-b43e-339d5ba46adf"
+          },
+          4
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "2747a529-1e87-4671-b508-a58a6f9dedf1"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 2596,
+      "process_memory_ids": [
+        "41622c32-5cfa-4041-8289-8b7784d8f574"
+      ],
+      "process_memory_branch_ids": [
+        "2f5bb25a-3102-40c6-82c0-bd9e89e19fda"
+      ]
+    },
+    {
+      "id": "dedaf95b-fd62-475b-8c02-906168ed0e8e",
+      "branch_id": "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+      "work_node_id": "a5df9500-bdd8-4484-88ea-b2cae39f204f",
+      "query": "Branch process evidence search 2: blinded negative-control baseline drift correction reproducible treatment effect",
+      "candidate_count": 5,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "1bdefd84-337b-42e4-b43e-339d5ba46adf"
+          },
+          4
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "2747a529-1e87-4671-b508-a58a6f9dedf1"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 3367,
+      "process_memory_ids": [
+        "39ec4a92-913b-42aa-a9c0-be3e6706f959",
+        "41622c32-5cfa-4041-8289-8b7784d8f574"
+      ],
+      "process_memory_branch_ids": [
+        "2f5bb25a-3102-40c6-82c0-bd9e89e19fda",
+        "2f5bb25a-3102-40c6-82c0-bd9e89e19fda"
+      ]
+    },
+    {
+      "id": "eb709f69-84b0-4691-bef8-5a3875b1179a",
+      "branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "work_node_id": "654c50db-5cf2-4efb-bfcd-79474decfb81",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 1784,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "9c140f67-c005-4b97-b96e-23bf562e8133",
+      "branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "work_node_id": "1d8c5a1c-a93d-4930-859b-234ff8d63d4d",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 1784,
+      "process_memory_ids": [],
+      "process_memory_branch_ids": []
+    },
+    {
+      "id": "fed402b1-29a9-4034-b482-ace019585f18",
+      "branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "work_node_id": "1d8c5a1c-a93d-4930-859b-234ff8d63d4d",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 2550,
+      "process_memory_ids": [
+        "4f3a4478-f528-428a-b643-8a3a54d3a2a7"
+      ],
+      "process_memory_branch_ids": [
+        "14b04a6e-ad8d-4a17-a75a-e45c76eef48d"
+      ]
+    },
+    {
+      "id": "1dcecb2b-3818-47ab-b380-a571c2ddb0c6",
+      "branch_id": "14b04a6e-ad8d-4a17-a75a-e45c76eef48d",
+      "work_node_id": "654c50db-5cf2-4efb-bfcd-79474decfb81",
+      "query": "Compare independent lines of membrane mechanism evidence",
+      "candidate_count": 3,
+      "selected": [
+        [
+          {
+            "type": "paper",
+            "id": "3a5e0508-b5d8-41f4-83bc-5c3a642e9167"
+          },
+          1
+        ],
+        [
+          {
+            "type": "paper",
+            "id": "9dfce624-3c7f-4a44-af08-b188927e8134"
+          },
+          1
+        ]
+      ],
+      "estimated_prompt_tokens": 2550,
+      "process_memory_ids": [
+        "4f3a4478-f528-428a-b643-8a3a54d3a2a7"
+      ],
+      "process_memory_branch_ids": [
+        "14b04a6e-ad8d-4a17-a75a-e45c76eef48d"
+      ]
+    }
+  ],
+  "prompt_tokens": [
+    1980,
+    1980,
+    1981,
+    1987,
+    1993,
+    2033,
+    2054,
+    2211,
+    2221,
+    2222,
+    2235,
+    2246,
+    2266,
+    2278,
+    2459,
+    2467,
+    3424,
+    3448
+  ],
+  "process_memory_count": 5,
+  "integrity_audit": {
+    "passed": true,
+    "checked": 131,
+    "violations": []
+  },
+  "recovery_audit_passed": true,
+  "duplicate_consequential_operations": 0,
+  "unfinished_runs": 0,
+  "lead_calls": 18,
+  "tool_calls": 5,
+  "retrieval_recall_at_selected": null,
+  "required_evidence_recovered": [
+    "contradiction",
+    "discriminator",
+    "distractor",
+    "qualification",
+    "support"
+  ],
+  "total_execution_history_in_prompts": false,
+  "preflight_failures": [],
+  "elapsed_ms": 873012,
+  "report_path": ".\\eval-results/true-capabilities\\branching-811.json"
+}

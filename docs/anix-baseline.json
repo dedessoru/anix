@@ -1,0 +1,233 @@
+﻿{
+    "files":  [
+                  {
+                      "sha256":  "4A149C36EBA191F04AA89C118DDC9E64DCDA7D9D4522389FD2C08860546E0645",
+                      "path":  "crates\\rn-agent\\Cargo.toml"
+                  },
+                  {
+                      "sha256":  "35CD10F79F6670DD8505F02F71860926D0A30855A672D17D2480C99BFAFE45DD",
+                      "path":  "crates\\rn-agent\\src\\durable.rs"
+                  },
+                  {
+                      "sha256":  "D1A0F2C579CB9B3651E84DD141EE974594AD996746E7857E74B3172EE2BEE68E",
+                      "path":  "crates\\rn-agent\\src\\intelligence.rs"
+                  },
+                  {
+                      "sha256":  "BAEC9AC582FEC48275AAED716C7B905C1FE24706ECD243B72408E54A7A018FEE",
+                      "path":  "crates\\rn-agent\\src\\lib.rs"
+                  },
+                  {
+                      "sha256":  "CAB3C42F4218A8EAACF8988102E54DE613C951364E4917BF9570F51A79E7ADD3",
+                      "path":  "crates\\rn-cli\\Cargo.toml"
+                  },
+                  {
+                      "sha256":  "98925793977DEA1DA8AEA9A0FE2DD52E1F752D25CFAE0F7D8B55975DAFFAF13A",
+                      "path":  "crates\\rn-cli\\src\\main.rs"
+                  },
+                  {
+                      "sha256":  "249C629D940AD5D9E5F30495B735A7D657D4EEF5C0FB22721E1B6DA19528F160",
+                      "path":  "crates\\rn-cli\\tests\\cli.rs"
+                  },
+                  {
+                      "sha256":  "3CF89896B724B57F4FC243E44DCDF67EABDF5F6D66B30D7E6C3743FC49C04242",
+                      "path":  "crates\\rn-core\\Cargo.toml"
+                  },
+                  {
+                      "sha256":  "A98B8FA2DF890296CD3FA34EE2D1ECC795C1AF6F7B55F1BC54BCE8A60222828B",
+                      "path":  "crates\\rn-core\\src\\actions.rs"
+                  },
+                  {
+                      "sha256":  "379AC94023E86C27C51F43EFE10B5C6621D4F80FD02DA84969C1E6D87D53D42D",
+                      "path":  "crates\\rn-core\\src\\human_control.rs"
+                  },
+                  {
+                      "sha256":  "EC07365625D42904F15A137BF434CECBADB3F3C79193E4C7767219B2C1CF7F85",
+                      "path":  "crates\\rn-core\\src\\lib.rs"
+                  },
+                  {
+                      "sha256":  "4FEB82CD3111FB4D991898191D08ACEB87B803BE3DF7B39F4A2A82315840D25A",
+                      "path":  "crates\\rn-core\\src\\queries.rs"
+                  },
+                  {
+                      "sha256":  "E97D57D42E59A5D4C8EE99A533015D9561B54A95F797C24E0B605D37383087EF",
+                      "path":  "crates\\rn-core\\src\\runtime.rs"
+                  },
+                  {
+                      "sha256":  "B39C424D4F46E8E1CD460611B28BD0505CF80AC07F1FB435AD6CF71B75C4EFE2",
+                      "path":  "crates\\rn-core\\src\\services.rs"
+                  },
+                  {
+                      "sha256":  "673C7EBC9A4C5CF6A4828DBA1BC7B73BD399438CCBE2A7F9A356BE9571C0781C",
+                      "path":  "crates\\rn-core\\src\\tools.rs"
+                  },
+                  {
+                      "sha256":  "BDAB75A7104CADDB3A4B69F3161C86E3D1D8E390EFEB57E548DEA9DB921DED3E",
+                      "path":  "crates\\rn-domain\\Cargo.toml"
+                  },
+                  {
+                      "sha256":  "B887D3D7F15C8ABFC808D4B63437EB883704ECB947FE08FE08B2859C751CAD71",
+                      "path":  "crates\\rn-domain\\src\\entities.rs"
+                  },
+                  {
+                      "sha256":  "E8FE8C78152194F98EC0A7DF9DB41B1EDE92175DC83D28965093D45C75BEB014",
+                      "path":  "crates\\rn-domain\\src\\lib.rs"
+                  },
+                  {
+                      "sha256":  "7068C3286282D83E980324172D30B90089360C7F0796F64E9A27DFD77D93AC0A",
+                      "path":  "crates\\rn-domain\\src\\policy.rs"
+                  },
+                  {
+                      "sha256":  "2F6CD68D7DB8169DE87DED3BA85EC28F4FAEDDCEF9D8448CF6F85C3FAF2FAB3D",
+                      "path":  "crates\\rn-domain\\src\\runtime.rs"
+                  },
+                  {
+                      "sha256":  "3CAA63228DECDE48B7A1AACAE8A6520468B0027C0FC08FD608E4E92CC8496FBA",
+                      "path":  "crates\\rn-evals\\Cargo.toml"
+                  },
+                  {
+                      "sha256":  "6C3763EF4F37679D60B8431987C6AF17D2B39A143C1FA0CEE424D89EF0B05395",
+                      "path":  "crates\\rn-evals\\examples\\lead_runtime_seed.rs"
+                  },
+                  {
+                      "sha256":  "889E2C85473484904021EE1259485FA32D84CE46B2CFFA9D3408315471BCD589",
+                      "path":  "crates\\rn-evals\\examples\\long_horizon_campaign.rs"
+                  },
+                  {
+                      "sha256":  "9BBA9C8E499FAA2B30DED2F281B985493D84E9CFBCB302D99F1F65469354FD07",
+                      "path":  "crates\\rn-evals\\examples\\true_capability_campaign.rs"
+                  },
+                  {
+                      "sha256":  "A9E8C690E905F8B7CED0C2D98A878175962E453355B7814703AD2C8D04FC9E29",
+                      "path":  "crates\\rn-evals\\src\\lib.rs"
+                  },
+                  {
+                      "sha256":  "A97506D4807AC557A0A457C174F5497C3932D6058776A1E0CBB01E30811FE208",
+                      "path":  "crates\\rn-evals\\src\\long_horizon.rs"
+                  },
+                  {
+                      "sha256":  "8E35BCEB8849C092F59F180EB3E2F1A2B36471B721A27AB787CE41E0E2D99BAC",
+                      "path":  "crates\\rn-evals\\src\\true_capabilities.rs"
+                  },
+                  {
+                      "sha256":  "7A60F2ED06EAD912CFDDB1E4223C366AC2C976463F7F879C0BD260CAFCB743BA",
+                      "path":  "crates\\rn-integrations\\Cargo.toml"
+                  },
+                  {
+                      "sha256":  "0956AE3CB0CCCCC88B47563B3D3C81DB06451E6344119AC3F8671725CD33CFE5",
+                      "path":  "crates\\rn-integrations\\examples\\bench.rs"
+                  },
+                  {
+                      "sha256":  "3F0C3D7714F1FC1F14DA6D3E239D7DFB9DC8559628619EF4FB4B197DC9FC10FB",
+                      "path":  "crates\\rn-integrations\\examples\\eval.rs"
+                  },
+                  {
+                      "sha256":  "788BAF2566340FFDDA8A2ACC42132A1B769D6E1B9AD15CD907E8DC45100DA7B3",
+                      "path":  "crates\\rn-integrations\\src\\bootstrap.rs"
+                  },
+                  {
+                      "sha256":  "9A7A6AE312A57AB3150834C645469D11B627B7F5EC82864DAAD6063BAFE37585",
+                      "path":  "crates\\rn-integrations\\src\\lib.rs"
+                  },
+                  {
+                      "sha256":  "580271254D039D59442DE6C287D62B49BF7513FED160E82E21514597288A4430",
+                      "path":  "crates\\rn-integrations\\src\\model_runtime.rs"
+                  },
+                  {
+                      "sha256":  "A39449E990101A6B7B6599E8458E8B5A7F470AC551C81C2B6772D9FF0B113138",
+                      "path":  "crates\\rn-integrations\\src\\offload.rs"
+                  },
+                  {
+                      "sha256":  "FA096A100518938A84E98A07C5A00E790E6C3FD3D37C28A9CF9DE93BFF298EAC",
+                      "path":  "crates\\rn-integrations\\src\\recorded_tool.rs"
+                  },
+                  {
+                      "sha256":  "D5C2BDA18C133DA7CD6B7E853FDFDB594D081C77B6940BBC488FFC6CEDD5AFAF",
+                      "path":  "crates\\rn-integrations\\src\\test_lead.rs"
+                  },
+                  {
+                      "sha256":  "20F5C3015DA6EFB01F1B0925042DE68A5723171FCBD86FC1DB79BA752D029290",
+                      "path":  "crates\\rn-storage\\Cargo.toml"
+                  },
+                  {
+                      "sha256":  "AFD05F5E833C1F67CF34792E35D1C6B2EAE63A1322040B08DE39A4D88FC44C65",
+                      "path":  "crates\\rn-storage\\src\\lib.rs"
+                  },
+                  {
+                      "sha256":  "E8CEFEF2132E229228DDE3901759DA3161E8F29B342D9C3ED9F3589F5DD45A8B",
+                      "path":  "tests\\acceptance.rs"
+                  },
+                  {
+                      "sha256":  "7E7AB96A4475D7176F1DDAB5EE596C727B548F7F9E1F6D87077672B75A86A88B",
+                      "path":  "tests\\runtime_v2.rs"
+                  },
+                  {
+                      "sha256":  "2B0F3412F5E4153AA54218AFE1893309EA16D9DCEAA4D9B86E555A5B981957EF",
+                      "path":  "tests\\research-packs\\catalog.json"
+                  },
+                  {
+                      "sha256":  "9B588EE34C142F9264A238DB1D31F2309DAADF596642CA1ED73EDADF1D90E7A8",
+                      "path":  "scripts\\bootstrap-model.ps1"
+                  },
+                  {
+                      "sha256":  "A55EE9204AF7EBC1D62E6AACF87D1EDE5929439B4B37611020BFE43B209A1B63",
+                      "path":  "scripts\\bootstrap-model.sh"
+                  },
+                  {
+                      "sha256":  "336925A113FAB1307B9AAC9126FCE41D1CC47AD77DCC7DA2662668194E53DFDB",
+                      "path":  "scripts\\bootstrap-runtime.ps1"
+                  },
+                  {
+                      "sha256":  "755732B80FEE128301A22A8398C2A88AABD32A2762D949A18D2ADE30355D8F0B",
+                      "path":  "scripts\\check.ps1"
+                  },
+                  {
+                      "sha256":  "D38E0F1C6ABD04F095A7CD1F1B8DD78CA20D170AFA4D337D9492510876EFB221",
+                      "path":  "scripts\\start-test-model.ps1"
+                  },
+                  {
+                      "sha256":  "CB8B67FE0A3DFF59C3D1F83441636DF7396A42DA3704BAF98E99ECD8772B8344",
+                      "path":  "scripts\\start-test-model.sh"
+                  },
+                  {
+                      "sha256":  "B6C2B0C2B7A3E542AD00A09C612E7F3377CD3D81D92271EE60DBCA290088AFA8",
+                      "path":  "config\\local-test-lead-4b.toml"
+                  },
+                  {
+                      "sha256":  "90063BA7697076A7A3E918F2FC846D0B535B5C063CBBB87E82D4FBB6D7A3887F",
+                      "path":  "config\\local-test-lead.toml"
+                  },
+                  {
+                      "sha256":  "6C803F8B5A260DFCED25CE9337DA0001DC2F957DB4EC04600173451FFF716426",
+                      "path":  "migrations\\0001_initial.sql"
+                  },
+                  {
+                      "sha256":  "01165B6A74DF940E221A81EDFB39FE09A5F5F736BB37E74F59E2A3D2491457CB",
+                      "path":  "migrations\\0002_runtime.sql"
+                  },
+                  {
+                      "sha256":  "A74D4F320311447360E3D7BD1659A34DFE2BE5092A4D1963AE9032B554D77F96",
+                      "path":  "migrations\\0003_context_retrieval_telemetry.sql"
+                  },
+                  {
+                      "sha256":  "FC97CC3BBAB001C35202C5CBDD6F117B33DA4B46B74E2D2C6FD7406F7811770F",
+                      "path":  "migrations\\0004_human_control.sql"
+                  },
+                  {
+                      "sha256":  "A218D204AADBEF875866502561E913AE325B281FEA6402137ECC536A796C2134",
+                      "path":  "Cargo.toml"
+                  },
+                  {
+                      "sha256":  "EE03A7C7FC0997E02D7B8F03E8C55193BB10342F7F91BFDA696075E48EEFA344",
+                      "path":  "Cargo.lock"
+                  },
+                  {
+                      "sha256":  "A6A0BBD29FFAA8182DC22D1D9149709F1091E47DF40ED96EB8A78A711C66A4CE",
+                      "path":  "rust-toolchain.toml"
+                  },
+                  {
+                      "sha256":  "29DB2BCEB0D326E558FD6E5AD521B94F705908DBC75F28618A0D77D4914634F5",
+                      "path":  "todo.md"
+                  }
+              ],
+    "created_utc":  "2026-10-09T12:55:26.1209398Z"
+}

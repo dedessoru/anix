@@ -1,0 +1,14 @@
+schema_version = 1
+logical_name = "qwen-local-micro"
+repository = "Qwen/Qwen3-1.7B-GGUF"
+revision = "90862c4b9d2787eaed51d12237eafdfe7c5f6077"
+filename = "Qwen3-1.7B-Q8_0.gguf"
+directory = "qwen3-1.7b"
+size = 1834426016
+sha256 = "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a"
+license = "Apache-2.0"
+runtime = "llama.cpp"
+family = "Qwen3"
+parameters = "1.7B"
+quantization = "Q8_0"
+url = "https://huggingface.co/Qwen/Qwen3-1.7B-GGUF/resolve/90862c4b9d2787eaed51d12237eafdfe7c5f6077/Qwen3-1.7B-Q8_0.gguf"
