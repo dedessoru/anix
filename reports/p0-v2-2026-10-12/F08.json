@@ -1,0 +1,140 @@
+{
+  "snapshot": {
+    "id": "df35b5a7-e951-4ba9-b987-78926a0a8961",
+    "project_id": "e8febc10-0a1f-4534-918f-55291cd017e7",
+    "created_at": "2026-10-12T15:22:24.663676400Z",
+    "updated_at": "2026-10-12T15:22:24.663676400Z",
+    "version": 1,
+    "archived": false,
+    "work_node_id": "ce56b2b7-54a2-4be6-ab40-cfee82f19190",
+    "plan_revision_id": "4839d063-4f46-42c2-8886-09447ae93b6a",
+    "entries": [
+      {
+        "reference": {
+          "entity": {
+            "type": "hypothesis",
+            "id": "4c9a7635-2aa7-4b61-8082-b2638e8a28c3"
+          },
+          "version": 1
+        },
+        "text": "SNAPSHOT_V1",
+        "pinned": true,
+        "estimated_tokens": 203
+      }
+    ],
+    "process_memory_ids": [
+      "63e5fd02-f2f1-4bbb-b428-b502acbc4b87"
+    ],
+    "retrieval_query": "Original objective v1",
+    "retrieval_candidate_count": 0,
+    "retrieval_selected": [],
+    "instruction_version": "context-v2.1",
+    "skill_versions": [],
+    "budget_tokens": 4096,
+    "estimated_tokens": 1356,
+    "estimation_method": "UTF-8 bytes plus envelope reserve; conservative byte-token heuristic, not measured provider usage"
+  },
+  "frozen": {
+    "schema_version": 1,
+    "snapshot_id": "df35b5a7-e951-4ba9-b987-78926a0a8961",
+    "objective": "Original objective v1",
+    "entries": [
+      {
+        "reference": {
+          "entity": {
+            "type": "hypothesis",
+            "id": "4c9a7635-2aa7-4b61-8082-b2638e8a28c3"
+          },
+          "version": 1
+        },
+        "text": "SNAPSHOT_V1",
+        "pinned": true,
+        "estimated_tokens": 203
+      }
+    ],
+    "process_notes": [
+      "Decision state: {\"work\":\"ce56b2b7-54a2-4be6-ab40-cfee82f19190\",\"branch\":\"27246cd6-82b4-4b4a-b529-c68711f439f1\",\"plan_revision\":\"4839d063-4f46-42c2-8886-09447ae93b6a\",\"branch_children\":[],\"last_planning_observation\":null,\"consecutive_planning_noops\":0,\"ready_work\":[],\"children\":[],\"child_count\":0,\"plan_truncated\":false,\"completion\":{\"ready\":true,\"blockers\":[],\"requires_explicit_lead_decision\":true,\"scientific_sufficiency\":\"Lead must assess actual evidence; execution readiness does not establish truth\"},\"recorded_attempts\":0,\"evidence_stages\":{\"read_outputs\":0,\"claims\":0,\"findings\":0,\"read_is_not_claim_or_finding\":true},\"recovery_options\":[\"reuse existing work/result\",\"justify replication with repeat_work_node\",\"propose_work_plan or propose_objective_revision for owner review\",\"finish_research when ready or explain blocked/inconclusive\"]}"
+    ],
+    "instruction_version": "context-v2.1",
+    "skill_versions": []
+  },
+  "rendered_before": {
+    "project": {
+      "id": "e8febc10-0a1f-4534-918f-55291cd017e7",
+      "project_id": "e8febc10-0a1f-4534-918f-55291cd017e7",
+      "created_at": "2026-10-12T15:22:24.591962500Z",
+      "updated_at": "2026-10-12T15:22:24.591962500Z",
+      "version": 1,
+      "archived": false,
+      "name": "P0 V2",
+      "description": "diagnostic",
+      "status": "active"
+    },
+    "focus": {
+      "type": "hypothesis",
+      "id": "4c9a7635-2aa7-4b61-8082-b2638e8a28c3"
+    },
+    "questions": [],
+    "hypotheses": [
+      {
+        "id": "4c9a7635-2aa7-4b61-8082-b2638e8a28c3",
+        "project_id": "e8febc10-0a1f-4534-918f-55291cd017e7",
+        "created_at": "2026-10-12T15:22:24.601680200Z",
+        "updated_at": "2026-10-12T15:22:24.601680200Z",
+        "version": 1,
+        "archived": false,
+        "question_id": "21ee8a80-16d2-47bc-af36-8d84abe9f4e6",
+        "title": "Hypothesis",
+        "statement": "SNAPSHOT_V1",
+        "status": "draft",
+        "confidence": null
+      }
+    ],
+    "claims": [],
+    "findings": [],
+    "experiments": [],
+    "neighborhood": [],
+    "pending_gates": [],
+    "recent_events": []
+  },
+  "rendered_after": {
+    "project": {
+      "id": "e8febc10-0a1f-4534-918f-55291cd017e7",
+      "project_id": "e8febc10-0a1f-4534-918f-55291cd017e7",
+      "created_at": "2026-10-12T15:22:24.591962500Z",
+      "updated_at": "2026-10-12T15:22:24.591962500Z",
+      "version": 1,
+      "archived": false,
+      "name": "P0 V2",
+      "description": "diagnostic",
+      "status": "active"
+    },
+    "focus": {
+      "type": "hypothesis",
+      "id": "4c9a7635-2aa7-4b61-8082-b2638e8a28c3"
+    },
+    "questions": [],
+    "hypotheses": [
+      {
+        "id": "4c9a7635-2aa7-4b61-8082-b2638e8a28c3",
+        "project_id": "e8febc10-0a1f-4534-918f-55291cd017e7",
+        "created_at": "2026-10-12T15:22:24.601680200Z",
+        "updated_at": "2026-10-12T15:22:24.683987400Z",
+        "version": 2,
+        "archived": false,
+        "question_id": "21ee8a80-16d2-47bc-af36-8d84abe9f4e6",
+        "title": "Hypothesis",
+        "statement": "LIVE_V2",
+        "status": "draft",
+        "confidence": null
+      }
+    ],
+    "claims": [],
+    "findings": [],
+    "experiments": [],
+    "neighborhood": [],
+    "pending_gates": [],
+    "recent_events": []
+  },
+  "snapshot_restart_equal": true
+}

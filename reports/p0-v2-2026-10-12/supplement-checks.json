@@ -1,0 +1,49 @@
+[
+  {
+    "name": "bounded-model",
+    "command": [
+      "python",
+      "C:\\Users\\leks\\Documents\\RN\\anix\\reports\\p0-v2-2026-10-12\\bounded_model.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.10050439834594727,
+    "stdout": "bounded-model.stdout.log",
+    "stderr": "bounded-model.stderr.log"
+  },
+  {
+    "name": "nvidia-smi",
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=name,driver_version,memory.total",
+      "--format=csv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.05423140525817871,
+    "stdout": "nvidia-smi.stdout.log",
+    "stderr": "nvidia-smi.stderr.log"
+  },
+  {
+    "name": "cli-research-help",
+    "command": [
+      "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\anix.exe",
+      "research",
+      "--help"
+    ],
+    "exit_code": 0,
+    "seconds": 0.016104698181152344,
+    "stdout": "cli-research-help.stdout.log",
+    "stderr": "cli-research-help.stderr.log"
+  },
+  {
+    "name": "cli-eval-help",
+    "command": [
+      "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\anix.exe",
+      "eval",
+      "--help"
+    ],
+    "exit_code": 0,
+    "seconds": 0.012076377868652344,
+    "stdout": "cli-eval-help.stdout.log",
+    "stderr": "cli-eval-help.stderr.log"
+  }
+]

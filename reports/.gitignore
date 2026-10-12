@@ -1,0 +1,4 @@
+# Archives can contain private database and artifact backups.
+/*.zip
+**/__pycache__/
+**/*.pdb

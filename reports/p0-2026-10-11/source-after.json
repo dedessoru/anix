@@ -1,0 +1,294 @@
+{
+  ".gitignore": {
+    "bytes": 150,
+    "sha256": "f589182b5f46ca0427546cee29e8bbf18a03a7df9089479b659d1853b4bc48da"
+  },
+  "anix-stage1-integrated-architecture-plan-v1.1.md": {
+    "bytes": 174043,
+    "sha256": "4f56a7b73df590efdc40a09e52bc476b109f875fb886967cea0ffb017841e4ad"
+  },
+  "Cargo.lock": {
+    "bytes": 48627,
+    "sha256": "ce1f4238b4a7a8ebd8d454edcc799b30c4d6247f6ef92ace64d71b2a07be0e11"
+  },
+  "Cargo.toml": {
+    "bytes": 1080,
+    "sha256": "0ae27dea98ddee0df94e542771a42460507c5ca084512e1f4480a341b905287b"
+  },
+  "config/groq-research-lead.toml": {
+    "bytes": 342,
+    "sha256": "d5ad20cfddd54e5f539a34cf259fd1ac61c705d63e2a7743db8045d8be8711b1"
+  },
+  "config/local-test-lead-4b.toml": {
+    "bytes": 273,
+    "sha256": "b6c2b0c2b7a3e542ad00a09c612e7f3377cd3d81d92271ee60dbca290088afa8"
+  },
+  "config/local-test-lead.toml": {
+    "bytes": 269,
+    "sha256": "90063ba7697076a7a3e918f2fc846d0b535b5c063cbbb87e82d4fbb6d7a3887f"
+  },
+  "crates/anix-agent/Cargo.toml": {
+    "bytes": 300,
+    "sha256": "df5f36452b731bf3895a439846472817557410752cbdc33beab51ba6b9b9a850"
+  },
+  "crates/anix-agent/src/durable.rs": {
+    "bytes": 5942,
+    "sha256": "e716a6ad01efb19e76adff5313a7dd20be2bf58782dd161bc463ece86aab776d"
+  },
+  "crates/anix-agent/src/intelligence.rs": {
+    "bytes": 31831,
+    "sha256": "d569b5e73ae5ccb8fd5a7382e329fb74bfe7696b0451cadf72ac2d2cc859b3a7"
+  },
+  "crates/anix-agent/src/lib.rs": {
+    "bytes": 67930,
+    "sha256": "048ab3d0b9fb576a5d1d72079d46b1e0f46e0de3e8c814147afeec3e9553b89a"
+  },
+  "crates/anix-cli/Cargo.toml": {
+    "bytes": 482,
+    "sha256": "67305d9767fafa41d2f464dc1df02b30113531a49dea2816341a0a1bdce9c9be"
+  },
+  "crates/anix-cli/src/main.rs": {
+    "bytes": 33691,
+    "sha256": "7910763ba3f0be41c5f8bfdfdef813c3f95d8e5b34914df325d068c96d19755d"
+  },
+  "crates/anix-cli/tests/cli.rs": {
+    "bytes": 4856,
+    "sha256": "a7f21c872df946497a21cde12437544018308b1a847a167530abd7d9d796360b"
+  },
+  "crates/anix-core/Cargo.toml": {
+    "bytes": 282,
+    "sha256": "a0629c3f600918cc8d52760ded5e856aa89e166f11a11c6f99159edaccdb56fc"
+  },
+  "crates/anix-core/src/actions.rs": {
+    "bytes": 27316,
+    "sha256": "6cc39c0edec9b82270c5b9357f5b63ab09065c53f6eb54dbc41785592d514b52"
+  },
+  "crates/anix-core/src/human_control.rs": {
+    "bytes": 19352,
+    "sha256": "43bb6a8e90d399a6ad15967b6a2a939fefdeb517395d75d43b18a7b8d1f15488"
+  },
+  "crates/anix-core/src/lib.rs": {
+    "bytes": 91590,
+    "sha256": "bb76ce6ec162c0f0d43c5bb96d137d6ea3128b7f05797b78b8ff620085477b37"
+  },
+  "crates/anix-core/src/queries.rs": {
+    "bytes": 20174,
+    "sha256": "0aa460fe66cae58bbd734d0b088b3332aa7456e001eef7f0713661adc2e4c0c4"
+  },
+  "crates/anix-core/src/runtime.rs": {
+    "bytes": 97816,
+    "sha256": "1c55b7ad97a9698e34796496a142d1f0f3a375ca37127dd32b205e1375015ff2"
+  },
+  "crates/anix-core/src/services.rs": {
+    "bytes": 12271,
+    "sha256": "e784caf0ba8000eb6b5d0afe6f80e33135d24e264565dea7a5e1a9abf02a52e8"
+  },
+  "crates/anix-core/src/tools.rs": {
+    "bytes": 1335,
+    "sha256": "6f30bd65977c8e352353401a7bc21e70625cf60e3466c847cd9b9003d6813a45"
+  },
+  "crates/anix-domain/Cargo.toml": {
+    "bytes": 310,
+    "sha256": "d567d6f67a1fd7496ace22479db5a9b8b43d1e8aa9ae5034f7b9415c32b4f618"
+  },
+  "crates/anix-domain/src/entities.rs": {
+    "bytes": 15611,
+    "sha256": "2f8dc6ed65985de6e6fdde3860a699d6c5f4b544054f7bd3963178fc2f7285f2"
+  },
+  "crates/anix-domain/src/lib.rs": {
+    "bytes": 4814,
+    "sha256": "5fd66269cc9fc6cd65a33db0d05953314aac5996346e4953b352d270a01ed9a2"
+  },
+  "crates/anix-domain/src/policy.rs": {
+    "bytes": 6596,
+    "sha256": "f26519b0051b28e96d3c4b8494e0379fe4d76d25cb1a7290aa0f7ad1b2e5cf97"
+  },
+  "crates/anix-domain/src/runtime.rs": {
+    "bytes": 25233,
+    "sha256": "46d31ae65222c2b7e4d73c095d1108cebec6335d6c8fac1331d4e6b561e87976"
+  },
+  "crates/anix-evals/Cargo.toml": {
+    "bytes": 495,
+    "sha256": "cecd3604eaa022fe4c1bb38e930ae225dff416ab9cfc85edb6203994f3920cfa"
+  },
+  "crates/anix-evals/examples/lead_runtime_seed.rs": {
+    "bytes": 2196,
+    "sha256": "78d5daf282a59fb2ac8b9a639309e49564933a0d65565de6b2f5484e0cc1f1ff"
+  },
+  "crates/anix-evals/examples/long_horizon_campaign.rs": {
+    "bytes": 1007,
+    "sha256": "f3c7af872a328bd00c879c2c5e065efd0d5abcd9cf2fbbc665d439ab145c95b8"
+  },
+  "crates/anix-evals/examples/true_capability_campaign.rs": {
+    "bytes": 2296,
+    "sha256": "1131209c8f8a9a315bafc0c79737c4bc07b82469b75906b7cf499042f465cf0b"
+  },
+  "crates/anix-evals/src/lib.rs": {
+    "bytes": 64960,
+    "sha256": "4096a24b4ad0e019bb31c8510964b515a7eba35201f650bd50a7f86004ba4f90"
+  },
+  "crates/anix-evals/src/long_horizon.rs": {
+    "bytes": 146902,
+    "sha256": "d2816667b10925775cde0235156a1f4c18d55c1929bec9996299da6a93b4ab5b"
+  },
+  "crates/anix-evals/src/true_capabilities.rs": {
+    "bytes": 89883,
+    "sha256": "5fe77b668d2b8f317ee7c5146465af8187b6c6fe09b178bc3863bd2c08e59192"
+  },
+  "crates/anix-integrations/Cargo.toml": {
+    "bytes": 473,
+    "sha256": "121f4afa90ad9021d0dd1f9fca84ef03d199e20682142a5a49a1a555bd5124b7"
+  },
+  "crates/anix-integrations/examples/bench.rs": {
+    "bytes": 4214,
+    "sha256": "54fcd1739d191145661da197ac0fe5752ca52875a0f6dcc4431cbb07411a4c29"
+  },
+  "crates/anix-integrations/examples/eval.rs": {
+    "bytes": 12037,
+    "sha256": "677a84103237f8c6e3702ab9e027f9efeeb16675416a07533bd78ea4695533a6"
+  },
+  "crates/anix-integrations/examples/groq_smoke.rs": {
+    "bytes": 4143,
+    "sha256": "3e0d73abd820e4231362bce5f2c131106dea79c1df24fbce08f5cef9b5bd3b92"
+  },
+  "crates/anix-integrations/src/bootstrap.rs": {
+    "bytes": 4795,
+    "sha256": "7f167e698c503f91a1f0e59aa46d2a31722be88ea2161f779a9dad5697978db2"
+  },
+  "crates/anix-integrations/src/groq.rs": {
+    "bytes": 6314,
+    "sha256": "c6067795f498452b615cb626863739053ef4fffe176e63a4cda9cdf9c8b7850d"
+  },
+  "crates/anix-integrations/src/lib.rs": {
+    "bytes": 14125,
+    "sha256": "f54680f00736710f38186eab58a807c7a25df532957fbb813034e362eb4f544e"
+  },
+  "crates/anix-integrations/src/model_runtime.rs": {
+    "bytes": 14200,
+    "sha256": "ca548d0ccad022ec84dfa66b50040da7c1dfaecb0a8af2be856a6e20d0cb5dde"
+  },
+  "crates/anix-integrations/src/offload.rs": {
+    "bytes": 3164,
+    "sha256": "39333677a5886c45ec74136519adcd76a6063d12a19a974ab395b8cb08f1773f"
+  },
+  "crates/anix-integrations/src/recorded_tool.rs": {
+    "bytes": 8599,
+    "sha256": "a4650cd3ac8537360e59b3e22d9e5f9928ec642129d302cacce7a9295ee6e6e7"
+  },
+  "crates/anix-integrations/src/test_lead.rs": {
+    "bytes": 95212,
+    "sha256": "8c22b5e36099a10983249ee064554d55d54e88711b2e0c637c81c202e35e40d0"
+  },
+  "crates/anix-storage/Cargo.toml": {
+    "bytes": 624,
+    "sha256": "bad14506a23e406b382f7340d8e9f2624e1ba40321a10f7f8f9736a7cfe102f6"
+  },
+  "crates/anix-storage/src/lib.rs": {
+    "bytes": 30210,
+    "sha256": "6806785fa76593bd80181fbb9e1693a809de2de02c83c11ffe7e3558872dbe0c"
+  },
+  "migrations/0001_initial.sql": {
+    "bytes": 12540,
+    "sha256": "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426"
+  },
+  "migrations/0002_runtime.sql": {
+    "bytes": 13455,
+    "sha256": "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb"
+  },
+  "migrations/0003_context_retrieval_telemetry.sql": {
+    "bytes": 370,
+    "sha256": "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96"
+  },
+  "migrations/0004_human_control.sql": {
+    "bytes": 165,
+    "sha256": "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f"
+  },
+  "migrations/0005_work_outcome.sql": {
+    "bytes": 215,
+    "sha256": "d556d2f48c105c245c8798e507b6d84a3693d5e59de57a967e8256c18039f49a"
+  },
+  "models/comparison-qwen-1.7b.toml": {
+    "bytes": 526,
+    "sha256": "e5e4aa75c26f653e1b42efd0daffbfe80be179b78d5a36e769040a51bed08a20"
+  },
+  "models/manifest.toml": {
+    "bytes": 522,
+    "sha256": "f9f0a06c4d8eac2fdbbdcba76b99d8e1eebc0f73604224b97acccd674589e7ce"
+  },
+  "models/profiles/economy-0.6b.toml": {
+    "bytes": 517,
+    "sha256": "e3bbf1589b07257acda11c5595d767be38529135b4b912338d50c060cf5dfa0a"
+  },
+  "models/profiles/minicpm5-2b-q6.toml": {
+    "bytes": 546,
+    "sha256": "5946b525b76fdfc0248d27df86a0cb6790bf1d4d392e007dea795d62117afb66"
+  },
+  "models/profiles/minicpm5-2b-q8.toml": {
+    "bytes": 546,
+    "sha256": "e75eddf80ea3626c384175b7d9351f627fe80666902128dc821ade115e232644"
+  },
+  "models/profiles/qwen3-1.7b-micro.toml": {
+    "bytes": 522,
+    "sha256": "f9f0a06c4d8eac2fdbbdcba76b99d8e1eebc0f73604224b97acccd674589e7ce"
+  },
+  "models/profiles/qwen3-8b.toml": {
+    "bytes": 515,
+    "sha256": "7a84b0cada69eb7c7293af36bf9d5df80454089f72d6e2761d13299ff06905e4"
+  },
+  "models/profiles/test-lead-4b.toml": {
+    "bytes": 518,
+    "sha256": "96c9e86f28f17731d7633ba68ece187e7055222ea390c4ec606a84b998759def"
+  },
+  "README.md": {
+    "bytes": 7249,
+    "sha256": "543bedf3c46d3470227d85fc7fd5bc96e023e670818ddd522352b842caeb6e5b"
+  },
+  "rust-toolchain.toml": {
+    "bytes": 66,
+    "sha256": "a6a0bbd29ffaa8182dc22d1d9149709f1091e47df40ed96eb8a78a711c66a4ce"
+  },
+  "scripts/bootstrap-model.ps1": {
+    "bytes": 583,
+    "sha256": "cfe93aec529dc4495b6f4529d4f666724ac224b49ff50139f871289fab7d0ff7"
+  },
+  "scripts/bootstrap-model.sh": {
+    "bytes": 194,
+    "sha256": "6c4f5227ce1ae352968e4961b00d5c9acf0f82892cdbe169dcb428dbd4af55e7"
+  },
+  "scripts/bootstrap-runtime.ps1": {
+    "bytes": 1148,
+    "sha256": "dc9572ae32a77739e77774400a4406bc4ca6f4af90b7d9f58cd47fd33e7885a4"
+  },
+  "scripts/check.ps1": {
+    "bytes": 1526,
+    "sha256": "96458f4d980cf00ac2f8d616035eb972db4c1455317ae5aab483e7ce14c1d1b7"
+  },
+  "scripts/generate-real-micro-eval.py": {
+    "bytes": 14415,
+    "sha256": "9777766a4a52f42e5e09a9c81815a297cc2590faf3560310fb298c40adf93e73"
+  },
+  "scripts/start-test-model.ps1": {
+    "bytes": 3560,
+    "sha256": "5526abebff9c988467e68cb4b528b2717d73b93b4cc18accbe33e23bf5e25008"
+  },
+  "scripts/start-test-model.sh": {
+    "bytes": 2466,
+    "sha256": "8489f5c6447cfc27ff2d285ff0e8e500996d06723542f730fa0e99b44d7bf1ec"
+  },
+  "tests/acceptance.rs": {
+    "bytes": 48171,
+    "sha256": "ee1c3f647f421db7e30c3385b16489a94deabb497550f4929b810c19fa3ed751"
+  },
+  "tests/research-packs/catalog.json": {
+    "bytes": 3103,
+    "sha256": "2b0f3412f5e4153aa54218afe1893309ea16d9dceaa4d9b86e555a5b981957ef"
+  },
+  "tests/runtime_v2.rs": {
+    "bytes": 141662,
+    "sha256": "366854fc0d20de534c437716fc3626e000b3ae2d558f3fc2d8d9016b921c2caf"
+  },
+  "todo.md": {
+    "bytes": 48007,
+    "sha256": "1bd86597349b518c63128dccf67c9e337935990fc5495daccc0baafde0134394"
+  }
+}

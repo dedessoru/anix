@@ -1,0 +1,39 @@
+{
+  "expected": "incoming Blocks visible and scientific finish rejected",
+  "view": {
+    "work": "2c4b0032-0288-4212-b30e-2b3ee98730c1",
+    "branch": "bfcfdef5-7a3b-4d5d-9ac8-0f939f64aefb",
+    "plan_revision": "ea6526a3-c317-499c-b4a9-c690c3e8b6ae",
+    "branch_children": [],
+    "last_planning_observation": null,
+    "consecutive_planning_noops": 0,
+    "ready_work": [],
+    "children": [],
+    "child_count": 0,
+    "plan_truncated": false,
+    "completion": {
+      "ready": true,
+      "blockers": [],
+      "requires_explicit_lead_decision": true,
+      "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+    },
+    "recorded_attempts": 0,
+    "evidence_stages": {
+      "read_outputs": 0,
+      "claims": 0,
+      "findings": 0,
+      "read_is_not_claim_or_finding": true
+    },
+    "recovery_options": [
+      "reuse existing work/result",
+      "justify replication with repeat_work_node",
+      "propose_work_plan or propose_objective_revision for owner review",
+      "finish_research when ready or explain blocked/inconclusive"
+    ]
+  },
+  "direct_error": "invalid transition: unfinished dependency",
+  "finish_accepted": true,
+  "root_status": "failed",
+  "blocker_status": "proposed",
+  "restart_equal": true
+}

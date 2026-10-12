@@ -1,0 +1,9 @@
+{
+  "dedup_child": "405e0b05-97cd-4445-9a3b-bf6da82af6cd",
+  "contains_edges": 1,
+  "child_ready_before_retire": true,
+  "retired_status": "superseded",
+  "unblocked_finish": "inconclusive",
+  "restart_equal": true,
+  "limit": "existing legacy behavior; not G2 scientific acceptance"
+}

@@ -1,0 +1,27 @@
+Usage: anix.exe research [OPTIONS] <COMMAND>
+
+Commands:
+  status                  
+  pause                   
+  resume                  
+  cancel                  
+  autonomy                
+  budget-show             
+  budget-set              
+  branch-pause            
+  branch-resume           
+  branch-cancel           
+  branch-prioritize       
+  work-prioritize         
+  explain                 
+  request-deeper          
+  request-contradictions  
+  plan-revision           
+  add-constraint          
+  help                    Print this message or the help of the given subcommand(s)
+
+Options:
+      --workspace <WORKSPACE>  [default: .]
+      --project <PROJECT>      
+      --actor <ACTOR>          [default: cli-user]
+  -h, --help                   Print help

@@ -1,0 +1,50 @@
+[
+  {
+    "label": "8b-654",
+    "path": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081048725/long-context-000654/report.json",
+    "exists": true,
+    "sha256": "7665aea50a3deba478f932392bab129376b7ec804af5fe12d0c78d5634c8da8c"
+  },
+  {
+    "label": "8b-654",
+    "path": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081048725/long-context-000654/lead-decision-trace.jsonl",
+    "exists": true,
+    "sha256": "7a81691a79cdbcd5f4c9e9543678bd9215bbe5d7569f2d40c0455e4cfa33cc2d"
+  },
+  {
+    "label": "14b-654",
+    "path": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081319661/long-context-000654/report.json",
+    "exists": true,
+    "sha256": "b8383e7a035b3fc07aab383d5a7c8d5a74e9a14398c2f012e2d2f83bb9a54621"
+  },
+  {
+    "label": "14b-654",
+    "path": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081319661/long-context-000654/lead-decision-trace.jsonl",
+    "exists": true,
+    "sha256": "9150b5a1c09dbb09e5d5753a96256b0dbabea5d5fe27c3fbdeaf1ae230e32bfe"
+  },
+  {
+    "label": "14b-664",
+    "path": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T081513351/branching-000664/report.json",
+    "exists": true,
+    "sha256": "c18205eb105b08ad67a39fdb052a48b54865b8d620fc9ebeaa8d3f206c43f883"
+  },
+  {
+    "label": "14b-664",
+    "path": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T081513351/branching-000664/lead-decision-trace.jsonl",
+    "exists": true,
+    "sha256": "579098be24655310e819eb2a9daa5d1f0eba1a6fe3574fbaefc6d3326d1bae2b"
+  },
+  {
+    "label": "8b-664-iteration12",
+    "path": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T075935935/branching-000664/report.json",
+    "exists": true,
+    "sha256": "a38f9844e4af2bfa820a783a2a82253febcccc5e96f2d70783743fc776a20a66"
+  },
+  {
+    "label": "8b-664-iteration12",
+    "path": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T075935935/branching-000664/lead-decision-trace.jsonl",
+    "exists": true,
+    "sha256": "295a8c0de943a99465e7efe6a3738ef835334fe784dca5353649fa1b6dfc6ff9"
+  }
+]

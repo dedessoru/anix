@@ -1,0 +1,56 @@
+[
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "historical_sha256": "1c55b7ad97a9698e34796496a142d1f0f3a375ca37127dd32b205e1375015ff2",
+    "current_sha256": "1c55b7ad97a9698e34796496a142d1f0f3a375ca37127dd32b205e1375015ff2",
+    "matches": true
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "historical_sha256": "604444d2db8361bdda70357acd914373d021dabb92974f6e092a4069267ebeca",
+    "current_sha256": "d2816667b10925775cde0235156a1f4c18d55c1929bec9996299da6a93b4ab5b",
+    "matches": false
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "historical_sha256": "16625eeb6be5e60d9814a68e19a7e6b2c5082efc1e8400e759c1d2955c7fcafa",
+    "current_sha256": "8c22b5e36099a10983249ee064554d55d54e88711b2e0c637c81c202e35e40d0",
+    "matches": false
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "historical_sha256": "366854fc0d20de534c437716fc3626e000b3ae2d558f3fc2d8d9016b921c2caf",
+    "current_sha256": "366854fc0d20de534c437716fc3626e000b3ae2d558f3fc2d8d9016b921c2caf",
+    "matches": true
+  },
+  {
+    "path": ".runtime/anix-v1-lead-runner.session13.exe",
+    "historical_sha256": "6b0981edea62efc5a6f64ad1dc5ef86233904062a833dc456906c14f02806bfe",
+    "current_sha256": "6b0981edea62efc5a6f64ad1dc5ef86233904062a833dc456906c14f02806bfe",
+    "matches": true
+  },
+  {
+    "path": ".runtime/anix-v1-session13-check.stdout.log",
+    "historical_sha256": "37c7f4bc2ebec655e0364f4b993d34db78c61212d688d082ab5fe9125c99449f",
+    "current_sha256": "37c7f4bc2ebec655e0364f4b993d34db78c61212d688d082ab5fe9125c99449f",
+    "matches": true
+  },
+  {
+    "path": ".runtime/anix-v1-session13-check.stderr.log",
+    "historical_sha256": "b2bcc318913ab65df12eb744fcf787fc13cad0c0ff09d9e34a5ec875a9c8fa5c",
+    "current_sha256": "b2bcc318913ab65df12eb744fcf787fc13cad0c0ff09d9e34a5ec875a9c8fa5c",
+    "matches": true
+  },
+  {
+    "path": ".runtime/anix-audit-test-lead.toml",
+    "historical_sha256": "09e94acf11f583c92c78855299c12960c364c1d64d85300c45e4b420f1b0adea",
+    "current_sha256": "09e94acf11f583c92c78855299c12960c364c1d64d85300c45e4b420f1b0adea",
+    "matches": true
+  },
+  {
+    "path": ".runtime/anix-v1-test-lead-14b.toml",
+    "historical_sha256": "cb39883b72091fde6170ed7fdc7882c74451f610ac63f16997cca83a553906c8",
+    "current_sha256": "cb39883b72091fde6170ed7fdc7882c74451f610ac63f16997cca83a553906c8",
+    "matches": true
+  }
+]

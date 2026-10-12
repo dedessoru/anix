@@ -1,0 +1,26 @@
+{
+  "provider": "loopback OpenAI-compatible fake server; no model inference",
+  "limits": {
+    "max_strong_model_calls": 1,
+    "timeout_seconds": 3,
+    "work_budget": {
+      "context_tokens": 4096,
+      "max_model_calls": 4,
+      "max_tool_calls": 8
+    }
+  },
+  "responses": [
+    "malformed JSON",
+    "compact finish_research Blocked response"
+  ],
+  "http_attempts": 2,
+  "logical_model_invocations": 1,
+  "causal_auxiliary_model_calls": 0,
+  "payloads_and_schema": "F14.json requests; runtime-owned initial/repair payloads",
+  "legacy_seed_limits": {
+    "lead_decisions": 40,
+    "tool_calls": 60
+  },
+  "production_schema_owner": "test_lead.rs step_response_schema; frozen by source digest",
+  "actual_loopback_http_metrics": "server requests are authoritative; provider http_metrics stays zero for non-Groq transport"
+}

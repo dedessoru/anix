@@ -1,0 +1,7 @@
+{
+  "evidence_complete": true,
+  "manifest_files": 80,
+  "source_files": 50,
+  "all_bundle_hashes_verified": true,
+  "gate": "G0 PASS; six target contracts remain FAIL"
+}

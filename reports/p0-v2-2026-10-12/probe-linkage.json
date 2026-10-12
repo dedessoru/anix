@@ -1,0 +1,48 @@
+{
+  "fixture_sha256": "1026fc5090386b0c3e398744c71936623348cec8b7e1b2411a8711cea391e9af",
+  "diagnostic_executable_sha256": "eb893b862faf47610916aaf70a0bf973d39fa94803ee9bed9d65421bce85879d",
+  "baseline_libraries": [
+    {
+      "crate": "anix_core",
+      "path": "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_core-85499d327586d0b1.rlib",
+      "sha256": "495a0ffd0c1468e621a0fef0a61ec98cf6eecd1113e62373eccfcef4fa023eae"
+    },
+    {
+      "crate": "anix_domain",
+      "path": "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_domain-1df49f413bab4f5b.rlib",
+      "sha256": "d20c9104f451b93e461c994555ef93c6e76c0b0a3048bf01b8a298bf05b93727"
+    },
+    {
+      "crate": "anix_agent",
+      "path": "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_agent-a43421497deefb63.rlib",
+      "sha256": "70aa54d27fa840ef4a37f3caf97e69a7c03ae7c03a500cb5bb1256a526d05fc4"
+    },
+    {
+      "crate": "anix_integrations",
+      "path": "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_integrations-56c36c5e1053b14e.rlib",
+      "sha256": "1cb33740024d40d1ee5809963dc302921665cc53ff44a828ea7901f1f0ffd3d8"
+    },
+    {
+      "crate": "anix_storage",
+      "path": "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_storage-54a6f1936b908244.rlib",
+      "sha256": "1bed7b64a7203c09a8f251a77d62f60c7101ec4411770b02c10b406ef156179f"
+    },
+    {
+      "crate": "futures",
+      "path": "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libfutures-c490f51cad89eab0.rlib",
+      "sha256": "92cf64a025ecf8e16fa7c9a94901535fce063624b0e042228835a418bb48b83c"
+    },
+    {
+      "crate": "serde_json",
+      "path": "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libserde_json-eddad01d1e9949d5.rlib",
+      "sha256": "11d3f35ca272ce97d09f42116e4c3fe9a382ef10e4fe81aa10e28ff77aa5df81"
+    },
+    {
+      "crate": "tempfile",
+      "path": "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libtempfile-a9b9b78f02c7fd69.rlib",
+      "sha256": "13668aac590fea7bf6d138a7fab049b203252922c51202855b0a9bde425aca30"
+    }
+  ],
+  "compile_command": "probe-checks.json",
+  "note": "diagnostic source not edited after final captured compilation/run"
+}

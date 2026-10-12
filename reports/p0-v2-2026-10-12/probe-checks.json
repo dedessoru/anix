@@ -1,0 +1,45 @@
+[
+  {
+    "name": "probe-build",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\rustc.exe",
+      "--edition=2021",
+      "--test",
+      "C:\\Users\\leks\\Documents\\RN\\anix\\reports\\p0-v2-2026-10-12\\probe.rs",
+      "-L",
+      "dependency=C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps",
+      "-o",
+      "C:\\Users\\leks\\Documents\\RN\\anix\\reports\\p0-v2-2026-10-12\\probe.exe",
+      "--extern",
+      "anix_core=C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_core-85499d327586d0b1.rlib",
+      "--extern",
+      "anix_domain=C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_domain-1df49f413bab4f5b.rlib",
+      "--extern",
+      "anix_agent=C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_agent-a43421497deefb63.rlib",
+      "--extern",
+      "anix_integrations=C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_integrations-56c36c5e1053b14e.rlib",
+      "--extern",
+      "anix_storage=C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libanix_storage-54a6f1936b908244.rlib",
+      "--extern",
+      "futures=C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libfutures-c490f51cad89eab0.rlib",
+      "--extern",
+      "serde_json=C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libserde_json-eddad01d1e9949d5.rlib",
+      "--extern",
+      "tempfile=C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\deps\\libtempfile-a9b9b78f02c7fd69.rlib"
+    ],
+    "exit_code": 0,
+    "stdout": "probe-build.stdout.log",
+    "stderr": "probe-build.stderr.log"
+  },
+  {
+    "name": "probe-target-contracts",
+    "command": [
+      "C:\\Users\\leks\\Documents\\RN\\anix\\reports\\p0-v2-2026-10-12\\probe.exe",
+      "--nocapture",
+      "--test-threads=1"
+    ],
+    "exit_code": 101,
+    "stdout": "probe-target-contracts.stdout.log",
+    "stderr": "probe-target-contracts.stderr.log"
+  }
+]

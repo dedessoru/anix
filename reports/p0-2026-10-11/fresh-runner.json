@@ -1,0 +1,6 @@
+{
+  "path": "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\examples\\lead_runtime_seed.exe",
+  "exists": true,
+  "sha256": "608b29dcbe285dc35d9598974fb514a852ba03420d25a39caafcd00934de59f9",
+  "live_model_run": "NOT RUN: P0 uses frozen failure traces; no profile qualification or paid calls"
+}

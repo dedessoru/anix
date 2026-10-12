@@ -1,0 +1,100 @@
+{
+  "before_nodes": 1,
+  "failure": "storage: P0 injected failure BEFORE second commit",
+  "partial_nodes": {
+    "23bc91cc-f7c0-450a-b32c-8e3f64c95686": {
+      "id": "23bc91cc-f7c0-450a-b32c-8e3f64c95686",
+      "project_id": "554b9511-27ab-4dc8-9a75-4781363ef48a",
+      "created_at": "2026-10-12T15:22:24.760445100Z",
+      "updated_at": "2026-10-12T15:22:24.774413Z",
+      "version": 3,
+      "archived": false,
+      "branch_id": "50d73bc0-e497-4703-8b24-e2f73ef428f1",
+      "kind": "diagnostic",
+      "granularity": "composite",
+      "title": "Work",
+      "objective": "Original objective v1",
+      "acceptance_criteria": {
+        "required_entities": [
+          {
+            "type": "question",
+            "id": "5bc4432b-f5f8-456e-bdbb-dd7c22a0d6b8"
+          }
+        ],
+        "required_artifacts": [],
+        "minimum_children": 0
+      },
+      "status": "running",
+      "owner": {
+        "type": "human",
+        "identity": "p0-owner"
+      },
+      "capability_requirements": [
+        "tool:compute"
+      ],
+      "context_policy_id": "bounded-v1",
+      "budget": {
+        "context_tokens": 4096,
+        "max_model_calls": 4,
+        "max_tool_calls": 8
+      },
+      "created_by": {
+        "type": "human",
+        "identity": "p0-owner"
+      },
+      "outcome": null
+    },
+    "2dd26276-1058-4dc1-86ae-ee672cfc8635": {
+      "id": "2dd26276-1058-4dc1-86ae-ee672cfc8635",
+      "project_id": "554b9511-27ab-4dc8-9a75-4781363ef48a",
+      "created_at": "2026-10-12T15:22:24.812639900Z",
+      "updated_at": "2026-10-12T15:22:24.812639900Z",
+      "version": 1,
+      "archived": false,
+      "branch_id": "50d73bc0-e497-4703-8b24-e2f73ef428f1",
+      "kind": "long-horizon-step",
+      "granularity": "atomic",
+      "title": "Child",
+      "objective": "Compute required quantity",
+      "acceptance_criteria": {
+        "required_entities": [
+          {
+            "type": "question",
+            "id": "5bc4432b-f5f8-456e-bdbb-dd7c22a0d6b8"
+          }
+        ],
+        "required_artifacts": [],
+        "minimum_children": 0
+      },
+      "status": "proposed",
+      "owner": {
+        "type": "lead_agent",
+        "identity": "p0-lead"
+      },
+      "capability_requirements": [
+        "tool:compute"
+      ],
+      "context_policy_id": "long-horizon-bounded-v1",
+      "budget": {
+        "context_tokens": 4096,
+        "max_model_calls": 4,
+        "max_tool_calls": 8
+      },
+      "created_by": {
+        "type": "lead_agent",
+        "identity": "p0-lead"
+      },
+      "outcome": null
+    }
+  },
+  "partial_edges": {},
+  "orphans": [
+    "2dd26276-1058-4dc1-86ae-ee672cfc8635"
+  ],
+  "retry_child": "d0b0f4c6-8cc0-4210-8abd-8a4fbacd0aa1",
+  "children_after_retry": [
+    "2dd26276-1058-4dc1-86ae-ee672cfc8635",
+    "d0b0f4c6-8cc0-4210-8abd-8a4fbacd0aa1"
+  ],
+  "restart_equal": true
+}

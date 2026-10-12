@@ -1,0 +1,74 @@
+[
+  {
+    "check": "fmt",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "fmt",
+      "--all",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "fmt.stdout.log",
+    "stderr": "fmt.stderr.log"
+  },
+  {
+    "check": "check",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "check",
+      "--workspace",
+      "--locked",
+      "--target-dir",
+      "target/p0-audit"
+    ],
+    "exit_code": 0,
+    "stdout": "check.stdout.log",
+    "stderr": "check.stderr.log"
+  },
+  {
+    "check": "clippy",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "clippy",
+      "--workspace",
+      "--all-targets",
+      "--locked",
+      "--target-dir",
+      "target/p0-audit",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "exit_code": 0,
+    "stdout": "clippy.stdout.log",
+    "stderr": "clippy.stderr.log"
+  },
+  {
+    "check": "test",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "test",
+      "--workspace",
+      "--locked",
+      "--target-dir",
+      "target/p0-audit"
+    ],
+    "exit_code": 0,
+    "stdout": "test.stdout.log",
+    "stderr": "test.stderr.log"
+  },
+  {
+    "check": "metadata",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "metadata",
+      "--locked",
+      "--no-deps",
+      "--format-version",
+      "1"
+    ],
+    "exit_code": 0,
+    "stdout": "metadata.stdout.log",
+    "stderr": "metadata.stderr.log"
+  }
+]

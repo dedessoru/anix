@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "reports/p0-v2-2026-10-12/supplement.py"
+  ],
+  "all_asset_hashes_recorded": 9,
+  "source_unchanged": true
+}

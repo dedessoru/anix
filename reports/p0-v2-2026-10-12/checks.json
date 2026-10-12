@@ -1,0 +1,183 @@
+[
+  {
+    "name": "git-head",
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "seconds": 0.029321670532226562,
+    "stdout": "git-head.stdout.log",
+    "stderr": "git-head.stderr.log"
+  },
+  {
+    "name": "git-status",
+    "command": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "exit_code": 0,
+    "seconds": 0.04828310012817383,
+    "stdout": "git-status.stdout.log",
+    "stderr": "git-status.stderr.log"
+  },
+  {
+    "name": "git-diff",
+    "command": [
+      "git",
+      "diff",
+      "--binary"
+    ],
+    "exit_code": 0,
+    "seconds": 0.04372882843017578,
+    "stdout": "git-diff.stdout.log",
+    "stderr": "git-diff.stderr.log"
+  },
+  {
+    "name": "rustc-version",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\rustc.exe",
+      "--version",
+      "--verbose"
+    ],
+    "exit_code": 0,
+    "seconds": 0.15549373626708984,
+    "stdout": "rustc-version.stdout.log",
+    "stderr": "rustc-version.stderr.log"
+  },
+  {
+    "name": "cargo-version",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "--version"
+    ],
+    "exit_code": 0,
+    "seconds": 0.061336517333984375,
+    "stdout": "cargo-version.stdout.log",
+    "stderr": "cargo-version.stderr.log"
+  },
+  {
+    "name": "metadata",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "metadata",
+      "--locked",
+      "--no-deps",
+      "--format-version",
+      "1"
+    ],
+    "exit_code": 0,
+    "seconds": 0.08022451400756836,
+    "stdout": "metadata.stdout.log",
+    "stderr": "metadata.stderr.log"
+  },
+  {
+    "name": "discovery",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "test",
+      "--workspace",
+      "--locked",
+      "--target-dir",
+      "target/p0-audit",
+      "--",
+      "--list"
+    ],
+    "exit_code": 0,
+    "seconds": 14.92298150062561,
+    "stdout": "discovery.stdout.log",
+    "stderr": "discovery.stderr.log"
+  },
+  {
+    "name": "fmt",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "fmt",
+      "--all",
+      "--",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 1.458970546722412,
+    "stdout": "fmt.stdout.log",
+    "stderr": "fmt.stderr.log"
+  },
+  {
+    "name": "check",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "check",
+      "--workspace",
+      "--all-targets",
+      "--locked",
+      "--target-dir",
+      "target/p0-audit"
+    ],
+    "exit_code": 0,
+    "seconds": 4.599787473678589,
+    "stdout": "check.stdout.log",
+    "stderr": "check.stderr.log"
+  },
+  {
+    "name": "build",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "build",
+      "--workspace",
+      "--locked",
+      "--target-dir",
+      "target/p0-audit"
+    ],
+    "exit_code": 0,
+    "seconds": 0.285799503326416,
+    "stdout": "build.stdout.log",
+    "stderr": "build.stderr.log"
+  },
+  {
+    "name": "test",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "test",
+      "--workspace",
+      "--locked",
+      "--target-dir",
+      "target/p0-audit"
+    ],
+    "exit_code": 0,
+    "seconds": 93.01095056533813,
+    "stdout": "test.stdout.log",
+    "stderr": "test.stderr.log"
+  },
+  {
+    "name": "clippy",
+    "command": [
+      "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+      "clippy",
+      "--workspace",
+      "--all-targets",
+      "--locked",
+      "--target-dir",
+      "target/p0-audit",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "exit_code": 0,
+    "seconds": 0.7776792049407959,
+    "stdout": "clippy.stdout.log",
+    "stderr": "clippy.stderr.log"
+  },
+  {
+    "name": "cli-help",
+    "command": [
+      "C:\\Users\\leks\\Documents\\RN\\anix\\target\\p0-audit\\debug\\anix.exe",
+      "--help"
+    ],
+    "exit_code": 0,
+    "seconds": 0.014129638671875,
+    "stdout": "cli-help.stdout.log",
+    "stderr": "cli-help.stderr.log"
+  }
+]

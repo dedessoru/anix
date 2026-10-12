@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe",
+    "build",
+    "--workspace",
+    "--examples",
+    "--locked",
+    "--target-dir",
+    "target/p0-audit"
+  ],
+  "exit_code": 0
+}

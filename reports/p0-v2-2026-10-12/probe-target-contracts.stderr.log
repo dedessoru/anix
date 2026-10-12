@@ -1,0 +1,21 @@
+
+thread 'f02_scientific_record_is_reachable_from_composite_step' (23100) panicked at C:\Users\leks\Documents\RN\anix\reports\p0-v2-2026-10-12\probe.rs:62:5:
+F02: scientific action rejected before Core: Some("invalid transition: Lead decision is not allowed for Composite work node")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'f04_old_tool_output_cannot_satisfy_revised_objective' (14012) panicked at C:\Users\leks\Documents\RN\anix\reports\p0-v2-2026-10-12\probe.rs:84:5:
+F04: output v1 satisfies revised objective v2
+
+thread 'f05_incoming_blocks_is_shared_by_readiness_and_finish' (24524) panicked at C:\Users\leks\Documents\RN\anix\reports\p0-v2-2026-10-12\probe.rs:106:5:
+F05: readiness and finish bypass incoming Blocks
+
+thread 'f08_snapshot_renderer_never_reads_current_entity_version' (10432) panicked at C:\Users\leks\Documents\RN\anix\reports\p0-v2-2026-10-12\probe.rs:129:5:
+assertion `left == right` failed: F08: frozen snapshot paired with live v2 typed context
+  left: "SNAPSHOT_V1"
+ right: "LIVE_V2"
+
+thread 'f11_add_child_failure_never_leaves_orphan_or_duplicate' (4924) panicked at C:\Users\leks\Documents\RN\anix\reports\p0-v2-2026-10-12\probe.rs:167:5:
+F11: durable orphan plus duplicate after retry
+
+thread 'f14_one_call_cap_bounds_actual_provider_attempts' (6228) panicked at C:\Users\leks\Documents\RN\anix\reports\p0-v2-2026-10-12\probe.rs:216:5:
+F14: one invocation reservation allows multiple HTTP sends

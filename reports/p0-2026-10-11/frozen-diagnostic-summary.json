@@ -1,0 +1,873 @@
+[
+  {
+    "label": "8b-654",
+    "turns": [
+      {
+        "turn": 1,
+        "work_id": "0c78e382-a46d-4ae5-834d-a63efe06a6ca",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "minimum completed children unmet"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "9510068605faab57b24f572bfda00a432c98afa65c043994d8c43ee3e6229fda",
+        "schema_sha256": "0cdb4b4579c9d948cbe75b1a0a3d130f78de810c6714fbb38ee8ee4e495c7bdf",
+        "duplicate": false
+      },
+      {
+        "turn": 2,
+        "work_id": "eb1ded26-ade3-4bde-bbf5-dd28c03b5306",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "41f7cfd2e2378c88db43b3aa461c03d3d0d148af0732b78fd3a901ccbfcb6946",
+        "schema_sha256": "372879e41d8dfa3c062deb49476621fbba40d4e55c10188bd6ab78bab405d9e8",
+        "duplicate": false
+      },
+      {
+        "turn": 3,
+        "work_id": "eb1ded26-ade3-4bde-bbf5-dd28c03b5306",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "044071f151439555ce30d0308f0784eafd39e8bac3158319573759a0725c4c13",
+        "schema_sha256": "323bb09dfb3b1ce146c9339ecc143b38d0fffe9de0dc0992ebe2b499a71cdc15",
+        "duplicate": false
+      },
+      {
+        "turn": 4,
+        "work_id": "eb1ded26-ade3-4bde-bbf5-dd28c03b5306",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "be78596df19051021643e322a389bd23fccd1382b96bc101f9ea16a5d121d022",
+        "schema_sha256": "eb9f9e7ad62c86f03a56aec4cdf369ea4e490a5a6d6acf876dbdf73092e16107",
+        "duplicate": false
+      },
+      {
+        "turn": 5,
+        "work_id": "eb1ded26-ade3-4bde-bbf5-dd28c03b5306",
+        "action": "complete_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "72e5185e4638e19726f25712eaa6633cf687785719d70c4e382aa077ea7e0797",
+        "schema_sha256": "e8f81f1a9cffd4d3520aea7ea6752297ab1cd1824ad5eb898c97e8db1f855850",
+        "duplicate": false
+      },
+      {
+        "turn": 6,
+        "work_id": "0c78e382-a46d-4ae5-834d-a63efe06a6ca",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "7ed46d700c47758d6e0ce72f7773ed161807f853209c3cbb3f977b3c33646fa5",
+        "schema_sha256": "14372118064de18ed2a78bb7ee14ecd5853193bf600726205c3a77b4fc57de53",
+        "duplicate": false
+      },
+      {
+        "turn": 7,
+        "work_id": "9a4b6f35-a868-4077-a733-4599a6844cfb",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "c6f7cf0935ba6d6262a3f16a88c1aec258565d2032aee1ebff91d6c080f1f92a",
+        "schema_sha256": "372879e41d8dfa3c062deb49476621fbba40d4e55c10188bd6ab78bab405d9e8",
+        "duplicate": false
+      },
+      {
+        "turn": 8,
+        "work_id": "9a4b6f35-a868-4077-a733-4599a6844cfb",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "799ffb21b5d7bb4b235380536e9805147c2044e7fe08406138f24f09f52ab7f3",
+        "schema_sha256": "323bb09dfb3b1ce146c9339ecc143b38d0fffe9de0dc0992ebe2b499a71cdc15",
+        "duplicate": false
+      },
+      {
+        "turn": 9,
+        "work_id": "9a4b6f35-a868-4077-a733-4599a6844cfb",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "22d0d17c176e15bea7bdb65f131ed62720d4c0a9146338b1f33507bc3e991f8b",
+        "schema_sha256": "81c573d77f24a6a243084baf155fce718ebf318345102091a872ba0ec808df8f",
+        "duplicate": false
+      },
+      {
+        "turn": 10,
+        "work_id": "9a4b6f35-a868-4077-a733-4599a6844cfb",
+        "action": "complete_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "832bf71be9d42af558f04c1f63aa1f616d85766d923b64ba6bed987c0afb228a",
+        "schema_sha256": "e8f81f1a9cffd4d3520aea7ea6752297ab1cd1824ad5eb898c97e8db1f855850",
+        "duplicate": false
+      },
+      {
+        "turn": 11,
+        "work_id": "0c78e382-a46d-4ae5-834d-a63efe06a6ca",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "d39279a250ec6a007edf9f3fcfdcfcf240b4f304c05787dca5332df102616166",
+        "schema_sha256": "14372118064de18ed2a78bb7ee14ecd5853193bf600726205c3a77b4fc57de53",
+        "duplicate": true
+      },
+      {
+        "turn": 12,
+        "work_id": "0c78e382-a46d-4ae5-834d-a63efe06a6ca",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "2630d45eda827bc32e7afb7ea7f9eb9ec0fdbd020bc1c6fb91bd366ad37de6e6",
+        "schema_sha256": "14372118064de18ed2a78bb7ee14ecd5853193bf600726205c3a77b4fc57de53",
+        "duplicate": true
+      },
+      {
+        "turn": 13,
+        "work_id": "0c78e382-a46d-4ae5-834d-a63efe06a6ca",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "6b06ed298d9dc26d0f823eaa1a886f4c8cf1b3748d1e5c556bf8d280013581e5",
+        "schema_sha256": "14372118064de18ed2a78bb7ee14ecd5853193bf600726205c3a77b4fc57de53",
+        "duplicate": true
+      },
+      {
+        "turn": 14,
+        "work_id": "0c78e382-a46d-4ae5-834d-a63efe06a6ca",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "974380943b782e9953bacf95f858d1fdc1806677eb86916556647ab62cf273c2",
+        "schema_sha256": "14372118064de18ed2a78bb7ee14ecd5853193bf600726205c3a77b4fc57de53",
+        "duplicate": true
+      }
+    ]
+  },
+  {
+    "label": "14b-654",
+    "turns": [
+      {
+        "turn": 1,
+        "work_id": "e73b0919-078d-4cad-b1a0-c3bcc2ef8f01",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "minimum completed children unmet"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "088bde2d5408c30d41dad64c489e983ce32946bb60a7f7fa3caf7d0b5e70d3a8",
+        "schema_sha256": "0cdb4b4579c9d948cbe75b1a0a3d130f78de810c6714fbb38ee8ee4e495c7bdf",
+        "duplicate": false
+      },
+      {
+        "turn": 2,
+        "work_id": "0bb1ff82-098d-4027-a46c-034e702fce5a",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "18f0b6e507c1b0f6f4b70b9ddb7993450d26bc8e08a5796517aade842f243772",
+        "schema_sha256": "372879e41d8dfa3c062deb49476621fbba40d4e55c10188bd6ab78bab405d9e8",
+        "duplicate": false
+      },
+      {
+        "turn": 3,
+        "work_id": "0bb1ff82-098d-4027-a46c-034e702fce5a",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "205579428156adc80d8e083f9e5ec62418040569462b595813a05334d65d5818",
+        "schema_sha256": "323bb09dfb3b1ce146c9339ecc143b38d0fffe9de0dc0992ebe2b499a71cdc15",
+        "duplicate": false
+      },
+      {
+        "turn": 4,
+        "work_id": "0bb1ff82-098d-4027-a46c-034e702fce5a",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "8b2790a4e037cf3f8804903fb82e882f9d267232a34d5a3843efa6049821bc96",
+        "schema_sha256": "81c573d77f24a6a243084baf155fce718ebf318345102091a872ba0ec808df8f",
+        "duplicate": false
+      },
+      {
+        "turn": 5,
+        "work_id": "0bb1ff82-098d-4027-a46c-034e702fce5a",
+        "action": "complete_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "628eeebdfb22313acb61c96b2eacc794800d3057ea309c26914f7747d9a9d10b",
+        "schema_sha256": "e8f81f1a9cffd4d3520aea7ea6752297ab1cd1824ad5eb898c97e8db1f855850",
+        "duplicate": false
+      },
+      {
+        "turn": 6,
+        "work_id": "e73b0919-078d-4cad-b1a0-c3bcc2ef8f01",
+        "action": "finish_research",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "d82ece556611f3fd1574c01331ef9de100bfe94f1161489121968d8bc2e809e3",
+        "schema_sha256": "14372118064de18ed2a78bb7ee14ecd5853193bf600726205c3a77b4fc57de53",
+        "duplicate": false
+      }
+    ]
+  },
+  {
+    "label": "14b-664",
+    "turns": [
+      {
+        "turn": 1,
+        "work_id": "c69d0074-97a2-4205-8153-3b3fc680ed18",
+        "action": "create_branch",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "minimum completed children unmet"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "f62d3fd604ef1da3a809dd23ffc3a972b43b622071a32353ae63167ecef29230",
+        "schema_sha256": "f203606afddb4e4afd1991a07c532815fda63ff5d73eaa06aa3d3e723b16c280",
+        "duplicate": false
+      },
+      {
+        "turn": 2,
+        "work_id": "c69d0074-97a2-4205-8153-3b3fc680ed18",
+        "action": "switch_research_branch",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unfinished independent branch research",
+            "minimum completed children unmet"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "c680f452f103aa12078c75c3413d9615753cbd1fb6ccd1763fc398a65cf16d50",
+        "schema_sha256": "745816a01d69ee2979451ab94e6d9d7fb8cf61ee4443c89ecd229dc580f9288e",
+        "duplicate": false
+      },
+      {
+        "turn": 3,
+        "work_id": "63d25563-127e-4086-aca5-6f067fdeae59",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "minimum completed children unmet"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "5eb4237e2e428960d11e29f7bd412f91abe35ab1fb75cf17a7f179ba44d390ae",
+        "schema_sha256": "fb4a85a0679fb6fcf35dcc90ce7fb9d051e6370df8ed79b70ca4ce883c10f3a9",
+        "duplicate": false
+      },
+      {
+        "turn": 4,
+        "work_id": "b8d7ab87-d2ca-4abc-8ae0-d8f3a6726757",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "941d3140391a1f779c220e50ef25fb3d006f9b005acb5a4316c283c3aa1b8233",
+        "schema_sha256": "372879e41d8dfa3c062deb49476621fbba40d4e55c10188bd6ab78bab405d9e8",
+        "duplicate": false
+      },
+      {
+        "turn": 5,
+        "work_id": "b8d7ab87-d2ca-4abc-8ae0-d8f3a6726757",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "5e199ed4dbd1e52bcab2a4ef4277f19b601a5ca2014cdd81174296f5326dcc90",
+        "schema_sha256": "323bb09dfb3b1ce146c9339ecc143b38d0fffe9de0dc0992ebe2b499a71cdc15",
+        "duplicate": false
+      },
+      {
+        "turn": 6,
+        "work_id": "b8d7ab87-d2ca-4abc-8ae0-d8f3a6726757",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "a2f095e4586517b74b700ebf624458e10dd86bf9fb29ae90d871a1d2fba2d397",
+        "schema_sha256": "81c573d77f24a6a243084baf155fce718ebf318345102091a872ba0ec808df8f",
+        "duplicate": false
+      },
+      {
+        "turn": 7,
+        "work_id": "b8d7ab87-d2ca-4abc-8ae0-d8f3a6726757",
+        "action": "complete_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "b4213065269b173fc496fdb52f81aa9154106599160df8849fb4922b3ca64341",
+        "schema_sha256": "e8f81f1a9cffd4d3520aea7ea6752297ab1cd1824ad5eb898c97e8db1f855850",
+        "duplicate": false
+      },
+      {
+        "turn": 8,
+        "work_id": "63d25563-127e-4086-aca5-6f067fdeae59",
+        "action": "finish_research",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "2b203c7653eef42b6e7c5231c05d9184418dcc947a3aece17fb6c65c8d6f56fd",
+        "schema_sha256": "23db0f2c35092fec617cc4310831ba5b5463f647499cc84615aa49e1e9181a75",
+        "duplicate": false
+      },
+      {
+        "turn": 9,
+        "work_id": "c69d0074-97a2-4205-8153-3b3fc680ed18",
+        "action": "finish_research",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "minimum completed children unmet"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "b9ec3338b970db1f72a528546b66d57d241725c71350dcbaf04b5dc1daaf7add",
+        "schema_sha256": "aba7eba7b12af1ad9baabc2899f91dc18135f4406047ad63f9f473f8db435653",
+        "duplicate": false
+      }
+    ]
+  },
+  {
+    "label": "8b-664-iteration12",
+    "turns": [
+      {
+        "turn": 1,
+        "work_id": "84c14f47-59d0-4dee-a855-49997056153f",
+        "action": "create_branch",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "minimum completed children unmet"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "b239883248a2d7c908b46b24ce6a349bf128a518197cea255bf027501fe7e2ed",
+        "schema_sha256": "f203606afddb4e4afd1991a07c532815fda63ff5d73eaa06aa3d3e723b16c280",
+        "duplicate": false
+      },
+      {
+        "turn": 2,
+        "work_id": "84c14f47-59d0-4dee-a855-49997056153f",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unfinished independent branch research",
+            "minimum completed children unmet"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "33ff40957b15ee8fe78a92b81f6c73a645f1a0c9d8a979aba2874b1ab078b6c4",
+        "schema_sha256": "745816a01d69ee2979451ab94e6d9d7fb8cf61ee4443c89ecd229dc580f9288e",
+        "duplicate": false
+      },
+      {
+        "turn": 3,
+        "work_id": "bf9f7081-5436-48cd-9913-7f6dd4872067",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "80f1b2c74065e65bfcd200cd6f2e84639f9375ffa8c7b442df7deda7199faed2",
+        "schema_sha256": "372879e41d8dfa3c062deb49476621fbba40d4e55c10188bd6ab78bab405d9e8",
+        "duplicate": false
+      },
+      {
+        "turn": 4,
+        "work_id": "bf9f7081-5436-48cd-9913-7f6dd4872067",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "d67c36633766a20ae88d8fbc08b1949df6c982034cfab61eaab726b351cdd2fa",
+        "schema_sha256": "323bb09dfb3b1ce146c9339ecc143b38d0fffe9de0dc0992ebe2b499a71cdc15",
+        "duplicate": false
+      },
+      {
+        "turn": 5,
+        "work_id": "bf9f7081-5436-48cd-9913-7f6dd4872067",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "d5ff4ec1eb89d4d0df9fcc4114d67705b08ba60bd1a0198d0b79f5d0861af224",
+        "schema_sha256": "81c573d77f24a6a243084baf155fce718ebf318345102091a872ba0ec808df8f",
+        "duplicate": false
+      },
+      {
+        "turn": 6,
+        "work_id": "bf9f7081-5436-48cd-9913-7f6dd4872067",
+        "action": "complete_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "c1bf59a3b995e5b08304dd6272107ff7995b557695b5ef6f4e95e9dec092efc2",
+        "schema_sha256": "e8f81f1a9cffd4d3520aea7ea6752297ab1cd1824ad5eb898c97e8db1f855850",
+        "duplicate": false
+      },
+      {
+        "turn": 7,
+        "work_id": "84c14f47-59d0-4dee-a855-49997056153f",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unfinished independent branch research"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "5a9a780b3536607298496805b8d830afa1a14c613f95146985ba1fc82e9f578d",
+        "schema_sha256": "745816a01d69ee2979451ab94e6d9d7fb8cf61ee4443c89ecd229dc580f9288e",
+        "duplicate": false
+      },
+      {
+        "turn": 8,
+        "work_id": "71cb2be0-d782-4ee0-9da1-101faebd8bce",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "53156d74686c34dc26ebf565cc77e1f13c421e0dc85f34d759c48eb777878f2a",
+        "schema_sha256": "372879e41d8dfa3c062deb49476621fbba40d4e55c10188bd6ab78bab405d9e8",
+        "duplicate": false
+      },
+      {
+        "turn": 9,
+        "work_id": "71cb2be0-d782-4ee0-9da1-101faebd8bce",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "5b57895821e3ed4c2cc474b4592808c70ca279860212593e42e880ca8c61dd9e",
+        "schema_sha256": "323bb09dfb3b1ce146c9339ecc143b38d0fffe9de0dc0992ebe2b499a71cdc15",
+        "duplicate": false
+      },
+      {
+        "turn": 10,
+        "work_id": "71cb2be0-d782-4ee0-9da1-101faebd8bce",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "3de6e8b522d3b849d257663e3b24f67001cf388b681021cfad53f0ced824f152",
+        "schema_sha256": "81c573d77f24a6a243084baf155fce718ebf318345102091a872ba0ec808df8f",
+        "duplicate": false
+      },
+      {
+        "turn": 11,
+        "work_id": "71cb2be0-d782-4ee0-9da1-101faebd8bce",
+        "action": "complete_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "a648ab002c7421d3b31a6e61d9135819679306e083e8df6272ebe3644f7cf906",
+        "schema_sha256": "e8f81f1a9cffd4d3520aea7ea6752297ab1cd1824ad5eb898c97e8db1f855850",
+        "duplicate": false
+      },
+      {
+        "turn": 12,
+        "work_id": "84c14f47-59d0-4dee-a855-49997056153f",
+        "action": "switch_research_branch",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unfinished independent branch research"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "9a23934a401b697da16a1847fe02886932d0ad70880f441f2793b675dc494237",
+        "schema_sha256": "745816a01d69ee2979451ab94e6d9d7fb8cf61ee4443c89ecd229dc580f9288e",
+        "duplicate": false
+      },
+      {
+        "turn": 13,
+        "work_id": "e9f111eb-4bfe-409e-b514-63e7ee5f144f",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "minimum completed children unmet"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "b07c54807b4e98f9b0fc778e504755f7c574112c3fb1c209aa7ee6e072053d28",
+        "schema_sha256": "fb4a85a0679fb6fcf35dcc90ce7fb9d051e6370df8ed79b70ca4ce883c10f3a9",
+        "duplicate": false
+      },
+      {
+        "turn": 14,
+        "work_id": "fd4d5737-c1a0-4865-a98f-a7f734b97da3",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "31534daa1a24fd4de9d2b474310fc865e63062ef462f9646bc262a6ba6f23901",
+        "schema_sha256": "372879e41d8dfa3c062deb49476621fbba40d4e55c10188bd6ab78bab405d9e8",
+        "duplicate": false
+      },
+      {
+        "turn": 15,
+        "work_id": "fd4d5737-c1a0-4865-a98f-a7f734b97da3",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "c49fb84b6decbf998a2b63114d0bb7991ceaffc70720fa465d9bfbb231e6ed81",
+        "schema_sha256": "323bb09dfb3b1ce146c9339ecc143b38d0fffe9de0dc0992ebe2b499a71cdc15",
+        "duplicate": false
+      },
+      {
+        "turn": 16,
+        "work_id": "fd4d5737-c1a0-4865-a98f-a7f734b97da3",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "42fbbd01878080877c32020a35d48b3227a11b36080df90f39a392ee8a85b202",
+        "schema_sha256": "eb9f9e7ad62c86f03a56aec4cdf369ea4e490a5a6d6acf876dbdf73092e16107",
+        "duplicate": false
+      },
+      {
+        "turn": 17,
+        "work_id": "fd4d5737-c1a0-4865-a98f-a7f734b97da3",
+        "action": "complete_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "5f1c2b58a5cc29f0dc2e2132f5cbf7b28d09c05962767b1c3ef0c3999cf9dbfa",
+        "schema_sha256": "e8f81f1a9cffd4d3520aea7ea6752297ab1cd1824ad5eb898c97e8db1f855850",
+        "duplicate": false
+      },
+      {
+        "turn": 18,
+        "work_id": "e9f111eb-4bfe-409e-b514-63e7ee5f144f",
+        "action": "create_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "156bdd096556b5abf74570a31b2910848489bbafae3565aed54c4e00a85bddd9",
+        "schema_sha256": "23db0f2c35092fec617cc4310831ba5b5463f647499cc84615aa49e1e9181a75",
+        "duplicate": false
+      },
+      {
+        "turn": 19,
+        "work_id": "e7df3c3a-6842-4352-a805-f66f552e6950",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "94a638cbfd9c8464c3aa58866e9ce0995dd5d5d0b3dfdb1b4a2cb6ac0280e713",
+        "schema_sha256": "372879e41d8dfa3c062deb49476621fbba40d4e55c10188bd6ab78bab405d9e8",
+        "duplicate": false
+      },
+      {
+        "turn": 20,
+        "work_id": "e7df3c3a-6842-4352-a805-f66f552e6950",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "cbd92d4714136e321c8ee1d68f6e54375490a9a685f4fc999a30532592409751",
+        "schema_sha256": "323bb09dfb3b1ce146c9339ecc143b38d0fffe9de0dc0992ebe2b499a71cdc15",
+        "duplicate": false
+      },
+      {
+        "turn": 21,
+        "work_id": "e7df3c3a-6842-4352-a805-f66f552e6950",
+        "action": "use_tool",
+        "status": "completed",
+        "completion": {
+          "ready": false,
+          "blockers": [
+            "unresolved retrieval consumption/rejection"
+          ],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "e9110d6db908bc770995380395ecbee7852717cf8187cac58c3832933f2edd93",
+        "schema_sha256": "81c573d77f24a6a243084baf155fce718ebf318345102091a872ba0ec808df8f",
+        "duplicate": false
+      },
+      {
+        "turn": 22,
+        "work_id": "e7df3c3a-6842-4352-a805-f66f552e6950",
+        "action": "complete_work_node",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "dd7aca7385dc3831252395d44eb43bdf916c3d472862ece050ba1c517fe0145e",
+        "schema_sha256": "e8f81f1a9cffd4d3520aea7ea6752297ab1cd1824ad5eb898c97e8db1f855850",
+        "duplicate": false
+      },
+      {
+        "turn": 23,
+        "work_id": "e9f111eb-4bfe-409e-b514-63e7ee5f144f",
+        "action": "finish_research",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "45350d8040062792b4ea1322a6fc51540f2936770d665e6d457441935bc2f6cf",
+        "schema_sha256": "23db0f2c35092fec617cc4310831ba5b5463f647499cc84615aa49e1e9181a75",
+        "duplicate": false
+      },
+      {
+        "turn": 24,
+        "work_id": "84c14f47-59d0-4dee-a855-49997056153f",
+        "action": "finish_research",
+        "status": "completed",
+        "completion": {
+          "ready": true,
+          "blockers": [],
+          "requires_explicit_lead_decision": true,
+          "scientific_sufficiency": "Lead must assess actual evidence; execution readiness does not establish truth"
+        },
+        "provider_payload_sha256": "33ace3268023d51f0ba4175d98ca5a6634717ba30c920fe4aa9739278fad2946",
+        "schema_sha256": "4f397dd3eccb6dcf9fe94901ab84790bbc4cf75719c00c3a5cd39b61e6e2c0bc",
+        "duplicate": false
+      }
+    ]
+  }
+]

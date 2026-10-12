@@ -1,0 +1,10 @@
+    Checking anix-domain v0.1.0 (C:\Users\leks\Documents\RN\anix\crates\anix-domain)
+    Checking fastrand v2.5.0
+    Checking tempfile v3.27.0
+    Checking anix-core v0.1.0 (C:\Users\leks\Documents\RN\anix\crates\anix-core)
+    Checking anix-agent v0.1.0 (C:\Users\leks\Documents\RN\anix\crates\anix-agent)
+    Checking anix-storage v0.1.0 (C:\Users\leks\Documents\RN\anix\crates\anix-storage)
+    Checking anix-integrations v0.1.0 (C:\Users\leks\Documents\RN\anix\crates\anix-integrations)
+    Checking anix-evals v0.1.0 (C:\Users\leks\Documents\RN\anix\crates\anix-evals)
+    Checking anix-cli v0.1.0 (C:\Users\leks\Documents\RN\anix\crates\anix-cli)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 12.08s

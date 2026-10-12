@@ -1,0 +1,100 @@
+{
+  "method": "SQLite online backup API from read snapshot + immutable-reference file copies; pre/post hashes",
+  "scope": ".anix/state.sqlite and every referenced artifact, not other .runtime databases nor unrelated raw sources",
+  "sqlite_python": "3.50.4",
+  "backup_db_sha256": "b085453d204948e1dff6b6f35eb30606a04b38856a8e9f2fbb8a7542c3e3254d",
+  "table_counts": {
+    "schema_migrations": 5,
+    "projects": 207,
+    "entity_registry": 3112,
+    "research_questions": 207,
+    "sources": 807,
+    "papers": 807,
+    "paper_authors": 807,
+    "paper_sources": 807,
+    "claims": 285,
+    "hypotheses": 92,
+    "experiments": 12,
+    "tasks": 1741,
+    "runs": 1741,
+    "artifacts": 896,
+    "experiment_runs": 6,
+    "experiment_run_artifacts": 0,
+    "findings": 0,
+    "relations": 285,
+    "gates": 89,
+    "action_receipts": 395,
+    "domain_events": 32172,
+    "provenance_records": 32172,
+    "work_nodes": 680,
+    "work_edges": 448,
+    "plan_revisions": 3177,
+    "branches": 232,
+    "checkpoints": 5749,
+    "context_snapshots": 1528,
+    "process_memories": 865,
+    "execution_bindings": 1647,
+    "model_invocations": 1434,
+    "tool_invocations": 459,
+    "candidate_claims": 0,
+    "research_fts": 1299,
+    "research_fts_data": 57,
+    "research_fts_idx": 54,
+    "research_fts_content": 1299,
+    "research_fts_docsize": 1299,
+    "research_fts_config": 1,
+    "human_control": 6
+  },
+  "backup_integrity": [
+    [
+      "ok"
+    ]
+  ],
+  "backup_foreign_keys": [],
+  "restore_integrity": [
+    [
+      "ok"
+    ]
+  ],
+  "restore_foreign_keys": [],
+  "restore_counts_equal": true,
+  "restore_artifact_bytes_equal": true,
+  "artifact_count": 896,
+  "artifact_status_counts": {
+    "verified": 896
+  },
+  "source_snapshot_still_equal": true,
+  "migration_rows": [
+    [
+      1,
+      "initial",
+      "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426",
+      "2026-10-01T02:19:11.172Z"
+    ],
+    [
+      2,
+      "runtime",
+      "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb",
+      "2026-10-01T02:19:11.177Z"
+    ],
+    [
+      3,
+      "context_retrieval_telemetry",
+      "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96",
+      "2026-10-05T11:15:19.007Z"
+    ],
+    [
+      4,
+      "human_control",
+      "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f",
+      "2026-10-07T12:12:16.502Z"
+    ],
+    [
+      5,
+      "work_outcome",
+      "d556d2f48c105c245c8798e507b6d84a3693d5e59de57a967e8256c18039f49a",
+      "2026-10-09T15:41:07.850Z"
+    ]
+  ],
+  "limitations": "No new migration; no power-loss test; external effect reconciliation/continuation belongs to later gates"
+}

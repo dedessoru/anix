@@ -1,0 +1,65 @@
+[
+  {
+    "path": "models/minicpm5-2b/MiniCPM5-2B-Q6_K.gguf",
+    "exists": true,
+    "bytes": 2107305184,
+    "sha256": "c9f424852aa737b3f5f2f83096a6214d86a8ea2516f3a0fbaa04a3b4feba477d",
+    "runtime_execution": "NOT RUN; local asset identification only"
+  },
+  {
+    "path": "models/minicpm5-2b/MiniCPM5-2B-Q8_0.gguf",
+    "exists": true,
+    "bytes": 2679712992,
+    "sha256": "a62c4b475bb5998391d520d29f2617dbdc197a46b9dcca9ca693a96bfdde5b51",
+    "runtime_execution": "NOT RUN; local asset identification only"
+  },
+  {
+    "path": "models/qwen3-0.6b/Qwen3-0.6B-Q8_0.gguf",
+    "exists": true,
+    "bytes": 639446688,
+    "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+    "runtime_execution": "NOT RUN; local asset identification only"
+  },
+  {
+    "path": "models/qwen3-1.7b/Qwen3-1.7B-Q8_0.gguf",
+    "exists": true,
+    "bytes": 1834426016,
+    "sha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+    "runtime_execution": "NOT RUN; local asset identification only"
+  },
+  {
+    "path": "models/qwen3-14b/Qwen3-14B-Q4_K_M.gguf",
+    "exists": true,
+    "bytes": 9001752960,
+    "sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0",
+    "runtime_execution": "NOT RUN; local asset identification only"
+  },
+  {
+    "path": "models/qwen3-4b/Qwen3-4B-Q4_K_M.gguf",
+    "exists": true,
+    "bytes": 2497280256,
+    "sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+    "runtime_execution": "NOT RUN; local asset identification only"
+  },
+  {
+    "path": "models/qwen3-8b/Qwen3-8B-Q4_K_M.gguf",
+    "exists": true,
+    "bytes": 5027783488,
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "runtime_execution": "NOT RUN; local asset identification only"
+  },
+  {
+    "path": ".runtime/llama-b11307-cuda-build/bin/Release/llama-server.exe",
+    "exists": true,
+    "bytes": 10240,
+    "sha256": "42f202c9567b6d5ae16260266635609fac14027ad53fa02ba377351993aceb93",
+    "runtime_execution": "NOT RUN; local asset identification only"
+  },
+  {
+    "path": ".runtime/llama-b11307/llama-server.exe",
+    "exists": true,
+    "bytes": 9216,
+    "sha256": "d0415a4aded0bf16fb6aaf56e01c1607fe0dd0e2e319f369fa8c127c54107d7b",
+    "runtime_execution": "NOT RUN; local asset identification only"
+  }
+]

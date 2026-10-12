@@ -1,0 +1,47 @@
+[
+  {
+    "path": "models/minicpm5-2b/MiniCPM5-2B-Q6_K.gguf",
+    "bytes": 2107305184,
+    "sha256": "UNKNOWN: not rehashed in P0; historical expected hashes are not verification"
+  },
+  {
+    "path": "models/minicpm5-2b/MiniCPM5-2B-Q8_0.gguf",
+    "bytes": 2679712992,
+    "sha256": "UNKNOWN: not rehashed in P0; historical expected hashes are not verification"
+  },
+  {
+    "path": "models/qwen3-0.6b/Qwen3-0.6B-Q8_0.gguf",
+    "bytes": 639446688,
+    "sha256": "UNKNOWN: not rehashed in P0; historical expected hashes are not verification"
+  },
+  {
+    "path": "models/qwen3-1.7b/Qwen3-1.7B-Q8_0.gguf",
+    "bytes": 1834426016,
+    "sha256": "UNKNOWN: not rehashed in P0; historical expected hashes are not verification"
+  },
+  {
+    "path": "models/qwen3-14b/Qwen3-14B-Q4_K_M.gguf",
+    "bytes": 9001752960,
+    "sha256": "UNKNOWN: not rehashed in P0; historical expected hashes are not verification"
+  },
+  {
+    "path": "models/qwen3-4b/Qwen3-4B-Q4_K_M.gguf",
+    "bytes": 2497280256,
+    "sha256": "UNKNOWN: not rehashed in P0; historical expected hashes are not verification"
+  },
+  {
+    "path": "models/qwen3-8b/Qwen3-8B-Q4_K_M.gguf",
+    "bytes": 5027783488,
+    "sha256": "UNKNOWN: not rehashed in P0; historical expected hashes are not verification"
+  },
+  {
+    "path": ".runtime/llama-b11307-cuda-build/bin/Release/llama-server.exe",
+    "exists": true,
+    "sha256": "42f202c9567b6d5ae16260266635609fac14027ad53fa02ba377351993aceb93"
+  },
+  {
+    "path": ".runtime/llama-b11307/llama-server.exe",
+    "exists": true,
+    "sha256": "d0415a4aded0bf16fb6aaf56e01c1607fe0dd0e2e319f369fa8c127c54107d7b"
+  }
+]

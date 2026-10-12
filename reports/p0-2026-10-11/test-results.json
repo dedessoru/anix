@@ -1,0 +1,756 @@
+{
+  "ordinary_passed": 183,
+  "doc_passed": 3,
+  "failed": 0,
+  "ignored": 2,
+  "tests": [
+    {
+      "symbol": "retrieval_binding_tests::partially_consumed_batch_can_be_refined_or_rejected",
+      "result": "ok"
+    },
+    {
+      "symbol": "retrieval_binding_tests::required_read_without_source_allows_prerequisite_resolution",
+      "result": "ok"
+    },
+    {
+      "symbol": "retrieval_binding_tests::existing_source_can_be_read_without_new_search",
+      "result": "ok"
+    },
+    {
+      "symbol": "retrieval_binding_tests::missing_or_ambiguous_pending_search_is_rejected_without_guessing",
+      "result": "ok"
+    },
+    {
+      "symbol": "retrieval_binding_tests::model_refine_and_reject_inputs_bind_to_the_single_pending_search",
+      "result": "ok"
+    },
+    {
+      "symbol": "retrieval_binding_tests::action_prerequisite_matrix_preserves_scope_and_argument_domains",
+      "result": "ok"
+    },
+    {
+      "symbol": "canonical_help_and_legacy_workspace_migration",
+      "result": "ok"
+    },
+    {
+      "symbol": "human_control_cli_is_json_and_persistent",
+      "result": "ok"
+    },
+    {
+      "symbol": "cli_uses_persistent_application_services",
+      "result": "ok"
+    },
+    {
+      "symbol": "policy::tests::transitions",
+      "result": "ok"
+    },
+    {
+      "symbol": "policy::tests::ids_and_relations",
+      "result": "ok"
+    },
+    {
+      "symbol": "policy::tests::secrets",
+      "result": "ok"
+    },
+    {
+      "symbol": "runtime::retrieval_state_tests::persisted_retrieval_events_derive_pending_consumed_rejected_and_superseded",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::mixed_capability_assertions_require_child_branch_and_offloaded_retrieval",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::identical_refinement_query_is_rejected_deterministically",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::cloud_synthetic_opt_in_does_not_relax_default_local_boundary",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::model_facing_retrieval_tools_expose_semantics_without_identity_fields",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::repeated_refinement_does_not_reset_progress_guard",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::retrieval_observation_contains_objective_mapped_preview_and_unread_handle",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::repeated_model_failure_closes_runs_and_leaves_auditable_state",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::composite_step_rejects_gate_proposals_and_passes_audit",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::supplied_source_is_read_without_search_through_the_lead_boundary",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::tool_failure_scenario_injects_one_failure_then_allows_recovery",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::two_empty_branch_records_do_not_establish_branch_research_capability",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::auditor_detects_missing_provenance",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::fault_plan_is_repeatable",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::pending_retrieval_rejects_repeated_plain_search",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::local_only_refuses_external_model_provider",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::long_context_variants_leave_a_bounded_local_request_window",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::loop_guard_and_budget_stop_repeated_or_unbounded_actions",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::repeated_branch_switches_do_not_disable_the_stall_guard",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::atomic_read_task_can_search_then_read_and_complete_through_real_runtime",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::report_serializes_and_secret_bundle_scrubber_strips_tokens",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::scenario_catalog_has_eleven_distinct_entries",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::scenario_variations_are_seeded_and_preserve_ground_truth",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::test_lead_parse_errors_count_as_malformed_schema_failures",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::artifact_range_read_is_required",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::branch_lineage_is_required",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::branch_lineage_survives_restart",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::branch_reconciliation_reads_both_results",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::branch_restart_preserves_completed_work",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::branch_specific_work_remains_isolated",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::branching_scenario_requires_real_branches",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::duplicate_branch_side_effect_fails_safety_gate",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::each_branch_requires_its_own_completed_work",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::execution_history_is_not_copied_into_prompts",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::long_context_corpus_exceeds_context_window",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::long_context_prompt_stays_within_budget",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::long_context_requires_multiple_distinct_snapshots",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::long_context_requires_offloaded_artifact",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::long_context_requires_retrieval",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::long_context_restart_preserves_artifacts_and_work",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::multiple_worknodes_do_not_count_as_branches",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::process_memory_prevents_full_history_growth",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::range_read_must_target_the_offloaded_artifact",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::required_evidence_must_be_retrieved_from_corpus",
+      "result": "ok"
+    },
+    {
+      "symbol": "true_capabilities::capability_assertion_tests::safe_preflight_rejection_is_not_capability_success",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::experiment_fixture_uses_project_owner_for_human_controls_and_gate",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::repeated_rejected_search_returns_existing_result_and_no_false_progress",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::reusing_completed_work_does_not_reset_the_stall_guard",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::blocked_and_inconclusive_lead_outcomes_are_not_counted_as_completed",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::harness_persists_ten_real_core_projects_and_audits_them",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::malformed_model_fault_fails_safely_and_preserves_research_state",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::independent_branches_execute_return_results_and_reconcile_through_real_driver",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::seed664_reference_reconciles_two_evidence_paths_without_inventing_unique_causality",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::first_branch_dispatch_after_rejections_can_recover_without_false_research_progress",
+      "result": "ok"
+    },
+    {
+      "symbol": "long_horizon::tests::tool_and_step_counts_cannot_finish_research_without_lead_decision",
+      "result": "ok"
+    },
+    {
+      "symbol": "groq::tests::rate_limit_waits_honor_retry_after_and_are_bounded",
+      "result": "ok"
+    },
+    {
+      "symbol": "groq::tests::metrics_headers_cannot_copy_credentials",
+      "result": "ok"
+    },
+    {
+      "symbol": "recorded_tool::tests::model_facing_tool_result_hides_runtime_identity_fields",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::groq_credentials_in_nested_trace_strings_are_redacted",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::default_profile_is_local_and_configurable",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::compact_lead_can_select_a_runtime_scoped_research_branch",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::atomic_completion_preserves_a_substantive_work_result",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::compact_actions_normalize_and_runtime_binds_known_work_ids",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::missing_optional_refine_reason_parses_without_repair",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::compact_grammar_selects_action_type_before_semantic_arguments",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::read_without_source_handle_is_not_advertised",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::response_parser_defaults_only_missing_optional_provider_metadata",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::termination_availability_matches_real_conditions_and_evidence_stages",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::objective_change_and_executable_strategy_have_distinct_compact_actions",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::local_schema_keeps_agent_and_action_tags_at_distinct_levels",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::loopback_provider_does_not_follow_redirects_to_another_endpoint",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::competing_stores_are_rejected_without_overwriting_either",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::compact_lead_decision_schema_limits_actions_and_omits_runtime_state",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::branch_catalog_exposes_only_executable_scopes_and_requires_review_handles",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::rendered_messages_expose_the_exact_action_schema_and_child_capabilities",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::groq_schema_is_strict_and_credentials_cannot_change_destination",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::file_tool_rejects_storage_case_aliases_and_nested_databases",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::boundaries_and_hashes",
+      "result": "ok"
+    },
+    {
+      "symbol": "tests::legacy_workspace_moves_once_and_keeps_reference_resolution",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::truncated_json_gets_targeted_repair_without_full_research_prompt",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::malformed_json_uses_one_repair_and_one_full_retry_at_most",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::exhausted_structured_output_error_keeps_failure_telemetry",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::trace_payload_is_bounded_and_secrets_are_redacted",
+      "result": "ok"
+    },
+    {
+      "symbol": "test_lead::tests::diagnostic_trace_records_the_rendered_request_schema_and_raw_completion",
+      "result": "ok"
+    },
+    {
+      "symbol": "approved_read_tools_are_workspace_bound",
+      "result": "ok"
+    },
+    {
+      "symbol": "idempotency_cross_project_and_version_conflicts",
+      "result": "ok"
+    },
+    {
+      "symbol": "agent_safe_actions_failure_and_permissions",
+      "result": "ok"
+    },
+    {
+      "symbol": "migrations_foreign_keys_and_history_integrity",
+      "result": "ok"
+    },
+    {
+      "symbol": "lead_agent_can_use_only_registered_read_tools",
+      "result": "ok"
+    },
+    {
+      "symbol": "stale_gate_is_rejected_without_audit_or_live_events",
+      "result": "ok"
+    },
+    {
+      "symbol": "failed_persistence_rolls_back_gate_state_events_and_provenance",
+      "result": "ok"
+    },
+    {
+      "symbol": "retries_hierarchy_gate_decisions_and_archive",
+      "result": "ok"
+    },
+    {
+      "symbol": "child_branch_authorization_is_run_project_and_parent_scoped",
+      "result": "ok"
+    },
+    {
+      "symbol": "lead_created_branch_is_checkpoint_based_and_survives_restart",
+      "result": "ok"
+    },
+    {
+      "symbol": "complete_question_to_finding_and_restart",
+      "result": "ok"
+    },
+    {
+      "symbol": "iterative_step_persists_context_tool_and_work_plan",
+      "result": "ok"
+    },
+    {
+      "symbol": "apple_boundary_unavailable_on_windows",
+      "result": "ok"
+    },
+    {
+      "symbol": "bad_schema_retries_once_and_escalates",
+      "result": "ok"
+    },
+    {
+      "symbol": "all_six_typed_intelligence_contracts",
+      "result": "ok"
+    },
+    {
+      "symbol": "bootstrap_partial_and_wrong_checksum_never_install",
+      "result": "ok"
+    },
+    {
+      "symbol": "bootstrap_fixture_verifies_atomic_install_and_idempotence",
+      "result": "ok"
+    },
+    {
+      "symbol": "artifact_offload_and_verified_range",
+      "result": "ok"
+    },
+    {
+      "symbol": "autonomy_policy_enforces_gate_matrix_and_agent_cannot_change_it",
+      "result": "ok"
+    },
+    {
+      "symbol": "consequential_impact_routes_strong_even_for_allowlisted_tasks",
+      "result": "ok"
+    },
+    {
+      "symbol": "candidate_promotion_requires_grounding_and_human",
+      "result": "ok"
+    },
+    {
+      "symbol": "consequential_tasks_stay_off_micro_despite_capability_spoofing",
+      "result": "ok"
+    },
+    {
+      "symbol": "crash_child_fixture",
+      "result": "ignored, subprocess fixture; invoked by crash_process_checkpoint_resume"
+    },
+    {
+      "symbol": "branches_pin_base_and_diverge_without_copying_science",
+      "result": "ok"
+    },
+    {
+      "symbol": "branch_pause_blocks_work_and_priorities_order_activity",
+      "result": "ok"
+    },
+    {
+      "symbol": "checkpoint_requires_exact_run_revision_and_rollback",
+      "result": "ok"
+    },
+    {
+      "symbol": "completed_research_requires_evidence_and_inconclusive_persists_separately",
+      "result": "ok"
+    },
+    {
+      "symbol": "child_work_preserves_supplied_source_references_without_a_search_prerequisite",
+      "result": "ok"
+    },
+    {
+      "symbol": "eval_fixture_distribution_and_architecture_boundaries",
+      "result": "ok"
+    },
+    {
+      "symbol": "every_micro_allowlisted_task_can_route_locally",
+      "result": "ok"
+    },
+    {
+      "symbol": "compiled_decision_context_pins_child_plan_and_completion_readiness",
+      "result": "ok"
+    },
+    {
+      "symbol": "approved_plan_dependencies_become_executable_after_prerequisite_completion",
+      "result": "ok"
+    },
+    {
+      "symbol": "context_is_budgeted_pinned_immutable_and_restartable",
+      "result": "ok"
+    },
+    {
+      "symbol": "composite_verifies_children",
+      "result": "ok"
+    },
+    {
+      "symbol": "high_impact_and_complex_skip_local",
+      "result": "ok"
+    },
+    {
+      "symbol": "hard_source_constraint_is_enforced_by_core_policy",
+      "result": "ok"
+    },
+    {
+      "symbol": "duplicate_child_work_reuses_existing_state_despite_title_change",
+      "result": "ok"
+    },
+    {
+      "symbol": "gate_boundaries_are_atomic_and_pin_run_revision",
+      "result": "ok"
+    },
+    {
+      "symbol": "failed_gate_checkpoint_commit_rolls_back_all_records",
+      "result": "ok"
+    },
+    {
+      "symbol": "human_can_pause_resume_and_cancel_work_with_typed_directives",
+      "result": "ok"
+    },
+    {
+      "symbol": "direct_completion_cannot_ignore_a_pending_retrieval_batch",
+      "result": "ok"
+    },
+    {
+      "symbol": "hundred_operations_avoid_cloud_for_ninety_five",
+      "result": "ok"
+    },
+    {
+      "symbol": "human_created_branch_has_directive_and_provenance",
+      "result": "ok"
+    },
+    {
+      "symbol": "dag_rejects_cycles_dependencies_and_atomic_children",
+      "result": "ok"
+    },
+    {
+      "symbol": "human_constraints_are_pinned_in_immutable_context_and_excluded_papers_are_filtered",
+      "result": "ok"
+    },
+    {
+      "symbol": "human_pause_blocks_new_agent_progress_and_directives_are_project_scoped",
+      "result": "ok"
+    },
+    {
+      "symbol": "crash_process_checkpoint_resume",
+      "result": "ok"
+    },
+    {
+      "symbol": "human_control_policy_pause_budget_and_directives_survive_restart",
+      "result": "ok"
+    },
+    {
+      "symbol": "local_runtime_failure_retries_once_then_uses_strong",
+      "result": "ok"
+    },
+    {
+      "symbol": "malformed_local_runtime_response_escalates",
+      "result": "ok"
+    },
+    {
+      "symbol": "human_in_the_loop_long_horizon_scenario_survives_restart",
+      "result": "ok"
+    },
+    {
+      "symbol": "measured_model_profile_routes_only_passed_tasks_locally",
+      "result": "ok"
+    },
+    {
+      "symbol": "micro_schema_rejects_extra_fields_and_duplicate_array_items",
+      "result": "ok"
+    },
+    {
+      "symbol": "model_quality_and_context_overflow_route_directly_to_strong",
+      "result": "ok"
+    },
+    {
+      "symbol": "crash_resume_skips_a_b_and_resumes_c",
+      "result": "ok"
+    },
+    {
+      "symbol": "invalid_source_observation_cannot_satisfy_a_required_read",
+      "result": "ok"
+    },
+    {
+      "symbol": "independent_branch_results_require_scoped_selection_and_explicit_review",
+      "result": "ok"
+    },
+    {
+      "symbol": "invocation_identity_and_strong_route_cannot_be_retagged_at_completion",
+      "result": "ok"
+    },
+    {
+      "symbol": "mixed_blocks_and_depends_on_cycles_are_rejected",
+      "result": "ok"
+    },
+    {
+      "symbol": "latest_no_progress_planning_feedback_survives_context_packing",
+      "result": "ok"
+    },
+    {
+      "symbol": "lead_replan_requires_owner_gate_and_preserves_prior_revision",
+      "result": "ok"
+    },
+    {
+      "symbol": "legitimate_experiment_replications_remain_distinct_and_gated",
+      "result": "ok"
+    },
+    {
+      "symbol": "real_llama_smoke_missing_bad_model_concurrency_shutdown",
+      "result": "ignored, real model and llama.cpp binary required; explicit non-CI smoke"
+    },
+    {
+      "symbol": "realistic_micro_eval_has_required_distribution_and_unique_ids",
+      "result": "ok"
+    },
+    {
+      "symbol": "non_owner_cannot_change_controls_resolve_gates_or_cancel_branches",
+      "result": "ok"
+    },
+    {
+      "symbol": "non_owner_cannot_bypass_a_pending_gate_through_direct_execution",
+      "result": "ok"
+    },
+    {
+      "symbol": "pinned_context_overflow_is_transactional",
+      "result": "ok"
+    },
+    {
+      "symbol": "pending_gate_and_waiting_status_survive_restart_and_approve_once",
+      "result": "ok"
+    },
+    {
+      "symbol": "no_search_provider_returns_actionable_block_without_model_call",
+      "result": "ok"
+    },
+    {
+      "symbol": "scheduler_serializes_and_cancels_queue",
+      "result": "ok"
+    },
+    {
+      "symbol": "pause_writes_suspended_checkpoint_and_resume_reuses_it",
+      "result": "ok"
+    },
+    {
+      "symbol": "successful_local_never_calls_strong",
+      "result": "ok"
+    },
+    {
+      "symbol": "unavailable_local_escalates_and_private_never_leaks",
+      "result": "ok"
+    },
+    {
+      "symbol": "project_step_and_tool_budgets_are_enforced_and_versioned",
+      "result": "ok"
+    },
+    {
+      "symbol": "child_result_previews_preserve_pinned_question_and_full_persisted_results",
+      "result": "ok"
+    },
+    {
+      "symbol": "recorded_model_failure_and_success_survive_restart",
+      "result": "ok"
+    },
+    {
+      "symbol": "source_access_checks_exclusion_archive_and_project_scope",
+      "result": "ok"
+    },
+    {
+      "symbol": "recorded_tools_offload_and_survive_restart",
+      "result": "ok"
+    },
+    {
+      "symbol": "versioned_context_provider_payload_survives_restart",
+      "result": "ok"
+    },
+    {
+      "symbol": "unchanged_plan_proposal_returns_existing_work_without_gate_or_revision",
+      "result": "ok"
+    },
+    {
+      "symbol": "same_research_objective_can_revise_executable_strategy_through_owner_gate",
+      "result": "ok"
+    },
+    {
+      "symbol": "strategy_approval_rechecks_revision_and_does_not_mutate_on_staleness",
+      "result": "ok"
+    },
+    {
+      "symbol": "parent_context_receives_completed_child_results_without_sibling_branch_memory",
+      "result": "ok"
+    },
+    {
+      "symbol": "failed_strong_call_counts_across_restart_and_human_can_extend",
+      "result": "ok"
+    },
+    {
+      "symbol": "upgrade_existing_v1_database_preserves_knowledge_and_builds_fts",
+      "result": "ok"
+    },
+    {
+      "symbol": "strong_call_budget_is_reserved_before_provider_invocation",
+      "result": "ok"
+    },
+    {
+      "symbol": "work_strategy_cannot_retire_a_prerequisite_used_outside_its_parent",
+      "result": "ok"
+    },
+    {
+      "symbol": "work_strategy_scope_and_active_child_execution_are_protected",
+      "result": "ok"
+    },
+    {
+      "symbol": "complete_v2_research_runtime_end_to_end",
+      "result": "ok"
+    }
+  ],
+  "rustdoc_targets_from_stderr": [
+    "Doc-tests anix_agent",
+    "Doc-tests anix_core",
+    "Doc-tests anix_domain",
+    "Doc-tests anix_evals",
+    "Doc-tests anix_integrations",
+    "Doc-tests anix_storage"
+  ]
+}

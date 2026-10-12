@@ -1,0 +1,81 @@
+{
+  "original": "C:\\Users\\leks\\Documents\\RN\\anix\\.anix\\state.sqlite",
+  "original_sha256": "c8c297476cc3e1727853cc2f83973c75427d0b78554135a6510ed55ae50181c4",
+  "copy": "C:\\Users\\leks\\Documents\\RN\\anix\\reports\\p0-2026-10-11\\isolated\\state.sqlite",
+  "copy_sha256": "b085453d204948e1dff6b6f35eb30606a04b38856a8e9f2fbb8a7542c3e3254d",
+  "integrity_check": [
+    [
+      "ok"
+    ]
+  ],
+  "migrations": [
+    [
+      1,
+      "initial",
+      "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426"
+    ],
+    [
+      2,
+      "runtime",
+      "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb"
+    ],
+    [
+      3,
+      "context_retrieval_telemetry",
+      "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96"
+    ],
+    [
+      4,
+      "human_control",
+      "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f"
+    ],
+    [
+      5,
+      "work_outcome",
+      "d556d2f48c105c245c8798e507b6d84a3693d5e59de57a967e8256c18039f49a"
+    ]
+  ],
+  "row_counts": {
+    "action_receipts": 395,
+    "artifacts": 896,
+    "branches": 232,
+    "candidate_claims": 0,
+    "checkpoints": 5749,
+    "claims": 285,
+    "context_snapshots": 1528,
+    "domain_events": 32172,
+    "entity_registry": 3112,
+    "execution_bindings": 1647,
+    "experiment_run_artifacts": 0,
+    "experiment_runs": 6,
+    "experiments": 12,
+    "findings": 0,
+    "gates": 89,
+    "human_control": 6,
+    "hypotheses": 92,
+    "model_invocations": 1434,
+    "paper_authors": 807,
+    "paper_sources": 807,
+    "papers": 807,
+    "plan_revisions": 3177,
+    "process_memories": 865,
+    "projects": 207,
+    "provenance_records": 32172,
+    "relations": 285,
+    "research_fts": 1299,
+    "research_fts_config": 1,
+    "research_fts_content": 1299,
+    "research_fts_data": 57,
+    "research_fts_docsize": 1299,
+    "research_fts_idx": 54,
+    "research_questions": 207,
+    "runs": 1741,
+    "schema_migrations": 5,
+    "sources": 807,
+    "sqlite_sequence": 1,
+    "tasks": 1741,
+    "tool_invocations": 459,
+    "work_edges": 448,
+    "work_nodes": 680
+  }
+}

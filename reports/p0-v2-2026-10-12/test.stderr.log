@@ -1,0 +1,17 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.21s
+     Running unittests src\lib.rs (target/p0-audit\debug\deps\anix_agent-87523de40486a57f.exe)
+     Running unittests src\main.rs (target/p0-audit\debug\deps\anix-60c0dd2f2821c471.exe)
+     Running tests\cli.rs (target/p0-audit\debug\deps\cli-6e9320e63f62c92e.exe)
+     Running unittests src\lib.rs (target/p0-audit\debug\deps\anix_core-c55a23274c910de3.exe)
+     Running unittests src\lib.rs (target/p0-audit\debug\deps\anix_domain-777f33935d43decd.exe)
+     Running unittests src\lib.rs (target/p0-audit\debug\deps\anix_evals-7ce93daabb3a14d7.exe)
+     Running unittests src\lib.rs (target/p0-audit\debug\deps\anix_integrations-79fc1025f8e18750.exe)
+     Running unittests src\lib.rs (target/p0-audit\debug\deps\anix_storage-2ac756a8cc0a2e6c.exe)
+     Running ..\..\tests\acceptance.rs (target/p0-audit\debug\deps\acceptance-3bf0ca358a0fbdb3.exe)
+     Running ..\..\tests\runtime_v2.rs (target/p0-audit\debug\deps\runtime_v2-9f9785f56c3e5847.exe)
+   Doc-tests anix_agent
+   Doc-tests anix_core
+   Doc-tests anix_domain
+   Doc-tests anix_evals
+   Doc-tests anix_integrations
+   Doc-tests anix_storage

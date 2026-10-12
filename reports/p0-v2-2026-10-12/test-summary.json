@@ -1,0 +1,103 @@
+{
+  "summaries": [
+    {
+      "passed": 6,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 3,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 4,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 54,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 29,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 12,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 75,
+      "failed": 0,
+      "ignored": 2
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 3,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    },
+    {
+      "passed": 0,
+      "failed": 0,
+      "ignored": 0
+    }
+  ],
+  "total_passed": 186,
+  "failed": 0,
+  "ignored": 2,
+  "ignored_names": [
+    [
+      "crash_child_fixture",
+      "subprocess fixture; invoked by crash_process_checkpoint_resume"
+    ],
+    [
+      "real_llama_smoke_missing_bad_model_concurrency_shutdown",
+      "real model and llama.cpp binary required; explicit non-CI smoke"
+    ]
+  ],
+  "subprocess_fixture": "crash_child_fixture is ignored in ordinary suite, invoked by passing crash_process_checkpoint_resume; not counted as ordinary PASS",
+  "discovered_test_attributes": 185,
+  "ordinary_passed": 183,
+  "doctests_passed": 3,
+  "ordinary_discovered": 185,
+  "doctests_discovered": 3
+}

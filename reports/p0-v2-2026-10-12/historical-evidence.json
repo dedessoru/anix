@@ -1,0 +1,87 @@
+{
+  "entries": [
+    {
+      "label": "8b-654",
+      "path": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081048725/long-context-000654/report.json",
+      "exists_now": true,
+      "old_sha256": "7665aea50a3deba478f932392bab129376b7ec804af5fe12d0c78d5634c8da8c",
+      "sha256_now": "7665aea50a3deba478f932392bab129376b7ec804af5fe12d0c78d5634c8da8c",
+      "unchanged_since_old_report": true
+    },
+    {
+      "label": "8b-654",
+      "path": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081048725/long-context-000654/lead-decision-trace.jsonl",
+      "exists_now": true,
+      "old_sha256": "7a81691a79cdbcd5f4c9e9543678bd9215bbe5d7569f2d40c0455e4cfa33cc2d",
+      "sha256_now": "7a81691a79cdbcd5f4c9e9543678bd9215bbe5d7569f2d40c0455e4cfa33cc2d",
+      "unchanged_since_old_report": true,
+      "turns": 14,
+      "has_rendered_messages": true,
+      "has_raw_completion": true,
+      "wire_byte_exact": "Not established: stored diagnostic JSON, not HTTP wire capture"
+    },
+    {
+      "label": "14b-654",
+      "path": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081319661/long-context-000654/report.json",
+      "exists_now": true,
+      "old_sha256": "b8383e7a035b3fc07aab383d5a7c8d5a74e9a14398c2f012e2d2f83bb9a54621",
+      "sha256_now": "b8383e7a035b3fc07aab383d5a7c8d5a74e9a14398c2f012e2d2f83bb9a54621",
+      "unchanged_since_old_report": true
+    },
+    {
+      "label": "14b-654",
+      "path": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081319661/long-context-000654/lead-decision-trace.jsonl",
+      "exists_now": true,
+      "old_sha256": "9150b5a1c09dbb09e5d5753a96256b0dbabea5d5fe27c3fbdeaf1ae230e32bfe",
+      "sha256_now": "9150b5a1c09dbb09e5d5753a96256b0dbabea5d5fe27c3fbdeaf1ae230e32bfe",
+      "unchanged_since_old_report": true,
+      "turns": 6,
+      "has_rendered_messages": true,
+      "has_raw_completion": true,
+      "wire_byte_exact": "Not established: stored diagnostic JSON, not HTTP wire capture"
+    },
+    {
+      "label": "14b-664",
+      "path": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T081513351/branching-000664/report.json",
+      "exists_now": true,
+      "old_sha256": "c18205eb105b08ad67a39fdb052a48b54865b8d620fc9ebeaa8d3f206c43f883",
+      "sha256_now": "c18205eb105b08ad67a39fdb052a48b54865b8d620fc9ebeaa8d3f206c43f883",
+      "unchanged_since_old_report": true
+    },
+    {
+      "label": "14b-664",
+      "path": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T081513351/branching-000664/lead-decision-trace.jsonl",
+      "exists_now": true,
+      "old_sha256": "579098be24655310e819eb2a9daa5d1f0eba1a6fe3574fbaefc6d3326d1bae2b",
+      "sha256_now": "579098be24655310e819eb2a9daa5d1f0eba1a6fe3574fbaefc6d3326d1bae2b",
+      "unchanged_since_old_report": true,
+      "turns": 9,
+      "has_rendered_messages": true,
+      "has_raw_completion": true,
+      "wire_byte_exact": "Not established: stored diagnostic JSON, not HTTP wire capture"
+    },
+    {
+      "label": "8b-664-iteration12",
+      "path": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T075935935/branching-000664/report.json",
+      "exists_now": true,
+      "old_sha256": "a38f9844e4af2bfa820a783a2a82253febcccc5e96f2d70783743fc776a20a66",
+      "sha256_now": "a38f9844e4af2bfa820a783a2a82253febcccc5e96f2d70783743fc776a20a66",
+      "unchanged_since_old_report": true
+    },
+    {
+      "label": "8b-664-iteration12",
+      "path": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T075935935/branching-000664/lead-decision-trace.jsonl",
+      "exists_now": true,
+      "old_sha256": "295a8c0de943a99465e7efe6a3738ef835334fe784dca5353649fa1b6dfc6ff9",
+      "sha256_now": "295a8c0de943a99465e7efe6a3738ef835334fe784dca5353649fa1b6dfc6ff9",
+      "unchanged_since_old_report": true,
+      "turns": 24,
+      "has_rendered_messages": true,
+      "has_raw_completion": true,
+      "wire_byte_exact": "Not established: stored diagnostic JSON, not HTTP wire capture"
+    }
+  ],
+  "causal_attribution": "Unknown; observational traces do not prove exclusive historical cause",
+  "iteration13_8b664": "Not present in provided historical index; iteration12 is not a substitute",
+  "live_current_model_runs": "NOT RUN on P0"
+}

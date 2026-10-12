@@ -1,0 +1,14 @@
+{
+  "workspace": "C:\\Users\\leks\\Documents\\RN\\anix",
+  "revision": "fef6518f76fd0654dc2e1707f48adaa27530394c",
+  "dirty": "?? anix-stage1-integrated-architecture-plan-v1.1.md\n?? reports/",
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "rustc": "rustc 1.96.0 (ac68faa20 2026-05-25)\nbinary: rustc\ncommit-hash: ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96\ncommit-date: 2026-05-25\nhost: x86_64-pc-windows-msvc\nrelease: 1.96.0\nLLVM version: 22.1.2",
+  "cargo": "cargo 1.96.0 (30a34c682 2026-05-25)",
+  "rustc_path": "C:\\Users\\leks\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\rustc.exe",
+  "rustup_toolchain": "stable",
+  "target_dir": "target/p0-audit",
+  "sampling_seed": "NOT RUN",
+  "network_model_calls": "NONE"
+}

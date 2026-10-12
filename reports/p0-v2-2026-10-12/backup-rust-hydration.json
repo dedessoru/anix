@@ -1,0 +1,15 @@
+{
+  "projects": 207,
+  "artifacts": 896,
+  "work_nodes": 680,
+  "invocations": 1893,
+  "every_aggregate_equal": true,
+  "migration_versions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "scientific_reassessment": "NOT RUN; historical records unchanged"
+}

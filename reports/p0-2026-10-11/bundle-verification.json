@@ -1,0 +1,7 @@
+{
+  "source_unchanged": true,
+  "contract_rows": 33,
+  "coverage_symbols_exist": true,
+  "status": "P0_INCOMPLETE for full stage1 scope; existing baseline checks PASS",
+  "limits": "Validation of audit consistency, not independent contract/science verification"
+}

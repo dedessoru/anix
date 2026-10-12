@@ -1,0 +1,42 @@
+{
+  "old_objective": "Original objective v1",
+  "new_objective": "Compute a DIFFERENT quantity for new input v2",
+  "revision_result": {
+    "type": "work_node",
+    "id": "2be8d4aa-4af9-4fe8-b187-93f4e81f5c41"
+  },
+  "original_output": {
+    "schema_version": 1,
+    "data": {
+      "value": 2
+    },
+    "metadata": {}
+  },
+  "old_output_still_satisfies": true,
+  "completion_validation_ok": true,
+  "restart_equal": true,
+  "invocations": {
+    "a8764699-6ccd-489a-a98c-78e991711596": {
+      "id": "a8764699-6ccd-489a-a98c-78e991711596",
+      "project_id": "377dfefb-2054-48f9-baf5-4558a58bf9b9",
+      "created_at": "2026-10-12T15:22:24.313571Z",
+      "updated_at": "2026-10-12T15:22:24.327352400Z",
+      "version": 2,
+      "archived": false,
+      "run_id": "3c76eeb3-d26b-423e-a5d7-14b8440e1859",
+      "work_node_id": "2be8d4aa-4af9-4fe8-b187-93f4e81f5c41",
+      "tool": "compute",
+      "tool_version": "p0-1",
+      "input_artifacts": [
+        "7bf1717f-4e67-49f3-bd23-ee68096e43d9"
+      ],
+      "output_artifacts": [
+        "f643e100-bccb-4afe-a826-0279cab0843c"
+      ],
+      "started_at": "2026-10-12T15:22:24.302406200Z",
+      "finished_at": "2026-10-12T15:22:24.322850100Z",
+      "status": "succeeded",
+      "error_code": null
+    }
+  }
+}

@@ -1,0 +1,5047 @@
+[
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 12,
+    "symbol": "storage"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 15,
+    "symbol": "SqliteStorage"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 19,
+    "symbol": "open"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 29,
+    "symbol": "migration_versions"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 39,
+    "symbol": "migrate"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 105,
+    "symbol": "Table"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 236,
+    "symbol": "columns"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 245,
+    "symbol": "load"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 291,
+    "symbol": "sql_value"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 315,
+    "symbol": "save"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 443,
+    "symbol": "hydrate"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 512,
+    "symbol": "read_state"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 583,
+    "symbol": "write_state"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 707,
+    "symbol": "search"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 737,
+    "symbol": "read"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 744,
+    "symbol": "list_projects"
+  },
+  {
+    "path": "crates/anix-storage/src/lib.rs",
+    "line": 767,
+    "symbol": "transaction"
+  },
+  {
+    "path": "crates/anix-integrations/examples/bench.rs",
+    "line": 6,
+    "symbol": "main"
+  },
+  {
+    "path": "crates/anix-integrations/examples/eval.rs",
+    "line": 8,
+    "symbol": "Fixture"
+  },
+  {
+    "path": "crates/anix-integrations/examples/eval.rs",
+    "line": 15,
+    "symbol": "Measurement"
+  },
+  {
+    "path": "crates/anix-integrations/examples/eval.rs",
+    "line": 31,
+    "symbol": "main"
+  },
+  {
+    "path": "crates/anix-integrations/examples/eval.rs",
+    "line": 274,
+    "symbol": "memory_sample"
+  },
+  {
+    "path": "crates/anix-integrations/examples/groq_smoke.rs",
+    "line": 11,
+    "symbol": "main"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "line": 11,
+    "symbol": "failure"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "line": 15,
+    "symbol": "ModelManifest"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "line": 32,
+    "symbol": "read"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "line": 38,
+    "symbol": "validate"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "line": 55,
+    "symbol": "model_path"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "line": 60,
+    "symbol": "verify"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "line": 80,
+    "symbol": "Staging"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "line": 82,
+    "symbol": "drop"
+  },
+  {
+    "path": "crates/anix-integrations/src/bootstrap.rs",
+    "line": 86,
+    "symbol": "bootstrap"
+  },
+  {
+    "path": "crates/anix-integrations/src/groq.rs",
+    "line": 12,
+    "symbol": "GroqHttpMetrics"
+  },
+  {
+    "path": "crates/anix-integrations/src/groq.rs",
+    "line": 24,
+    "symbol": "rate_headers"
+  },
+  {
+    "path": "crates/anix-integrations/src/groq.rs",
+    "line": 42,
+    "symbol": "retry_delay"
+  },
+  {
+    "path": "crates/anix-integrations/src/groq.rs",
+    "line": 68,
+    "symbol": "send_completion"
+  },
+  {
+    "path": "crates/anix-integrations/src/groq.rs",
+    "line": 152,
+    "symbol": "rate_limit_waits_honor_retry_after_and_are_bounded"
+  },
+  {
+    "path": "crates/anix-integrations/src/groq.rs",
+    "line": 169,
+    "symbol": "metrics_headers_cannot_copy_credentials"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 26,
+    "symbol": "tool"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 30,
+    "symbol": "Workspace"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 34,
+    "symbol": "StoredFile"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 40,
+    "symbol": "open"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 68,
+    "symbol": "database_path"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 71,
+    "symbol": "create_directory"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 75,
+    "symbol": "resolve"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 115,
+    "symbol": "write_new"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 136,
+    "symbol": "read"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 151,
+    "symbol": "verify"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 158,
+    "symbol": "rebuild_projections"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 183,
+    "symbol": "projection"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 198,
+    "symbol": "ReadFileTool"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 203,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 211,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 218,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 279,
+    "symbol": "legacy_workspace_moves_once_and_keeps_reference_resolution"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 306,
+    "symbol": "competing_stores_are_rejected_without_overwriting_either"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 326,
+    "symbol": "file_tool_rejects_storage_case_aliases_and_nested_databases"
+  },
+  {
+    "path": "crates/anix-integrations/src/lib.rs",
+    "line": 361,
+    "symbol": "boundaries_and_hashes"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 12,
+    "symbol": "BuiltinMicroTemplates"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 14,
+    "symbol": "version"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 17,
+    "symbol": "instruction"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 29,
+    "symbol": "BuiltinDeterministic"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 31,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 43,
+    "symbol": "LlamaCppRuntime"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 54,
+    "symbol": "start"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 62,
+    "symbol": "start_with_context"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 151,
+    "symbol": "pid"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 158,
+    "symbol": "infer"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 199,
+    "symbol": "capabilities"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 207,
+    "symbol": "available"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 212,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 217,
+    "symbol": "drop"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 226,
+    "symbol": "AppleNativeBridge"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 227,
+    "symbol": "available"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 228,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 230,
+    "symbol": "AppleFoundationModelRuntime"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 234,
+    "symbol": "available"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 237,
+    "symbol": "capabilities"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 245,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 257,
+    "symbol": "preferred_local"
+  },
+  {
+    "path": "crates/anix-integrations/src/model_runtime.rs",
+    "line": 269,
+    "symbol": "measured_capabilities"
+  },
+  {
+    "path": "crates/anix-integrations/src/offload.rs",
+    "line": 5,
+    "symbol": "OffloadedOutput"
+  },
+  {
+    "path": "crates/anix-integrations/src/offload.rs",
+    "line": 18,
+    "symbol": "ArtifactOffloader"
+  },
+  {
+    "path": "crates/anix-integrations/src/offload.rs",
+    "line": 23,
+    "symbol": "store"
+  },
+  {
+    "path": "crates/anix-integrations/src/offload.rs",
+    "line": 64,
+    "symbol": "read_range"
+  },
+  {
+    "path": "crates/anix-integrations/src/recorded_tool.rs",
+    "line": 6,
+    "symbol": "bounded_output_summary"
+  },
+  {
+    "path": "crates/anix-integrations/src/recorded_tool.rs",
+    "line": 18,
+    "symbol": "redact_runtime_identities"
+  },
+  {
+    "path": "crates/anix-integrations/src/recorded_tool.rs",
+    "line": 44,
+    "symbol": "RecordedTool"
+  },
+  {
+    "path": "crates/anix-integrations/src/recorded_tool.rs",
+    "line": 51,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-integrations/src/recorded_tool.rs",
+    "line": 54,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-integrations/src/recorded_tool.rs",
+    "line": 190,
+    "symbol": "model_facing_tool_result_hides_runtime_identity_fields"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 15,
+    "symbol": "tagged_action"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 29,
+    "symbol": "response_schema_from_request"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 36,
+    "symbol": "make_strict_schema"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 62,
+    "symbol": "finish_outcomes"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 76,
+    "symbol": "entity_ref_schema"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 97,
+    "symbol": "proposed_action_schema"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 151,
+    "symbol": "process_action_schema"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 177,
+    "symbol": "local_response_schema"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 194,
+    "symbol": "step_response_schema"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 323,
+    "symbol": "compact_action"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 351,
+    "symbol": "TestLeadConfig"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 366,
+    "symbol": "local_default"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 384,
+    "symbol": "read"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 397,
+    "symbol": "is_loopback"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 409,
+    "symbol": "is_groq"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 412,
+    "symbol": "validate"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 444,
+    "symbol": "OpenAiCompatibleModelProvider"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 450,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 466,
+    "symbol": "config"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 469,
+    "symbol": "http_metrics"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 475,
+    "symbol": "request_value"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 643,
+    "symbol": "prompt_token_count"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 692,
+    "symbol": "send_completion"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 711,
+    "symbol": "repair_request"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 725,
+    "symbol": "preflight_budget"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 740,
+    "symbol": "parse_model_response"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 768,
+    "symbol": "parse_model_response_for_task"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 821,
+    "symbol": "json_depth"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 829,
+    "symbol": "decision_action_name"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 876,
+    "symbol": "redact_trace_secrets"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 922,
+    "symbol": "bounded_diagnostic_trace"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 933,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1187,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1199,
+    "symbol": "groq_schema_is_strict_and_credentials_cannot_change_destination"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1221,
+    "symbol": "groq_credentials_in_nested_trace_strings_are_redacted"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1231,
+    "symbol": "loopback_provider_does_not_follow_redirects_to_another_endpoint"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1257,
+    "symbol": "mock_response"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1261,
+    "symbol": "serve_responses"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1293,
+    "symbol": "provider_request"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1337,
+    "symbol": "provider_for"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1342,
+    "symbol": "rendered_messages_expose_the_exact_action_schema_and_child_capabilities"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1357,
+    "symbol": "objective_change_and_executable_strategy_have_distinct_compact_actions"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1393,
+    "symbol": "compact_grammar_selects_action_type_before_semantic_arguments"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1420,
+    "symbol": "compact_lead_can_select_a_runtime_scoped_research_branch"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1434,
+    "symbol": "atomic_completion_preserves_a_substantive_work_result"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1448,
+    "symbol": "branch_catalog_exposes_only_executable_scopes_and_requires_review_handles"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1532,
+    "symbol": "provider_for_with_trace"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1555,
+    "symbol": "diagnostic_trace_records_the_rendered_request_schema_and_raw_completion"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1573,
+    "symbol": "trace_payload_is_bounded_and_secrets_are_redacted"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1597,
+    "symbol": "response_parser_defaults_only_missing_optional_provider_metadata"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1614,
+    "symbol": "compact_actions_normalize_and_runtime_binds_known_work_ids"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1701,
+    "symbol": "missing_optional_refine_reason_parses_without_repair"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1711,
+    "symbol": "local_schema_keeps_agent_and_action_tags_at_distinct_levels"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1728,
+    "symbol": "compact_lead_decision_schema_limits_actions_and_omits_runtime_state"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1908,
+    "symbol": "termination_availability_matches_real_conditions_and_evidence_stages"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1929,
+    "symbol": "read_without_source_handle_is_not_advertised"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 1959,
+    "symbol": "truncated_json_gets_targeted_repair_without_full_research_prompt"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 2000,
+    "symbol": "malformed_json_uses_one_repair_and_one_full_retry_at_most"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 2016,
+    "symbol": "exhausted_structured_output_error_keeps_failure_telemetry"
+  },
+  {
+    "path": "crates/anix-integrations/src/test_lead.rs",
+    "line": 2036,
+    "symbol": "default_profile_is_local_and_configurable"
+  },
+  {
+    "path": "crates/anix-evals/examples/lead_runtime_seed.rs",
+    "line": 9,
+    "symbol": "main"
+  },
+  {
+    "path": "crates/anix-evals/examples/long_horizon_campaign.rs",
+    "line": 3,
+    "symbol": "main"
+  },
+  {
+    "path": "crates/anix-evals/examples/true_capability_campaign.rs",
+    "line": 4,
+    "symbol": "main"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 26,
+    "symbol": "ScenarioKind"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 53,
+    "symbol": "name"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 71,
+    "symbol": "ResearchBudget"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 79,
+    "symbol": "default"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 92,
+    "symbol": "FaultKind"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 108,
+    "symbol": "FaultPlan"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 115,
+    "symbol": "triggered"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 125,
+    "symbol": "BudgetUsage"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 133,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 142,
+    "symbol": "check"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 156,
+    "symbol": "default"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 162,
+    "symbol": "ActionLoopGuard"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 167,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 178,
+    "symbol": "observe"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 192,
+    "symbol": "InjectingModelProvider"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 198,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 207,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 231,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 236,
+    "symbol": "LoopGuardProvider"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 241,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 249,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 261,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 266,
+    "symbol": "MeteredProvider"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 271,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 276,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 282,
+    "symbol": "AuditReport"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 288,
+    "symbol": "AuditViolation"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 294,
+    "symbol": "violation"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 308,
+    "symbol": "audit_project"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 334,
+    "symbol": "visit"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 480,
+    "symbol": "RunReport"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 521,
+    "symbol": "test_human_resolve_gate"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 529,
+    "symbol": "test_human_resolve_gate_as"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 567,
+    "symbol": "propose_via_gate"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 586,
+    "symbol": "BatchReport"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 608,
+    "symbol": "ctx"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 612,
+    "symbol": "PackCatalog"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 617,
+    "symbol": "PackEntry"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 623,
+    "symbol": "scenario_text"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 662,
+    "symbol": "HarnessConfig"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 673,
+    "symbol": "local_default"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 686,
+    "symbol": "read"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 712,
+    "symbol": "run_batch"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 732,
+    "symbol": "run_scenario"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 773,
+    "symbol": "run_batch_with_provider"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 876,
+    "symbol": "percentile"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 883,
+    "symbol": "verify_restart"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 922,
+    "symbol": "run_one"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1410,
+    "symbol": "is_malformed_model_response"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1417,
+    "symbol": "is_model_schema_failure"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1424,
+    "symbol": "preflight_tokens_from_error"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1434,
+    "symbol": "inspect_run"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1444,
+    "symbol": "export_debug_bundle"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1459,
+    "symbol": "scrub_secrets"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1490,
+    "symbol": "fake"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1504,
+    "symbol": "fault_plan_is_repeatable"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1515,
+    "symbol": "scenario_catalog_has_eleven_distinct_entries"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1531,
+    "symbol": "scenario_variations_are_seeded_and_preserve_ground_truth"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1540,
+    "symbol": "long_context_variants_leave_a_bounded_local_request_window"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1552,
+    "symbol": "test_lead_parse_errors_count_as_malformed_schema_failures"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1553,
+    "symbol": "ProposedAction"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1562,
+    "symbol": "local_only_refuses_external_model_provider"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1569,
+    "symbol": "ExternalProvider"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1571,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1576,
+    "symbol": "report_serializes_and_secret_bundle_scrubber_strips_tokens"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1582,
+    "symbol": "auditor_detects_missing_provenance"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1623,
+    "symbol": "loop_guard_and_budget_stop_repeated_or_unbounded_actions"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1641,
+    "symbol": "malformed_model_fault_fails_safely_and_preserves_research_state"
+  },
+  {
+    "path": "crates/anix-evals/src/lib.rs",
+    "line": 1663,
+    "symbol": "harness_persists_ten_real_core_projects_and_audits_them"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 32,
+    "symbol": "BranchCapability"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 37,
+    "symbol": "branch_capability"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 74,
+    "symbol": "LongHorizonReport"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 160,
+    "symbol": "RecoverySignature"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 167,
+    "symbol": "SearchEntitiesTool"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 174,
+    "symbol": "RetrievalState"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 186,
+    "symbol": "SearchObservation"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 198,
+    "symbol": "SearchSourceRef"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 207,
+    "symbol": "query_fingerprint"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 218,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 225,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 263,
+    "symbol": "perform_search"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 526,
+    "symbol": "ReadSourceTool"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 532,
+    "symbol": "RefineSearchTool"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 538,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 545,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 613,
+    "symbol": "RejectRetrievedSourcesTool"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 619,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 626,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 691,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 698,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 850,
+    "symbol": "selector"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 859,
+    "symbol": "retrieval_protocol"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 868,
+    "symbol": "validate_refinement_query"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 877,
+    "symbol": "retrieval_tool_names"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 886,
+    "symbol": "update_retrieval_telemetry"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 947,
+    "symbol": "percentile"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 955,
+    "symbol": "report_percentile"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 965,
+    "symbol": "capability_assertion_failure"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 994,
+    "symbol": "run_one"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 1005,
+    "symbol": "run_one_cloud_synthetic"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 1020,
+    "symbol": "run_one_with_policy"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 1940,
+    "symbol": "run_campaign"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2051,
+    "symbol": "two_empty_branch_records_do_not_establish_branch_research_capability"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2060,
+    "symbol": "mixed_capability_assertions_require_child_branch_and_offloaded_retrieval"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2157,
+    "symbol": "model_facing_retrieval_tools_expose_semantics_without_identity_fields"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2208,
+    "symbol": "retrieval_observation_contains_objective_mapped_preview_and_unread_handle"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2354,
+    "symbol": "repeated_refinement_does_not_reset_progress_guard"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2402,
+    "symbol": "identical_refinement_query_is_rejected_deterministically"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2411,
+    "symbol": "tool_failure_scenario_injects_one_failure_then_allows_recovery"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2473,
+    "symbol": "ScriptedLongLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2476,
+    "symbol": "FailingLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2478,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2481,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2485,
+    "symbol": "GatedLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2487,
+    "symbol": "supplied_source_is_read_without_search_through_the_lead_boundary"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2697,
+    "symbol": "ReadTaskLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2702,
+    "symbol": "RejectedSearchLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2706,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2709,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2729,
+    "symbol": "repeated_rejected_search_returns_existing_result_and_no_false_progress"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2757,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2826,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2831,
+    "symbol": "atomic_read_task_can_search_then_read_and_complete_through_real_runtime"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2867,
+    "symbol": "experiment_fixture_uses_project_owner_for_human_controls_and_gate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2887,
+    "symbol": "blocked_and_inconclusive_lead_outcomes_are_not_counted_as_completed"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2910,
+    "symbol": "tool_and_step_counts_cannot_finish_research_without_lead_decision"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2932,
+    "symbol": "DuplicateChildLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2933,
+    "symbol": "IndependentBranchLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2934,
+    "symbol": "ReferenceEvidenceLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2936,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2939,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2954,
+    "symbol": "seed664_reference_reconciles_two_evidence_paths_without_inventing_unique_causality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2989,
+    "symbol": "cloud_synthetic_opt_in_does_not_relax_default_local_boundary"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2990,
+    "symbol": "ExternalLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 2992,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3003,
+    "symbol": "RecoveringBranchLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3007,
+    "symbol": "SwitchingOnlyLead"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3009,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3012,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3037,
+    "symbol": "repeated_branch_switches_do_not_disable_the_stall_guard"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3059,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3062,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3081,
+    "symbol": "first_branch_dispatch_after_rejections_can_recover_without_false_research_progress"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3104,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3107,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3162,
+    "symbol": "independent_branches_execute_return_results_and_reconcile_through_real_driver"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3182,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3203,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3208,
+    "symbol": "reusing_completed_work_does_not_reset_the_stall_guard"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3228,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3248,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3253,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3298,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3304,
+    "symbol": "pending_retrieval_rejects_repeated_plain_search"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3364,
+    "symbol": "repeated_model_failure_closes_runs_and_leaves_auditable_state"
+  },
+  {
+    "path": "crates/anix-evals/src/long_horizon.rs",
+    "line": 3386,
+    "symbol": "composite_step_rejects_gate_proposals_and_passes_audit"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 35,
+    "symbol": "RetrievalRecord"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 44,
+    "symbol": "RetrievedDocument"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 54,
+    "symbol": "SourceReadRecord"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 64,
+    "symbol": "RangeReadRecord"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 74,
+    "symbol": "SnapshotRecord"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 87,
+    "symbol": "BranchResult"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 100,
+    "symbol": "PersistedBranchRecord"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 110,
+    "symbol": "CapabilityRunReport"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 149,
+    "symbol": "CorpusDocument"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 159,
+    "symbol": "Telemetry"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 166,
+    "symbol": "SearchSourcesTool"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 171,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 178,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 247,
+    "symbol": "ReadCorpusSourceTool"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 252,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 259,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 312,
+    "symbol": "ReadArtifactRangeTool"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 319,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 327,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 398,
+    "symbol": "tools"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 438,
+    "symbol": "lead_step"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 456,
+    "symbol": "lead_step_with_constraint"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 492,
+    "symbol": "create_tool_work"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 646,
+    "symbol": "synthetic_corpus"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 690,
+    "symbol": "doc"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 701,
+    "symbol": "large_doc"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 715,
+    "symbol": "load_corpus"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 757,
+    "symbol": "model_provider"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 774,
+    "symbol": "open_core"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 780,
+    "symbol": "init_project"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 845,
+    "symbol": "snapshot_records"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 883,
+    "symbol": "token_stats"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 893,
+    "symbol": "find_created_branch"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 906,
+    "symbol": "find_branch_root"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 919,
+    "symbol": "branch_result"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 965,
+    "symbol": "checkpoint_active_parent"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1001,
+    "symbol": "resume_parent_checkpoint"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1011,
+    "symbol": "transition_work"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1033,
+    "symbol": "setup_report"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1079,
+    "symbol": "process_retrievals"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1092,
+    "symbol": "TelemetrySnapshot"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1099,
+    "symbol": "create_start_report"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1128,
+    "symbol": "step_or_preflight"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1172,
+    "symbol": "create_branch_via_lead"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1220,
+    "symbol": "run_branch_evidence"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1273,
+    "symbol": "create_reconciliation_child"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1315,
+    "symbol": "decision_finish_summary"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1325,
+    "symbol": "run_branching"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1546,
+    "symbol": "find_doc"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1553,
+    "symbol": "selected_role"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1561,
+    "symbol": "create_and_run_step"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1596,
+    "symbol": "extract_offloaded_artifact"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1603,
+    "symbol": "run_long_context"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1787,
+    "symbol": "finalize_report"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1845,
+    "symbol": "cleanup_failed"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1870,
+    "symbol": "check_capability"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 1971,
+    "symbol": "run_capability_case"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2064,
+    "symbol": "write_capability_campaign"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2141,
+    "symbol": "common_report"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2184,
+    "symbol": "valid_branching_report"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2220,
+    "symbol": "valid_long_context_report"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2274,
+    "symbol": "branching_scenario_requires_real_branches"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2282,
+    "symbol": "multiple_worknodes_do_not_count_as_branches"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2289,
+    "symbol": "branch_lineage_is_required"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2296,
+    "symbol": "branch_lineage_survives_restart"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2303,
+    "symbol": "each_branch_requires_its_own_completed_work"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2310,
+    "symbol": "branch_specific_work_remains_isolated"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2323,
+    "symbol": "branch_reconciliation_reads_both_results"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2330,
+    "symbol": "duplicate_branch_side_effect_fails_safety_gate"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2337,
+    "symbol": "execution_history_is_not_copied_into_prompts"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2344,
+    "symbol": "branch_restart_preserves_completed_work"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2351,
+    "symbol": "long_context_corpus_exceeds_context_window"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2358,
+    "symbol": "long_context_requires_retrieval"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2365,
+    "symbol": "long_context_requires_offloaded_artifact"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2372,
+    "symbol": "long_context_requires_multiple_distinct_snapshots"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2379,
+    "symbol": "long_context_prompt_stays_within_budget"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2388,
+    "symbol": "safe_preflight_rejection_is_not_capability_success"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2397,
+    "symbol": "artifact_range_read_is_required"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2404,
+    "symbol": "long_context_restart_preserves_artifacts_and_work"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2411,
+    "symbol": "process_memory_prevents_full_history_growth"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2418,
+    "symbol": "range_read_must_target_the_offloaded_artifact"
+  },
+  {
+    "path": "crates/anix-evals/src/true_capabilities.rs",
+    "line": 2425,
+    "symbol": "required_evidence_must_be_retrieved_from_corpus"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 26,
+    "symbol": "Actor"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 33,
+    "symbol": "validate"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 42,
+    "symbol": "require_human"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 53,
+    "symbol": "Meta"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 61,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 71,
+    "symbol": "update"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 98,
+    "symbol": "PaperSource"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 104,
+    "symbol": "ClaimLocation"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 122,
+    "symbol": "EntityRef"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 134,
+    "symbol": "kind"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 147,
+    "symbol": "id"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 166,
+    "symbol": "NewHypothesis"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 172,
+    "symbol": "NewExperiment"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 181,
+    "symbol": "NewFinding"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 188,
+    "symbol": "NewRelation"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 197,
+    "symbol": "ProposedAction"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 233,
+    "symbol": "ActionEnvelope"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 239,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 248,
+    "symbol": "ExpectedVersion"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 254,
+    "symbol": "ActionResult"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 261,
+    "symbol": "ActionReceipt"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 269,
+    "symbol": "DomainEvent"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 282,
+    "symbol": "ProvenanceRecord"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 298,
+    "symbol": "ProjectState"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 343,
+    "symbol": "project"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 348,
+    "symbol": "meta"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 367,
+    "symbol": "meta_mut"
+  },
+  {
+    "path": "crates/anix-domain/src/entities.rs",
+    "line": 386,
+    "symbol": "check"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "line": 13,
+    "symbol": "AuthorizationTrace"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "line": 28,
+    "symbol": "Error"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "line": 66,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "line": 67,
+    "symbol": "default"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "line": 68,
+    "symbol": "fmt"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "line": 71,
+    "symbol": "from_str"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "line": 78,
+    "symbol": "deserialize"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "line": 112,
+    "symbol": "text"
+  },
+  {
+    "path": "crates/anix-domain/src/lib.rs",
+    "line": 122,
+    "symbol": "safe_metadata"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 4,
+    "symbol": "transition"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 22,
+    "symbol": "transition"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 43,
+    "symbol": "terminal"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 46,
+    "symbol": "transition"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 63,
+    "symbol": "resolve"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 74,
+    "symbol": "confidence"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 81,
+    "symbol": "validate_relation"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 134,
+    "symbol": "GatePolicy"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 136,
+    "symbol": "requires_approval"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 151,
+    "symbol": "transitions"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 168,
+    "symbol": "ids_and_relations"
+  },
+  {
+    "path": "crates/anix-domain/src/policy.rs",
+    "line": 186,
+    "symbol": "secrets"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 29,
+    "symbol": "AutonomyPolicy"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 38,
+    "symbol": "default"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 50,
+    "symbol": "ResearchBudget"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 58,
+    "symbol": "ResearchConstraint"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 67,
+    "symbol": "HumanDirective"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 80,
+    "symbol": "HumanControlState"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 95,
+    "symbol": "default"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 113,
+    "symbol": "WorkBudget"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 119,
+    "symbol": "default"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 128,
+    "symbol": "OutputContract"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 134,
+    "symbol": "WorkNode"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 154,
+    "symbol": "WorkEdge"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 164,
+    "symbol": "PlanRevision"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 179,
+    "symbol": "WorkPlanStep"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 187,
+    "symbol": "Branch"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 197,
+    "symbol": "ExecutionCheckpoint"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 210,
+    "symbol": "VersionedEntity"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 215,
+    "symbol": "ContextEntry"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 222,
+    "symbol": "ContextSnapshot"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 240,
+    "symbol": "ContextRetrievalSelection"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 245,
+    "symbol": "ProcessMemory"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 255,
+    "symbol": "ExecutionBinding"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 264,
+    "symbol": "TokenUsage"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 270,
+    "symbol": "ModelInvocation"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 291,
+    "symbol": "ToolInvocation"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 309,
+    "symbol": "RetrievalBatchStatus"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 318,
+    "symbol": "RetrievedSourceHandle"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 325,
+    "symbol": "RetrievalBatchState"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 337,
+    "symbol": "RetrievalScope"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 344,
+    "symbol": "RetrievalToolNames"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 354,
+    "symbol": "derive_retrieval_batches"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 359,
+    "symbol": "root_run"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 472,
+    "symbol": "CandidateClaim"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 488,
+    "symbol": "fixture"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 518,
+    "symbol": "record_output"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 563,
+    "symbol": "names"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 573,
+    "symbol": "persisted_retrieval_events_derive_pending_consumed_rejected_and_superseded"
+  },
+  {
+    "path": "crates/anix-domain/src/runtime.rs",
+    "line": 695,
+    "symbol": "ResearchOutcome"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 3,
+    "symbol": "normalize_work_text"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 10,
+    "symbol": "plan_children"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 16,
+    "symbol": "work_plan_selection"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 48,
+    "symbol": "work_plan_is_unchanged"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 64,
+    "symbol": "apply_work_plan"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 175,
+    "symbol": "action_dependencies"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 196,
+    "symbol": "check_entity_policy"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 212,
+    "symbol": "version"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 220,
+    "symbol": "validate_action"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 492,
+    "symbol": "result_entity"
+  },
+  {
+    "path": "crates/anix-core/src/actions.rs",
+    "line": 498,
+    "symbol": "execute_action"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 4,
+    "symbol": "control"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 21,
+    "symbol": "authorize_project_human"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 36,
+    "symbol": "directive_kind"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 61,
+    "symbol": "policy_requires_gate"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 93,
+    "symbol": "require_agent_progress"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 106,
+    "symbol": "require_runtime_progress"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 122,
+    "symbol": "mark_waiting_for_gate"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 132,
+    "symbol": "refresh_gate_status"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 147,
+    "symbol": "get_human_control"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 152,
+    "symbol": "directive_apply"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 192,
+    "symbol": "set_autonomy"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 255,
+    "symbol": "pause_research"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 280,
+    "symbol": "resume_research"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 304,
+    "symbol": "cancel_research"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 323,
+    "symbol": "set_work_priority"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 353,
+    "symbol": "set_branch_priority"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 378,
+    "symbol": "set_budget"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 399,
+    "symbol": "add_constraint"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 442,
+    "symbol": "set_branch_paused"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 476,
+    "symbol": "request_investigation"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 502,
+    "symbol": "cancel_branch"
+  },
+  {
+    "path": "crates/anix-core/src/human_control.rs",
+    "line": 526,
+    "symbol": "action_requires_gate"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 28,
+    "symbol": "Storage"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 29,
+    "symbol": "read"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 30,
+    "symbol": "list_projects"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 31,
+    "symbol": "search"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 42,
+    "symbol": "transaction"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 50,
+    "symbol": "CommandContext"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 58,
+    "symbol": "human"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 67,
+    "symbol": "validate"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 93,
+    "symbol": "Core"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 99,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 108,
+    "symbol": "subscribe"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 116,
+    "symbol": "mutate"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 142,
+    "symbol": "state"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 147,
+    "symbol": "create_project"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 182,
+    "symbol": "list_projects"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 185,
+    "symbol": "get_project"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 190,
+    "symbol": "add_question"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 222,
+    "symbol": "add_source"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 257,
+    "symbol": "add_paper"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 315,
+    "symbol": "add_claim"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 367,
+    "symbol": "register_artifact"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 377,
+    "symbol": "register_execution_artifact"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 393,
+    "symbol": "persist_artifact"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 463,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 476,
+    "symbol": "submit_proposal"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 602,
+    "symbol": "approve_gate"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 656,
+    "symbol": "resolve_gate"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 707,
+    "symbol": "create_task"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 740,
+    "symbol": "start_run"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 801,
+    "symbol": "finish_run"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 885,
+    "symbol": "start_experiment_run"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 992,
+    "symbol": "finish_experiment_run"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1107,
+    "symbol": "record_run_metadata"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1158,
+    "symbol": "archive_project"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1195,
+    "symbol": "agent_api"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1205,
+    "symbol": "active"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1211,
+    "symbol": "audit"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1322,
+    "symbol": "resolve_waiting_run"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1394,
+    "symbol": "NewSource"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1402,
+    "symbol": "NewPaper"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1412,
+    "symbol": "NewClaim"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1419,
+    "symbol": "NewArtifact"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1428,
+    "symbol": "FinishExperimentRun"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1436,
+    "symbol": "Submission"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1447,
+    "symbol": "bypass"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1453,
+    "symbol": "database"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1459,
+    "symbol": "extend_budget"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1467,
+    "symbol": "AgentApi"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1471,
+    "symbol": "usable_required_output"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1486,
+    "symbol": "identity"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1489,
+    "symbol": "retrieval_batches"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1515,
+    "symbol": "validate_source_access"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1523,
+    "symbol": "work_source_handles"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1569,
+    "symbol": "block_work"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1588,
+    "symbol": "record_provider"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1596,
+    "symbol": "context"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1606,
+    "symbol": "start_model_invocation"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1642,
+    "symbol": "finish_model_invocation"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1684,
+    "symbol": "lead_progress_snapshot"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1699,
+    "symbol": "update_decision_trace_outcome"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1726,
+    "symbol": "context_data"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1733,
+    "symbol": "work_node"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1741,
+    "symbol": "research_branch_scopes"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1748,
+    "symbol": "select_research_branch"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1772,
+    "symbol": "create_task"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1780,
+    "symbol": "start_run"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1799,
+    "symbol": "bind_run"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1824,
+    "symbol": "start_work"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1852,
+    "symbol": "compile_context"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1877,
+    "symbol": "create_child_work"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 1897,
+    "symbol": "create_child_work_with_repeat"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2007,
+    "symbol": "complete_work"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2030,
+    "symbol": "finish_research"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2040,
+    "symbol": "finish_research_with_branch_reviews"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2112,
+    "symbol": "conclude_work_inconclusive"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2196,
+    "symbol": "validate_work_completion"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2236,
+    "symbol": "required_tool_output_exists"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2259,
+    "symbol": "create_branch"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2293,
+    "symbol": "record_work_result"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2325,
+    "symbol": "write_process_memory"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2340,
+    "symbol": "checkpoint_step"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2378,
+    "symbol": "record_model_invocation"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2428,
+    "symbol": "submit"
+  },
+  {
+    "path": "crates/anix-core/src/lib.rs",
+    "line": 2455,
+    "symbol": "finish"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 5,
+    "symbol": "LifecycleSummary"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 11,
+    "symbol": "ResearchState"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 27,
+    "symbol": "EvidenceItem"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 38,
+    "symbol": "EvidenceTrace"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 45,
+    "symbol": "ResearchContext"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 59,
+    "symbol": "CurrentResearchActivity"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 68,
+    "symbol": "DecisionTrace"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 80,
+    "symbol": "current_activity"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 141,
+    "symbol": "decision_trace"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 225,
+    "symbol": "search_entities"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 244,
+    "symbol": "get_research_state"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 310,
+    "symbol": "get_project_timeline"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 313,
+    "symbol": "get_provenance"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 328,
+    "symbol": "list_relations"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 344,
+    "symbol": "get_gate"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 350,
+    "symbol": "list_gates"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 358,
+    "symbol": "list_tasks"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 361,
+    "symbol": "list_runs"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 364,
+    "symbol": "get_run"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 370,
+    "symbol": "get_hypothesis"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 376,
+    "symbol": "list_hypotheses"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 379,
+    "symbol": "get_experiment"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 385,
+    "symbol": "get_experiment_run"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 395,
+    "symbol": "list_artifacts"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 398,
+    "symbol": "trace_evidence"
+  },
+  {
+    "path": "crates/anix-core/src/queries.rs",
+    "line": 480,
+    "symbol": "build_context"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 5,
+    "symbol": "NewWork"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 17,
+    "symbol": "branch_authorization_denied"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 43,
+    "symbol": "ContextCompileRequest"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 51,
+    "symbol": "ProviderContext"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 62,
+    "symbol": "ResearchProcessGraph"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 68,
+    "symbol": "ResearchBranchScope"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 81,
+    "symbol": "branch_scopes"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 158,
+    "symbol": "ExecutionGraph"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 168,
+    "symbol": "ResumeDescriptor"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 178,
+    "symbol": "revision"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 247,
+    "symbol": "decision_state"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 399,
+    "symbol": "has_pending_retrieval"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 466,
+    "symbol": "node"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 471,
+    "symbol": "dependency"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 477,
+    "symbol": "reachable"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 498,
+    "symbol": "satisfied"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 511,
+    "symbol": "executable_children"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 556,
+    "symbol": "executable_child_work"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 564,
+    "symbol": "model_output"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 581,
+    "symbol": "process_graph"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 606,
+    "symbol": "execution_graph"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 623,
+    "symbol": "set_work_contract"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 679,
+    "symbol": "resume_checkpoint"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 807,
+    "symbol": "record_routing_usage"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 852,
+    "symbol": "compile_context"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 872,
+    "symbol": "provider_context"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 911,
+    "symbol": "compile_context_manifest"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1197,
+    "symbol": "record_model_invocation"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1348,
+    "symbol": "update_model_invocation_trace"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1383,
+    "symbol": "record_tool_invocation"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1497,
+    "symbol": "create_candidate"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1538,
+    "symbol": "promote_candidate"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1599,
+    "symbol": "runtime_state"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1602,
+    "symbol": "create_branch"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1810,
+    "symbol": "create_work"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1890,
+    "symbol": "request_plan_revision"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1912,
+    "symbol": "add_work_edge"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 1987,
+    "symbol": "transition_work"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 2145,
+    "symbol": "bind_run"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 2220,
+    "symbol": "checkpoint"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 2284,
+    "symbol": "resumable_work"
+  },
+  {
+    "path": "crates/anix-core/src/runtime.rs",
+    "line": 2302,
+    "symbol": "write_memory"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 36,
+    "symbol": "state"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 39,
+    "symbol": "set_autonomy"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 48,
+    "symbol": "pause"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 56,
+    "symbol": "resume"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 64,
+    "symbol": "cancel"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 72,
+    "symbol": "budget"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 81,
+    "symbol": "prioritize_branch"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 92,
+    "symbol": "branch_pause"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 102,
+    "symbol": "request_investigation"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 113,
+    "symbol": "request_plan_revision"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 122,
+    "symbol": "add_constraint"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 136,
+    "symbol": "archive"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 144,
+    "symbol": "create"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 152,
+    "symbol": "list"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 155,
+    "symbol": "get"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 160,
+    "symbol": "add"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 171,
+    "symbol": "add"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 176,
+    "symbol": "add"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 181,
+    "symbol": "add"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 186,
+    "symbol": "revise"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 204,
+    "symbol": "change_status"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 222,
+    "symbol": "create"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 234,
+    "symbol": "get"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 237,
+    "symbol": "list"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 242,
+    "symbol": "activate"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 258,
+    "symbol": "start_run"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 269,
+    "symbol": "finish_run"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 277,
+    "symbol": "create"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 289,
+    "symbol": "get"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 294,
+    "symbol": "add"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 303,
+    "symbol": "register"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 306,
+    "symbol": "list"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 311,
+    "symbol": "create"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 323,
+    "symbol": "list"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 328,
+    "symbol": "trace"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 333,
+    "symbol": "propose"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 342,
+    "symbol": "list"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 345,
+    "symbol": "get"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 348,
+    "symbol": "approve"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 351,
+    "symbol": "reject"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 356,
+    "symbol": "list"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 359,
+    "symbol": "create"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 370,
+    "symbol": "start"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 379,
+    "symbol": "finish"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 388,
+    "symbol": "list"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 391,
+    "symbol": "get"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 396,
+    "symbol": "timeline"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 401,
+    "symbol": "list"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 406,
+    "symbol": "state"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 409,
+    "symbol": "context"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 412,
+    "symbol": "activity"
+  },
+  {
+    "path": "crates/anix-core/src/services.rs",
+    "line": 415,
+    "symbol": "decision_trace"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "line": 7,
+    "symbol": "ToolDescriptor"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "line": 13,
+    "symbol": "ToolInput"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "line": 18,
+    "symbol": "ToolContext"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "line": 25,
+    "symbol": "ToolOutput"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "line": 31,
+    "symbol": "Tool"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "line": 32,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "line": 33,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "line": 37,
+    "symbol": "CodingExecutor"
+  },
+  {
+    "path": "crates/anix-core/src/tools.rs",
+    "line": 38,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 12,
+    "symbol": "Cli"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 23,
+    "symbol": "Command"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 102,
+    "symbol": "HumanControlCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 168,
+    "symbol": "ModelCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 178,
+    "symbol": "EvalCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 185,
+    "symbol": "ResearchEvalCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 220,
+    "symbol": "ProcessCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 276,
+    "symbol": "ProjectCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 286,
+    "symbol": "QuestionCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 295,
+    "symbol": "SourceCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 306,
+    "symbol": "PaperCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 323,
+    "symbol": "ClaimCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 338,
+    "symbol": "HypothesisCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 367,
+    "symbol": "ExperimentCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 406,
+    "symbol": "FindingCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 419,
+    "symbol": "GraphCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 435,
+    "symbol": "EvidenceCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 439,
+    "symbol": "GateCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 461,
+    "symbol": "TaskCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 471,
+    "symbol": "RunCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 493,
+    "symbol": "AgentCommand"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 511,
+    "symbol": "parse_enum"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 514,
+    "symbol": "entity"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 518,
+    "symbol": "parse_entity"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 524,
+    "symbol": "output"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 531,
+    "symbol": "main"
+  },
+  {
+    "path": "crates/anix-cli/src/main.rs",
+    "line": 537,
+    "symbol": "run"
+  },
+  {
+    "path": "crates/anix-cli/tests/cli.rs",
+    "line": 7,
+    "symbol": "invoke"
+  },
+  {
+    "path": "crates/anix-cli/tests/cli.rs",
+    "line": 15,
+    "symbol": "successful"
+  },
+  {
+    "path": "crates/anix-cli/tests/cli.rs",
+    "line": 25,
+    "symbol": "canonical_help_and_legacy_workspace_migration"
+  },
+  {
+    "path": "crates/anix-cli/tests/cli.rs",
+    "line": 46,
+    "symbol": "cli_uses_persistent_application_services"
+  },
+  {
+    "path": "crates/anix-cli/tests/cli.rs",
+    "line": 125,
+    "symbol": "human_control_cli_is_json_and_persistent"
+  },
+  {
+    "path": "crates/anix-agent/src/durable.rs",
+    "line": 8,
+    "symbol": "RecordedRuntime"
+  },
+  {
+    "path": "crates/anix-agent/src/durable.rs",
+    "line": 19,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-agent/src/durable.rs",
+    "line": 55,
+    "symbol": "context"
+  },
+  {
+    "path": "crates/anix-agent/src/durable.rs",
+    "line": 66,
+    "symbol": "available"
+  },
+  {
+    "path": "crates/anix-agent/src/durable.rs",
+    "line": 69,
+    "symbol": "capabilities"
+  },
+  {
+    "path": "crates/anix-agent/src/durable.rs",
+    "line": 72,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-agent/src/durable.rs",
+    "line": 121,
+    "symbol": "DurableRouter"
+  },
+  {
+    "path": "crates/anix-agent/src/durable.rs",
+    "line": 128,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 18,
+    "symbol": "MicroTask"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 27,
+    "symbol": "RuntimeCapabilities"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 34,
+    "symbol": "RuntimeRequest"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 41,
+    "symbol": "RuntimeResponse"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 50,
+    "symbol": "RuntimeTimings"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 57,
+    "symbol": "ModelRuntime"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 58,
+    "symbol": "capabilities"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 59,
+    "symbol": "available"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 60,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 61,
+    "symbol": "generate_structured"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 67,
+    "symbol": "stream"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 76,
+    "symbol": "FakeModelRuntime"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 82,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 91,
+    "symbol": "available"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 94,
+    "symbol": "capabilities"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 102,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 116,
+    "symbol": "all_micro_tasks"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 127,
+    "symbol": "minimum_micro_quality"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 136,
+    "symbol": "ClassificationRequest"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 141,
+    "symbol": "Classification"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 145,
+    "symbol": "RewriteRequest"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 150,
+    "symbol": "RewrittenQuery"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 154,
+    "symbol": "ExtractionRequest"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 159,
+    "symbol": "ExtractedCandidate"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 164,
+    "symbol": "ExtractedCandidates"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 168,
+    "symbol": "TaggingRequest"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 173,
+    "symbol": "Tags"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 177,
+    "symbol": "SummaryRequest"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 183,
+    "symbol": "ShortSummary"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 187,
+    "symbol": "CompressedContext"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 191,
+    "symbol": "LocalIntelligence"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 192,
+    "symbol": "classify"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 193,
+    "symbol": "rewrite_query"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 194,
+    "symbol": "extract_candidates"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 198,
+    "symbol": "tag"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 199,
+    "symbol": "summarize_short"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 200,
+    "symbol": "compress_context"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 205,
+    "symbol": "PromptTemplates"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 206,
+    "symbol": "instruction"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 207,
+    "symbol": "version"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 209,
+    "symbol": "RuntimeIntelligence"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 214,
+    "symbol": "call"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 237,
+    "symbol": "object_schema"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 240,
+    "symbol": "task_schema"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 263,
+    "symbol": "validate_micro"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 338,
+    "symbol": "validate_schema"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 451,
+    "symbol": "ReasoningLevel"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 457,
+    "symbol": "ImpactClass"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 463,
+    "symbol": "TaskRequirements"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 476,
+    "symbol": "EscalationReason"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 489,
+    "symbol": "Route"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 495,
+    "symbol": "RoutingTelemetry"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 506,
+    "symbol": "CapabilityRegistry"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 511,
+    "symbol": "supports"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 517,
+    "symbol": "DeterministicOperations"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 518,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 521,
+    "symbol": "RoutingUsage"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 530,
+    "symbol": "IntelligenceRouter"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 540,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 724,
+    "symbol": "log"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 776,
+    "symbol": "LocalInferenceScheduler"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 782,
+    "symbol": "SchedulerState"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 786,
+    "symbol": "InferencePermit"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 790,
+    "symbol": "acquire"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 817,
+    "symbol": "drop"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 826,
+    "symbol": "WorkerRequest"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 834,
+    "symbol": "SkillDefinition"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 845,
+    "symbol": "SkillRegistry"
+  },
+  {
+    "path": "crates/anix-agent/src/intelligence.rs",
+    "line": 849,
+    "symbol": "builtins"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 17,
+    "symbol": "ProviderLocality"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 21,
+    "symbol": "ModelProvider"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 22,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 23,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 30,
+    "symbol": "LocalOnlyTestProvider"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 34,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 39,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 47,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 55,
+    "symbol": "ApprovedTools"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 59,
+    "symbol": "register"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 71,
+    "symbol": "descriptors"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 74,
+    "symbol": "execute"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 102,
+    "symbol": "ModelTask"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 115,
+    "symbol": "RetrievalProtocol"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 122,
+    "symbol": "pending_tools"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 132,
+    "symbol": "executable_tools"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 164,
+    "symbol": "resolve_pending_search_id"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 180,
+    "symbol": "bind_pending_search_id"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 195,
+    "symbol": "ModelSelection"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 199,
+    "symbol": "ModelSelector"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 200,
+    "symbol": "select"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 202,
+    "symbol": "FixedModelSelector"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 206,
+    "symbol": "select"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 213,
+    "symbol": "ModelRequest"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 229,
+    "symbol": "ProcessActionKind"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 240,
+    "symbol": "allows"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 259,
+    "symbol": "NamedToolResult"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 265,
+    "symbol": "AgentDecision"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 288,
+    "symbol": "ProcessAction"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 334,
+    "symbol": "AgentStepOutcome"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 342,
+    "symbol": "ModelResponse"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 351,
+    "symbol": "FakeModelProvider"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 356,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 362,
+    "symbol": "requests"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 371,
+    "symbol": "generate"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 384,
+    "symbol": "locality"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 389,
+    "symbol": "ContextBuilder"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 390,
+    "symbol": "bound"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 399,
+    "symbol": "bound_action"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 420,
+    "symbol": "build"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 480,
+    "symbol": "build_for_snapshot"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 520,
+    "symbol": "AgentOutcome"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 529,
+    "symbol": "trace_permission_denial"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 560,
+    "symbol": "LeadAgent"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 568,
+    "symbol": "FailedRunGuard"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 575,
+    "symbol": "disarm"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 580,
+    "symbol": "drop"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 588,
+    "symbol": "new"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 602,
+    "symbol": "with_tools"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 606,
+    "symbol": "with_process_action_constraint"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 610,
+    "symbol": "without_process_action_constraint"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 614,
+    "symbol": "with_retrieval_protocol"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 618,
+    "symbol": "run"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 653,
+    "symbol": "run_step"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1468,
+    "symbol": "decide"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1570,
+    "symbol": "protocol"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1578,
+    "symbol": "descriptors"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1595,
+    "symbol": "required_read_without_source_allows_prerequisite_resolution"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1603,
+    "symbol": "existing_source_can_be_read_without_new_search"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1612,
+    "symbol": "action_prerequisite_matrix_preserves_scope_and_argument_domains"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1645,
+    "symbol": "partially_consumed_batch_can_be_refined_or_rejected"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1652,
+    "symbol": "pending_batch"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1666,
+    "symbol": "model_refine_and_reject_inputs_bind_to_the_single_pending_search"
+  },
+  {
+    "path": "crates/anix-agent/src/lib.rs",
+    "line": 1700,
+    "symbol": "missing_or_ambiguous_pending_search_is_rejected_without_guessing"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 13,
+    "symbol": "EchoResearchTool"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 15,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 22,
+    "symbol": "execute"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 33,
+    "symbol": "human"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 37,
+    "symbol": "response"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 44,
+    "symbol": "hypothesis"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 58,
+    "symbol": "selector"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 68,
+    "symbol": "complete_question_to_finding_and_restart"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 324,
+    "symbol": "iterative_step_persists_context_tool_and_work_plan"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 571,
+    "symbol": "lead_created_branch_is_checkpoint_based_and_survives_restart"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 675,
+    "symbol": "child_branch_authorization_is_run_project_and_parent_scoped"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 806,
+    "symbol": "stale_gate_is_rejected_without_audit_or_live_events"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 846,
+    "symbol": "failed_persistence_rolls_back_gate_state_events_and_provenance"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 904,
+    "symbol": "migrations_foreign_keys_and_history_integrity"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 942,
+    "symbol": "agent_safe_actions_failure_and_permissions"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 1017,
+    "symbol": "idempotency_cross_project_and_version_conflicts"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 1081,
+    "symbol": "approved_read_tools_are_workspace_bound"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 1128,
+    "symbol": "retries_hierarchy_gate_decisions_and_archive"
+  },
+  {
+    "path": "tests/acceptance.rs",
+    "line": 1200,
+    "symbol": "lead_agent_can_use_only_registered_read_tools"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 10,
+    "symbol": "ctx"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 13,
+    "symbol": "setup"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 33,
+    "symbol": "duplicate_child_work_reuses_existing_state_despite_title_change"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 77,
+    "symbol": "lead_replan_requires_owner_gate_and_preserves_prior_revision"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 137,
+    "symbol": "unchanged_plan_proposal_returns_existing_work_without_gate_or_revision"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 174,
+    "symbol": "same_research_objective_can_revise_executable_strategy_through_owner_gate"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 250,
+    "symbol": "approved_plan_dependencies_become_executable_after_prerequisite_completion"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 325,
+    "symbol": "work_strategy_cannot_retire_a_prerequisite_used_outside_its_parent"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 374,
+    "symbol": "strategy_approval_rechecks_revision_and_does_not_mutate_on_staleness"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 413,
+    "symbol": "work_strategy_scope_and_active_child_execution_are_protected"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 458,
+    "symbol": "child_work_preserves_supplied_source_references_without_a_search_prerequisite"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 515,
+    "symbol": "completed_research_requires_evidence_and_inconclusive_persists_separately"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 557,
+    "symbol": "independent_branch_results_require_scoped_selection_and_explicit_review"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 654,
+    "symbol": "legitimate_experiment_replications_remain_distinct_and_gated"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 725,
+    "symbol": "compiled_decision_context_pins_child_plan_and_completion_readiness"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 763,
+    "symbol": "latest_no_progress_planning_feedback_survives_context_packing"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 802,
+    "symbol": "budget_lead"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 816,
+    "symbol": "human_control_policy_pause_budget_and_directives_survive_restart"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 869,
+    "symbol": "autonomy_policy_enforces_gate_matrix_and_agent_cannot_change_it"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 896,
+    "symbol": "hard_source_constraint_is_enforced_by_core_policy"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 990,
+    "symbol": "project_step_and_tool_budgets_are_enforced_and_versioned"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1035,
+    "symbol": "strong_call_budget_is_reserved_before_provider_invocation"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1084,
+    "symbol": "failed_strong_call_counts_across_restart_and_human_can_extend"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1203,
+    "symbol": "human_in_the_loop_long_horizon_scenario_survives_restart"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1310,
+    "symbol": "work"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1339,
+    "symbol": "no_search_provider_returns_actionable_block_without_model_call"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1396,
+    "symbol": "invocation_identity_and_strong_route_cannot_be_retagged_at_completion"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1440,
+    "symbol": "invalid_source_observation_cannot_satisfy_a_required_read"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1441,
+    "symbol": "InvalidRead"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1443,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1450,
+    "symbol": "execute"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1534,
+    "symbol": "direct_completion_cannot_ignore_a_pending_retrieval_batch"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1535,
+    "symbol": "PendingSearch"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1537,
+    "symbol": "descriptor"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1544,
+    "symbol": "execute"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1629,
+    "symbol": "source_access_checks_exclusion_archive_and_project_scope"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1679,
+    "symbol": "human_constraints_are_pinned_in_immutable_context_and_excluded_papers_are_filtered"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1758,
+    "symbol": "child_result_previews_preserve_pinned_question_and_full_persisted_results"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1829,
+    "symbol": "parent_context_receives_completed_child_results_without_sibling_branch_memory"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1914,
+    "symbol": "pending_gate_and_waiting_status_survive_restart_and_approve_once"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1956,
+    "symbol": "branch_pause_blocks_work_and_priorities_order_activity"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 1991,
+    "symbol": "human_can_pause_resume_and_cancel_work_with_typed_directives"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2032,
+    "symbol": "human_created_branch_has_directive_and_provenance"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2063,
+    "symbol": "non_owner_cannot_change_controls_resolve_gates_or_cancel_branches"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2092,
+    "symbol": "non_owner_cannot_bypass_a_pending_gate_through_direct_execution"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2132,
+    "symbol": "human_pause_blocks_new_agent_progress_and_directives_are_project_scoped"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2160,
+    "symbol": "pause_writes_suspended_checkpoint_and_resume_reuses_it"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2188,
+    "symbol": "move_to"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2192,
+    "symbol": "finish_work"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2203,
+    "symbol": "dag_rejects_cycles_dependencies_and_atomic_children"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2222,
+    "symbol": "composite_verifies_children"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2235,
+    "symbol": "crash_resume_skips_a_b_and_resumes_c"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2264,
+    "symbol": "branches_pin_base_and_diverge_without_copying_science"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2304,
+    "symbol": "context_is_budgeted_pinned_immutable_and_restartable"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2384,
+    "symbol": "pinned_context_overflow_is_transactional"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2414,
+    "symbol": "checkpoint_requires_exact_run_revision_and_rollback"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2455,
+    "symbol": "artifact_offload_and_verified_range"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2483,
+    "symbol": "candidate_promotion_requires_grounding_and_human"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2540,
+    "symbol": "response"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2554,
+    "symbol": "requirements"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2568,
+    "symbol": "router"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2587,
+    "symbol": "consequential_impact_routes_strong_even_for_allowlisted_tasks"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2608,
+    "symbol": "successful_local_never_calls_strong"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2628,
+    "symbol": "every_micro_allowlisted_task_can_route_locally"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2685,
+    "symbol": "consequential_tasks_stay_off_micro_despite_capability_spoofing"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2748,
+    "symbol": "micro_schema_rejects_extra_fields_and_duplicate_array_items"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2761,
+    "symbol": "high_impact_and_complex_skip_local"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2782,
+    "symbol": "bad_schema_retries_once_and_escalates"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2810,
+    "symbol": "local_runtime_failure_retries_once_then_uses_strong"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2838,
+    "symbol": "unavailable_local_escalates_and_private_never_leaks"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2865,
+    "symbol": "hundred_operations_avoid_cloud_for_ninety_five"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2902,
+    "symbol": "all_six_typed_intelligence_contracts"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2942,
+    "symbol": "scheduler_serializes_and_cancels_queue"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2959,
+    "symbol": "apple_boundary_unavailable_on_windows"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 2972,
+    "symbol": "bootstrap_fixture_verifies_atomic_install_and_idempotence"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3010,
+    "symbol": "recorded_model_failure_and_success_survive_restart"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3072,
+    "symbol": "gate_boundaries_are_atomic_and_pin_run_revision"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3106,
+    "symbol": "failed_gate_checkpoint_commit_rolls_back_all_records"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3134,
+    "symbol": "mixed_blocks_and_depends_on_cycles_are_rejected"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3145,
+    "symbol": "model_quality_and_context_overflow_route_directly_to_strong"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3171,
+    "symbol": "malformed_local_runtime_response_escalates"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3198,
+    "symbol": "eval_fixture_distribution_and_architecture_boundaries"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3235,
+    "symbol": "realistic_micro_eval_has_required_distribution_and_unique_ids"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3260,
+    "symbol": "complete_v2_research_runtime_end_to_end"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3559,
+    "symbol": "crash_child_fixture"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3607,
+    "symbol": "crash_process_checkpoint_resume"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3649,
+    "symbol": "bootstrap_partial_and_wrong_checksum_never_install"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3689,
+    "symbol": "upgrade_existing_v1_database_preserves_knowledge_and_builds_fts"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3720,
+    "symbol": "recorded_tools_offload_and_survive_restart"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3808,
+    "symbol": "real_llama_smoke_missing_bad_model_concurrency_shutdown"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3863,
+    "symbol": "measured_model_profile_routes_only_passed_tasks_locally"
+  },
+  {
+    "path": "tests/runtime_v2.rs",
+    "line": 3933,
+    "symbol": "versioned_context_provider_payload_survives_restart"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "path": "config/groq-research-lead.toml",
+    "sha256": "d5ad20cfddd54e5f539a34cf259fd1ac61c705d63e2a7743db8045d8be8711b1",
+    "bytes": 342
+  },
+  {
+    "path": "config/local-test-lead-4b.toml",
+    "sha256": "b6c2b0c2b7a3e542ad00a09c612e7f3377cd3d81d92271ee60dbca290088afa8",
+    "bytes": 273
+  },
+  {
+    "path": "config/local-test-lead.toml",
+    "sha256": "90063ba7697076a7a3e918f2fc846d0b535b5c063cbbb87e82d4fbb6d7a3887f",
+    "bytes": 269
+  },
+  {
+    "path": "migrations/0001_initial.sql",
+    "sha256": "6c803f8b5a260dfced25ce9337da0001dc2f957db4ec04600173451fff716426",
+    "bytes": 12540
+  },
+  {
+    "path": "migrations/0002_runtime.sql",
+    "sha256": "01165b6a74df940e221a81edfb39fe09a5f5f736bb37e74f59e2a3d2491457cb",
+    "bytes": 13455
+  },
+  {
+    "path": "migrations/0003_context_retrieval_telemetry.sql",
+    "sha256": "a74d4f320311447360e3d7bd1659a34dfe2be5092a4d1963ae9032b554d77f96",
+    "bytes": 370
+  },
+  {
+    "path": "migrations/0004_human_control.sql",
+    "sha256": "fc97cc3bbab001c35202c5cbdd6f117b33da4b46b74e2d2c6fd7406f7811770f",
+    "bytes": 165
+  },
+  {
+    "path": "migrations/0005_work_outcome.sql",
+    "sha256": "d556d2f48c105c245c8798e507b6d84a3693d5e59de57a967e8256c18039f49a",
+    "bytes": 215
+  },
+  {
+    "path": "models/comparison-qwen-1.7b.toml",
+    "sha256": "e5e4aa75c26f653e1b42efd0daffbfe80be179b78d5a36e769040a51bed08a20",
+    "bytes": 526
+  },
+  {
+    "path": "models/manifest.toml",
+    "sha256": "f9f0a06c4d8eac2fdbbdcba76b99d8e1eebc0f73604224b97acccd674589e7ce",
+    "bytes": 522
+  }
+]

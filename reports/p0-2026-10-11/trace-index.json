@@ -1,0 +1,62 @@
+[
+  {
+    "label": "8b-654",
+    "row_count": 14,
+    "top_level_keys": [
+      "model_invocation",
+      "trace",
+      "context_snapshot",
+      "work_node",
+      "branch",
+      "tool_invocations",
+      "run_status",
+      "checkpoints"
+    ],
+    "trace": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081048725/long-context-000654/lead-decision-trace.jsonl"
+  },
+  {
+    "label": "14b-654",
+    "row_count": 6,
+    "top_level_keys": [
+      "model_invocation",
+      "trace",
+      "context_snapshot",
+      "work_node",
+      "branch",
+      "tool_invocations",
+      "run_status",
+      "checkpoints"
+    ],
+    "trace": ".runtime/lead-runtime-cleanup-seeds/long-context-654/eval-results/long-horizon/runs/20261010T081319661/long-context-000654/lead-decision-trace.jsonl"
+  },
+  {
+    "label": "14b-664",
+    "row_count": 9,
+    "top_level_keys": [
+      "model_invocation",
+      "trace",
+      "context_snapshot",
+      "work_node",
+      "branch",
+      "tool_invocations",
+      "run_status",
+      "checkpoints"
+    ],
+    "trace": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T081513351/branching-000664/lead-decision-trace.jsonl"
+  },
+  {
+    "label": "8b-664-iteration12",
+    "row_count": 24,
+    "top_level_keys": [
+      "model_invocation",
+      "trace",
+      "context_snapshot",
+      "work_node",
+      "branch",
+      "tool_invocations",
+      "run_status",
+      "checkpoints"
+    ],
+    "trace": ".runtime/lead-runtime-cleanup-seeds/branching-664/eval-results/long-horizon/runs/20261010T075935935/branching-000664/lead-decision-trace.jsonl"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "expected": "scientific Record reaches Core from run_step",
+  "actual_error": "invalid transition: Lead decision is not allowed for Composite work node",
+  "provider_calls": 1,
+  "direct_core_submission": "Ok(Gate(GateId(7377da58-8656-413b-9f33-b5f1e1aafb45)))"
+}

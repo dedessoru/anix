@@ -1,0 +1,27 @@
+{
+  "stage": "P0",
+  "specification": "ANIX_CORE_REBUILD_PLAN_V2.md",
+  "gate": "G0",
+  "decision": "PASS",
+  "scope": "identified frozen source/binary, baseline checks, preserved executable defects, backup and inventories",
+  "baseline": {
+    "ordinary_passed": 183,
+    "doctests_passed": 3,
+    "ignored": 2,
+    "failed": 0
+  },
+  "target_contracts": {
+    "passed": 0,
+    "failed": 6,
+    "native_exit_code": 101,
+    "meaning": "unfixed defects reproduced; NOT acceptance PASS"
+  },
+  "positive_diagnostic_controls": 2,
+  "backup_projects": 207,
+  "verified_artifacts": 896,
+  "production_source_unchanged": true,
+  "P1": "NOT STARTED",
+  "G1_to_G8": "NOT RUN",
+  "historical_exclusive_cause": "Unknown",
+  "live_model_qualification": "NOT RUN"
+}

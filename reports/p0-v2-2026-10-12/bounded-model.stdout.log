@@ -1,0 +1,48 @@
+[
+  {
+    "bug": null,
+    "states": 1413,
+    "transitions": 5080,
+    "violations": 0,
+    "positive_closure": [
+      "approve",
+      "admit0",
+      "send0",
+      "receive0",
+      "accept0",
+      "admit1",
+      "send1",
+      "receive1",
+      "accept1",
+      "close"
+    ],
+    "late_receipt_after_cancel": [
+      "approve",
+      "admit0",
+      "send0",
+      "cancel",
+      "receive0"
+    ]
+  },
+  {
+    "bug": "no_fence",
+    "failure": "stale acceptance",
+    "trace": [
+      "approve",
+      "admit0",
+      "send0",
+      "revise",
+      "receive0",
+      "accept0"
+    ],
+    "states_seen": 326
+  },
+  {
+    "bug": "weak_close",
+    "failure": "premature close",
+    "trace": [
+      "close"
+    ],
+    "states_seen": 17
+  }
+]

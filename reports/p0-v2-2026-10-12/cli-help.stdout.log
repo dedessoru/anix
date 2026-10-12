@@ -1,0 +1,34 @@
+ANIX development client
+
+Usage: anix.exe [OPTIONS] <COMMAND>
+
+Commands:
+  process         
+  research        
+  model           
+  eval            
+  project         
+  question        
+  source          
+  paper           
+  claim           
+  hypothesis      
+  experiment      
+  finding         
+  graph           
+  evidence        
+  gate            
+  task            
+  run             
+  agent           
+  timeline        
+  research-state  
+  projections     
+  help            Print this message or the help of the given subcommand(s)
+
+Options:
+      --workspace <WORKSPACE>  [default: .]
+      --project <PROJECT>      
+      --actor <ACTOR>          [default: cli-user]
+  -h, --help                   Print help
+  -V, --version                Print version
